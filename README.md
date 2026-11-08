@@ -25,12 +25,12 @@ docker compose up -d --build
 # 開啟 http://<NAS IP>:7799/
 ```
 
-正式網址 `https://loskarkguide.autopecker.com` 透過 NAS 的反向代理導向容器的 7799 埠。
+正式網址 `https://lostarkguide.autopecker.com` 透過 NAS 的反向代理導向容器的 7799 埠。
 網站只用根路徑絕對連結、不依賴 Host 或 Cookie，代理端不需要額外設定；nginx 範例：
 
 ```nginx
 server {
-    server_name loskarkguide.autopecker.com;
+    server_name lostarkguide.autopecker.com;
     listen 443 ssl http2;
     # ssl_certificate ...; ssl_certificate_key ...;
 
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-Synology／QNAP 內建的反向代理只要設定「來源 loskarkguide.autopecker.com:443 → 目的 localhost:7799」即可，不需要 WebSocket。
+Synology／QNAP 內建的反向代理只要設定「來源 lostarkguide.autopecker.com:443 → 目的 localhost:7799」即可，不需要 WebSocket。
 頁面預設帶 `<meta name="robots" content="noindex">`（與原站相同，不被搜尋引擎收錄），想公開收錄可移除 `public/index.html` 內該行。
 
 `docker-compose.yml` 可改埠號（`ports`）與上游網址（`UPSTREAM`）。映像只包含 `server.js` 與 `public/`，
