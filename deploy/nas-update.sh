@@ -1,16 +1,18 @@
-#!/bin/bash
-# LostArkGuide 重新部署：用 NAS 資料夾裡現有的檔案重建映像並重啟容器
-# 任務排程器（使用者 root）：bash /volume1/docker/LostArkGuide/update.sh
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH"
-cd "$(dirname "$0")" || exit 1
-
-# docker compose（新版）或 docker-compose（舊版）
-if docker compose version >/dev/null 2>&1; then DC="docker compose"; else DC="docker-compose"; fi
-
-# 沿用現有容器的專案名稱，避免另外建立一份造成名稱衝突
-P=$(docker inspect -f '{{ index .Config.Labels "com.docker.compose.project" }}' lostark-zh 2>/dev/null)
-if [ -n "$P" ] && [ "$P" != "<no value>" ]; then DC="$DC -p $P"; fi
-
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] 開始重新部署" | tee -a update.log
-$DC up -d --build --force-recreate 2>&1 | tee -a update.log
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] 完成，結束代碼 ${PIPESTATUS[0]}" | tee -a update.log
+#!/bin/sh
+# 重建 LostArkGuide：先用新程式碼建映像檔（這段舊容器照跑），建好才換容器。紀錄寫到 lostark-build.txt
+OUT=/volume1/docker/lostark-build.txt
+cd /volume1/docker/LostArkGuide || exit 1
+DOCKER=/usr/local/bin/docker
+DC="$DOCKER compose"; $DC version >/dev/null 2>&1 || DC=/usr/local/bin/docker-compose
+P=$($DOCKER inspect -f '{{index .Config.Labels "com.docker.compose.project"}}' lostark-zh 2>/dev/null); [ -z "$P" ] && P=lostarkguide
+{
+echo "== $(date) 開始，專案 $P =="; id
+$DC -p "$P" build --no-cache
+echo "== build 結束碼 $? =="
+$DC -p "$P" up -d --force-recreate
+echo "== up 結束碼 $? =="
+sleep 8
+$DOCKER ps --filter name=lostark-zh --format '{{.Names}}  {{.Status}}  {{.Image}}'
+$DOCKER logs --tail 15 lostark-zh
+echo "== done =="
+} > "$OUT" 2>&1

@@ -53,19 +53,15 @@ Synology／QNAP 內建的反向代理只要設定「來源 lostarkguide.autopeck
 
 ### NAS 重新部署（任務排程器）
 
-更新方式：在本機把 `server.js`、`public/`、`Dockerfile`、`docker-compose.yml` 等檔案複製到 NAS 的專案資料夾，
-再執行 `deploy/nas-update.sh`（放在專案資料夾，命名為 `update.sh`），它會用資料夾裡的檔案重建映像並重新建立容器：
-
-```bash
-docker compose up -d --build --force-recreate
-```
+更新方式：在本機把改好的檔案複製到 NAS 的 `/volume1/docker/LostArkGuide`，再執行 `deploy/nas-update.sh` 的內容：
+先 `docker compose build --no-cache`（舊容器照跑），建好才 `docker compose up -d --force-recreate` 換容器。
 
 Synology「控制台 → 任務排程器 → 新增 → 排程的任務 → 使用者定義的指令碼」：
 
 - 使用者：`root`
-- 指令：`bash /volume1/docker/LostArkGuide/update.sh`
+- 執行指令：把 `deploy/nas-update.sh` 的內容整段貼上（全部使用絕對路徑，不依賴腳本位置）
 
-執行結果記錄在同資料夾的 `update.log`。
+執行紀錄寫在 `/volume1/docker/lostark-build.txt`（含結束碼、容器狀態與最後 15 行容器日誌）。
 
 ## 執行（直接用 Node）
 
