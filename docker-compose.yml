@@ -5,7 +5,7 @@ services:
     container_name: lostark-zh
     restart: unless-stopped
     ports:
-      - "3000:3000"          # 左邊改成 NAS 上想用的埠
+      - "7799:3000"          # 對外 7799 → 容器內 3000
     environment:
       PORT: "3000"
       UPSTREAM: "https://lostark.bible"

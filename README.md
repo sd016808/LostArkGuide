@@ -22,7 +22,7 @@
 
 ```bash
 docker compose up -d --build
-# 開啟 http://<NAS IP>:3000/
+# 開啟 http://<NAS IP>:7799/
 ```
 
 `docker-compose.yml` 可改埠號（`ports`）與上游網址（`UPSTREAM`）。映像只包含 `server.js` 與 `public/`，
