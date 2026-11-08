@@ -49,6 +49,14 @@ IDENTITY = {
 
 # ordered (regex, replacement) rules; applied after skill-name substitution
 RULES = [
+    # skill categories & multi-word structures must run before the generic "Skill Damage" rules
+    (r'\bHolding Skills?\b', '持續技能'), (r'\bCasting Skills?\b', '施放技能'), (r'\bCharge Skills?\b', '蓄力技能'), (r'\bCombo Skills?\b', '連擊技能'),
+    (r'\bFocus Skills?\b', '集中技能'), (r'\bFlurry Skills?\b', '亂舞技能'), (r'\bCombo-type Skills?\b', '連擊型技能'),
+    (r'(?<=the )(.+?) effect that lasts for the duration of the (.+?) effect', '\\1 效果（持續時間與 \\2 效果相同）'),
+    (r' effect that lasts for the duration of the (.+?) effect', ' 效果（持續時間與 \\1 效果相同）'),
+    (r'Gain (.+?) while using (.+?)\.', '使用 \\2 時獲得 \\1。'),
+    (r'Each time (⟦\d+⟧) activates, ', '每次發動 \\1 時，'), (r' and recover (⟦\d+⟧) MP\.', '，並恢復 \\1 法力。'),
+    (r' for (⟦\d+⟧) use\(s\)\.', '，共 \\1 次。'), (r' for (⟦\d+⟧) time\(s\)\.', '，共 \\1 次。'),
     (r'Atk\./Move Speed', '攻擊／移動速度'), (r'Atk\. Speed', '攻擊速度'), (r'Atk\. Power', '攻擊力'),
     (r'Phy\./Mag\. ', '物理／魔法'), (r'Phy\. ', '物理'), (r'Mag\. ', '魔法'),
     (r'Normal Skill Damage \(excluding 超覺醒技能\)', '一般技能傷害（超覺醒技能除外）'),
@@ -148,6 +156,10 @@ RULES = [
     (r'\(Max (⟦\d+⟧) uses\)', '（最多 \\1 次）'), (r'\bup to (⟦\d+⟧)', '最多 \\1'),
     (r'On (.+?) use while in (.+?)[,，] ?', '處於 \\2 時使用 \\1，'),
     (r'(^|。)In (.+?)[,，] ?', '\\1處於 \\2 時，'),
+    (r' effect that lasts for the duration of the (.+?) effect', ' 效果（持續時間與 \\1 效果相同）'),
+    (r'Gain (.+?) while using (.+?) Skills?', '使用 \\2 技能時獲得 \\1'),
+    (r'\bHolding Skills?\b', '持續技能'), (r'\bCasting Skills?\b', '施放技能'), (r'\bCharge Skills?\b', '蓄力技能'), (r'\bCombo Skills?\b', '連擊技能'),
+    (r'\bFocus Skills?\b', '集中技能'), (r'\bFlurry Skills?\b', '亂舞技能'), (r'\bDestiny\b', '命運'),
     (r'during skill use', '施放技能期間'), (r'\bduring (.+?)[,，] ?', '\\1 期間，'),
     (r'Using (.+?) reduces remaining (.+?) cooldown by (⟦\d+⟧)', '使用 \\1 可減少 \\2 的剩餘冷卻時間 \\3'),
     (r'For every (⟦\d+⟧) (.+?) hit landed', '每命中 \\1 次 \\2'), (r'\bfor every\b', '每'), (r'\bnext\b', '接下來的'),
@@ -182,6 +194,13 @@ def translate_value(v, names):
             return m.group(1) + '秒'
         if v in names:
             return names[v]
+        # 「命運：X」效果名：台服公告寫法為「命運：核心名」，X 若是已知核心／技能名就代入
+        m = re.fullmatch(r'Destiny(?:: (.+))?', v)
+        if m:
+            rest = m.group(1)
+            if not rest:
+                return '命運'
+            return '命運：' + names.get(rest, rest)
         return v
     return v
 
@@ -199,7 +218,7 @@ def main(data_dir):
     eid_class = {}
     for inst in cores['instances'].values():
         for eid in inst[5]:
-            eid_class.setdefault(str(eid), inst[6])
+            eid_class.setdefault(str(int(eid)), inst[6])
     # per-class English skill name -> Chinese (by id)
     class_names = collections.defaultdict(dict)
     name_sk = zh.get('skills', {})
@@ -211,6 +230,14 @@ def main(data_dir):
         z = ap_by_id.get(nid)
         if z and n[0]:
             class_names[n[6]].setdefault(n[0], z)
+    # Ark Grid core names (used inside "Destiny: <core>" effect names)
+    cores_by_id = zh.get('cores_by_id', {})
+    for name_id, nm in cores['names'].items():
+        en = re.sub(r'<[^>]+>', '', nm[0])
+        z = cores_by_id.get(str(nm[2]))
+        if z:
+            z = z.split('：', 1)[1] if '：' in z else z
+            class_names[nm[1]].setdefault(en, z)
     # tripod names ("With <tripod>, ...") by skill id -> class
     tripods = json.load(open(os.path.join(data_dir, 'tripods.json'), encoding='utf-8'))
     trip_by_id = zh.get('tripods_by_id', {})
@@ -227,10 +254,21 @@ def main(data_dir):
     for sec in ('class_engravings', 'engravings', 'runes', 'stats'):
         generic.update(zh.get(sec, {}))
 
+    # 台灣官方公告中比對到的效果文字（直接採用，不走句型翻譯）
+    tw_eff = {}
+    twc_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(data_dir))), 'vendor', 'terms', 'tw_cores.json')
+    if os.path.exists(twc_path):
+        tw_eff = json.load(open(twc_path, encoding='utf-8')).get('effects', {})
     out = {}
     stats = collections.Counter()
     leftovers = collections.Counter()
     for eid, entry in desc.items():
+        if eid in tw_eff:
+            out[eid] = [[tw_eff[eid]]]
+            stats['total'] += 1
+            stats['fully'] += 1
+            stats['tw_official'] += 1
+            continue
         toks = []
         flatten(entry, toks)
         cnum = eid_class.get(eid, 0)
@@ -282,7 +320,7 @@ def main(data_dir):
         for w in residual:
             leftovers[w] += 1
     json.dump(out, open(os.path.join(data_dir, 'core_desc_zh.json'), 'w', encoding='utf-8'), ensure_ascii=False)
-    print(f"translated {stats['total']} descriptions; fully Chinese (no English words left): {stats['fully']} ({stats['fully'] * 100 // max(1, stats['total'])}%)")
+    print(f"translated {stats['total']} descriptions; fully Chinese (no English words left): {stats['fully']} ({stats['fully'] * 100 // max(1, stats['total'])}%); TW official texts: {stats['tw_official']}")
     print('most common English leftovers:')
     for w, c in leftovers.most_common(80):
         print(f'  {c:4d} {w}')

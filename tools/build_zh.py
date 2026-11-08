@@ -191,6 +191,18 @@ def main():
                         M.put(f'{sec}#{cid}', en, r[0], r[1])  # class-scoped
                 stats[f'{sec}:{cls.get("class_en")}'] = f'{n}/{len(d)}'
 
+    # 方舟星圖核心：台灣平衡公告比對到的名稱優先於陸服 ID 對照（保留「秩序之X核心：」前綴格式）
+    twc_path = os.path.join(terms_dir, 'tw_cores.json')
+    if os.path.exists(twc_path):
+        twc = load(twc_path).get('cores', {})
+        n = 0
+        for iid, z in twc.items():
+            cur = by_id['cores_by_id'].get(iid)
+            prefix = cur.split('：')[0] + '：' if cur and '：' in cur else ''
+            by_id['cores_by_id'][iid] = prefix + z
+            n += 1
+        stats['tw:cores'] = n
+
     # 符文：台灣官方名稱（依英文名）優先於陸服 ID 對照
     runes_path = os.path.join(data_dir, 'runes.json')
     if os.path.exists(runes_path):

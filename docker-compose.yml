@@ -6,6 +6,9 @@ services:
     restart: unless-stopped
     ports:
       - "7799:3000"          # 對外 7799 → 容器內 3000
+    volumes:
+      # 網頁與資料直接掛載：更新 public/ 後不用重建或重啟容器；只有 server.js 改動才需要 --build
+      - ./public:/app/public:ro
     environment:
       PORT: "3000"
       UPSTREAM: "https://lostark.bible"

@@ -130,6 +130,8 @@ def main(chunks, out):
     # 職業專屬（秩序）核心 + 通用（混沌）核心（classId 0）
     core_names = {k: v for k, v in core_names.items() if v[1] in nums or v[1] == 0}
     core_inst = {k: v for k, v in core_inst.items() if v[6] in nums or v[6] == 0}
+    for v in core_inst.values():  # 337e4 -> 3370000 (effect ids must match core_desc keys)
+        v[5] = [int(x) for x in v[5]]
     items = {}
     for k in core_inst:
         m = re.search(r'[{,]' + k + r':\[`([^`]*)`,(\d+)', g)
