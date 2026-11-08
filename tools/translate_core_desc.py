@@ -52,8 +52,7 @@ RULES = [
     # skill categories & multi-word structures must run before the generic "Skill Damage" rules
     (r'\bHolding Skills?\b', '持續技能'), (r'\bCasting Skills?\b', '施放技能'), (r'\bCharge Skills?\b', '蓄力技能'), (r'\bCombo Skills?\b', '連擊技能'),
     (r'\bFocus Skills?\b', '集中技能'), (r'\bFlurry Skills?\b', '亂舞技能'), (r'\bCombo-type Skills?\b', '連擊型技能'),
-    (r'(?<=the )(.+?) effect that lasts for the duration of the (.+?) effect', '\\1 效果（持續時間與 \\2 效果相同）'),
-    (r' effect that lasts for the duration of the (.+?) effect', ' 效果（持續時間與 \\1 效果相同）'),
+    (r' that lasts for the duration of (?:the )?(.+?)(?: effect)?\.', '（持續時間與 \\1 效果相同）。'),
     (r'Gain (.+?) while using (.+?)\.', '使用 \\2 時獲得 \\1。'),
     (r'Each time (⟦\d+⟧) activates, ', '每次發動 \\1 時，'), (r' and recover (⟦\d+⟧) MP\.', '，並恢復 \\1 法力。'),
     (r' for (⟦\d+⟧) use\(s\)\.', '，共 \\1 次。'), (r' for (⟦\d+⟧) time\(s\)\.', '，共 \\1 次。'),
