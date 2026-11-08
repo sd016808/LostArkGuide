@@ -191,14 +191,19 @@ def main():
                         M.put(f'{sec}#{cid}', en, r[0], r[1])  # class-scoped
                 stats[f'{sec}:{cls.get("class_en")}'] = f'{n}/{len(d)}'
 
-    # 方舟星圖核心：台灣平衡公告比對到的名稱優先於陸服 ID 對照（保留「秩序之X核心：」前綴格式）
+    # 方舟星圖核心：台服遊戲內名稱（tools/align_tw_cores.py 依 ID 對照）優先於陸服 ID 對照
     twc_path = os.path.join(terms_dir, 'tw_cores.json')
-    if os.path.exists(twc_path):
+    cores_path = os.path.join(data_dir, 'cores.json')
+    if os.path.exists(twc_path) and os.path.exists(cores_path):
         twc = load(twc_path).get('cores', {})
+        insts = load(cores_path)['instances']
+        kinds = ['日', '月', '星']
         n = 0
         for iid, z in twc.items():
-            cur = by_id['cores_by_id'].get(iid)
-            prefix = cur.split('：')[0] + '：' if cur and '：' in cur else ''
+            inst = insts.get(iid)
+            if not inst:
+                continue
+            prefix = f"{'秩序' if inst[1] == 0 else '混沌'}之{kinds[inst[2]]}核心："
             by_id['cores_by_id'][iid] = prefix + z
             n += 1
         stats['tw:cores'] = n

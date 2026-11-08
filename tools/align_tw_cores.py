@@ -1,17 +1,24 @@
 # -*- coding: utf-8 -*-
 """
-Align Taiwan Ark Grid core names (and per-tier effect text) from TW official class-balance
-announcements to our core instance IDs, by matching the numbers in the TW effect text against
-the English effect description of the same point tier.
+Taiwan Ark Grid core names + effect texts by core ID.
 
-Usage: python -I tools/align_tw_cores.py <tw_cores_raw.json> <data_dir> <out_file>
-  tw_cores_raw.json  [{class, type:[order,kind], name, tiers:[[P, text], ...]}]  (parsed from announce pages)
-Writes {"cores": {instanceId: twName}, "effects": {effectId: twText}}
+1) Names: vendor/terms/tw_core_names.json is the full TW in-game core list (screenshots from the
+   TW client), in in-game list order == item-ID order. Sorting our core name IDs per (order/chaos,
+   sun/moon/star) and zipping gives an exact ID -> TW name mapping.
+2) Effect texts: TW class-balance announcements quote some tiers verbatim ("變更後：…"). A quoted
+   text is attached to that core's tier only if its numbers all appear in the current English text
+   (guards against outdated values).
+
+Usage: python -I tools/align_tw_cores.py <tw_cores_raw.json> <data_dir> <terms_dir>
+  tw_cores_raw.json  [{class, type:[order,kind], name, tiers:[[P, text], ...]}] parsed from announcements
+Writes <terms_dir>/tw_cores.json  {"cores": {instanceId: twName}, "effects": {effectId: twText}}
 """
 import json, re, sys, os, collections
 
 NUM = re.compile(r'\d+(?:\.\d+)?')
 TIER_INDEX = {10: 0, 14: 1, 17: 2, 18: 3, 19: 4, 20: 5}
+LIST_KEYS = {(0, 0): 'order_sun', (0, 1): 'order_moon', (0, 2): 'order_star',
+             (1, 0): 'chaos_sun', (1, 1): 'chaos_moon', (1, 2): 'chaos_star'}
 
 
 def flat(node, acc):
@@ -36,53 +43,61 @@ def nums(text):
     return set(NUM.findall(text.replace('，', ',')))
 
 
-def main(raw_path, data_dir, out_file):
-    raw = json.load(open(raw_path, encoding='utf-8'))
+def main(raw_path, data_dir, terms_dir):
     cores = json.load(open(os.path.join(data_dir, 'cores.json'), encoding='utf-8'))
     desc = json.load(open(os.path.join(data_dir, 'core_desc.json'), encoding='utf-8'))
-    # candidates: nameId -> list of instances (grade variants share nameId); use highest grade (most effects)
-    by_key = collections.defaultdict(dict)
+    tw_list = json.load(open(os.path.join(terms_dir, 'tw_core_names.json'), encoding='utf-8'))
+
+    # nameId -> (order, kind, classNum, effects of the highest grade)
+    meta = {}
     for iid, inst in cores['instances'].items():
-        name, order, kind, name_id, grade, effects, cnum = inst
-        cur = by_key[(cnum, order, kind)].get(name_id)
-        if cur is None or len(effects) > len(cur[1]):
-            by_key[(cnum, order, kind)][name_id] = (iid, effects, name)
-    out_cores, out_eff, report = {}, {}, []
+        name, order, kind, nid, grade, effects, cnum = inst
+        cur = meta.get(nid)
+        if cur is None or len(effects) > len(cur[3]):
+            meta[nid] = (order, kind, cnum, effects)
+    groups = collections.defaultdict(list)
+    for nid, (order, kind, _c, _e) in meta.items():
+        groups[(order, kind)].append(nid)
+
+    name_by_nid = {}
+    for key, nids in groups.items():
+        nids.sort(key=int)
+        names = tw_list[LIST_KEYS[key]]
+        if len(names) != len(nids):
+            print(f'WARNING {LIST_KEYS[key]}: {len(names)} TW names vs {len(nids)} cores — skipped')
+            continue
+        for nid, z in zip(nids, names):
+            name_by_nid[nid] = z
+
+    out_cores = {iid: name_by_nid[inst[3]] for iid, inst in cores['instances'].items() if inst[3] in name_by_nid}
+
+    # effect texts from announcements, attached by exact TW name (+class to disambiguate duplicates)
+    raw = json.load(open(raw_path, encoding='utf-8')) if os.path.exists(raw_path) else []
+    out_eff = {}
+    hits = misses = 0
     for item in raw:
-        key = (item['class'], item['type'][0], item['type'][1])
-        cands = by_key.get(key, {})
-        best = None
-        for name_id, (iid, effects, en) in cands.items():
-            score = 0
-            matched = []
-            for p, tw in item['tiers']:
-                idx = TIER_INDEX.get(p)
-                if idx is None or idx >= len(effects) or not tw:
-                    continue
-                acc = []
-                flat(desc.get(str(int(effects[idx])), []), acc)
-                en_nums = nums(' '.join(acc))
-                tw_nums = nums(tw)
-                if tw_nums and tw_nums <= en_nums | {'3', '1', '2'}:  # tw numbers must appear in EN
-                    score += len(tw_nums)
-                    matched.append((str(int(effects[idx])), tw))
-            if score and (best is None or score > best[0]):
-                best = (score, name_id, iid, en, matched)
-        if best and best[0] >= 3:
-            _, name_id, iid, en, matched = best
-            # map every grade variant of this core name
-            for iid2, inst in cores['instances'].items():
-                if inst[3] == name_id:
-                    out_cores[iid2] = item['name']
-            for eid, tw in matched:
+        order, kind = item['type']
+        cands = [nid for nid in groups.get((order, kind), []) if name_by_nid.get(nid) == item['name']]
+        if len(cands) > 1:
+            cands = [nid for nid in cands if meta[nid][2] == item['class']] or cands[:1]
+        if not cands:
+            misses += 1
+            continue
+        effects = meta[cands[0]][3]
+        for p, tw in item['tiers']:
+            idx = TIER_INDEX.get(p)
+            if idx is None or idx >= len(effects) or not tw:
+                continue
+            eid = str(int(effects[idx]))
+            acc = []
+            flat(desc.get(eid, []), acc)
+            if nums(tw) and nums(tw) <= nums(' '.join(acc)):
                 out_eff[eid] = tw
-            report.append((item['class'], en, item['name'], best[0]))
-        else:
-            report.append((item['class'], None, item['name'], 0))
-    json.dump({'cores': out_cores, 'effects': out_eff}, open(out_file, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    for r in sorted(report, key=lambda x: (x[0], x[3])):
-        print(r)
-    print('matched cores', len({v for v in out_cores.values()}), '/', len(raw), '; TW effect texts', len(out_eff))
+                hits += 1
+    json.dump({'cores': out_cores, 'effects': out_eff}, open(os.path.join(terms_dir, 'tw_cores.json'), 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=0)
+    print(f'TW core names: {len(name_by_nid)} names -> {len(out_cores)} instances; '
+          f'announcement effect texts kept: {hits} (unmatched announcement cores: {misses})')
 
 
 if __name__ == '__main__':
