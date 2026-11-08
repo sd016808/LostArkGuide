@@ -88,6 +88,7 @@ const UI = {
   last_updated: '最後更新 {t}',
   powered_by: '資料由 {x} 提供。資料為玩家自行上傳，可能無法代表整體玩家群。',
   page: '第 {p} 頁，共 {n} 頁',
+  combat_log: '戰鬥紀錄',
 };
 export function addUi(obj) { Object.assign(UI, obj); }
 export function T(key, vars) {

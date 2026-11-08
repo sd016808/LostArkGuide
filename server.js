@@ -85,7 +85,7 @@ const REMOTE_FUNCTIONS = {
 };
 // 允許以 __data.json 方式轉送的頁面（server load 資料）
 const ALLOWED_DATA_PAGES = new Set(['stats/generic', 'stats/combat-power', 'stats/ark-passive', 'stats/class', '']);
-const DATA_PAGE_PATTERNS = [/^style-book\/(NA|CE)\/[\w-]+$/];
+const DATA_PAGE_PATTERNS = [/^style-book\/(NA|CE)\/[\w-]+$/, /^logs\/[\w-]+$/];
 
 const UA = 'LostArkGuide-zh/1.0 (+local proxy; https://github.com/)';
 const cache = new Map(); // url -> {t, body, status, type}
@@ -97,7 +97,11 @@ async function fetchCached(url, headers) {
   const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'application/json, text/html;q=0.9, */*;q=0.8', ...headers } });
   const body = Buffer.from(await res.arrayBuffer());
   const entry = { t: Date.now(), body, status: res.status, type: res.headers.get('content-type') || 'application/octet-stream' };
-  if (res.ok) cache.set(url, entry);
+  if (res.ok) {
+    cache.set(url, entry);
+    // 上限 150 筆（戰鬥紀錄單筆約 0.5–1MB），超過時移除最舊的
+    while (cache.size > 150) cache.delete(cache.keys().next().value);
+  }
   return entry;
 }
 
@@ -190,7 +194,7 @@ async function handleApi(req, res, url) {
 
 function serveStatic(req, res, url) {
   let p = decodeURIComponent(url.pathname);
-  if (p === '/' || p.startsWith('/stats') || p.startsWith('/leaderboards') || p.startsWith('/style-book')) p = '/index.html';
+  if (p === '/' || p.startsWith('/stats') || p.startsWith('/leaderboards') || p.startsWith('/style-book') || p.startsWith('/logs')) p = '/index.html';
   const file = path.normalize(path.join(PUBLIC_DIR, p));
   if (!file.startsWith(PUBLIC_DIR)) return send(res, 403, 'forbidden', 'text/plain');
   fs.readFile(file, (err, data) => {

@@ -19,6 +19,8 @@ export async function render(root) {
   const findRaid = (boss, diff) => { for (const r of R.raids) { if (!r.difficulties.some((d) => d.difficulty === diff)) continue; const g = r.gates.find((g) => g.bosses.includes(boss)); if (g) return [r, g]; } return byBoss[boss]; };
   const gateKey = (r, g) => JSON.stringify([r.category, r.name, g.name]);
   const raidTitle = (r, g) => `${raidName(r.name)} ${gateLabel(g.name)}`;
+  // 匿名玩家以職業英文名（可能帶 #N）顯示，改成中文職業名
+  const dispName = (n) => { const m = String(n).match(/^(.+?)(?: #(\d+))?$/); const c = m && classByEn(m[1]); return c ? `${className(c.id)}${m[2] ? ` #${m[2]}` : ''}` : n; };
   const q = new URLSearchParams(location.search);
   const st = { boss: q.get('boss') || R.defaults.boss, difficulty: q.get('difficulty') || R.defaults.difficulty, patch: q.get('patch') || 'current' };
   if (!byBoss[st.boss]) st.boss = R.defaults.boss;
@@ -76,9 +78,9 @@ export async function render(root) {
       const dDur = e.duration - first.duration, dDps = e.totalDps - first.totalDps;
       const maxParty = Math.max(...e.players.map((p) => p.partyId));
       const top = e.players.reduce((a, b) => (b.dps > a.dps ? b : a), { name: '', dps: 0 }).name;
-      const row = h('a', { href: `${ORIGIN}/logs/${e.id}`, target: '_blank', class: 'col-span-full grid grid-cols-subgrid gap-y-2 border-b border-neutral-900 bg-surface-800 pt-2 last:border-b-0 hover:bg-surface-700' },
+      const row = h('a', { href: `/logs/${e.id}`, target: '_blank', class: 'col-span-full grid grid-cols-subgrid gap-y-2 border-b border-neutral-900 bg-surface-800 pt-2 last:border-b-0 hover:bg-surface-700' },
         h('div', { class: 'flex items-center gap-1 self-center px-3 sm:text-center' }, i < 3 ? h('span', { class: i === 0 ? 'text-yellow-400' : i === 1 ? 'text-sky-200' : 'text-orange-400' }, '★') : null, ` #${i + 1}`),
-        h('div', { class: 'flex min-w-0 items-center gap-2 self-center px-3 max-sm:hidden' }, e.region ? h('p', { class: 'shrink-0 rounded-sm bg-black/20 px-1 py-0.5 text-xs' }, e.region) : null, h('p', { class: 'truncate' }, T('team_of', { name: top }))),
+        h('div', { class: 'flex min-w-0 items-center gap-2 self-center px-3 max-sm:hidden' }, e.region ? h('p', { class: 'shrink-0 rounded-sm bg-black/20 px-1 py-0.5 text-xs' }, e.region) : null, h('p', { class: 'truncate' }, T('team_of', { name: dispName(top) }))),
         h('div', { class: 'self-center px-3 text-right max-sm:hidden' }, (+e.avgGearScore).toFixed(2).replace(/\.?0+$/, '')),
         h('div', { class: 'self-center px-3 text-right max-sm:hidden' }, e.avgCombatPower == null ? 'N/A' : e.avgCombatPower.toFixed(0)),
         h('div', { class: 'flex flex-col items-end self-center px-3' }, h('span', { title: e.totalDps.toLocaleString() }, shortNum(e.totalDps, 2).toLowerCase()), i !== 0 ? h('span', { class: `text-xs ${dDps < 1 ? 'text-red-400' : 'text-green-500'}` }, `${dDps < 0 ? '-' : '+'}${shortNum(Math.abs(dDps), 2).toLowerCase()}`) : null),
@@ -93,7 +95,7 @@ export async function render(root) {
           const share = pl.dps / e.totalDps;
           const icon = h('span', { class: 'shrink-0' }, cls ? classIconEl(cls.id, 'size-4') : null);
           attachTooltip(icon, () => h('p', { class: 'px-2 py-1 text-sm' }, `${specName(pl.spec)} ${cls ? className(cls.id) : pl.class}`));
-          box.append(h('div', { class: `${maxParty > 0 ? 'w-25' : 'w-30'} mr-1 flex flex-row items-center gap-1` }, icon, h('span', { class: 'truncate text-xs' }, pl.name)),
+          box.append(h('div', { class: `${maxParty > 0 ? 'w-25' : 'w-30'} mr-1 flex flex-row items-center gap-1` }, icon, h('span', { class: 'truncate text-xs' }, dispName(pl.name))),
             h('div', { class: 'w-full rounded-sm bg-black/30' }, h('div', { class: 'h-2 rounded-sm', style: `width:${(share / maxShare) * 100}%; background-color: rgb(from ${R.classColors[pl.class] || '#8ec5ff'} r g b / 0.6)` })),
             h('div', { class: 'flex flex-col items-end pl-3 text-xs', title: pl.dps.toLocaleString() }, shortNum(pl.dps, 2).toLowerCase()));
         }

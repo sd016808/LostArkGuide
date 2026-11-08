@@ -11,6 +11,7 @@ const ROUTES = [
   { match: /^\/stats\/combat-power\/?$/, load: () => import('./pages/combatpower.js'), stats: true, title: 'tab_combatpower' },
   { match: /^\/stats\/combat-score\/?$/, redirect: '/stats/combat-power' },
   { match: /^\/leaderboards\/?$/, load: () => import('./pages/leaderboards.js'), title: 'nav_leaderboards' },
+  { match: /^\/logs\/([\w-]+)\/?$/, load: () => import('./pages/log.js'), title: 'combat_log' },
   { match: /^\/style-book\/?$/, load: () => import('./pages/stylebook.js'), title: 'nav_stylebook' },
   { match: /^\/style-book\/(NA|CE)\/([\w-]+)\/?$/, load: () => import('./pages/stylebook.js'), detail: true, title: 'nav_stylebook' },
 ];

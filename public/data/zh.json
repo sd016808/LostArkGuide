@@ -426,7 +426,7 @@
 "skills": {
 "_": {
 "Assault Blade": "突擊刀鋒",
-"Basic Attack": "普攻",
+"Basic Attack": "基本攻擊",
 "Berserk Fury": "狂怒",
 "Blood Slash": "血腥削擊",
 "Bloody Rush": "血腥急襲",
@@ -1222,7 +1222,9 @@
 "Thrust": "直刺",
 "Vengeful Blow": "復仇重擊",
 "Wild Uppercut": "狂野上勾",
-"Wing Lash": "翼鞭"
+"Wing Lash": "翼鞭",
+"Weapon Attack": "基本攻擊",
+"Bleed": "出血"
 },
 "102": {
 "Assault Blade": "突擊刀鋒",

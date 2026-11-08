@@ -42,7 +42,7 @@ export async function render(root) {
     const ll = h('div', { class: 'grid auto-rows-[2.5rem] grid-cols-1 gap-px divide-y divide-neutral-950/40' });
     for (const lg of data.popularLogs || []) {
       const p = lg.preview || {};
-      ll.append(h('a', { href: `${ORIGIN}/logs/${lg.logId}`, target: '_blank', class: 'flex min-w-0 items-center justify-between pl-3' },
+      ll.append(h('a', { href: `/logs/${lg.logId}`, class: 'flex min-w-0 items-center justify-between pl-3' },
         h('span', { class: 'inline-flex min-w-0 items-center gap-1 truncate pr-2' }, p.difficulty ? h('p', { class: 'shrink-0 rounded-sm bg-neutral-700/80 px-1 text-xs' }, diffBadge(p.difficulty)) : null, h('span', { class: 'truncate' }, bossName(p.boss) || '?'), h('span', { class: 'shrink-0' }, `- ${fmtDuration(p.duration || 0)} -`), h('span', { class: 'shrink-0 text-xs text-surface-400' }, `(${p.region || ''})`)),
         h('span', { class: 'mr-2 shrink-0 text-xs text-surface-500' }, T('views_n', { n: lg.views }))));
     }

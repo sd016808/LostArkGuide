@@ -49,5 +49,10 @@
     "Luminary": "先知",
     "Advance": "進軍",
     "Prayer": "祈願"
+  },
+  "skills": {
+    "Basic Attack": "基本攻擊",
+    "Weapon Attack": "基本攻擊",
+    "Bleed": "出血"
   }
 }

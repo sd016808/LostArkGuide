@@ -189,7 +189,7 @@ export async function render(root) {
         return `<div class="flex flex-col text-neutral-200"><div class="font-medium">#${items.length - i} ${esc(cls)}</div><div class="text-neutral-300">${esc(specName(s.spec))}</div><div class="text-xs">${rangeText(f)}</div><div class="text-xs pb-2"><span class="font-mono">${s.count}</span> ${T('logs_n', { n: '' }).trim()}</div>${rows([[T('best'), 'max', fmtVal(s.max)], [T('ceiling'), 'upperWhisker', fmtVal(s.upperWhisker)], ['Q3', 'q3', fmtVal(s.q3)], [T('median'), 'median', fmtVal(s.median)], ['Q1', 'q1', fmtVal(s.q1)], [T('floor'), 'lowerWhisker', fmtVal(s.lowerWhisker)]])}</div>`;
       },
       bestTooltip: (s) => { const e = s.topEncounters && s.topEncounters[0]; if (!e) return ''; const v = dpsType.includes('contribution') ? ((e.rContribution ?? e.contribution ?? 0) * 100).toFixed(2) + '%' : `${shortNum(getValue(dpsType, e))} ${valueLabel}`; return `<div class="flex flex-col text-neutral-200"><div class="font-medium">${e.gearScore} ${esc(className(classByEn(s.class) ? classByEn(s.class).id : s.class))}</div><div class="text-xs">${e.combatPower === '0' ? '-' : e.combatPower} ${T('cp_short')}</div><div class="text-neutral-300 pb-2">${esc(specName(s.spec))}</div><div>${v}</div><div class="pt-2 text-white">${T('click_to_view_log')}</div></div>`; },
-      onBest: (s) => s.topEncounters && s.topEncounters[0] && window.open(`${ORIGIN}/logs/${s.topEncounters[0].id}`, '_blank'),
+      onBest: (s) => s.topEncounters && s.topEncounters[0] && window.open(`/logs/${s.topEncounters[0].id}`, '_blank'),
       onCategory: uptime ? null : (s) => { selectedSpec = { ...s, dpsType, contribution: dpsType.includes('contribution') }; renderDetails(f); },
     }).catch((e) => { chartEl.innerHTML = ''; chartEl.append(errorEl(e)); });
     return wrap;
@@ -225,7 +225,7 @@ export async function render(root) {
       if (!vis.length) { runsEl.append(h('div', { class: 'col-span-4 text-neutral-300' }, samples === null && mode !== 'Best' ? T('loading') : T('not_enough_logs'))); return; }
       vis.forEach((e, i) => {
         const val = isContrib ? `${((e.rContribution ?? e.contribution ?? 0) * 100).toFixed(2)}%` : shortNum(getValue(s.dpsType, e));
-        runsEl.append(h('a', { href: `${ORIGIN}/logs/${e.id}`, target: '_blank', class: 'col-span-6 grid cursor-pointer grid-cols-subgrid text-neutral-300 transition hover:bg-black/20' },
+        runsEl.append(h('a', { href: `/logs/${e.id}`, target: '_blank', class: 'col-span-6 grid cursor-pointer grid-cols-subgrid text-neutral-300 transition hover:bg-black/20' },
           h('div', { class: 'font-mono' }, `#${i + 1}`), h('div', null, (+e.gearScore).toFixed(2).replace(/\.?0+$/, '')), h('div', null, e.combatPower === '0' ? '-' : (+e.combatPower).toFixed(0)), h('div', { class: 'font-mono' }, val), h('div', { class: 'mr-2 font-mono' }, age(new Date(e.timestamp))), h('div', { class: 'flex items-center justify-end' }, '↗')));
       });
       if (shown > 5) { const b = h('button', { class: 'col-span-2 text-left text-neutral-400 hover:text-neutral-300' }, T('show_less')); b.addEventListener('click', () => { shown -= 5; drawRuns(); }); runsEl.append(b); }
