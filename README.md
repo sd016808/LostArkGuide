@@ -48,7 +48,8 @@ Synology／QNAP 內建的反向代理只要設定「來源 lostarkguide.autopeck
 頁面預設帶 `<meta name="robots" content="noindex">`（與原站相同，不被搜尋引擎收錄），想公開收錄可移除 `public/index.html` 內該行。
 
 `docker-compose.yml` 可改埠號（`ports`）與上游網址（`UPSTREAM`）。映像只包含 `server.js` 與 `public/`，
-不需要 npm 套件；容器內建健康檢查（`/api/health`）。更新程式後重新執行 `docker compose up -d --build` 即可。
+不需要 npm 套件；容器內建健康檢查（`/api/health`）。`public/` 與 `server.js` 都以 volume 掛載：
+更新 `public/` 只要重新整理網頁；更新 `server.js` 執行 `docker compose restart`；只有 `Dockerfile` 改動才需要 `docker compose up -d --build`。
 
 ## 執行（直接用 Node）
 
