@@ -51,24 +51,21 @@ Synology／QNAP 內建的反向代理只要設定「來源 lostarkguide.autopeck
 不需要 npm 套件；容器內建健康檢查（`/api/health`）。`public/` 與 `server.js` 都以 volume 掛載：
 更新 `public/` 只要重新整理網頁；更新 `server.js` 執行 `docker compose restart`；只有 `Dockerfile` 改動才需要 `docker compose up -d --build`。
 
-### NAS 自動更新（任務排程器）
+### NAS 重新部署（任務排程器）
 
-`deploy/nas-update.sh` 會從 GitHub 下載最新版、只更新部署需要的檔案，並依變更內容自動重建或重啟容器：
+更新方式：在本機把 `server.js`、`public/`、`Dockerfile`、`docker-compose.yml` 等檔案複製到 NAS 的專案資料夾，
+再執行 `deploy/nas-update.sh`（放在專案資料夾，命名為 `update.sh`），它會用資料夾裡的檔案重建映像並重新建立容器：
 
-| 變更內容 | 動作 |
-| --- | --- |
-| `Dockerfile`、`package.json`、`.dockerignore` | `docker compose up -d --build` |
-| `docker-compose.yml`（舊檔備份成 `.bak`） | `docker compose up -d` |
-| `server.js`、`public/`（網頁、翻譯） | `docker compose restart` |
-| 已是最新版 | 不動作（只確認容器有在執行） |
+```bash
+docker compose up -d --build --force-recreate
+```
 
-把它放在專案資料夾（例如命名為 `update.sh`），在 Synology「控制台 → 任務排程器 → 新增 → 排程的任務 → 使用者定義的指令碼」：
+Synology「控制台 → 任務排程器 → 新增 → 排程的任務 → 使用者定義的指令碼」：
 
 - 使用者：`root`
-- 指令：`bash /volume1/docker/LostArkGuide/update.sh`（路徑依實際資料夾調整）
-- 排程：例如每天或每小時一次
+- 指令：`bash /volume1/docker/LostArkGuide/update.sh`
 
-結果記錄在同資料夾的 `update.log`。手動強制重新部署：`FORCE=1 bash update.sh`；只檢查不修改：`DRY_RUN=1 bash update.sh`。
+執行結果記錄在同資料夾的 `update.log`。
 
 ## 執行（直接用 Node）
 
