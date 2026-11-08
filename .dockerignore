@@ -6,3 +6,4 @@ tools
 *.log
 .dockerignore
 docker-compose.yml
+deploy

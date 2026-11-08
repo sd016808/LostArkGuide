@@ -8,3 +8,8 @@ vendor/cn_raw/
 vendor/tw_codex/
 # 原站前端程式碼快照不放進公開 repo（重新執行 extract 前請自行下載，檔名見 tools/extract_data.py）
 vendor/chunks/*.js
+update.log
+update.log.tmp
+.update.lock/
+.deployed_sha
+docker-compose.yml.bak
