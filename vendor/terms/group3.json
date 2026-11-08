@@ -1,0 +1,3387 @@
+[
+ {
+  "class_id": 302,
+  "class_en": "Wardancer",
+  "class_zh": "斗魂",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=302",
+   "https://lostark.dvg.cn/api/skill_list.php?class=302&page_size=100",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=302",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B&page_size=100 (core items; English names matched by identical item IDs on https://lostarkcodex.com/us/item/<id>/)"
+  ],
+  "skills": {
+   "Charging Steps": null,
+   "Deadly Dive": {
+    "zh": "苍天脚",
+    "src": "cn"
+   },
+   "Energy Combustion": {
+    "zh": "内功燃烧",
+    "src": "cn"
+   },
+   "Esoteric Origin": {
+    "zh": "根源元素",
+    "src": "cn"
+   },
+   "Esoteric Skill: Blast Formation": {
+    "zh": "奥义：镇岳击",
+    "src": "cn"
+   },
+   "Esoteric Skill: Call of the Wind God": {
+    "zh": "奥义：龙卷残云",
+    "src": "cn"
+   },
+   "Esoteric Skill: Rising Fire Dragon": {
+    "zh": "奥义：龙啸九天",
+    "src": "cn"
+   },
+   "Esoteric Skill: Spiral Impact": {
+    "zh": "奥义：螺旋劲",
+    "src": "cn"
+   },
+   "Esoteric Skill: Thunderclap Kick": {
+    "zh": "奥义：闪光脚",
+    "src": "cn"
+   },
+   "Esoteric skill: Azure Dragon Supreme Fist": {
+    "zh": "奥义：苍龙霸王拳",
+    "src": "cn"
+   },
+   "Flash Heat Fang": {
+    "zh": "闪裂乱牙",
+    "src": "cn"
+   },
+   "Leaping Dragon": {
+    "zh": "飓风涌流脚",
+    "src": "cn"
+   },
+   "Lightning Kick": {
+    "zh": "雷鸣脚",
+    "src": "cn"
+   },
+   "Moon Flash Kick": {
+    "zh": "月闪腿",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Phoenix Advent": {
+    "zh": "凤鸣岐山",
+    "src": "cn"
+   },
+   "Roar of Courage": {
+    "zh": "勇猛咆哮",
+    "src": "cn"
+   },
+   "Sky Shattering Blow": {
+    "zh": "崩天腿",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Sweeping Hidden Dragon": {
+    "zh": "龙牙突",
+    "src": "cn"
+   },
+   "Sweeping Kick": {
+    "zh": "方天击",
+    "src": "cn"
+   },
+   "Swift Wind Kick": {
+    "zh": "超风腿",
+    "src": "cn"
+   },
+   "Triple Fist": {
+    "zh": "三连追星",
+    "src": "cn"
+   },
+   "Ultimate Skill: Eight Trigrams Chaotic Strike": {
+    "zh": "极义：八卦乱击",
+    "src": "cn"
+   },
+   "Ultimate Skill: Fist of Dominance": {
+    "zh": "极义：无极拳",
+    "src": "cn"
+   },
+   "Ultimate Skill: Flash Rage Blow": {
+    "zh": "极义：一瞬乱击",
+    "src": "cn"
+   },
+   "Ultimate Skill: Great Raging Demon Kick": {
+    "zh": "极义：天降魔神脚",
+    "src": "cn"
+   },
+   "Wind's Whisper": {
+    "zh": "风之私语",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Dragon Style Enhancement": {
+    "zh": "龙流强化",
+    "src": "cn"
+   },
+   "Enlightened Origin": {
+    "zh": "极意归元",
+    "src": "cn"
+   },
+   "Fire Dragon Skyshaker": {
+    "zh": "火龙震天",
+    "src": "cn"
+   },
+   "Heaven Splitter": {
+    "zh": "破天击",
+    "src": "cn"
+   },
+   "Hypercirculation": {
+    "zh": "超循环",
+    "src": "cn"
+   },
+   "Mighty Wind Kick": {
+    "zh": "超强飓风腿",
+    "src": "cn"
+   },
+   "Opening Three Gates": {
+    "zh": "三门开启",
+    "src": "cn"
+   },
+   "Origin State": {
+    "zh": "归元化神",
+    "src": "cn"
+   },
+   "Quintuple Resilience": {
+    "zh": "五气刚体",
+    "src": "cn"
+   },
+   "Rising Fiery Dragon": {
+    "zh": "暴龙天翔",
+    "src": "cn"
+   },
+   "Smite Barrage": {
+    "zh": "连环猛击",
+    "src": "cn"
+   },
+   "Supreme Fist": {
+    "zh": "霸王拳",
+    "src": "cn"
+   },
+   "Third Eye": {
+    "zh": "心眼",
+    "src": "cn"
+   },
+   "Ultimate Azure Gale": {
+    "zh": "苍风极义",
+    "src": "cn"
+   },
+   "Ultimate Wind Kick": {
+    "zh": "极风脚",
+    "src": "cn"
+   },
+   "Undefeated Overlord": {
+    "zh": "不败霸王",
+    "src": "cn"
+   },
+   "Undying Fire Dragon": {
+    "zh": "火龙轮回",
+    "src": "cn"
+   },
+   "Way of the Overlord": {
+    "zh": "霸王之路",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Arrive Empty": {
+    "zh": "空手来",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Circulate": {
+    "zh": "循环",
+    "src": "cn"
+   },
+   "Energy Recovery": {
+    "zh": "恢复元气",
+    "src": "cn"
+   },
+   "Esoteric Combustion": {
+    "zh": "元素燃烧",
+    "src": "cn"
+   },
+   "Esoteric Origin": {
+    "zh": "根源元素",
+    "src": "cn"
+   },
+   "Esoteric Skill Enhancement": {
+    "zh": "奥义精通",
+    "src": "cn"
+   },
+   "Esoteric Skill Preparation": {
+    "zh": "奥义准备",
+    "src": "cn"
+   },
+   "First Intention": {
+    "zh": "赤子之心",
+    "src": "cn"
+   },
+   "Focus Kick": {
+    "zh": "专注踢击",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Lethal Taijutsu": {
+    "zh": "危险的体术",
+    "src": "cn"
+   },
+   "Orb Bonus": {
+    "zh": "元素球增加",
+    "src": "cn"
+   },
+   "Powerful Esoteric Skill": {
+    "zh": "强力奥义",
+    "src": "cn"
+   },
+   "Powerful Taijutsu": {
+    "zh": "强力体术",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Relentless Onslaught": {
+    "zh": "无尽攻势",
+    "src": "cn"
+   },
+   "Simplify": {
+    "zh": "精简",
+    "src": "cn"
+   },
+   "Thrust Kick": {
+    "zh": "推踢",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "5 Chain Fist": {
+    "zh": "五星连珠",
+    "src": "cn"
+   },
+   "Absorption Hit": {
+    "zh": "强力吸附",
+    "src": "cn"
+   },
+   "Abundant Resources": {
+    "zh": "资源增幅",
+    "src": "cn"
+   },
+   "Black Dragon Ascension": {
+    "zh": "魔龙升天",
+    "src": "cn"
+   },
+   "Blessing of the Wind": {
+    "zh": "风之祝福",
+    "src": "cn"
+   },
+   "Blue Dragon": {
+    "zh": "苍龙",
+    "src": "cn"
+   },
+   "Burning Hands": {
+    "zh": "火焰攻击",
+    "src": "cn"
+   },
+   "Combustible Armor": {
+    "zh": "烈焰护甲",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Crushing Wind Kick": {
+    "zh": "百烈疾风击",
+    "src": "cn"
+   },
+   "Defenseless Target": {
+    "zh": "趁势追击",
+    "src": "cn"
+   },
+   "Destruction Blow": {
+    "zh": "破灭一击",
+    "src": "cn"
+   },
+   "Dragon Flight": {
+    "zh": "龙游九天",
+    "src": "cn"
+   },
+   "Dragon Style": {
+    "zh": "涌流",
+    "src": "cn"
+   },
+   "Dragon's Fury": {
+    "zh": "龙之怒",
+    "src": "cn"
+   },
+   "Dragon's Teeth": {
+    "zh": "龙牙铠",
+    "src": "cn"
+   },
+   "Earth Storm": {
+    "zh": "大地风暴",
+    "src": "cn"
+   },
+   "Easy Target": {
+    "zh": "失控追击",
+    "src": "cn"
+   },
+   "Endless Destruction": {
+    "zh": "无尽毁灭",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Esoteric Extortion": {
+    "zh": "元素汲取",
+    "src": "cn"
+   },
+   "Exaggerated Ability": {
+    "zh": "能力突出",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Extensive Combustion": {
+    "zh": "持续燃烧",
+    "src": "cn"
+   },
+   "Extreme Training": {
+    "zh": "迅捷踢击",
+    "src": "cn"
+   },
+   "Eye of the Tempest": {
+    "zh": "暴风之眼",
+    "src": "cn"
+   },
+   "Fancy Footwork": {
+    "zh": "华丽腿法",
+    "src": "cn"
+   },
+   "Ferocious Attack": {
+    "zh": "猛烈攻击",
+    "src": "cn"
+   },
+   "Fierce Heat": {
+    "zh": "火爆热气",
+    "src": "cn"
+   },
+   "Final Blow": {
+    "zh": "最终一击",
+    "src": "cn"
+   },
+   "Final Explosion": {
+    "zh": "真气炸裂",
+    "src": "cn"
+   },
+   "Final Strike": {
+    "zh": "最后一击",
+    "src": "cn"
+   },
+   "Finishing Strike": {
+    "zh": "斩草除根",
+    "src": "cn"
+   },
+   "Fire Dragon Fist": {
+    "zh": "火龙拳",
+    "src": "cn"
+   },
+   "Fire Round Kick": {
+    "zh": "火风腿",
+    "src": "cn"
+   },
+   "Fist of Darkness": {
+    "zh": "致盲攻击",
+    "src": "cn"
+   },
+   "Flame Explosion": {
+    "zh": "烈焰爆炸",
+    "src": "cn"
+   },
+   "Flame Flash Kick": {
+    "zh": "裂闪脚",
+    "src": "cn"
+   },
+   "Flash Lightning": {
+    "zh": "闪雷",
+    "src": "cn"
+   },
+   "Focus Explosion": {
+    "zh": "专注爆炸",
+    "src": "cn"
+   },
+   "Focus Hit": {
+    "zh": "赤龙升天",
+    "src": "cn"
+   },
+   "Freeze Effect": {
+    "zh": "冻结效果",
+    "src": "cn"
+   },
+   "Frost Explosion": {
+    "zh": "寒冰爆炸",
+    "src": "cn"
+   },
+   "Frost Storm": {
+    "zh": "冰霜风暴",
+    "src": "cn"
+   },
+   "Full Moon Kick": {
+    "zh": "满月闪",
+    "src": "cn"
+   },
+   "Furious Spin Axis": {
+    "zh": "愤怒回旋",
+    "src": "cn"
+   },
+   "Great Explosion": {
+    "zh": "大爆炸",
+    "src": "cn"
+   },
+   "Growth Attack": {
+    "zh": "成长攻击",
+    "src": "cn"
+   },
+   "Heaven's Lightning": {
+    "zh": "天雷",
+    "src": "cn"
+   },
+   "Impaired Mobility": {
+    "zh": "削弱机动",
+    "src": "cn"
+   },
+   "Intense Battle": {
+    "zh": "引火烧身",
+    "src": "cn"
+   },
+   "Intense Shock": {
+    "zh": "强烈电击",
+    "src": "cn"
+   },
+   "Keen Footwork": {
+    "zh": "锐利步法",
+    "src": "cn"
+   },
+   "Last Whisper": {
+    "zh": "最终私语",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Leaf Sweep": {
+    "zh": "横扫落叶",
+    "src": "cn"
+   },
+   "Light of Justice": {
+    "zh": "正义之光",
+    "src": "cn"
+   },
+   "Light-Footed": {
+    "zh": "幻闪腿",
+    "src": "cn"
+   },
+   "Lightning God Fist": {
+    "zh": "雷神拳",
+    "src": "cn"
+   },
+   "Lightning Round Kick": {
+    "zh": "雷风腿",
+    "src": "cn"
+   },
+   "Lightning Storm": {
+    "zh": "闪电风暴",
+    "src": "cn"
+   },
+   "Magick Control": {
+    "zh": "魔力调节",
+    "src": "cn"
+   },
+   "Master Hit": {
+    "zh": "打击达人",
+    "src": "cn"
+   },
+   "Meditation Blow": {
+    "zh": "深冥一击",
+    "src": "cn"
+   },
+   "Nimble Movement": {
+    "zh": "敏捷身姿",
+    "src": "cn"
+   },
+   "Nonstop Ambush": {
+    "zh": "持久奇袭",
+    "src": "cn"
+   },
+   "Oath of the Wind": {
+    "zh": "风之誓约",
+    "src": "cn"
+   },
+   "Over Revolution": {
+    "zh": "超旋转",
+    "src": "cn"
+   },
+   "Posture of Defense": {
+    "zh": "防御姿态",
+    "src": "cn"
+   },
+   "Posture of Gumga": {
+    "zh": "金钢姿态",
+    "src": "cn"
+   },
+   "Posture of Swiftness": {
+    "zh": "迅捷姿态",
+    "src": "cn"
+   },
+   "Power of Training": {
+    "zh": "烈焰暴走",
+    "src": "cn"
+   },
+   "Protection of the Wind": {
+    "zh": "风之庇佑",
+    "src": "cn"
+   },
+   "Pure Excellence": {
+    "zh": "别具一格",
+    "src": "cn"
+   },
+   "Quick Blow": {
+    "zh": "快速一击",
+    "src": "cn"
+   },
+   "Quick Pace": {
+    "zh": "迅捷移动",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Raging Storms": {
+    "zh": "肆虐风暴",
+    "src": "cn"
+   },
+   "Ready Attack": {
+    "zh": "进攻准备",
+    "src": "cn"
+   },
+   "Red Dragon": {
+    "zh": "赤龙",
+    "src": "cn"
+   },
+   "Rising Water Kick": {
+    "zh": "蛟龙出水",
+    "src": "cn"
+   },
+   "Ruthless": {
+    "zh": "无情",
+    "src": "cn"
+   },
+   "Shadowcleave": {
+    "zh": "撕裂黑暗",
+    "src": "cn"
+   },
+   "Skill Reduction": {
+    "zh": "燃烧控制",
+    "src": "cn"
+   },
+   "Spiral Kick": {
+    "zh": "回旋气劲",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬盔甲",
+    "src": "cn"
+   },
+   "Summon Storm": {
+    "zh": "召唤风暴",
+    "src": "cn"
+   },
+   "Superwind": {
+    "zh": "狂风气息",
+    "src": "cn"
+   },
+   "Supreme Ruler Afterimage": {
+    "zh": "霸气震慑",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Footwork": {
+    "zh": "迅捷出击",
+    "src": "cn"
+   },
+   "Taijutsu's Ultimate Skill": {
+    "zh": "体术极义",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Thunder Dragon Fist": {
+    "zh": "雷龙拳",
+    "src": "cn"
+   },
+   "Thunder Kick": {
+    "zh": "霹雳腿",
+    "src": "cn"
+   },
+   "Violent Explosion": {
+    "zh": "连环炸裂",
+    "src": "cn"
+   },
+   "Vital Point Hit": {
+    "zh": "弱点压制",
+    "src": "cn"
+   },
+   "Warrior's Courage": {
+    "zh": "战士的勇气",
+    "src": "cn"
+   },
+   "Water Dragon Fist": {
+    "zh": "水龙拳",
+    "src": "cn"
+   },
+   "Water Dragon Kick": {
+    "zh": "水龙脚",
+    "src": "cn"
+   },
+   "Water Round Kick": {
+    "zh": "水风腿",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Weakness Exposure": {
+    "zh": "暴露弱点",
+    "src": "cn"
+   },
+   "Whirlwind": {
+    "zh": "飓风",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   },
+   "Wide Hit ": {
+    "zh": "广域打击",
+    "src": "cn"
+   },
+   "Wide-Angle Attack": {
+    "zh": "广域攻击",
+    "src": "cn"
+   },
+   "Wind's Whisper": {
+    "zh": "风之私语",
+    "src": "cn"
+   }
+  }
+ },
+ {
+  "class_id": 303,
+  "class_en": "Scrapper",
+  "class_zh": "霸拳",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=303",
+   "https://lostark.dvg.cn/api/skill_list.php?class=303&page_size=100",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=303",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B&page_size=100 (core items; English names matched by identical item IDs on https://lostarkcodex.com/us/item/<id>/)"
+  ],
+  "skills": {
+   "Battering Fists": {
+    "zh": "乱击连拳",
+    "src": "cn"
+   },
+   "Blazing Bombardment": {
+    "zh": "烈极爆拳",
+    "src": "cn"
+   },
+   "Chain Destruction Fist": {
+    "zh": "禁忌连环击",
+    "src": "cn"
+   },
+   "Charging Blow": {
+    "zh": "冲拳打击",
+    "src": "cn"
+   },
+   "Continuous Push": {
+    "zh": "挥拳突进",
+    "src": "cn"
+   },
+   "Critical Blow": {
+    "zh": "会心冲击",
+    "src": "cn"
+   },
+   "Crushing Smite": {
+    "zh": "破碎强击",
+    "src": "cn"
+   },
+   "Death Rattle": {
+    "zh": "终结宣告",
+    "src": "cn"
+   },
+   "Divine Dragon Creation": {
+    "zh": "神龙创世",
+    "src": "cn"
+   },
+   "Dragon Advent": {
+    "zh": "巨龙扑击",
+    "src": "cn"
+   },
+   "Duck": null,
+   "Earth Rend": {
+    "zh": "劈裂大地",
+    "src": "cn"
+   },
+   "Explosive Fist": {
+    "zh": "爆裂拳",
+    "src": "cn"
+   },
+   "Fierce Tiger Strike": {
+    "zh": "猛虎连咬",
+    "src": "cn"
+   },
+   "Fist of the Wind God": {
+    "zh": "风神拳",
+    "src": "cn"
+   },
+   "Heaven and Earth Strike": {
+    "zh": "破碎天地",
+    "src": "cn"
+   },
+   "Instant Hit": {
+    "zh": "瞬间打击",
+    "src": "cn"
+   },
+   "Iron Cannon Blow": {
+    "zh": "铁炮肘击",
+    "src": "cn"
+   },
+   "Judgment": {
+    "zh": "主宰",
+    "src": "cn"
+   },
+   "Mysterious Art: Blast of Ruination": {
+    "zh": "真：极灭拳",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Potent Rising Fist": {
+    "zh": "真·龙拳",
+    "src": "cn"
+   },
+   "Roundup Sweep": {
+    "zh": "一网打尽",
+    "src": "cn"
+   },
+   "Shredding Strike": {
+    "zh": "破碎击",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Supernova": {
+    "zh": "超新星",
+    "src": "cn"
+   },
+   "Supreme: Heaven-Shattering Fist": {
+    "zh": "极：破天闪灭拳",
+    "src": "cn"
+   },
+   "Tenacity Release": null,
+   "Undefeated Dragon King": {
+    "zh": "龙王不败",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Barrage": {
+    "zh": "连击",
+    "src": "cn"
+   },
+   "Black Dragon's Leap": {
+    "zh": "玄龙翱翔",
+    "src": "cn"
+   },
+   "Continuous Enhancement": {
+    "zh": "持续强化",
+    "src": "cn"
+   },
+   "Counter Burst": {
+    "zh": "力拔山兮",
+    "src": "cn"
+   },
+   "Earth Collapse": {
+    "zh": "大地崩溃",
+    "src": "cn"
+   },
+   "Earth Combo": {
+    "zh": "撼地连击",
+    "src": "cn"
+   },
+   "Fatal Leap": {
+    "zh": "致命扑击",
+    "src": "cn"
+   },
+   "Fighting Spirit Enhancement": {
+    "zh": "斗志强化",
+    "src": "cn"
+   },
+   "Ground Smasher": {
+    "zh": "地动山摇",
+    "src": "cn"
+   },
+   "Ground-Breaker": {
+    "zh": "大地破坏",
+    "src": "cn"
+   },
+   "Orb Explosion": {
+    "zh": "拳能引爆",
+    "src": "cn"
+   },
+   "Repeated Leap": {
+    "zh": "跳跃穿梭",
+    "src": "cn"
+   },
+   "Shock Burst": {
+    "zh": "冲击暴走",
+    "src": "cn"
+   },
+   "Shock Enhancement": {
+    "zh": "冲击强化",
+    "src": "cn"
+   },
+   "Shock Suppression": {
+    "zh": "冲击压制",
+    "src": "cn"
+   },
+   "Shockwave": {
+    "zh": "冲击波",
+    "src": "cn"
+   },
+   "Stamina Conservation": {
+    "zh": "节能",
+    "src": "cn"
+   },
+   "Tenacity Suppression": {
+    "zh": "斗志压制",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Concise Strike": {
+    "zh": "间接打击",
+    "src": "cn"
+   },
+   "Duck II": {
+    "zh": "突进2",
+    "src": "cn"
+   },
+   "Earth Rend": {
+    "zh": "劈裂大地",
+    "src": "cn"
+   },
+   "Enhanced Speed": {
+    "zh": "速度强化",
+    "src": "cn"
+   },
+   "Final Explosion": {
+    "zh": "真气炸裂",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Keen Strike": {
+    "zh": "锋利打击",
+    "src": "cn"
+   },
+   "Lethal Tenacity": {
+    "zh": "危险的斗志",
+    "src": "cn"
+   },
+   "One-Sided Strike": {
+    "zh": "单方打击",
+    "src": "cn"
+   },
+   "Rage Fist": {
+    "zh": "激怒之拳",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Shock Explosion": {
+    "zh": "冲击爆炸",
+    "src": "cn"
+   },
+   "Shock Recovery": {
+    "zh": "恢复冲击",
+    "src": "cn"
+   },
+   "Shock Release": {
+    "zh": "冲击扩散",
+    "src": "cn"
+   },
+   "Shock Training": {
+    "zh": "冲击修炼",
+    "src": "cn"
+   },
+   "Stamina Recovery": {
+    "zh": "恢复气力",
+    "src": "cn"
+   },
+   "Tenacity Recovery": {
+    "zh": "恢复斗志",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Ultimate Skill: Taijutsu": {
+    "zh": "极义：体术",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Additional Strike": {
+    "zh": "追加攻击",
+    "src": "cn"
+   },
+   "Advance Enhancement": {
+    "zh": "进击强化",
+    "src": "cn"
+   },
+   "Advent of the Black Dragon": {
+    "zh": "魔龙降临",
+    "src": "cn"
+   },
+   "Apex of Transcendence": {
+    "zh": "暴击终结",
+    "src": "cn"
+   },
+   "Awakening": {
+    "zh": "觉醒",
+    "src": "cn"
+   },
+   "Berserk": {
+    "zh": "狂暴",
+    "src": "cn"
+   },
+   "Blood Thirst": {
+    "zh": "绯红渴望",
+    "src": "cn"
+   },
+   "Brink of Death": {
+    "zh": "危险边缘",
+    "src": "cn"
+   },
+   "Bursting Fist": {
+    "zh": "潜龙",
+    "src": "cn"
+   },
+   "Capture Opportunity": {
+    "zh": "捕捉漏洞",
+    "src": "cn"
+   },
+   "Circumstantial Judgment": {
+    "zh": "审时度势",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Conflagration Attack": {
+    "zh": "火神一击",
+    "src": "cn"
+   },
+   "Counter Effect": {
+    "zh": "透体攻击",
+    "src": "cn"
+   },
+   "Create Shock": {
+    "zh": "冲击生成",
+    "src": "cn"
+   },
+   "Damage Amplification": {
+    "zh": "伤害增幅",
+    "src": "cn"
+   },
+   "Dangerous Contract": {
+    "zh": "轻击",
+    "src": "cn"
+   },
+   "Death Band": {
+    "zh": "突击队",
+    "src": "cn"
+   },
+   "Deathblow": {
+    "zh": "最终连击",
+    "src": "cn"
+   },
+   "Defenseless Target": {
+    "zh": "趁势追击",
+    "src": "cn"
+   },
+   "Destroyer": {
+    "zh": "破坏者",
+    "src": "cn"
+   },
+   "Dragon King Bombardment": {
+    "zh": "龙王暴击",
+    "src": "cn"
+   },
+   "Dragon's Fury": {
+    "zh": "龙之怒",
+    "src": "cn"
+   },
+   "Dragon's Grace": {
+    "zh": "龙之庇佑",
+    "src": "cn"
+   },
+   "Dynamic Absorption": {
+    "zh": "弱点汲取",
+    "src": "cn"
+   },
+   "Efficient Strike": {
+    "zh": "有效打击",
+    "src": "cn"
+   },
+   "Endless Fury": {
+    "zh": "狂怒未尽",
+    "src": "cn"
+   },
+   "Enhanced Fist": {
+    "zh": "强化之拳",
+    "src": "cn"
+   },
+   "Enhanced Hit": {
+    "zh": "强力下劈",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Enhanced Tenacity Release": {
+    "zh": "斗志昂扬强化",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Fighter's Dignity": {
+    "zh": "霸拳之傲",
+    "src": "cn"
+   },
+   "Final Victor": {
+    "zh": "完美领域",
+    "src": "cn"
+   },
+   "Fist of Endurance": {
+    "zh": "坚固盔甲",
+    "src": "cn"
+   },
+   "Fist of Patience": {
+    "zh": "忍耐之拳",
+    "src": "cn"
+   },
+   "Flame Explosion": {
+    "zh": "烈焰爆炸",
+    "src": "cn"
+   },
+   "Focus": {
+    "zh": "专注",
+    "src": "cn"
+   },
+   "Focused Fighting Spirit": {
+    "zh": "斗志集中",
+    "src": "cn"
+   },
+   "Force Wave": {
+    "zh": "气功波",
+    "src": "cn"
+   },
+   "Furious Hit": {
+    "zh": "愤怒打击",
+    "src": "cn"
+   },
+   "Fury Explosion": {
+    "zh": "愤怒爆炸",
+    "src": "cn"
+   },
+   "Great Explosion": {
+    "zh": "大爆炸",
+    "src": "cn"
+   },
+   "Hawk Claw": {
+    "zh": "天鹰爪",
+    "src": "cn"
+   },
+   "Heavy Blow": {
+    "zh": "极蓄一击",
+    "src": "cn"
+   },
+   "Ignorant Hit": {
+    "zh": "连环叩打",
+    "src": "cn"
+   },
+   "Immediate Destruction": {
+    "zh": "压倒",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Light Speed Strike": {
+    "zh": "光速打击",
+    "src": "cn"
+   },
+   "Madman": {
+    "zh": "狂人",
+    "src": "cn"
+   },
+   "Mastery": {
+    "zh": "通达",
+    "src": "cn"
+   },
+   "Meditation": {
+    "zh": "冥想",
+    "src": "cn"
+   },
+   "Moment of Truth": {
+    "zh": "瞬间捕捉",
+    "src": "cn"
+   },
+   "Muscle Rupture": {
+    "zh": "肌肉撕裂",
+    "src": "cn"
+   },
+   "Overflowing Force": {
+    "zh": "力量溢出",
+    "src": "cn"
+   },
+   "Overflowing Power": {
+    "zh": "无穷之力",
+    "src": "cn"
+   },
+   "Piercing Strike": {
+    "zh": "穿透一击",
+    "src": "cn"
+   },
+   "Pounce": {
+    "zh": "突进",
+    "src": "cn"
+   },
+   "Powerful Blow": {
+    "zh": "强劲一击",
+    "src": "cn"
+   },
+   "Powerful Oath": {
+    "zh": "强烈誓言",
+    "src": "cn"
+   },
+   "Precision": {
+    "zh": "精准头击",
+    "src": "cn"
+   },
+   "Propulsion": {
+    "zh": "迅猛突袭",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Raging Bombardment": {
+    "zh": "虎噬",
+    "src": "cn"
+   },
+   "Rampage": {
+    "zh": "乱射",
+    "src": "cn"
+   },
+   "Red Explosion": {
+    "zh": "赤红爆炸",
+    "src": "cn"
+   },
+   "Refine Skill": {
+    "zh": "飞空连击",
+    "src": "cn"
+   },
+   "Reinforced Hit": {
+    "zh": "加强打击",
+    "src": "cn"
+   },
+   "Reverse Hit": {
+    "zh": "逆击",
+    "src": "cn"
+   },
+   "Righteous Pillage": {
+    "zh": "正义掠夺",
+    "src": "cn"
+   },
+   "Rough Smash": {
+    "zh": "连环粉碎",
+    "src": "cn"
+   },
+   "Ruthless Advance": {
+    "zh": "连续冲拳",
+    "src": "cn"
+   },
+   "Scary Will": {
+    "zh": "追加连击",
+    "src": "cn"
+   },
+   "Shaking Ground": {
+    "zh": "震荡地带",
+    "src": "cn"
+   },
+   "Shock Efficiency": {
+    "zh": "丹田强化",
+    "src": "cn"
+   },
+   "Shock Explosion": {
+    "zh": "冲击爆炸",
+    "src": "cn"
+   },
+   "Skillfulness": {
+    "zh": "技艺精通",
+    "src": "cn"
+   },
+   "Spinless Hit": {
+    "zh": "无尽之意",
+    "src": "cn"
+   },
+   "Stamina Control": {
+    "zh": "气力运转",
+    "src": "cn"
+   },
+   "Steel Fist": {
+    "zh": "强劲之拳",
+    "src": "cn"
+   },
+   "Stone Fist": {
+    "zh": "强韧之拳",
+    "src": "cn"
+   },
+   "Super Punch": {
+    "zh": "超级拳",
+    "src": "cn"
+   },
+   "Superthermal Wave": {
+    "zh": "超烈波动",
+    "src": "cn"
+   },
+   "Swift Charge": {
+    "zh": "迅速充能",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Preparation": {
+    "zh": "迅速准备",
+    "src": "cn"
+   },
+   "Swing": {
+    "zh": "挥击",
+    "src": "cn"
+   },
+   "Target Focus": {
+    "zh": "集火目标",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Tendon Rupture": {
+    "zh": "真空波动击",
+    "src": "cn"
+   },
+   "Tracking Instinct": {
+    "zh": "追击本能",
+    "src": "cn"
+   },
+   "Triple Chain Kill": {
+    "zh": "碎月三连击",
+    "src": "cn"
+   },
+   "True Judgment": {
+    "zh": "天空判罚",
+    "src": "cn"
+   },
+   "True Sight": {
+    "zh": "疾风迅影",
+    "src": "cn"
+   },
+   "Unconventional": {
+    "zh": "蓄气冲拳",
+    "src": "cn"
+   },
+   "Violent Advance": {
+    "zh": "狂暴乱舞",
+    "src": "cn"
+   },
+   "Violent Fist": {
+    "zh": "过载拳击",
+    "src": "cn"
+   },
+   "Vital Point Hit": {
+    "zh": "弱点压制",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weaving": {
+    "zh": "躲闪",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   }
+  }
+ },
+ {
+  "class_id": 304,
+  "class_en": "Soulfist",
+  "class_zh": "气功师",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=304",
+   "https://lostark.dvg.cn/api/skill_list.php?class=304&page_size=100",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=304",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B&page_size=100 (core items; English names matched by identical item IDs on https://lostarkcodex.com/us/item/<id>/)",
+   "https://www.gamersky.com/handbook/202308/1630939.shtml"
+  ],
+  "skills": {
+   "Bolting Crash": {
+    "zh": "回旋击坠",
+    "src": "cn"
+   },
+   "Celestial Palm": {
+    "zh": "如来神掌",
+    "src": "cn"
+   },
+   "Decimation Ray": {
+    "zh": "极上闪光炮",
+    "src": "cn"
+   },
+   "End Hype": null,
+   "Energy Blast": {
+    "zh": "闪裂波",
+    "src": "cn"
+   },
+   "Energy Bullet": {
+    "zh": "气功弹",
+    "src": "cn"
+   },
+   "Falling Sun": {
+    "zh": "落日灭天玉",
+    "src": "cn"
+   },
+   "Flash Step": {
+    "zh": "瞬步",
+    "src": "cn"
+   },
+   "Force Orb": {
+    "zh": "气功掌",
+    "src": "cn"
+   },
+   "Heavenly Spiral Palm": {
+    "zh": "天流螺旋掌",
+    "src": "cn"
+   },
+   "Hype": {
+    "zh": "金钢禅功",
+    "src": "cn"
+   },
+   "Illusion Strike": {
+    "zh": "幻影一击",
+    "src": "cn"
+   },
+   "Level 2 Hype": null,
+   "Level 3 Hype": null,
+   "Lightning Palm": {
+    "zh": "霹雳掌",
+    "src": "cn"
+   },
+   "Merciless Pummel": {
+    "zh": "乱花击",
+    "src": "cn"
+   },
+   "Nebulous Step": null,
+   "Palm Burst": {
+    "zh": "翻天掌",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Pulverizing Palm": {
+    "zh": "破碎掌",
+    "src": "cn"
+   },
+   "Rule the World": {
+    "zh": "君临步法",
+    "src": "cn"
+   },
+   "Shadowbreaker": {
+    "zh": "降气掌",
+    "src": "cn"
+   },
+   "Sky Slash": {
+    "zh": "天空斩",
+    "src": "cn"
+   },
+   "Skysplitting Fist": {
+    "zh": "断天霹雳手",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Supernova Purgation Ray": {
+    "zh": "超神魔闪光",
+    "src": "cn"
+   },
+   "Supreme Godfist": null,
+   "Supreme Palm": null,
+   "Supreme Technique": null,
+   "Tempest Blast": {
+    "zh": "风雷一光炮",
+    "src": "cn"
+   },
+   "World Decimation": {
+    "zh": "毁灭之玉",
+    "src": "cn"
+   },
+   "Yin Yang Palm": {
+    "zh": "阴阳神掌",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Annihilating Void": {
+    "zh": "极灭真空",
+    "src": "cn"
+   },
+   "Blinding Obliteration": {
+    "zh": "光灭狱",
+    "src": "cn"
+   },
+   "Brilliant Rush": {
+    "zh": "狂流连波",
+    "src": "cn"
+   },
+   "Chain Annihilation": {
+    "zh": "连环歼灭",
+    "src": "cn"
+   },
+   "Divine Extermination": {
+    "zh": "神掌大灭劫",
+    "src": "cn"
+   },
+   "Energy Burst": {
+    "zh": "蓄气弹空",
+    "src": "cn"
+   },
+   "Force Cycle": {
+    "zh": "蓄气回流",
+    "src": "cn"
+   },
+   "Heavenly Squall": {
+    "zh": "天流闪烈风",
+    "src": "cn"
+   },
+   "Hundred Chain Strike": {
+    "zh": "百连锁功",
+    "src": "cn"
+   },
+   "Piercing Spiral": {
+    "zh": "破空螺旋",
+    "src": "cn"
+   },
+   "Protective Cycle": {
+    "zh": "连太极",
+    "src": "cn"
+   },
+   "Recovery Bullet": {
+    "zh": "回气弹丸",
+    "src": "cn"
+   },
+   "Shadowless": {
+    "zh": "无影无相",
+    "src": "cn"
+   },
+   "Shadowsweep": {
+    "zh": "佛影势",
+    "src": "cn"
+   },
+   "Sky Shattering Strike": {
+    "zh": "破天闪诀",
+    "src": "cn"
+   },
+   "Supreme Connection": {
+    "zh": "无上气缘",
+    "src": "cn"
+   },
+   "True Rising Fist": {
+    "zh": "真无上击",
+    "src": "cn"
+   },
+   "Yin Yang Technique": {
+    "zh": "阴阳诀",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Blooming Convergence": {
+    "zh": "三花聚顶",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Core Mastery": {
+    "zh": "丹田大成",
+    "src": "cn"
+   },
+   "Final Strike": {
+    "zh": "最后一击",
+    "src": "cn"
+   },
+   "Hype Enhancement": {
+    "zh": "金钢禅功强化",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Keen Force": {
+    "zh": "锋利气功",
+    "src": "cn"
+   },
+   "Level Adaptation": {
+    "zh": "阶段适应",
+    "src": "cn"
+   },
+   "Limit Break": {
+    "zh": "突破极限",
+    "src": "cn"
+   },
+   "Maximize Energy": {
+    "zh": "气运调和",
+    "src": "cn"
+   },
+   "Primordial Energy": {
+    "zh": "混元真气",
+    "src": "cn"
+   },
+   "Quintuple Equilibrium": {
+    "zh": "五气朝元",
+    "src": "cn"
+   },
+   "Recoil Control": {
+    "zh": "反动控制",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Robust Spirit": {
+    "zh": "逆天之体",
+    "src": "cn"
+   },
+   "Sky Walk": {
+    "zh": "虚空踏步",
+    "src": "cn"
+   },
+   "Supreme Art": {
+    "zh": "无上神功",
+    "src": "cn"
+   },
+   "Supreme Esoterica": {
+    "zh": "无上真诀",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unbreakable": {
+    "zh": "金钢",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Aggressiveness": {
+    "zh": "连续直击",
+    "src": "cn"
+   },
+   "Aircleave": {
+    "zh": "真元断空闪",
+    "src": "cn"
+   },
+   "Apex": {
+    "zh": "境界",
+    "src": "cn"
+   },
+   "Assimilation": {
+    "zh": "同化",
+    "src": "cn"
+   },
+   "Aura Expansion": {
+    "zh": "气感扩张",
+    "src": "cn"
+   },
+   "Brutal Honesty": {
+    "zh": "愚直",
+    "src": "cn"
+   },
+   "Burning Hands": {
+    "zh": "火焰攻击",
+    "src": "cn"
+   },
+   "Chain": {
+    "zh": "连锁",
+    "src": "cn"
+   },
+   "Charge Enhancement": {
+    "zh": "蓄力强化",
+    "src": "cn"
+   },
+   "Clear Hit": {
+    "zh": "准确一击",
+    "src": "cn"
+   },
+   "Coldhearted": {
+    "zh": "冷静反应",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Contagious Burn": {
+    "zh": "扩散烧伤",
+    "src": "cn"
+   },
+   "Dance of Death": {
+    "zh": "四方震元舞",
+    "src": "cn"
+   },
+   "Defenseless Target": {
+    "zh": "趁势追击",
+    "src": "cn"
+   },
+   "Demolition": {
+    "zh": "爆发打击",
+    "src": "cn"
+   },
+   "Double Up": {
+    "zh": "残像攻击",
+    "src": "cn"
+   },
+   "Dynamic Dimension": {
+    "zh": "时空变化",
+    "src": "cn"
+   },
+   "Efficient Striker": {
+    "zh": "运气控制",
+    "src": "cn"
+   },
+   "Endless Passion": {
+    "zh": "无尽热忱",
+    "src": "cn"
+   },
+   "Energy Focus Technique": {
+    "zh": "断空集中式",
+    "src": "cn"
+   },
+   "Energy Training": {
+    "zh": "内功修炼",
+    "src": "cn"
+   },
+   "Enhanced Speed": {
+    "zh": "速度强化",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Enormous Palm": {
+    "zh": "连环掌",
+    "src": "cn"
+   },
+   "Eradication": {
+    "zh": "真气狂乱",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Explosive Strength": {
+    "zh": "爆发之力",
+    "src": "cn"
+   },
+   "Ferocious Strike": {
+    "zh": "猛袭",
+    "src": "cn"
+   },
+   "Fighting Spirit Enh.": {
+    "zh": "斗志强化",
+    "src": "cn"
+   },
+   "Fighting Spirit Enhancement": {
+    "zh": "斗志强化",
+    "src": "cn"
+   },
+   "Firepower Control": {
+    "zh": "兵力调节",
+    "src": "cn"
+   },
+   "Focus": {
+    "zh": "专注",
+    "src": "cn"
+   },
+   "Gravitational Blow": {
+    "zh": "奋力一击",
+    "src": "cn"
+   },
+   "Growing Wave": {
+    "zh": "扩散波动",
+    "src": "cn"
+   },
+   "Harsh Training": {
+    "zh": "严酷训练",
+    "src": "cn"
+   },
+   "Ice Cold Hands": {
+    "zh": "冰霜攻击",
+    "src": "cn"
+   },
+   "Impaired Mobility": {
+    "zh": "削弱机动",
+    "src": "cn"
+   },
+   "In a Tight Spot": {
+    "zh": "四面楚歌",
+    "src": "cn"
+   },
+   "Inhale": {
+    "zh": "吸气",
+    "src": "cn"
+   },
+   "Inner Lightning": {
+    "zh": "霹雳心诀",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Lightning Fast": {
+    "zh": "电光石火",
+    "src": "cn"
+   },
+   "Magnetic Orb": {
+    "zh": "空间吸附",
+    "src": "cn"
+   },
+   "Master Palm Striker": {
+    "zh": "达人掌法",
+    "src": "cn"
+   },
+   "Master of Combat": {
+    "zh": "战斗达人",
+    "src": "cn"
+   },
+   "Merciless Hands": {
+    "zh": "残忍之掌",
+    "src": "cn"
+   },
+   "One Last Shot": {
+    "zh": "最后一发",
+    "src": "cn"
+   },
+   "Oversupply": {
+    "zh": "连射增幅",
+    "src": "cn"
+   },
+   "Penetrating Pain": {
+    "zh": "穿透之痛",
+    "src": "cn"
+   },
+   "Powerful Wave": {
+    "zh": "波动强化",
+    "src": "cn"
+   },
+   "Purify": {
+    "zh": "净化",
+    "src": "cn"
+   },
+   "Quick Pace": {
+    "zh": "迅捷移动",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Ranged Hit": {
+    "zh": "远程打击",
+    "src": "cn"
+   },
+   "Relentlessness": {
+    "zh": "密集攻击",
+    "src": "cn"
+   },
+   "Reverse Polarities": {
+    "zh": "两仪逆行",
+    "src": "cn"
+   },
+   "Ruthless": {
+    "zh": "无情",
+    "src": "cn"
+   },
+   "Ruthless Fighter": {
+    "zh": "无悔攻击",
+    "src": "cn"
+   },
+   "Scattering Wave": {
+    "zh": "空间膨胀",
+    "src": "cn"
+   },
+   "Seething Fighting Spirit": {
+    "zh": "斗志燃烧",
+    "src": "cn"
+   },
+   "Sharp Attack": {
+    "zh": "精确攻击",
+    "src": "cn"
+   },
+   "Shattering the Heavens": {
+    "zh": "千军破碎",
+    "src": "cn"
+   },
+   "Sixth Sense": {
+    "zh": "武者直觉",
+    "src": "cn"
+   },
+   "Smooth Armor": {
+    "zh": "光滑盔甲",
+    "src": "cn"
+   },
+   "Song of Time": {
+    "zh": "时光之歌",
+    "src": "cn"
+   },
+   "Stable Stance": {
+    "zh": "稳定姿态",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬的铠甲",
+    "src": "cn"
+   },
+   "Surging Wave": {
+    "zh": "空间收缩",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Tireless": {
+    "zh": "不倦",
+    "src": "cn"
+   },
+   "Tough Shoulder": {
+    "zh": "铁山靠",
+    "src": "cn"
+   },
+   "Trance": {
+    "zh": "无我之境",
+    "src": "cn"
+   },
+   "Unavoidable Blow": {
+    "zh": "必中一击",
+    "src": "cn"
+   },
+   "Uncanny Movement": {
+    "zh": "灵巧身法",
+    "src": "cn"
+   },
+   "Unstoppable Force": {
+    "zh": "势如破竹",
+    "src": "cn"
+   },
+   "Volant": {
+    "zh": "卓越行动",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   },
+   "Yin Yang Trajectory": {
+    "zh": "阴阳轨迹",
+    "src": "cn"
+   }
+  }
+ },
+ {
+  "class_id": 305,
+  "class_en": "Glaivier",
+  "class_zh": "枪术士",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=305",
+   "https://lostark.dvg.cn/api/skill_list.php?class=305&page_size=100",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=305",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B&page_size=100 (core items; English names matched by identical item IDs on https://lostarkcodex.com/us/item/<id>/)",
+   "http://news.17173.com/z/fz/content/07172023/133751354.shtml"
+  ],
+  "skills": {
+   "4-Headed Dragon": {
+    "zh": "龙击术",
+    "src": "cn"
+   },
+   "Blue Dragon's Claw": {
+    "zh": "苍龙出水",
+    "src": "cn"
+   },
+   "Breakthrough": null,
+   "Chain Slash": {
+    "zh": "连环刀",
+    "src": "cn"
+   },
+   "Cutting Wind": {
+    "zh": "疾风刀",
+    "src": "cn"
+   },
+   "Deadly Red Dragon": {
+    "zh": "赤龙必杀",
+    "src": "cn"
+   },
+   "Double Strike": {
+    "zh": "二连刀",
+    "src": "cn"
+   },
+   "Dragon's Rampage": {
+    "zh": "猛龙乱武",
+    "src": "cn"
+   },
+   "Dragonscale Defense": {
+    "zh": "绝龙势",
+    "src": "cn"
+   },
+   "Flash Kick": {
+    "zh": "飞燕脚",
+    "src": "cn"
+   },
+   "Flurry Stance": {
+    "zh": "乱舞姿态",
+    "src": "cn"
+   },
+   "Focus Stance": {
+    "zh": "专注姿态",
+    "src": "cn"
+   },
+   "Half Moon Slash": {
+    "zh": "半月刀",
+    "src": "cn"
+   },
+   "Mirage Dash": null,
+   "Perfect Block": null,
+   "Raging Dragon Slash": {
+    "zh": "猛龙烈波",
+    "src": "cn"
+   },
+   "Red Dragon's Horn": {
+    "zh": "炽龙破",
+    "src": "cn"
+   },
+   "Shackling Blue Dragon": {
+    "zh": "青龙震",
+    "src": "cn"
+   },
+   "Soul Cutter": {
+    "zh": "仙风斩魂",
+    "src": "cn"
+   },
+   "Spear Dive": {
+    "zh": "大义演武",
+    "src": "cn"
+   },
+   "Spiraling Spear": {
+    "zh": "螺旋枪",
+    "src": "cn"
+   },
+   "Stampeding Slash": {
+    "zh": "裂空刀",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Starfall Pounce": {
+    "zh": "流星落",
+    "src": "cn"
+   },
+   "Thorn Jab": {
+    "zh": "燕绕梁",
+    "src": "cn"
+   },
+   "Thrust of Destruction": {
+    "zh": "轰热波",
+    "src": "cn"
+   },
+   "Wheel of Blades": {
+    "zh": "回旋刀",
+    "src": "cn"
+   },
+   "Windsplitter": {
+    "zh": "风震击",
+    "src": "cn"
+   },
+   "Yeon-Style Encore": {
+    "zh": "燕家深空",
+    "src": "cn"
+   },
+   "Yeon-Style Technique": {
+    "zh": "燕家秘技",
+    "src": "cn"
+   },
+   "Yeon-style Spear Technique: Dragon Cavalry Unity Slash": {
+    "zh": "燕式秘传：龙马一合歼",
+    "src": "cn"
+   },
+   "Yeon-style Spear Technique: Galaxy Flying Spear": {
+    "zh": "燕式秘传：银河飞歼枪",
+    "src": "cn"
+   },
+   "Yeon-style Spear Technique: Spear Meteor": {
+    "zh": "燕家枪术:银河流星",
+    "src": "cn"
+   },
+   "Yeon-style Spear Technique: Storming Red Dragon": {
+    "zh": "燕家枪术:骁龙疾风",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Apotheosis": {
+    "zh": "秘技升华",
+    "src": "cn"
+   },
+   "Azure Dragon Energy": {
+    "zh": "青龙之力",
+    "src": "cn"
+   },
+   "Chain Hit": {
+    "zh": "连环打击",
+    "src": "cn"
+   },
+   "Dual Technique": {
+    "zh": "枪矛刺影",
+    "src": "cn"
+   },
+   "Evolution's End": {
+    "zh": "最终进化",
+    "src": "cn"
+   },
+   "Focus Enhancement": {
+    "zh": "集中强化",
+    "src": "cn"
+   },
+   "Galewind Barrage": {
+    "zh": "疾风连击",
+    "src": "cn"
+   },
+   "Illusion": {
+    "zh": "幻影",
+    "src": "cn"
+   },
+   "Pinpoint Focus": {
+    "zh": "专注一点",
+    "src": "cn"
+   },
+   "Raging Dragon Energy": {
+    "zh": "威龙气息",
+    "src": "cn"
+   },
+   "Raging Dragon Quintuple Strike": {
+    "zh": "威龙五击",
+    "src": "cn"
+   },
+   "Raging Dragon Slash": {
+    "zh": "猛龙回刀",
+    "src": "cn"
+   },
+   "Red Dragon Barrage": {
+    "zh": "炽龙连击",
+    "src": "cn"
+   },
+   "Red Dragon Energy": {
+    "zh": "炽龙气息",
+    "src": "cn"
+   },
+   "Single Point Breakthrough": {
+    "zh": "透点崩坏",
+    "src": "cn"
+   },
+   "Wild Barrage": {
+    "zh": "乱舞连击",
+    "src": "cn"
+   },
+   "Yeon-Style Slash": {
+    "zh": "燕家一闪",
+    "src": "cn"
+   },
+   "Yeon-Style Spear Technique": {
+    "zh": "燕家枪术",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Control": {
+    "zh": "节制",
+    "src": "cn"
+   },
+   "Draconic Shout": {
+    "zh": "高声叫嚷",
+    "src": "cn"
+   },
+   "Final Decision": {
+    "zh": "最终决断",
+    "src": "cn"
+   },
+   "Flurry Enhancement": {
+    "zh": "乱舞强化",
+    "src": "cn"
+   },
+   "Flurry Move": {
+    "zh": "乱舞移动",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Lethal Slash": {
+    "zh": "危险的割砍",
+    "src": "cn"
+   },
+   "Piercing Fatal Blow": {
+    "zh": "穿透必歼",
+    "src": "cn"
+   },
+   "Pinnacle I": {
+    "zh": "巅峰1",
+    "src": "cn"
+   },
+   "Pinnacle II": {
+    "zh": "巅峰2",
+    "src": "cn"
+   },
+   "Pinnacle III": {
+    "zh": "巅峰3",
+    "src": "cn"
+   },
+   "Power Stab": {
+    "zh": "强劲刺击",
+    "src": "cn"
+   },
+   "Powerful Strike": {
+    "zh": "强韧打击",
+    "src": "cn"
+   },
+   "Quick-Change Crits": {
+    "zh": "转换乱舞",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Yeon-Style Encore": {
+    "zh": "燕家深空",
+    "src": "cn"
+   },
+   "Yeon-Style Mark": {
+    "zh": "燕家标识",
+    "src": "cn"
+   },
+   "Yeon-Style Technique": {
+    "zh": "燕家秘技",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "": null,
+   "Absolute Defense": {
+    "zh": "绝对防御",
+    "src": "cn"
+   },
+   "Additional Slash": {
+    "zh": "追加一刀",
+    "src": "cn"
+   },
+   "Air-Ripping Thrust": {
+    "zh": "空破波",
+    "src": "cn"
+   },
+   "Air-Splitting Slash": {
+    "zh": "共鸣波",
+    "src": "cn"
+   },
+   "Airborne Raid": {
+    "zh": "凌空踢",
+    "src": "cn"
+   },
+   "Airsplitter": {
+    "zh": "破空斩",
+    "src": "cn"
+   },
+   "Alacrity": {
+    "zh": "迅速强化",
+    "src": "cn"
+   },
+   "Attack Precision": {
+    "zh": "准确攻击",
+    "src": "cn"
+   },
+   "Awakening": {
+    "zh": "觉醒",
+    "src": "cn"
+   },
+   "Bind Feet": {
+    "zh": "绑脚",
+    "src": "cn"
+   },
+   "Blade of Tornado": {
+    "zh": "风月击",
+    "src": "cn"
+   },
+   "Blasting Thrust": {
+    "zh": "真气爆发",
+    "src": "cn"
+   },
+   "Blitz": {
+    "zh": "专注击破",
+    "src": "cn"
+   },
+   "Bond of Trust": {
+    "zh": "协同强化",
+    "src": "cn"
+   },
+   "Brilliant Spear": {
+    "zh": "光辉之矛",
+    "src": "cn"
+   },
+   "Captive Target": {
+    "zh": "雷电标靶",
+    "src": "cn"
+   },
+   "Charged Thrust": {
+    "zh": "聚气穿刺",
+    "src": "cn"
+   },
+   "Chasing Slash": {
+    "zh": "突月击",
+    "src": "cn"
+   },
+   "Company of War": {
+    "zh": "战场盟友",
+    "src": "cn"
+   },
+   "Concentration": {
+    "zh": "统领",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Consecutive Spin": {
+    "zh": "连续旋转",
+    "src": "cn"
+   },
+   "Corkscrew": {
+    "zh": "螺旋踢",
+    "src": "cn"
+   },
+   "Corral": {
+    "zh": "蜂拥而至",
+    "src": "cn"
+   },
+   "Defenseless Target": {
+    "zh": "趁势追击",
+    "src": "cn"
+   },
+   "Determination": {
+    "zh": "坚定意志",
+    "src": "cn"
+   },
+   "Double Upper Slash": {
+    "zh": "双重上击",
+    "src": "cn"
+   },
+   "Down Strike": {
+    "zh": "下劈",
+    "src": "cn"
+   },
+   "Earth Attack": {
+    "zh": "大地攻击",
+    "src": "cn"
+   },
+   "Earth Slash": {
+    "zh": "大地切割",
+    "src": "cn"
+   },
+   "Elemental Smite": {
+    "zh": "属性袭击",
+    "src": "cn"
+   },
+   "Enhanced Concussion": {
+    "zh": "强力震荡",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Enhanced Technique": {
+    "zh": "矛术强化",
+    "src": "cn"
+   },
+   "Evolving Technique": {
+    "zh": "进化之矛",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Falling Spear": {
+    "zh": "落刀",
+    "src": "cn"
+   },
+   "Fatal Aim": {
+    "zh": "最终瞄准",
+    "src": "cn"
+   },
+   "Fatal Strike": {
+    "zh": "危险攻击",
+    "src": "cn"
+   },
+   "Final Decision": {
+    "zh": "最终决断",
+    "src": "cn"
+   },
+   "Firepower Control": {
+    "zh": "兵力调节",
+    "src": "cn"
+   },
+   "Firm Belief": {
+    "zh": "坚定信念",
+    "src": "cn"
+   },
+   "Flame Slash": {
+    "zh": "火焰刀",
+    "src": "cn"
+   },
+   "Frost Slash": {
+    "zh": "冰霜刀",
+    "src": "cn"
+   },
+   "Grand Cycle": {
+    "zh": "大回旋",
+    "src": "cn"
+   },
+   "Ground Cleave": {
+    "zh": "撕裂大地",
+    "src": "cn"
+   },
+   "Ground Explosion": {
+    "zh": "爆裂追击",
+    "src": "cn"
+   },
+   "Ground Smash": {
+    "zh": "地面强击",
+    "src": "cn"
+   },
+   "Ground-Breaker": {
+    "zh": "大地破坏",
+    "src": "cn"
+   },
+   "Illusion Strike": {
+    "zh": "幻影斩",
+    "src": "cn"
+   },
+   "Illusory Chain Slash": {
+    "zh": "幻影击",
+    "src": "cn"
+   },
+   "Illusory Double": {
+    "zh": "镜花水月",
+    "src": "cn"
+   },
+   "Inertia": {
+    "zh": "步步为营",
+    "src": "cn"
+   },
+   "Magick Control": {
+    "zh": "魔力调节",
+    "src": "cn"
+   },
+   "Mind Destruction": {
+    "zh": "精神破坏",
+    "src": "cn"
+   },
+   "Multiple Thrust": {
+    "zh": "连续穿刺",
+    "src": "cn"
+   },
+   "Perfect Landing": {
+    "zh": "完美着陆",
+    "src": "cn"
+   },
+   "Piercing Thrust": {
+    "zh": "真气延展",
+    "src": "cn"
+   },
+   "Powerful Finish": {
+    "zh": "强力终结",
+    "src": "cn"
+   },
+   "Precise Slash": {
+    "zh": "精细一刀",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Quick Slash": {
+    "zh": "迂回一刀",
+    "src": "cn"
+   },
+   "Quick Step": {
+    "zh": "迅速前进",
+    "src": "cn"
+   },
+   "Raid": {
+    "zh": "袭击",
+    "src": "cn"
+   },
+   "Reaction Speed": {
+    "zh": "反应速度",
+    "src": "cn"
+   },
+   "Ripping Blades": {
+    "zh": "狂风骤雨",
+    "src": "cn"
+   },
+   "Scoop": {
+    "zh": "扬踢",
+    "src": "cn"
+   },
+   "Shadow Thrust": {
+    "zh": "暗影穿刺",
+    "src": "cn"
+   },
+   "Sharp Dive": {
+    "zh": "锋利一击",
+    "src": "cn"
+   },
+   "Sharper Follow-Up": {
+    "zh": "锋利扬击",
+    "src": "cn"
+   },
+   "Shield": {
+    "zh": "护盾",
+    "src": "cn"
+   },
+   "Shoulder Slam": {
+    "zh": "肩击",
+    "src": "cn"
+   },
+   "Slam": {
+    "zh": "迅猛下刺",
+    "src": "cn"
+   },
+   "Spear of Destruction": {
+    "zh": "毁灭之矛",
+    "src": "cn"
+   },
+   "Spin Upper Slash": {
+    "zh": "转月刀",
+    "src": "cn"
+   },
+   "Spinning Flames": {
+    "zh": "火焰旋转",
+    "src": "cn"
+   },
+   "Spinning Frost": {
+    "zh": "冰霜旋转",
+    "src": "cn"
+   },
+   "Spinning Lightning": {
+    "zh": "雷电旋转",
+    "src": "cn"
+   },
+   "Spiral Thrust": {
+    "zh": "螺旋穿刺",
+    "src": "cn"
+   },
+   "Stretch": {
+    "zh": "风月压",
+    "src": "cn"
+   },
+   "Strong Upper Kick": {
+    "zh": "强劲上踢",
+    "src": "cn"
+   },
+   "Stun Effect": {
+    "zh": "眩晕效果",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬盔甲",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Response": {
+    "zh": "快速响应",
+    "src": "cn"
+   },
+   "Swoop": {
+    "zh": "突袭",
+    "src": "cn"
+   },
+   "Target Weak Point": {
+    "zh": "弱点击破",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "The Last Spear": {
+    "zh": "终结之矛",
+    "src": "cn"
+   },
+   "Undefeated": {
+    "zh": "一骑当千",
+    "src": "cn"
+   },
+   "Unyielding Spirit": {
+    "zh": "不屈勇气",
+    "src": "cn"
+   },
+   "Valor": {
+    "zh": "英勇行动",
+    "src": "cn"
+   },
+   "Violent Thrust": {
+    "zh": "粗暴穿刺",
+    "src": "cn"
+   },
+   "Vital Point Attack": {
+    "zh": "弱点强击",
+    "src": "cn"
+   },
+   "Vital Point Hit": {
+    "zh": "弱点压制",
+    "src": "cn"
+   },
+   "Wall of Spears": {
+    "zh": "御矛遮幕",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   },
+   "Wide-Angle Attack": {
+    "zh": "广域攻击",
+    "src": "cn"
+   }
+  }
+ },
+ {
+  "class_id": 312,
+  "class_en": "Striker",
+  "class_zh": "战魂",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=312",
+   "https://lostark.dvg.cn/api/skill_list.php?class=312&page_size=100",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=312",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B&page_size=100 (core items; English names matched by identical item IDs on https://lostarkcodex.com/us/item/<id>/)"
+  ],
+  "skills": {
+   "Advancing Strike": {
+    "zh": "无尽霸王击",
+    "src": "cn"
+   },
+   "Berserk Circle": {
+    "zh": "狂爆阵",
+    "src": "cn"
+   },
+   "Charging Steps": null,
+   "Esoteric Skill: Blast Formation": {
+    "zh": "奥义：镇岳击",
+    "src": "cn"
+   },
+   "Esoteric Skill: Call of the Wind God": {
+    "zh": "奥义：龙卷残云",
+    "src": "cn"
+   },
+   "Esoteric Skill: Charging Kick": {
+    "zh": "奥义：青炎脚",
+    "src": "cn"
+   },
+   "Esoteric Skill: Lightning Tiger Strike": {
+    "zh": "奥义：雷虎击",
+    "src": "cn"
+   },
+   "Esoteric Skill: Spiral Impact": {
+    "zh": "奥义：螺旋劲",
+    "src": "cn"
+   },
+   "Esoteric Skill: Tiger Emerges": {
+    "zh": "奥义：寅虎出击",
+    "src": "cn"
+   },
+   "Flash Heat Fang": {
+    "zh": "闪裂乱牙",
+    "src": "cn"
+   },
+   "Lightning Kick": {
+    "zh": "雷鸣脚",
+    "src": "cn"
+   },
+   "Lightning Whisper": {
+    "zh": "雷之轻语",
+    "src": "cn"
+   },
+   "Moon Flash Kick": {
+    "zh": "月闪腿",
+    "src": "cn"
+   },
+   "Orb's Blessing": {
+    "zh": "元素球祝福",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Phoenix Advent": {
+    "zh": "凤鸣岐山",
+    "src": "cn"
+   },
+   "Sky Shattering Blow": {
+    "zh": "崩天腿",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Storm Dragon Kick": {
+    "zh": "云龙脚",
+    "src": "cn"
+   },
+   "Sweeping Hidden Dragon": {
+    "zh": "龙牙突",
+    "src": "cn"
+   },
+   "Sweeping Kick": {
+    "zh": "方天击",
+    "src": "cn"
+   },
+   "Swift Wind Kick": {
+    "zh": "超风腿",
+    "src": "cn"
+   },
+   "Triple Fist": {
+    "zh": "三连追星",
+    "src": "cn"
+   },
+   "Ultimate Skill: Mountain Lord's Explosive Roar": {
+    "zh": "极义：山君咆哮",
+    "src": "cn"
+   },
+   "Ultimate Skill: Nova Blast": {
+    "zh": "极义：爆裂脚",
+    "src": "cn"
+   },
+   "Ultimate Skill: Potent Heavenly Kick": {
+    "zh": "极义：震天击",
+    "src": "cn"
+   },
+   "Ultimate Skill: Thunderbolt Kick": {
+    "zh": "极义：嗔天落雷脚",
+    "src": "cn"
+   },
+   "Vicious Tiger Dance": {
+    "zh": "狂虎强踢",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Cloudburst Barrage": {
+    "zh": "超极雷连击",
+    "src": "cn"
+   },
+   "Divine King's Manifestation": {
+    "zh": "天降神临",
+    "src": "cn"
+   },
+   "Dual Berserk Circle": {
+    "zh": "双击狂爆阵",
+    "src": "cn"
+   },
+   "External Power": {
+    "zh": "外功",
+    "src": "cn"
+   },
+   "Lightning Tiger": {
+    "zh": "雷虎",
+    "src": "cn"
+   },
+   "Lightning Tiger Break": {
+    "zh": "雷虎啸天",
+    "src": "cn"
+   },
+   "Lightning Tiger Fist": {
+    "zh": "迅雷极虎拳",
+    "src": "cn"
+   },
+   "Limit Smasher": {
+    "zh": "破极拳",
+    "src": "cn"
+   },
+   "Lord of Tigers": {
+    "zh": "岳之虎",
+    "src": "cn"
+   },
+   "Roaring Formation": {
+    "zh": "虎雷阵",
+    "src": "cn"
+   },
+   "Speed of Light": {
+    "zh": "闪光破",
+    "src": "cn"
+   },
+   "Storm Step": {
+    "zh": "追风逐雷步",
+    "src": "cn"
+   },
+   "Storm's Roar": {
+    "zh": "天雷咆哮",
+    "src": "cn"
+   },
+   "Thunderclap Strike": {
+    "zh": "霹雷虎脚",
+    "src": "cn"
+   },
+   "Thunderflash Strike": {
+    "zh": "闪虎雷击",
+    "src": "cn"
+   },
+   "Tiger's Roar": {
+    "zh": "虎啸",
+    "src": "cn"
+   },
+   "Utter Carnage": {
+    "zh": "狂爆",
+    "src": "cn"
+   },
+   "Void Ascension": {
+    "zh": "破尘奥义",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Deathblow I": {
+    "zh": "一击必杀1",
+    "src": "cn"
+   },
+   "Deathblow II": {
+    "zh": "一击必杀2",
+    "src": "cn"
+   },
+   "Efficient Strike": {
+    "zh": "有效打击",
+    "src": "cn"
+   },
+   "Esoteric Flurry": {
+    "zh": "奥义乱舞",
+    "src": "cn"
+   },
+   "Esoteric Skill Focus": {
+    "zh": "奥义专注",
+    "src": "cn"
+   },
+   "Flurry Enhancement": {
+    "zh": "乱舞强化",
+    "src": "cn"
+   },
+   "Focus Hit": {
+    "zh": "专注打击",
+    "src": "cn"
+   },
+   "Fully Charged": {
+    "zh": "完整充能",
+    "src": "cn"
+   },
+   "High-Speed Recharge": {
+    "zh": "高速充电",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Lethal Esoteric Skill": {
+    "zh": "危险的奥义",
+    "src": "cn"
+   },
+   "Orb Bonus": {
+    "zh": "元素球增加",
+    "src": "cn"
+   },
+   "Orb's Blessing": {
+    "zh": "元素球祝福",
+    "src": "cn"
+   },
+   "Rear Ambush": {
+    "zh": "后方奇袭",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Shortened Strike": {
+    "zh": "压缩打击",
+    "src": "cn"
+   },
+   "Taijutsu Enhancement": {
+    "zh": "体术强化",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Untouchable": {
+    "zh": "原地踏步",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "5 Chain Fist": {
+    "zh": "五星连珠",
+    "src": "cn"
+   },
+   "Absorption Hit": {
+    "zh": "强力吸附",
+    "src": "cn"
+   },
+   "Abundant Resources": {
+    "zh": "资源增幅",
+    "src": "cn"
+   },
+   "Afterimages of Lightning": {
+    "zh": "闪电残像",
+    "src": "cn"
+   },
+   "Ascension": {
+    "zh": "升天",
+    "src": "cn"
+   },
+   "Blessing of the Wind": {
+    "zh": "风之祝福",
+    "src": "cn"
+   },
+   "Burning Hands": {
+    "zh": "火焰攻击",
+    "src": "cn"
+   },
+   "Charged Kick": {
+    "zh": "聚力踢",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Consecutive Kick": {
+    "zh": "连踢",
+    "src": "cn"
+   },
+   "Crushing Wind Kick": {
+    "zh": "百烈疾风击",
+    "src": "cn"
+   },
+   "Destruction Blow": {
+    "zh": "破灭一击",
+    "src": "cn"
+   },
+   "Down Strike": {
+    "zh": "俯冲踢",
+    "src": "cn"
+   },
+   "Earth Storm": {
+    "zh": "大地风暴",
+    "src": "cn"
+   },
+   "Easy Target": {
+    "zh": "失控追击",
+    "src": "cn"
+   },
+   "Efficient Extortion": {
+    "zh": "高效汲取",
+    "src": "cn"
+   },
+   "Efficient Strike": {
+    "zh": "有效打击",
+    "src": "cn"
+   },
+   "Endless Destruction": {
+    "zh": "无尽毁灭",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Esoteric Extortion": {
+    "zh": "元素汲取",
+    "src": "cn"
+   },
+   "Exaggerated Ability": {
+    "zh": "能力突出",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Extreme Efficiency": {
+    "zh": "极限效率",
+    "src": "cn"
+   },
+   "Extreme Training": {
+    "zh": "迅捷踢击",
+    "src": "cn"
+   },
+   "Fallen Flower Kick": {
+    "zh": "落花脚",
+    "src": "cn"
+   },
+   "Fancy Footwork": {
+    "zh": "华丽腿法",
+    "src": "cn"
+   },
+   "Ferocious Attack": {
+    "zh": "猛烈攻击",
+    "src": "cn"
+   },
+   "Fierce Heat": {
+    "zh": "火爆热气",
+    "src": "cn"
+   },
+   "Final Explosion": {
+    "zh": "真气炸裂",
+    "src": "cn"
+   },
+   "Final Strike": {
+    "zh": "最后一击",
+    "src": "cn"
+   },
+   "Fire Round Kick": {
+    "zh": "火风腿",
+    "src": "cn"
+   },
+   "Fist of Darkness": {
+    "zh": "致盲攻击",
+    "src": "cn"
+   },
+   "Flame Explosion": {
+    "zh": "烈焰爆炸",
+    "src": "cn"
+   },
+   "Flame Flash Kick": {
+    "zh": "裂闪脚",
+    "src": "cn"
+   },
+   "Flash Lightning": {
+    "zh": "闪雷",
+    "src": "cn"
+   },
+   "Focus Attack": {
+    "zh": "专注攻击",
+    "src": "cn"
+   },
+   "Focus Explosion": {
+    "zh": "专注爆炸",
+    "src": "cn"
+   },
+   "Focus Hit": {
+    "zh": "专注打击",
+    "src": "cn"
+   },
+   "Freeze Effect": {
+    "zh": "冻结效果",
+    "src": "cn"
+   },
+   "Frost Explosion": {
+    "zh": "寒冰爆炸",
+    "src": "cn"
+   },
+   "Frost Storm": {
+    "zh": "冰霜风暴",
+    "src": "cn"
+   },
+   "Full Moon Kick": {
+    "zh": "满月闪",
+    "src": "cn"
+   },
+   "Furious Spin Axis": {
+    "zh": "愤怒回旋",
+    "src": "cn"
+   },
+   "Glacial Explosion": {
+    "zh": "冰霜爆发",
+    "src": "cn"
+   },
+   "Great Explosion": {
+    "zh": "大爆炸",
+    "src": "cn"
+   },
+   "Growth Attack": {
+    "zh": "成长攻击",
+    "src": "cn"
+   },
+   "Heaven's Lightning": {
+    "zh": "天雷",
+    "src": "cn"
+   },
+   "Hoseunggyuk": {
+    "zh": "虎跃击",
+    "src": "cn"
+   },
+   "Intense Shock": {
+    "zh": "强烈电击",
+    "src": "cn"
+   },
+   "Keen Footwork": {
+    "zh": "锐利步法",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Leaf Sweep": {
+    "zh": "横扫落叶",
+    "src": "cn"
+   },
+   "Light of Justice": {
+    "zh": "正义之光",
+    "src": "cn"
+   },
+   "Light-Footed": {
+    "zh": "幻闪腿",
+    "src": "cn"
+   },
+   "Lightning God Fist": {
+    "zh": "雷神拳",
+    "src": "cn"
+   },
+   "Lightning Round Kick": {
+    "zh": "雷风腿",
+    "src": "cn"
+   },
+   "Lightning Storm": {
+    "zh": "闪电风暴",
+    "src": "cn"
+   },
+   "Lightning's Blessing": {
+    "zh": "雷之祝福",
+    "src": "cn"
+   },
+   "Lucky Bubble": {
+    "zh": "幸运球",
+    "src": "cn"
+   },
+   "Magick Control": {
+    "zh": "魔力调节",
+    "src": "cn"
+   },
+   "Master Hit": {
+    "zh": "打击达人",
+    "src": "cn"
+   },
+   "Meditation Blow": {
+    "zh": "深冥一击",
+    "src": "cn"
+   },
+   "Nimble Movement": {
+    "zh": "敏捷身姿",
+    "src": "cn"
+   },
+   "Nonstop Ambush": {
+    "zh": "持久奇袭",
+    "src": "cn"
+   },
+   "Over Revolution": {
+    "zh": "超旋转",
+    "src": "cn"
+   },
+   "Piercing Strike": {
+    "zh": "穿透一击",
+    "src": "cn"
+   },
+   "Pure Excellence": {
+    "zh": "别具一格",
+    "src": "cn"
+   },
+   "Quick Blow": {
+    "zh": "快速一击",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Raging Storms": {
+    "zh": "肆虐风暴",
+    "src": "cn"
+   },
+   "Raging Wind": {
+    "zh": "狂风",
+    "src": "cn"
+   },
+   "Ring of Fire": {
+    "zh": "火圈",
+    "src": "cn"
+   },
+   "Rising Water Kick": {
+    "zh": "蛟龙出水",
+    "src": "cn"
+   },
+   "Ruthless": {
+    "zh": "无情",
+    "src": "cn"
+   },
+   "Shadowcleave": {
+    "zh": "撕裂黑暗",
+    "src": "cn"
+   },
+   "Spiral Kick": {
+    "zh": "回旋气劲",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬盔甲",
+    "src": "cn"
+   },
+   "Summon Storm": {
+    "zh": "召唤风暴",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Footwork": {
+    "zh": "迅捷出击",
+    "src": "cn"
+   },
+   "Taijutsu's Ultimate Skill": {
+    "zh": "体术极义",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Thunder Kick": {
+    "zh": "霹雳腿",
+    "src": "cn"
+   },
+   "Tiger Fang": {
+    "zh": "虎王牙",
+    "src": "cn"
+   },
+   "Transferable Lightning": {
+    "zh": "转移闪电",
+    "src": "cn"
+   },
+   "Upright": {
+    "zh": "刚直",
+    "src": "cn"
+   },
+   "Vital Point Hit": {
+    "zh": "弱点压制",
+    "src": "cn"
+   },
+   "Volcanic Eruption": {
+    "zh": "火山爆发",
+    "src": "cn"
+   },
+   "Water Dragon Kick": {
+    "zh": "水龙脚",
+    "src": "cn"
+   },
+   "Water Round Kick": {
+    "zh": "水风腿",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Weakness Exposure": {
+    "zh": "暴露弱点",
+    "src": "cn"
+   },
+   "White Tiger Kick": {
+    "zh": "白虎腿",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   },
+   "Wide-Angle Attack": {
+    "zh": "广域攻击",
+    "src": "cn"
+   }
+  }
+ }
+]

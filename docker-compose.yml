@@ -1,0 +1,15 @@
+services:
+  lostark-zh:
+    build: .
+    image: lostark-guide-zh:latest
+    container_name: lostark-zh
+    restart: unless-stopped
+    ports:
+      - "3000:3000"          # 左邊改成 NAS 上想用的埠
+    environment:
+      PORT: "3000"
+      UPSTREAM: "https://lostark.bible"
+      # REMOTE_ID: "1b5dc20"  # 通常不用設，啟動時會自動偵測
+    # 若 NAS 需要透過 proxy 連外，取消下面註解
+    # environment:
+    #   HTTPS_PROXY: "http://proxy:3128"

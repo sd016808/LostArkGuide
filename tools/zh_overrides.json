@@ -1,0 +1,53 @@
+{
+  "difficulties": {
+    "Normal": "普通",
+    "Hard": "困難",
+    "Inferno": "煉獄",
+    "Nightmare": "浩劫",
+    "Trial": "試煉",
+    "The First": "The First",
+    "Extreme Normal": "極限 普通",
+    "Extreme Hard": "極限 困難",
+    "Extreme Nightmare": "極限 浩劫",
+    "Level 1": "等級 1",
+    "Level 2": "等級 2",
+    "Level 3": "等級 3",
+    "Solo": "單人",
+    "Challenge": "挑戰"
+  },
+  "raid_categories": {
+    "Event Raid": "活動襲擊戰",
+    "Inferno": "煉獄難度",
+    "Assault Raid": "突襲戰",
+    "Kazeros Raid": "卡札羅斯襲擊戰",
+    "Epic Raid": "史詩襲擊戰"
+  },
+  "raids": {
+    "Tarkal": "塔爾卡"
+  },
+  "bosses": {
+    "Flash of Punishment": "懲罰之閃光"
+  },
+  "runes": {
+    "Focus": "專注"
+  },
+  "systems": {
+    "Sun core": "日",
+    "Moon core": "月",
+    "Star core": "星"
+  },
+  "arkpassive": {
+    "Crit": "致命",
+    "Specialization": "特化",
+    "Domination": "壓制",
+    "Swiftness": "迅速",
+    "Endurance": "忍耐",
+    "Expertise": "熟練",
+    "Critical": "會心",
+    "Master": "達人",
+    "Pulverize": "粉碎",
+    "Luminary": "先知",
+    "Advance": "進軍",
+    "Prayer": "祈願"
+  }
+}

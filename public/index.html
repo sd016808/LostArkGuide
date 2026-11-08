@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>失落的方舟 中文統計</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              surface: { 300: '#a3a3a3', 400: '#8a8a8a', 500: '#6f6f6f', 700: '#2e2e2e', 800: '#232323', 900: '#1a1a1a', 950: '#121212' },
+              accent: { 500: '#a78bfa', 700: '#7c3aed', 900: '#6d28d9' },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body { background: #0f0f10; color: #e5e5e5; font-family: ui-sans-serif, system-ui, "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif; }
+      .btn { border-radius: 0.375rem; padding: 0.25rem 0.75rem; white-space: nowrap; }
+      .btn:hover { color: rgba(255,255,255,.65); }
+      .input { background: #171717; border: 1px solid #525252; border-radius: .25rem; padding: .375rem .5rem; color: #fff; }
+      .input:focus { outline: none; border-color: #737373; }
+      .thin-scroll { scrollbar-width: thin; }
+      select option, select optgroup { background: #1a1a1a; color: #fff; }
+      .tooltip-box { position: fixed; z-index: 60; max-width: 440px; border-radius: .5rem; border: 1px solid #525252; background: #262626; padding: .5rem; box-shadow: 0 1px 2px rgba(0,0,0,.4); pointer-events: none; }
+      .range-wrap { position: relative; height: 24px; }
+      .range-wrap input[type=range] { position: absolute; left: 0; right: 0; top: 0; width: 100%; height: 24px; margin: 0; background: transparent; -webkit-appearance: none; appearance: none; pointer-events: none; }
+      .range-wrap input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 18px; height: 18px; border-radius: 9999px; background: #525252; border: 2px solid #171717; cursor: pointer; }
+      .range-wrap input[type=range]::-moz-range-thumb { pointer-events: auto; width: 18px; height: 18px; border-radius: 9999px; background: #525252; border: 2px solid #171717; cursor: pointer; }
+      .range-wrap input[type=range]::-webkit-slider-runnable-track { background: transparent; }
+      .range-wrap .track { position: absolute; left: 0; right: 0; top: 11px; height: 3px; background: #404040; }
+      .range-wrap .fill { position: absolute; top: 11px; height: 3px; background: #a3a3a3; }
+      .fade-in { animation: fade .15s ease-out; }
+      @keyframes fade { from { opacity: 0; transform: translateY(2px);} to { opacity: 1; transform: none;} }
+      [hidden] { display: none !important; }
+      .designs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+      .ech-tooltip { color: #e5e5e5; }
+    </style>
+  </head>
+  <body class="sm:w-screen sm:overflow-x-hidden">
+    <div class="grid min-h-screen grid-rows-[auto_1fr_auto]">
+      <header id="site-header" class="sticky top-0 z-50 bg-neutral-900/70 shadow-sm shadow-neutral-800 backdrop-blur-2xl"></header>
+      <div id="page" class="pb-4"></div>
+      <footer class="bg-neutral-900 p-4 text-center text-xs text-neutral-400">
+        <span id="footer-text">資料來源：lostark.bible（Discord 社群統計）。本站為非官方中文介面。</span>
+      </footer>
+    </div>
+    <div id="tooltip" class="tooltip-box text-sm" hidden></div>
+    <script src="/js/devalue.js"></script>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

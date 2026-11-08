@@ -1,0 +1,3856 @@
+[
+ {
+  "class_id": 502,
+  "class_en": "Sharpshooter",
+  "class_zh": "鷹眼",
+  "class_zh_cn": "鹰眼",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/",
+   "https://lostarkcodex.com/us/skills/",
+   "https://lostarkcodex.com/us/items/",
+   "https://lostark.dvg.cn/skill_list.php",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=",
+   "https://lostark.dvg.cn/tools/t4/",
+   "https://lostark.dvg.cn/item_list.php",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark-event.mangot5.com/GameGuide/Pages/操作"
+  ],
+  "skills": {
+   "A.A.G.A.: Deadeye": {
+    "zh": "A.A.G.A：灭亡之眼",
+    "src": "cn"
+   },
+   "Arrow Shower": {
+    "zh": "箭雨",
+    "src": "tw"
+   },
+   "Arrow Wave": {
+    "zh": "旋箭海嘯",
+    "src": "tw"
+   },
+   "Atomic Arrow": {
+    "zh": "原子箭",
+    "src": "tw"
+   },
+   "Blade Storm": {
+    "zh": "刀鋒風暴",
+    "src": "tw"
+   },
+   "Charged Shot": {
+    "zh": "蓄力強擊",
+    "src": "tw"
+   },
+   "Claymore Mine": {
+    "zh": "闊刀地雷",
+    "src": "tw"
+   },
+   "DM-42": {
+    "zh": "DM-42",
+    "src": "tw"
+   },
+   "Deadly Slash": {
+    "zh": "要害砍擊",
+    "src": "tw"
+   },
+   "Evasive Fire": {
+    "zh": "迴避射擊",
+    "src": "tw"
+   },
+   "Fenrir's Messenger": {
+    "zh": "芬里爾的戰靈",
+    "src": "tw"
+   },
+   "Gigantar Bow: Fenrir": {
+    "zh": "巨弓：芬里尔",
+    "src": "cn"
+   },
+   "Golden Eye": {
+    "zh": "黃金鷹眼",
+    "src": "tw"
+   },
+   "Hawk Shot": {
+    "zh": "銀鷹射擊",
+    "src": "tw"
+   },
+   "Last Rush": {
+    "zh": "最後襲擊",
+    "src": "tw"
+   },
+   "Lock-On": {
+    "zh": "鎖定",
+    "src": "tw"
+   },
+   "Moving Slash": {
+    "zh": "移動砍擊",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Rapid Shot": {
+    "zh": "迅雷射擊",
+    "src": "tw"
+   },
+   "Salvo": {
+    "zh": "齊發射擊",
+    "src": "tw"
+   },
+   "Shadow Arrow": {
+    "zh": "影子之箭",
+    "src": "tw"
+   },
+   "Sharpshooter": {
+    "zh": "箭尖射手",
+    "src": "tw"
+   },
+   "Silverhawk Assault": {
+    "zh": "銀鷹強襲",
+    "src": "tw"
+   },
+   "Silverhawk Basic Attack": null,
+   "Slide": null,
+   "Smokescreen Arrow": {
+    "zh": "煙霧之箭",
+    "src": "tw"
+   },
+   "Snipe": {
+    "zh": "狙擊",
+    "src": "tw"
+   },
+   "Spiral Arrow": {
+    "zh": "螺旋箭",
+    "src": "cn"
+   },
+   "Stalker": {
+    "zh": "窮追不捨",
+    "src": "tw"
+   },
+   "Stand Up": {
+    "zh": "起身技",
+    "src": "tw"
+   },
+   "Summon Silverhawk": null,
+   "Wings of Storm": {
+    "zh": "暴風之翼",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "ATB-03 Bolt Raptor": {
+    "zh": "ATB-03 飞龙回旋",
+    "src": "cn"
+   },
+   "ATB-07 Piercing Rain": {
+    "zh": "ATB-07 针刺射线",
+    "src": "cn"
+   },
+   "ATB-19 Rapidfire": {
+    "zh": "ATB-19 暴风连袭",
+    "src": "cn"
+   },
+   "HSU-04 Smart Scope": {
+    "zh": "HSU-04 自动调节瞄准镜",
+    "src": "cn"
+   },
+   "HSU-06 Laser Sight": {
+    "zh": "HSU-06 激光瞄准器",
+    "src": "cn"
+   },
+   "HSU-08 Reinforced Cable": {
+    "zh": "HSU-08 高压导电",
+    "src": "cn"
+   },
+   "HSU-13 Special High Explosive": {
+    "zh": "HSU-13 特制高爆炸药",
+    "src": "cn"
+   },
+   "HSU-17 Electric Nova": {
+    "zh": "HSU-17 电光新星",
+    "src": "cn"
+   },
+   "HSU-21 Silver Rain": {
+    "zh": "HSU-21 银色暴雨",
+    "src": "cn"
+   },
+   "HSU-22 Limb Stabilizer": {
+    "zh": "HSU-22 稳定器",
+    "src": "cn"
+   },
+   "HSU-36 Dot Sight": {
+    "zh": "HSU-36 点位瞄准器",
+    "src": "cn"
+   },
+   "HSU-37 Rapid Fire Support": {
+    "zh": "HSU-37 连发装置",
+    "src": "cn"
+   },
+   "HSU-57 Strength Support Gloves": {
+    "zh": "HSU-57 力量辅助手套",
+    "src": "cn"
+   },
+   "HSU-98 Avian Strike": {
+    "zh": "HSU-98 飞鸟冲击",
+    "src": "cn"
+   },
+   "HSU-99 Avian Storm": {
+    "zh": "HSU-99 鸟群风暴",
+    "src": "cn"
+   },
+   "TA-09 Piercing Arrow": {
+    "zh": "TA-09 穿透箭",
+    "src": "cn"
+   },
+   "TA-12 Bursting Arrow": {
+    "zh": "TA-12 爆能箭",
+    "src": "cn"
+   },
+   "TA-64 Reaper Bolt": {
+    "zh": "TA-64 死神之弩",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Additional Action": {
+    "zh": "额外动作",
+    "src": "cn"
+   },
+   "Ally": {
+    "zh": "同伴",
+    "src": "tw"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Death Strike": {
+    "zh": "死亡襲擊",
+    "src": "tw"
+   },
+   "Deep Learning": {
+    "zh": "深度學習",
+    "src": "tw"
+   },
+   "Faint Note": {
+    "zh": "佩尔极弓",
+    "src": "cn"
+   },
+   "Final Mark": {
+    "zh": "最终标记",
+    "src": "cn"
+   },
+   "Hawk Meter Recovery": {
+    "zh": "回收猎鹰能量",
+    "src": "cn"
+   },
+   "Hawk Support": {
+    "zh": "銀鷹支援",
+    "src": "tw"
+   },
+   "High-Speed Rotation": {
+    "zh": "高速旋转",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Loyal Companion": {
+    "zh": "第二个伙伴",
+    "src": "cn"
+   },
+   "MP Recovery": {
+    "zh": "法力回收",
+    "src": "tw"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Silverhawk Assault": {
+    "zh": "银鹰强袭",
+    "src": "cn"
+   },
+   "Silverhawk Enhancement": {
+    "zh": "銀鷹強化",
+    "src": "tw"
+   },
+   "Storm Hunter": {
+    "zh": "暴风猎手",
+    "src": "cn"
+   },
+   "Storm Mark": {
+    "zh": "暴风标记",
+    "src": "cn"
+   },
+   "Task Force": {
+    "zh": "机动队",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Ally": {
+    "zh": "同伴",
+    "src": "tw"
+   },
+   "Arrow Blanket": {
+    "zh": "顛覆之箭",
+    "src": "tw"
+   },
+   "Blade Dance": {
+    "zh": "刀鋒亂舞",
+    "src": "tw"
+   },
+   "Blizzard": {
+    "zh": "暴風雪",
+    "src": "tw"
+   },
+   "Camouflage": {
+    "zh": "迷彩",
+    "src": "tw"
+   },
+   "Clean Hit": {
+    "zh": "俐落一擊",
+    "src": "tw"
+   },
+   "Clouded Fog": {
+    "zh": "氤氳迷霧",
+    "src": "tw"
+   },
+   "Co-op Strategy": {
+    "zh": "偕同戰術",
+    "src": "tw"
+   },
+   "Concentrated Storm": {
+    "zh": "集中暴風",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Critical Blow": {
+    "zh": "會心一擊",
+    "src": "tw"
+   },
+   "Curse Enhancement": {
+    "zh": "詛咒強化",
+    "src": "tw"
+   },
+   "Damage Amplification": {
+    "zh": "傷害增幅",
+    "src": "tw"
+   },
+   "Dark Fog": {
+    "zh": "黑暗迷霧",
+    "src": "tw"
+   },
+   "Deathfog": {
+    "zh": "死亡迷霧",
+    "src": "tw"
+   },
+   "Double Shot": {
+    "zh": "雙擊",
+    "src": "tw"
+   },
+   "Double Slash": {
+    "zh": "雙重砍擊",
+    "src": "tw"
+   },
+   "Eagle Hawk": {
+    "zh": "雄鷹",
+    "src": "tw"
+   },
+   "Easy Prey": {
+    "zh": "輕鬆的獵物",
+    "src": "tw"
+   },
+   "Electrocuting Wave": {
+    "zh": "電氣洗禮",
+    "src": "tw"
+   },
+   "Enhanced Arrow": {
+    "zh": "強化之箭",
+    "src": "tw"
+   },
+   "Enhanced Arrowhead": {
+    "zh": "箭鏃強化",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Extensive Shooting": {
+    "zh": "持續射擊",
+    "src": "tw"
+   },
+   "Fast Fire": {
+    "zh": "即發",
+    "src": "tw"
+   },
+   "Fast Flier": {
+    "zh": "高速之箭",
+    "src": "tw"
+   },
+   "Finishing Move": {
+    "zh": "最後踢腿",
+    "src": "tw"
+   },
+   "Flaming Gunpowder": {
+    "zh": "火花火藥",
+    "src": "tw"
+   },
+   "Focus Fire": {
+    "zh": "密集射擊",
+    "src": "tw"
+   },
+   "Focus Shot": {
+    "zh": "集中射擊",
+    "src": "tw"
+   },
+   "Frost Arrow": {
+    "zh": "寒氣之箭",
+    "src": "tw"
+   },
+   "Frost Hawk": {
+    "zh": "霜鷹",
+    "src": "tw"
+   },
+   "Ghillie Suit": {
+    "zh": "匿跡",
+    "src": "tw"
+   },
+   "Greater Explosion": {
+    "zh": "爆破擴散",
+    "src": "tw"
+   },
+   "Heavy Arrow": {
+    "zh": "沉重之箭",
+    "src": "tw"
+   },
+   "Heavy Bomb": {
+    "zh": "沉重炸彈",
+    "src": "tw"
+   },
+   "Heavy Rain": {
+    "zh": "大雨如注",
+    "src": "tw"
+   },
+   "Hellfire": {
+    "zh": "煉獄火",
+    "src": "tw"
+   },
+   "High-Speed Recharge": {
+    "zh": "高速補充",
+    "src": "tw"
+   },
+   "Ignore Collision": {
+    "zh": "無視衝突",
+    "src": "tw"
+   },
+   "Incendiary Mine": {
+    "zh": "火焰地雷",
+    "src": "tw"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "tw"
+   },
+   "Keen Shot": {
+    "zh": "最後一擊",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Lightning Arrow": {
+    "zh": "電擊之箭",
+    "src": "tw"
+   },
+   "Lightning Arrows": {
+    "zh": "震盪強擊",
+    "src": "tw"
+   },
+   "Lightning Blade": {
+    "zh": "閃電刀刃",
+    "src": "tw"
+   },
+   "Long Fuse": {
+    "zh": "長導火線",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Mounting Flames": {
+    "zh": "猛烈射擊",
+    "src": "tw"
+   },
+   "Multiple Waves": {
+    "zh": "多重海嘯",
+    "src": "tw"
+   },
+   "Nightfall Slash": {
+    "zh": "暗黑砍擊",
+    "src": "tw"
+   },
+   "Overcharge": {
+    "zh": "過度補充",
+    "src": "tw"
+   },
+   "Overpain": {
+    "zh": "過分痛楚",
+    "src": "tw"
+   },
+   "Painful Shot": {
+    "zh": "苦痛射擊",
+    "src": "tw"
+   },
+   "Piercing Arrow": {
+    "zh": "貫穿之箭",
+    "src": "tw"
+   },
+   "Poison Blade": {
+    "zh": "毒刃",
+    "src": "tw"
+   },
+   "Poisonous Fog": {
+    "zh": "毒霧",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "輕快的腳步",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Quick Shooting": {
+    "zh": "矯捷發射",
+    "src": "tw"
+   },
+   "Ranged Hit": {
+    "zh": "遠距離打擊",
+    "src": "tw"
+   },
+   "Ranged Install": {
+    "zh": "遠距離設置",
+    "src": "tw"
+   },
+   "Ranged Shot": {
+    "zh": "遠距離射擊",
+    "src": "tw"
+   },
+   "Rapid Fire": {
+    "zh": "速射",
+    "src": "tw"
+   },
+   "Red Hawk": {
+    "zh": "赤鷹",
+    "src": "tw"
+   },
+   "Repulse": {
+    "zh": "推擊",
+    "src": "tw"
+   },
+   "Ruthless Shadow": {
+    "zh": "無情影子",
+    "src": "tw"
+   },
+   "Ruthless Shot": {
+    "zh": "無情射擊",
+    "src": "tw"
+   },
+   "Sawtooth Blade": {
+    "zh": "傷痕惡化",
+    "src": "tw"
+   },
+   "Shadow Dance": {
+    "zh": "暗影之舞",
+    "src": "tw"
+   },
+   "Shadow Tracking": {
+    "zh": "影子追蹤",
+    "src": "tw"
+   },
+   "Shadow of Abyss": {
+    "zh": "深淵影子",
+    "src": "tw"
+   },
+   "Shock Mine": {
+    "zh": "衝擊地雷",
+    "src": "tw"
+   },
+   "Shock Shot": {
+    "zh": "衝擊射擊",
+    "src": "tw"
+   },
+   "Silver Master": {
+    "zh": "白銀大師",
+    "src": "tw"
+   },
+   "Slow Tide": {
+    "zh": "低速彈丸",
+    "src": "tw"
+   },
+   "Solo Performance": {
+    "zh": "獨立執行",
+    "src": "tw"
+   },
+   "Solo Strategy": {
+    "zh": "單人戰術",
+    "src": "tw"
+   },
+   "Spare Mine": {
+    "zh": "分散設置",
+    "src": "tw"
+   },
+   "Steady Aim": {
+    "zh": "精確瞄準",
+    "src": "tw"
+   },
+   "Stealthy Movement": {
+    "zh": "隱密行動",
+    "src": "tw"
+   },
+   "Sticky Fog": {
+    "zh": "黏糊迷霧",
+    "src": "tw"
+   },
+   "Storm Surge": {
+    "zh": "暴風顫慄",
+    "src": "tw"
+   },
+   "Strategic Evasion": {
+    "zh": "戰略迴避",
+    "src": "tw"
+   },
+   "Strengthening": {
+    "zh": "強化砍擊",
+    "src": "tw"
+   },
+   "Survival": {
+    "zh": "生存戰",
+    "src": "tw"
+   },
+   "Sustain Enhancement": {
+    "zh": "持續力強化",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Target Confirmed": {
+    "zh": "確定射擊",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Thunderbolt": {
+    "zh": "雷動霹靂",
+    "src": "tw"
+   },
+   "Tracking Shot": {
+    "zh": "追蹤射擊",
+    "src": "tw"
+   },
+   "Vital Point Hit": {
+    "zh": "要害打擊",
+    "src": "tw"
+   },
+   "Wave Streak": {
+    "zh": "波之海嘯",
+    "src": "tw"
+   },
+   "Wave of Flames": {
+    "zh": "火焰洗禮",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破壞強化",
+    "src": "tw"
+   },
+   "Weapon Destruction": {
+    "zh": "武器破壞",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 503,
+  "class_en": "Deadeye",
+  "class_zh": "惡魔獵手",
+  "class_zh_cn": "猎魔人",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/",
+   "https://lostarkcodex.com/us/skills/",
+   "https://lostarkcodex.com/us/items/",
+   "https://lostark.dvg.cn/skill_list.php",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=",
+   "https://lostark.dvg.cn/tools/t4/",
+   "https://lostark.dvg.cn/item_list.php",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark-event.mangot5.com/GameGuide/Pages/操作"
+  ],
+  "skills": {
+   "AT02 Grenade": {
+    "zh": "AT02榴彈",
+    "src": "tw"
+   },
+   "Aimed Shot": {
+    "zh": "瞄準射擊",
+    "src": "tw"
+   },
+   "Blauer Blitz": {
+    "zh": "蓝光电闪",
+    "src": "cn"
+   },
+   "Bursting Flare": {
+    "zh": "爆裂閃燃",
+    "src": "tw"
+   },
+   "Catastrophe": {
+    "zh": "大災難",
+    "src": "tw"
+   },
+   "Change Stance": null,
+   "Clay Bombardment": {
+    "zh": "碟靶轟炸",
+    "src": "tw"
+   },
+   "Cruel Tracker": {
+    "zh": "殘酷的追蹤者",
+    "src": "tw"
+   },
+   "Deadly Cage": {
+    "zh": "绝境囚笼",
+    "src": "cn"
+   },
+   "Death Fire": {
+    "zh": "死亡之火",
+    "src": "tw"
+   },
+   "Desperado": {
+    "zh": "亡命之徒",
+    "src": "tw"
+   },
+   "Dexterous Shot": {
+    "zh": "敏捷的射擊",
+    "src": "tw"
+   },
+   "Doom Shot": {
+    "zh": "世界末日",
+    "src": "cn"
+   },
+   "Enforce Execution": {
+    "zh": "執行死刑",
+    "src": "tw"
+   },
+   "Equilibrium": {
+    "zh": "掃蕩",
+    "src": "tw"
+   },
+   "Judgment Day": {
+    "zh": "審判之日",
+    "src": "tw"
+   },
+   "Last Request": {
+    "zh": "最後的晚餐",
+    "src": "tw"
+   },
+   "Mark of Death": {
+    "zh": "死亡印记",
+    "src": "cn"
+   },
+   "Meteor Stream": {
+    "zh": "流星雨",
+    "src": "tw"
+   },
+   "One Shot One Kill": {
+    "zh": "彈無虛發",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Perfect Shot": {
+    "zh": "完美射擊",
+    "src": "tw"
+   },
+   "Plasma Bullet": {
+    "zh": "電漿子彈",
+    "src": "tw"
+   },
+   "Quick Fire": {
+    "zh": "迅疾之焰",
+    "src": "cn"
+   },
+   "Quick Shot": {
+    "zh": "快速射擊",
+    "src": "tw"
+   },
+   "Relentless Assault": null,
+   "Secret Weapon": null,
+   "Shotgun Dominator": {
+    "zh": "霰彈槍支配者",
+    "src": "tw"
+   },
+   "Shotgun Rapid Fire": {
+    "zh": "霰彈槍連射",
+    "src": "tw"
+   },
+   "Sign of Apocalypse": {
+    "zh": "終結預兆",
+    "src": "tw"
+   },
+   "Somersault Shot": {
+    "zh": "翻騰射擊",
+    "src": "tw"
+   },
+   "Spiral Flame": {
+    "zh": "螺旋火舌",
+    "src": "tw"
+   },
+   "Spiral Tracker": {
+    "zh": "螺旋追蹤者",
+    "src": "tw"
+   },
+   "Stand Up": {
+    "zh": "起身技",
+    "src": "tw"
+   },
+   "Tumbling": null
+  },
+  "ark_grid_cores": {
+   "Bloodhound": {
+    "zh": "血猎犬",
+    "src": "cn"
+   },
+   "Buckshot Enhancement": {
+    "zh": "霰弹增强",
+    "src": "cn"
+   },
+   "Bullet Explosion": {
+    "zh": "弹药轰炸",
+    "src": "cn"
+   },
+   "Bullet Shower": {
+    "zh": "子弹洗礼",
+    "src": "cn"
+   },
+   "Deadly Tracker": {
+    "zh": "绝命投掷",
+    "src": "cn"
+   },
+   "Deadshot": {
+    "zh": "死亡枪法",
+    "src": "cn"
+   },
+   "Dominator Shell": {
+    "zh": "支配者的弹药",
+    "src": "cn"
+   },
+   "Emergency Specialist": {
+    "zh": "危机终结者",
+    "src": "cn"
+   },
+   "Endless Spiral": {
+    "zh": "无尽的螺旋",
+    "src": "cn"
+   },
+   "Eternal Revolver": {
+    "zh": "不朽左轮",
+    "src": "cn"
+   },
+   "Flawless Aim": {
+    "zh": "完美瞄准",
+    "src": "cn"
+   },
+   "Frenzied Specialist": {
+    "zh": "狂想终结者",
+    "src": "cn"
+   },
+   "Hidden Fang": {
+    "zh": "隐秘尖牙",
+    "src": "cn"
+   },
+   "Iron Sights": {
+    "zh": "基础狙击",
+    "src": "cn"
+   },
+   "Midair Maven": {
+    "zh": "天意支配者",
+    "src": "cn"
+   },
+   "Shadow Bullet": {
+    "zh": "无影子弹",
+    "src": "cn"
+   },
+   "Shotgun Overload": {
+    "zh": "霰弹枪满载",
+    "src": "cn"
+   },
+   "Silver Bullet": {
+    "zh": "银弹",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Ammo Supplement": {
+    "zh": "补充弹药",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Fancy Footwork": {
+    "zh": "华丽腿法",
+    "src": "cn"
+   },
+   "Fire Support": {
+    "zh": "掩护射击",
+    "src": "cn"
+   },
+   "Full Range": {
+    "zh": "全域",
+    "src": "cn"
+   },
+   "Handgun Enhancement": {
+    "zh": "手槍強化",
+    "src": "tw"
+   },
+   "High Explosive Shot": {
+    "zh": "高爆弹",
+    "src": "cn"
+   },
+   "Hurricane": {
+    "zh": "飓风",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Pistoleer": {
+    "zh": "手枪手",
+    "src": "cn"
+   },
+   "Precision Shot Training": {
+    "zh": "精确射击训练",
+    "src": "cn"
+   },
+   "Quick Draw": {
+    "zh": "瞬时上弹",
+    "src": "cn"
+   },
+   "Quick Storm": {
+    "zh": "快速风暴",
+    "src": "cn"
+   },
+   "Reinforcement": {
+    "zh": "增援",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Secret Weapon": {
+    "zh": "秘密武器",
+    "src": "cn"
+   },
+   "Shining Bullet": {
+    "zh": "閃光彈",
+    "src": "tw"
+   },
+   "Shotgun Reload": {
+    "zh": "霰弹枪填弹",
+    "src": "cn"
+   },
+   "Specialist's Movement": {
+    "zh": "修理师的动作",
+    "src": "cn"
+   },
+   "Strategic Garb": {
+    "zh": "戰略裝備",
+    "src": "tw"
+   },
+   "Tactical Bullet": {
+    "zh": "战术子弹",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "": null,
+   "Aerial Explosion": {
+    "zh": "空中爆破",
+    "src": "tw"
+   },
+   "Aerial Shot": {
+    "zh": "空中射擊",
+    "src": "tw"
+   },
+   "Aftermath of Calamity": {
+    "zh": "災難的餘波",
+    "src": "tw"
+   },
+   "Aftershock": {
+    "zh": "後勁",
+    "src": "tw"
+   },
+   "Agile Movement": {
+    "zh": "矯捷行動",
+    "src": "tw"
+   },
+   "Agile Shot": {
+    "zh": "迅捷射擊",
+    "src": "tw"
+   },
+   "Ambush": {
+    "zh": "突襲",
+    "src": "tw"
+   },
+   "Anti-Air Shot": {
+    "zh": "對空射擊",
+    "src": "tw"
+   },
+   "Approached Apocalypse": {
+    "zh": "逼近的終結",
+    "src": "tw"
+   },
+   "Armor-Piercing Bullet": {
+    "zh": "鐵甲彈",
+    "src": "tw"
+   },
+   "Attach Bandolier": {
+    "zh": "配發彈帶",
+    "src": "tw"
+   },
+   "Back Step": {
+    "zh": "後退步",
+    "src": "tw"
+   },
+   "Barrage Shot": {
+    "zh": "無差別掃射",
+    "src": "tw"
+   },
+   "Big Foot": {
+    "zh": "橫掃",
+    "src": "tw"
+   },
+   "Blazing Barrage": {
+    "zh": "灼熱掃射",
+    "src": "tw"
+   },
+   "Bleed Effect": {
+    "zh": "出血效果",
+    "src": "tw"
+   },
+   "Bombardment Support": {
+    "zh": "轟炸支援",
+    "src": "tw"
+   },
+   "Buckshot Choke": {
+    "zh": "散彈抑制",
+    "src": "tw"
+   },
+   "Bullet Storm": {
+    "zh": "子彈風暴",
+    "src": "tw"
+   },
+   "Bullet Time": {
+    "zh": "子彈連發",
+    "src": "tw"
+   },
+   "Burn Effect": {
+    "zh": "灼傷效果",
+    "src": "tw"
+   },
+   "Carpet Bombing": {
+    "zh": "地毯式轟炸",
+    "src": "tw"
+   },
+   "Cascade": {
+    "zh": "漣漪效應",
+    "src": "tw"
+   },
+   "Chain Throw": {
+    "zh": "連續投擲",
+    "src": "tw"
+   },
+   "Close Shot": {
+    "zh": "短距射擊",
+    "src": "tw"
+   },
+   "Combo Rapid Fire": {
+    "zh": "連擊連射",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Decimation Shot": {
+    "zh": "殲滅射擊",
+    "src": "tw"
+   },
+   "Defenseless Target": {
+    "zh": "無防備標記",
+    "src": "tw"
+   },
+   "Double Jump": {
+    "zh": "二段跳躍",
+    "src": "tw"
+   },
+   "Double Shot": {
+    "zh": "雙擊",
+    "src": "tw"
+   },
+   "Dragon Breath": {
+    "zh": "龍之氣息",
+    "src": "tw"
+   },
+   "Enemy Raid": {
+    "zh": "掃蕩敵人",
+    "src": "tw"
+   },
+   "Enhanced Concentration": {
+    "zh": "集中力強化",
+    "src": "tw"
+   },
+   "Enhanced Grenade": {
+    "zh": "強化手榴彈",
+    "src": "tw"
+   },
+   "Enhanced Shot": {
+    "zh": "強化射擊",
+    "src": "tw"
+   },
+   "Eternal Calamity": {
+    "zh": "永恆災難",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Execution": {
+    "zh": "執行",
+    "src": "tw"
+   },
+   "Explosive Bullet": {
+    "zh": "爆破性彈丸",
+    "src": "tw"
+   },
+   "Extended Shot": {
+    "zh": "延長射擊",
+    "src": "tw"
+   },
+   "Extra Roll": {
+    "zh": "追加翻滾",
+    "src": "tw"
+   },
+   "Farewell": {
+    "zh": "道別",
+    "src": "tw"
+   },
+   "Ferocious Flame": {
+    "zh": "猛烈火花",
+    "src": "tw"
+   },
+   "Fierce Heat": {
+    "zh": "熾熱氛圍",
+    "src": "tw"
+   },
+   "Final Light": {
+    "zh": "最後之光",
+    "src": "tw"
+   },
+   "Firework": {
+    "zh": "煙火",
+    "src": "tw"
+   },
+   "Flame Bomb": {
+    "zh": "火焰炸彈",
+    "src": "tw"
+   },
+   "Flawless Marksmanship": {
+    "zh": "百發百中",
+    "src": "tw"
+   },
+   "Focus Shot": {
+    "zh": "集中射擊",
+    "src": "tw"
+   },
+   "Frag Grenade": {
+    "zh": "碎裂手榴彈",
+    "src": "tw"
+   },
+   "Freeze Effect": {
+    "zh": "寒冰效果",
+    "src": "tw"
+   },
+   "Freeze Grenade": {
+    "zh": "寒冰手榴彈",
+    "src": "tw"
+   },
+   "Frost Bomb": {
+    "zh": "寒氣炸彈",
+    "src": "tw"
+   },
+   "Full Range": {
+    "zh": "全範圍",
+    "src": "tw"
+   },
+   "Gradual Devastation": {
+    "zh": "成長射擊",
+    "src": "tw"
+   },
+   "Growth Bullet": {
+    "zh": "成長彈丸",
+    "src": "tw"
+   },
+   "Heavy Duty": {
+    "zh": "連續使用",
+    "src": "tw"
+   },
+   "Heavy Rounds": {
+    "zh": "大裝甲彈丸",
+    "src": "tw"
+   },
+   "High-Speed Bullet": {
+    "zh": "高速彈丸",
+    "src": "tw"
+   },
+   "Hollow Point": {
+    "zh": "空尖彈",
+    "src": "tw"
+   },
+   "Hour of Judgment": {
+    "zh": "審判時間",
+    "src": "tw"
+   },
+   "Hypercharge Area": {
+    "zh": "超荷地帶",
+    "src": "tw"
+   },
+   "Ice Shot": {
+    "zh": "寒氣彈",
+    "src": "tw"
+   },
+   "Ignore Collision": {
+    "zh": "無視衝突",
+    "src": "tw"
+   },
+   "In a Tight Spot": {
+    "zh": "四面楚歌",
+    "src": "cn"
+   },
+   "Incendiary Bomb": {
+    "zh": "火焰彈",
+    "src": "tw"
+   },
+   "Infiltrate Decimation": {
+    "zh": "滲透殲滅",
+    "src": "tw"
+   },
+   "Initiate Shot": {
+    "zh": "開始射擊",
+    "src": "tw"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "tw"
+   },
+   "Internal Ignition": {
+    "zh": "內部燃火",
+    "src": "tw"
+   },
+   "Invisible Threat": {
+    "zh": "隱蔽威脅",
+    "src": "tw"
+   },
+   "Keen Shot": {
+    "zh": "銳利射擊",
+    "src": "tw"
+   },
+   "Kill Confirmation": {
+    "zh": "最後射擊",
+    "src": "tw"
+   },
+   "Large Piercing Bullet": {
+    "zh": "大型貫穿彈丸",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Massacre": {
+    "zh": "大量虐殺",
+    "src": "tw"
+   },
+   "Massive Explosion": {
+    "zh": "強大爆破",
+    "src": "tw"
+   },
+   "Master of CQC": {
+    "zh": "支配者意志",
+    "src": "tw"
+   },
+   "Master of Evasion": {
+    "zh": "迴避達人",
+    "src": "tw"
+   },
+   "Meteor Fall": {
+    "zh": "彗星落下",
+    "src": "tw"
+   },
+   "Muscle Spasm": {
+    "zh": "肌肉痙攣",
+    "src": "tw"
+   },
+   "Opportunist": {
+    "zh": "趁火打劫",
+    "src": "tw"
+   },
+   "Pale Deathlord": {
+    "zh": "白色死神",
+    "src": "tw"
+   },
+   "Perfect Aim": {
+    "zh": "完美瞄準",
+    "src": "tw"
+   },
+   "Piercing Explosion": {
+    "zh": "貫穿爆破",
+    "src": "tw"
+   },
+   "Plasma Split": {
+    "zh": "電漿分裂",
+    "src": "tw"
+   },
+   "Precise Aimed Shot": {
+    "zh": "精密瞄準射擊",
+    "src": "tw"
+   },
+   "Precision Shot": {
+    "zh": "精密射擊",
+    "src": "tw"
+   },
+   "Prepared Shooter": {
+    "zh": "準備就緒的射手",
+    "src": "tw"
+   },
+   "Quick Aim": {
+    "zh": "矯捷瞄準",
+    "src": "tw"
+   },
+   "Quick Draw": {
+    "zh": "快速拔槍",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "輕快的腳步",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Quick Shot": {
+    "zh": "矯捷射擊",
+    "src": "tw"
+   },
+   "Ranged Aim": {
+    "zh": "遠距離瞄準",
+    "src": "tw"
+   },
+   "Ranged Shot": {
+    "zh": "遠距離射擊",
+    "src": "tw"
+   },
+   "Ranged Throw": {
+    "zh": "遠距離投擲",
+    "src": "tw"
+   },
+   "Rapid Fire Enhancement": {
+    "zh": "連射力強化",
+    "src": "tw"
+   },
+   "Rear Blast": {
+    "zh": "風暴效應",
+    "src": "tw"
+   },
+   "Recoil Control": {
+    "zh": "反作用控制",
+    "src": "tw"
+   },
+   "Reinforced Gunbarrel": {
+    "zh": "槍管強化",
+    "src": "tw"
+   },
+   "Repulse": {
+    "zh": "推擊",
+    "src": "tw"
+   },
+   "Rest in Peace": {
+    "zh": "安息",
+    "src": "tw"
+   },
+   "Rock Salt Bullet": {
+    "zh": "岩鹽彈",
+    "src": "tw"
+   },
+   "Shot Spreader": {
+    "zh": "廣角射擊",
+    "src": "tw"
+   },
+   "Slowing Fire": {
+    "zh": "減速射擊",
+    "src": "tw"
+   },
+   "Special Bullet": {
+    "zh": "特殊彈丸",
+    "src": "tw"
+   },
+   "Stable Stance": {
+    "zh": "穩定姿態",
+    "src": "tw"
+   },
+   "Stun Bullet": {
+    "zh": "暈厥彈丸",
+    "src": "tw"
+   },
+   "Stun Effect": {
+    "zh": "暈厥效果",
+    "src": "tw"
+   },
+   "Style Change": {
+    "zh": "風格轉換",
+    "src": "tw"
+   },
+   "Super Armor": {
+    "zh": "超級護甲",
+    "src": "tw"
+   },
+   "Super Shotgun": {
+    "zh": "超級霰彈槍",
+    "src": "tw"
+   },
+   "Swift Conviction": {
+    "zh": "就地正法",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Swift Preparation": {
+    "zh": "迅速準備",
+    "src": "tw"
+   },
+   "Swift Shot": {
+    "zh": "迅速射擊",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "The Ruler": {
+    "zh": "君臨之人",
+    "src": "tw"
+   },
+   "Triple Explosion": {
+    "zh": "三重爆破",
+    "src": "tw"
+   },
+   "Triple Shot": {
+    "zh": "三連射",
+    "src": "tw"
+   },
+   "Ultimate Weapon": {
+    "zh": "決戰兵器",
+    "src": "tw"
+   },
+   "Vital Point Attack": {
+    "zh": "要害攻擊",
+    "src": "tw"
+   },
+   "Vital Point Hit": {
+    "zh": "要害打擊",
+    "src": "tw"
+   },
+   "Vital Point Shot": {
+    "zh": "要害射擊",
+    "src": "tw"
+   },
+   "Volley": {
+    "zh": "連發射擊",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破壞強化",
+    "src": "tw"
+   },
+   "Weakness Exposure": {
+    "zh": "暴露要害",
+    "src": "tw"
+   },
+   "Whirlpool": {
+    "zh": "漩渦",
+    "src": "tw"
+   },
+   "Wide Explosion": {
+    "zh": "寬廣爆破",
+    "src": "tw"
+   },
+   "Wide Shot": {
+    "zh": "寬廣射擊",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 504,
+  "class_en": "Artillerist",
+  "class_zh": "槍炮大師",
+  "class_zh_cn": "枪炮大师",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/",
+   "https://lostarkcodex.com/us/skills/",
+   "https://lostarkcodex.com/us/items/",
+   "https://lostark.dvg.cn/skill_list.php",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=",
+   "https://lostark.dvg.cn/tools/t4/",
+   "https://lostark.dvg.cn/item_list.php",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark-event.mangot5.com/GameGuide/Pages/操作"
+  ],
+  "skills": {
+   "A.C.O.M. Attack": {
+    "zh": "A.C.O.M出击",
+    "src": "cn"
+   },
+   "A.C.O.M. Bombardment Support": {
+    "zh": "A.C.O.M轰炸支援",
+    "src": "cn"
+   },
+   "Air Raid": {
+    "zh": "空中轟炸",
+    "src": "tw"
+   },
+   "Barrage Attack": {
+    "zh": "炮火攻擊",
+    "src": "tw"
+   },
+   "Barrage: A.C.T": null,
+   "Barrage: Basic Attack": null,
+   "Barrage: Energy Cannon": {
+    "zh": "炮擊：能量砲",
+    "src": "tw"
+   },
+   "Barrage: Focus Fire": {
+    "zh": "炮擊：集中炮火",
+    "src": "tw"
+   },
+   "Barrage: Howitzer": {
+    "zh": "炮擊：曲射砲",
+    "src": "tw"
+   },
+   "Barrage: Impregnability": {
+    "zh": "炮擊：絕對領域",
+    "src": "tw"
+   },
+   "Barrage: Location Transmission": {
+    "zh": "炮擊：傳送位置",
+    "src": "tw"
+   },
+   "Barrage: Steel Rain": {
+    "zh": "炮擊：彈雨",
+    "src": "tw"
+   },
+   "Buckshot": {
+    "zh": "散彈",
+    "src": "tw"
+   },
+   "Energy Field": {
+    "zh": "能量區",
+    "src": "tw"
+   },
+   "Enhanced Shell": {
+    "zh": "強化彈",
+    "src": "tw"
+   },
+   "Enter Barrage Mode": null,
+   "Exit Barrage Mode": null,
+   "Flamethrower": {
+    "zh": "火焰噴射器",
+    "src": "tw"
+   },
+   "Forward Barrage": {
+    "zh": "前方炮擊",
+    "src": "tw"
+   },
+   "Gatling Gun": {
+    "zh": "格林機槍",
+    "src": "tw"
+   },
+   "Gravity Explosion": {
+    "zh": "重力爆破",
+    "src": "tw"
+   },
+   "Heavy Turret": {
+    "zh": "重型炮塔",
+    "src": "tw"
+   },
+   "Homing Barrage": {
+    "zh": "導彈轟炸",
+    "src": "tw"
+   },
+   "Howitzer": {
+    "zh": "曲射砲",
+    "src": "tw"
+   },
+   "Jump Barrage": {
+    "zh": "跳躍炮擊",
+    "src": "tw"
+   },
+   "Kindle": null,
+   "Missile Barrage": {
+    "zh": "導彈炮火",
+    "src": "tw"
+   },
+   "Missile Launcher": {
+    "zh": "狂暴导弹",
+    "src": "cn"
+   },
+   "Multi-Rocket Launcher": {
+    "zh": "多管火箭砲",
+    "src": "tw"
+   },
+   "Napalm Shot": {
+    "zh": "凝固汽油彈",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Photoelectronic Cannon": null,
+   "Plasma Storm": {
+    "zh": "電漿風暴",
+    "src": "tw"
+   },
+   "Pressurized Heatbomb": {
+    "zh": "高壓炎彈",
+    "src": "tw"
+   },
+   "Roll": null,
+   "Stand Up": {
+    "zh": "起身技",
+    "src": "tw"
+   },
+   "Summon Turret": {
+    "zh": "召喚炮臺",
+    "src": "tw"
+   },
+   "Swing": {
+    "zh": "揮舞",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "Absolutely Cooking": {
+    "zh": "焚烧者",
+    "src": "cn"
+   },
+   "Ammo Collector": {
+    "zh": "弹药收集者",
+    "src": "cn"
+   },
+   "Auto Lock-On": {
+    "zh": "自动锁定",
+    "src": "cn"
+   },
+   "Bombardier Tank": {
+    "zh": "火力战车",
+    "src": "cn"
+   },
+   "Bombardment": {
+    "zh": "暴击",
+    "src": "cn"
+   },
+   "Demon Fire": {
+    "zh": "恶魔火焰",
+    "src": "cn"
+   },
+   "Galewind Artillerist": {
+    "zh": "疾风炮兵",
+    "src": "cn"
+   },
+   "Infinite Combustion": {
+    "zh": "无限燃烧",
+    "src": "cn"
+   },
+   "Iron Rain": {
+    "zh": "钢铁之雨",
+    "src": "cn"
+   },
+   "Jumper": {
+    "zh": "跳跃者",
+    "src": "cn"
+   },
+   "Momentous Leap": {
+    "zh": "飞跃瞬间",
+    "src": "cn"
+   },
+   "Overheated Shell": {
+    "zh": "过热炮弹",
+    "src": "cn"
+   },
+   "Rapid Tank": {
+    "zh": "快速坦克",
+    "src": "cn"
+   },
+   "Safehouse": {
+    "zh": "安全区域",
+    "src": "cn"
+   },
+   "Sea of Fire": {
+    "zh": "火海之城",
+    "src": "cn"
+   },
+   "Shoot & Scoot": {
+    "zh": "射击瞬移",
+    "src": "cn"
+   },
+   "Time on Target": {
+    "zh": "同步打击",
+    "src": "cn"
+   },
+   "Vanquish": {
+    "zh": "焦土化",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Additional Missile": {
+    "zh": "追加导弹",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Barrage Attack": {
+    "zh": "炮火攻击",
+    "src": "cn"
+   },
+   "Barrage Charge": {
+    "zh": "炮击充能",
+    "src": "cn"
+   },
+   "Barrage Enhancement": {
+    "zh": "炮擊強化",
+    "src": "tw"
+   },
+   "Barrage Output Enhancement": {
+    "zh": "炮擊輸出強化",
+    "src": "tw"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Explosive": {
+    "zh": "炸彈",
+    "src": "tw"
+   },
+   "Firepower Enhancement": {
+    "zh": "火力强化",
+    "src": "cn"
+   },
+   "Improved Payload": {
+    "zh": "大量投擲",
+    "src": "tw"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Kindle": {
+    "zh": "超燃",
+    "src": "tw"
+   },
+   "Launcher Acceleration": {
+    "zh": "发射器加速",
+    "src": "cn"
+   },
+   "Maintain Firepower": {
+    "zh": "火力維持",
+    "src": "tw"
+   },
+   "Overheat": {
+    "zh": "過熱",
+    "src": "tw"
+   },
+   "Positioning System": {
+    "zh": "位置移動系統",
+    "src": "tw"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Summon A.C.T": {
+    "zh": "呼叫A.C.T",
+    "src": "tw"
+   },
+   "Sustained Firepower": {
+    "zh": "火力持续",
+    "src": "cn"
+   },
+   "Swiftness Barrage": {
+    "zh": "迅速炮擊",
+    "src": "tw"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Access Denied": {
+    "zh": "難以近身",
+    "src": "tw"
+   },
+   "Additional Firepower": {
+    "zh": "追加火藥",
+    "src": "tw"
+   },
+   "Advancing Hit": {
+    "zh": "前進打擊",
+    "src": "tw"
+   },
+   "Aimed Shot": {
+    "zh": "瞄準射擊",
+    "src": "tw"
+   },
+   "Armor Destruction": {
+    "zh": "盔甲破壞",
+    "src": "tw"
+   },
+   "Azure Flame": {
+    "zh": "藍色火花",
+    "src": "tw"
+   },
+   "Big Pack": {
+    "zh": "多重組合",
+    "src": "tw"
+   },
+   "Bullet Enhancement": {
+    "zh": "炮彈強化",
+    "src": "tw"
+   },
+   "Chain Explosion": {
+    "zh": "連鎖爆破",
+    "src": "tw"
+   },
+   "Concentration Bullet": {
+    "zh": "集束炸彈",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Condense": {
+    "zh": "濃縮",
+    "src": "tw"
+   },
+   "Coordinate Change": {
+    "zh": "變更座標",
+    "src": "tw"
+   },
+   "Dancing Explosion": {
+    "zh": "爆炸燃舞",
+    "src": "tw"
+   },
+   "Dancing Flame": {
+    "zh": "火蓮飛舞",
+    "src": "tw"
+   },
+   "Decimation Buckshot": {
+    "zh": "殲滅散彈",
+    "src": "tw"
+   },
+   "EMP Explosion": {
+    "zh": "EMP爆破",
+    "src": "tw"
+   },
+   "Energy Increase": {
+    "zh": "增加能量",
+    "src": "tw"
+   },
+   "Energy Share": {
+    "zh": "能量共享",
+    "src": "tw"
+   },
+   "Enhanced Barrage": {
+    "zh": "強化炮擊",
+    "src": "tw"
+   },
+   "Enhanced Shot": {
+    "zh": "強化射擊",
+    "src": "tw"
+   },
+   "Enhanced Strike": {
+    "zh": "強化一擊",
+    "src": "tw"
+   },
+   "Enhanced Turret": {
+    "zh": "強化炮臺",
+    "src": "tw"
+   },
+   "Fatal Barrage": {
+    "zh": "致命炮擊",
+    "src": "tw"
+   },
+   "Field Release": {
+    "zh": "區域釋放",
+    "src": "tw"
+   },
+   "Fierce Heat": {
+    "zh": "熾熱氛圍",
+    "src": "tw"
+   },
+   "Final Barrage": {
+    "zh": "最後炮擊",
+    "src": "tw"
+   },
+   "Firework": {
+    "zh": "煙火",
+    "src": "tw"
+   },
+   "Flame Barrage": {
+    "zh": "火焰轟炸",
+    "src": "tw"
+   },
+   "Flame Rocket": {
+    "zh": "火焰火箭",
+    "src": "tw"
+   },
+   "Flash Explosion": {
+    "zh": "閃光爆破",
+    "src": "tw"
+   },
+   "Flash Shell": {
+    "zh": "閃光炮彈",
+    "src": "tw"
+   },
+   "Focus": {
+    "zh": "集中",
+    "src": "tw"
+   },
+   "Focused Barrage": {
+    "zh": "集中炮擊",
+    "src": "tw"
+   },
+   "Freeze Shell": {
+    "zh": "寒冰彈",
+    "src": "tw"
+   },
+   "Frost Barrage": {
+    "zh": "寒氣轟炸",
+    "src": "tw"
+   },
+   "Frost Rocket": {
+    "zh": "寒氣火箭",
+    "src": "tw"
+   },
+   "Giant Rocket": {
+    "zh": "巨大火箭",
+    "src": "tw"
+   },
+   "Growth Bullet": {
+    "zh": "成長彈丸",
+    "src": "tw"
+   },
+   "Guiding Enhancement": {
+    "zh": "引導功能強化",
+    "src": "tw"
+   },
+   "High-Speed Flight": {
+    "zh": "高速飛行",
+    "src": "tw"
+   },
+   "High-Speed Recharge": {
+    "zh": "高速補充",
+    "src": "tw"
+   },
+   "High-speed Rapid Fire": {
+    "zh": "高速連射",
+    "src": "tw"
+   },
+   "Ice Storm": {
+    "zh": "冰風暴",
+    "src": "tw"
+   },
+   "Ignore Collision": {
+    "zh": "無視衝突",
+    "src": "tw"
+   },
+   "Internal Ignition": {
+    "zh": "內部燃火",
+    "src": "tw"
+   },
+   "Keen Strike": {
+    "zh": "鋒利一擊",
+    "src": "tw"
+   },
+   "Kill Confirmation": {
+    "zh": "最後射擊",
+    "src": "tw"
+   },
+   "Large Plasma": {
+    "zh": "大型電漿",
+    "src": "tw"
+   },
+   "Laser Cannon": {
+    "zh": "雷射砲",
+    "src": "tw"
+   },
+   "Laser Turret": {
+    "zh": "雷射炮臺",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Lightning Barrage": {
+    "zh": "電氣轟炸",
+    "src": "tw"
+   },
+   "Load": {
+    "zh": "裝填",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Magick Extortion": {
+    "zh": "法力掠奪",
+    "src": "tw"
+   },
+   "Mind Concentration": {
+    "zh": "精神集中",
+    "src": "tw"
+   },
+   "Mobile Barrage": {
+    "zh": "機動炮擊",
+    "src": "tw"
+   },
+   "Muscle Spasm": {
+    "zh": "肌肉痙攣",
+    "src": "tw"
+   },
+   "Opportunist": {
+    "zh": "趁火打劫",
+    "src": "tw"
+   },
+   "Piercing Strike": {
+    "zh": "貫穿一擊",
+    "src": "tw"
+   },
+   "Planetary Gravity": {
+    "zh": "行星重力",
+    "src": "tw"
+   },
+   "Plasma Growth": {
+    "zh": "電漿成長",
+    "src": "tw"
+   },
+   "Power Bomb": {
+    "zh": "原子彈",
+    "src": "tw"
+   },
+   "Prepare to Fire": {
+    "zh": "開炮準備",
+    "src": "tw"
+   },
+   "Quick Attack": {
+    "zh": "快速攻擊",
+    "src": "tw"
+   },
+   "Quick Barrage": {
+    "zh": "矯捷炮擊",
+    "src": "tw"
+   },
+   "Quick Jump": {
+    "zh": "矯捷跳躍",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Quicker Dispatch": {
+    "zh": "迅速設置",
+    "src": "tw"
+   },
+   "Quickfire": {
+    "zh": "快速發射",
+    "src": "tw"
+   },
+   "Ranged Buckshot": {
+    "zh": "遠距離散彈",
+    "src": "tw"
+   },
+   "Ranged Flame": {
+    "zh": "遠距離火焰",
+    "src": "tw"
+   },
+   "Ranged Install": {
+    "zh": "遠距離設置",
+    "src": "tw"
+   },
+   "Ranged Turret": {
+    "zh": "遠距離炮臺",
+    "src": "tw"
+   },
+   "Repulse": {
+    "zh": "推擊",
+    "src": "tw"
+   },
+   "Rocket Jump": {
+    "zh": "火箭跳躍",
+    "src": "tw"
+   },
+   "Ruthless Barrage": {
+    "zh": "無情轟炸",
+    "src": "tw"
+   },
+   "Scatter Shot": {
+    "zh": "擴散彈",
+    "src": "tw"
+   },
+   "Scorching Blaze": {
+    "zh": "點燃",
+    "src": "tw"
+   },
+   "Serial Barrage": {
+    "zh": "連發炮擊",
+    "src": "tw"
+   },
+   "Shield": {
+    "zh": "防禦屏障",
+    "src": "tw"
+   },
+   "Shield Enhancement": {
+    "zh": "屏障強化",
+    "src": "tw"
+   },
+   "Slow Effect": {
+    "zh": "緩慢效果",
+    "src": "tw"
+   },
+   "Solid Shield": {
+    "zh": "堅硬屏障",
+    "src": "tw"
+   },
+   "Spin Attack": {
+    "zh": "迴轉攻擊",
+    "src": "tw"
+   },
+   "Stabilize": {
+    "zh": "穩定化",
+    "src": "tw"
+   },
+   "Stun Effect": {
+    "zh": "暈厥效果",
+    "src": "tw"
+   },
+   "Stunner": {
+    "zh": "維持暈厥",
+    "src": "tw"
+   },
+   "Sturdy Armor": {
+    "zh": "堅硬盔甲",
+    "src": "tw"
+   },
+   "Sub Battery": {
+    "zh": "金牌電池",
+    "src": "tw"
+   },
+   "Sustain Enhancement": {
+    "zh": "持續力強化",
+    "src": "tw"
+   },
+   "Sweep": {
+    "zh": "打倒",
+    "src": "tw"
+   },
+   "Sweeping Gravity": {
+    "zh": "重力旋風",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Swiftness Barrage": {
+    "zh": "迅速炮擊",
+    "src": "tw"
+   },
+   "Target Focus": {
+    "zh": "集中標記",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "The Big One": {
+    "zh": "核彈",
+    "src": "tw"
+   },
+   "The More the Merrier": {
+    "zh": "集團攻擊",
+    "src": "tw"
+   },
+   "Triple Barrage": {
+    "zh": "3段炮擊",
+    "src": "tw"
+   },
+   "Vital Point Attack": {
+    "zh": "要害攻擊",
+    "src": "tw"
+   },
+   "Vital Point Barrage": {
+    "zh": "要害炮擊",
+    "src": "tw"
+   },
+   "Vital Point Bombardment": {
+    "zh": "要害轟炸",
+    "src": "tw"
+   },
+   "Vital Point Hit": {
+    "zh": "要害打擊",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破壞強化",
+    "src": "tw"
+   },
+   "Wide Explosion": {
+    "zh": "寬廣爆破",
+    "src": "tw"
+   },
+   "Will of the Destroyer": {
+    "zh": "破壞者意志",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 505,
+  "class_en": "Machinist",
+  "class_zh": "偵察士",
+  "class_zh_cn": "机械师",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/",
+   "https://lostarkcodex.com/us/skills/",
+   "https://lostarkcodex.com/us/items/",
+   "https://lostark.dvg.cn/skill_list.php",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=",
+   "https://lostark.dvg.cn/tools/t4/",
+   "https://lostark.dvg.cn/item_list.php",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark-event.mangot5.com/GameGuide/Pages/操作"
+  ],
+  "skills": {
+   "Air Strike": {
+    "zh": "空襲轟炸",
+    "src": "tw"
+   },
+   "Annihilation Mode": {
+    "zh": "盡滅模式",
+    "src": "tw"
+   },
+   "Avalanche": {
+    "zh": "扇形射擊",
+    "src": "tw"
+   },
+   "Backflip Strike": {
+    "zh": "後翻斬擊",
+    "src": "tw"
+   },
+   "Basic Attack": {
+    "zh": "基本攻擊",
+    "src": "tw"
+   },
+   "Battleship Operation": {
+    "zh": "战舰掌控",
+    "src": "cn"
+   },
+   "Bullet Hail": {
+    "zh": "子彈海嘯",
+    "src": "tw"
+   },
+   "Comet Strike": {
+    "zh": "彗星進擊",
+    "src": "tw"
+   },
+   "Command: Active Pulse": {
+    "zh": "命令：主動脈衝",
+    "src": "tw"
+   },
+   "Command: Baby Drones": {
+    "zh": "命令：微型無人機",
+    "src": "tw"
+   },
+   "Command: Blockade": {
+    "zh": "命令：道路阻塞",
+    "src": "tw"
+   },
+   "Command: Call Back": null,
+   "Command: Carpet": {
+    "zh": "命令：地毯式攻擊",
+    "src": "tw"
+   },
+   "Command: Flare Beam": {
+    "zh": "命令：扇形光束",
+    "src": "tw"
+   },
+   "Command: M143 Machine Gun": {
+    "zh": "命令：M143機關槍",
+    "src": "tw"
+   },
+   "Command: Raid Missile": {
+    "zh": "命令：侵襲導彈",
+    "src": "tw"
+   },
+   "Crimson Breaker": {
+    "zh": "科林森破壞",
+    "src": "tw"
+   },
+   "Disable Hypersync": null,
+   "EX-Zero Point": {
+    "zh": "EX - 零點",
+    "src": "tw"
+   },
+   "Echelon Beam": {
+    "zh": "艾克希里昂光束",
+    "src": "tw"
+   },
+   "Energy Buster": {
+    "zh": "能量爆裂",
+    "src": "tw"
+   },
+   "Fiery Escape": {
+    "zh": "走避射擊",
+    "src": "tw"
+   },
+   "Force Disable Hypersync": null,
+   "High Voltage Bullet": {
+    "zh": "高壓電彈",
+    "src": "tw"
+   },
+   "Hypersync": {
+    "zh": "超速同步",
+    "src": "tw"
+   },
+   "Laser Blade": {
+    "zh": "雷射刀鋒",
+    "src": "tw"
+   },
+   "Mobile Shot": {
+    "zh": "機動打擊",
+    "src": "tw"
+   },
+   "Neo Fire": {
+    "zh": "烈火重生",
+    "src": "cn"
+   },
+   "Overcharged Battery": {
+    "zh": "過度充電電池",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Point Exclusion": {
+    "zh": "点位爆破",
+    "src": "cn"
+   },
+   "Project Titan": {
+    "zh": "泰坦計畫",
+    "src": "tw"
+   },
+   "Pulse Fire": {
+    "zh": "脈衝火",
+    "src": "tw"
+   },
+   "Quantum Assembly Beam": null,
+   "Slugshot": {
+    "zh": "雷射強擊",
+    "src": "tw"
+   },
+   "Sonic Impact": null,
+   "Stand Up": {
+    "zh": "起身技",
+    "src": "tw"
+   },
+   "Strategic Fire": {
+    "zh": "戰術射擊",
+    "src": "tw"
+   },
+   "Surge Blow": {
+    "zh": "爆裂重擊",
+    "src": "tw"
+   },
+   "Sync Protocol": {
+    "zh": "同步協定",
+    "src": "tw"
+   },
+   "Thruster Move": null,
+   "Tremors": null
+  },
+  "ark_grid_cores": {
+   "Accelerated Burst": {
+    "zh": "零秒爆发",
+    "src": "cn"
+   },
+   "Apocalyptic Energy": {
+    "zh": "能量末日",
+    "src": "cn"
+   },
+   "Artillery Stance": {
+    "zh": "炮击姿态",
+    "src": "cn"
+   },
+   "Assault Titan": {
+    "zh": "突击泰坦",
+    "src": "cn"
+   },
+   "Astral Suit": {
+    "zh": "星辰铠甲",
+    "src": "cn"
+   },
+   "Battery Output Enhancement": {
+    "zh": "电池输出强化",
+    "src": "cn"
+   },
+   "Bio Modification Technique": {
+    "zh": "生体改造技术",
+    "src": "cn"
+   },
+   "Bullet Tempest": {
+    "zh": "子弹风暴",
+    "src": "cn"
+   },
+   "Core Reactor Amplification": {
+    "zh": "核心反应堆增幅",
+    "src": "cn"
+   },
+   "Extrasensory Synchronization": {
+    "zh": "超感官同步",
+    "src": "cn"
+   },
+   "Incinerating Execution": {
+    "zh": "销毁执行",
+    "src": "cn"
+   },
+   "Perfect Sync": {
+    "zh": "完美契合",
+    "src": "cn"
+   },
+   "Pulse Nova": {
+    "zh": "脉冲新星",
+    "src": "cn"
+   },
+   "Quantum Operative": {
+    "zh": "量子操纵者",
+    "src": "cn"
+   },
+   "Quasar Cannon Suit": {
+    "zh": "类星体大炮装甲",
+    "src": "cn"
+   },
+   "SMG Agent": {
+    "zh": "SMG特工",
+    "src": "cn"
+   },
+   "Titan Suit": {
+    "zh": "泰坦装甲",
+    "src": "cn"
+   },
+   "Zero Pulse Energy": {
+    "zh": "零脉冲能量",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Arthetinean Skill": {
+    "zh": "阿尔泰因科技",
+    "src": "cn"
+   },
+   "Autopilot": {
+    "zh": "自動駕駛",
+    "src": "tw"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Collaboration": {
+    "zh": "最佳合作",
+    "src": "tw"
+   },
+   "Combat Mode": {
+    "zh": "戰鬥模式",
+    "src": "tw"
+   },
+   "Core Reaction Amplification": {
+    "zh": "核心反應增幅",
+    "src": "tw"
+   },
+   "Drone Defense System": {
+    "zh": "无人机防御体系",
+    "src": "cn"
+   },
+   "Enchanted Core": {
+    "zh": "核心增幅",
+    "src": "tw"
+   },
+   "Evolutionary Legacy": {
+    "zh": "進化遺產",
+    "src": "tw"
+   },
+   "Focused Power": {
+    "zh": "聚焦火力",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Optimization Mode": {
+    "zh": "优化模式",
+    "src": "cn"
+   },
+   "Oversync": {
+    "zh": "極速同步",
+    "src": "tw"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Skill Upgrade": {
+    "zh": "技術升級",
+    "src": "tw"
+   },
+   "Sync Combination": {
+    "zh": "同步組合",
+    "src": "tw"
+   },
+   "Tactical Reload": {
+    "zh": "戰術重新裝填",
+    "src": "tw"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Zero Core Energy": {
+    "zh": "零點核心能量",
+    "src": "tw"
+   },
+   "Zero Mode": {
+    "zh": "零點模式",
+    "src": "tw"
+   }
+  },
+  "tripods": {
+   "": null,
+   "Additional Shot": {
+    "zh": "追加射擊",
+    "src": "tw"
+   },
+   "Agile Landing": {
+    "zh": "迅捷落地",
+    "src": "tw"
+   },
+   "All-around Security": {
+    "zh": "四周警戒",
+    "src": "tw"
+   },
+   "All-out War": {
+    "zh": "全力奮戰",
+    "src": "tw"
+   },
+   "Battery Charge": {
+    "zh": "電池充電",
+    "src": "tw"
+   },
+   "Battery Discharge": {
+    "zh": "電池釋放",
+    "src": "tw"
+   },
+   "Battery Saving Mode": {
+    "zh": "電池節約",
+    "src": "tw"
+   },
+   "Big Baby": {
+    "zh": "大型無人機",
+    "src": "tw"
+   },
+   "Build Camp": {
+    "zh": "構築陣地",
+    "src": "tw"
+   },
+   "Combined Fire": {
+    "zh": "偕同射擊",
+    "src": "tw"
+   },
+   "Complete Blockade": {
+    "zh": "完全封鎖",
+    "src": "tw"
+   },
+   "Comrade": {
+    "zh": "戰友",
+    "src": "tw"
+   },
+   "Concise Finish": {
+    "zh": "簡潔收尾",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Concussion Battery": {
+    "zh": "震盪電池",
+    "src": "tw"
+   },
+   "Condense": {
+    "zh": "濃縮",
+    "src": "tw"
+   },
+   "Condensed Shot": {
+    "zh": "壓縮射擊",
+    "src": "tw"
+   },
+   "Continuous Explosion": {
+    "zh": "連續爆破",
+    "src": "tw"
+   },
+   "Core Energy Charge": {
+    "zh": "補充核心能量",
+    "src": "tw"
+   },
+   "Core Energy Supply": {
+    "zh": "核心能量供需",
+    "src": "tw"
+   },
+   "Coup De Grace": {
+    "zh": "決勝一擊",
+    "src": "tw"
+   },
+   "Cross Fire": {
+    "zh": "十字炮火",
+    "src": "tw"
+   },
+   "Death Volley": {
+    "zh": "神射手",
+    "src": "tw"
+   },
+   "Defensive Maneuver": {
+    "zh": "啟動保護",
+    "src": "tw"
+   },
+   "Diversion": {
+    "zh": "游擊",
+    "src": "tw"
+   },
+   "Domination Shot": {
+    "zh": "壓制射擊",
+    "src": "tw"
+   },
+   "Double Magazine": {
+    "zh": "雙重彈匣",
+    "src": "tw"
+   },
+   "Electric Power": {
+    "zh": "全力拚戰",
+    "src": "tw"
+   },
+   "Electricity Release": {
+    "zh": "電流釋放",
+    "src": "tw"
+   },
+   "Emergency Protection": {
+    "zh": "應急保護",
+    "src": "tw"
+   },
+   "Enhanced Fire": {
+    "zh": "強化射擊",
+    "src": "tw"
+   },
+   "Enhanced Laser": {
+    "zh": "強化雷射",
+    "src": "tw"
+   },
+   "Enhanced Magazine": {
+    "zh": "強化彈匣",
+    "src": "tw"
+   },
+   "Enhanced Self-Destruct": {
+    "zh": "自爆強化",
+    "src": "tw"
+   },
+   "Evasive Maneuver": {
+    "zh": "啟動迴避",
+    "src": "tw"
+   },
+   "Evolved Shot": {
+    "zh": "進化射擊",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Explosive Barrage": {
+    "zh": "爆裂炮火",
+    "src": "tw"
+   },
+   "Explosive Battery": {
+    "zh": "爆破性電池",
+    "src": "tw"
+   },
+   "Explosive Bullet": {
+    "zh": "爆裂彈藥",
+    "src": "tw"
+   },
+   "Expulsion Pulse": {
+    "zh": "波紋脈衝",
+    "src": "tw"
+   },
+   "Extensive Shooting": {
+    "zh": "持續射擊",
+    "src": "tw"
+   },
+   "Ferocious Shot": {
+    "zh": "無差別射擊",
+    "src": "tw"
+   },
+   "Fighting Spirit Enh.": {
+    "zh": "鬥志強化",
+    "src": "tw"
+   },
+   "Flame Baby": {
+    "zh": "火舌無人機",
+    "src": "tw"
+   },
+   "Flame Buster": {
+    "zh": "火舌爆裂",
+    "src": "tw"
+   },
+   "Flash Pulse": {
+    "zh": "閃光脈衝",
+    "src": "tw"
+   },
+   "Flash Shot": {
+    "zh": "閃光射擊",
+    "src": "tw"
+   },
+   "Flexible Shot": {
+    "zh": "柔韌射擊",
+    "src": "tw"
+   },
+   "Focused Output": {
+    "zh": "集中輸出",
+    "src": "tw"
+   },
+   "Freezing Beam": {
+    "zh": "冷凍光束",
+    "src": "tw"
+   },
+   "Guided Missile": {
+    "zh": "引導導彈",
+    "src": "tw"
+   },
+   "High Flight": {
+    "zh": "高空飛行",
+    "src": "tw"
+   },
+   "Incineration": {
+    "zh": "焦土化",
+    "src": "tw"
+   },
+   "Instant Explosion": {
+    "zh": "立即爆破",
+    "src": "tw"
+   },
+   "Instant Ignition": {
+    "zh": "立即燃火",
+    "src": "tw"
+   },
+   "Large Caliber Bullet": {
+    "zh": "大口徑彈丸",
+    "src": "tw"
+   },
+   "Large Missile": {
+    "zh": "大型導彈",
+    "src": "tw"
+   },
+   "Laser Cut": {
+    "zh": "雷射切割",
+    "src": "tw"
+   },
+   "Laser Show": {
+    "zh": "雷射秀",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Lethal Shot": {
+    "zh": "致命射擊",
+    "src": "tw"
+   },
+   "Lightning Beam": {
+    "zh": "雷電光束",
+    "src": "tw"
+   },
+   "Lightning Burster": {
+    "zh": "閃電爆裂",
+    "src": "tw"
+   },
+   "Long Flight": {
+    "zh": "長程飛行",
+    "src": "tw"
+   },
+   "Long Shot": {
+    "zh": "長程射擊",
+    "src": "tw"
+   },
+   "Meltdown": {
+    "zh": "原子崩炸",
+    "src": "tw"
+   },
+   "Minefield": {
+    "zh": "地雷區",
+    "src": "tw"
+   },
+   "Multiple Explosions": {
+    "zh": "子母炸彈",
+    "src": "tw"
+   },
+   "Neat Combination": {
+    "zh": "俐落連結",
+    "src": "tw"
+   },
+   "Nimble Movement": {
+    "zh": "迅捷行動",
+    "src": "tw"
+   },
+   "One Body and Spirit": {
+    "zh": "一心同體",
+    "src": "tw"
+   },
+   "Organ Missile": {
+    "zh": "多管導彈",
+    "src": "tw"
+   },
+   "Piercing Attack": {
+    "zh": "貫穿攻擊",
+    "src": "tw"
+   },
+   "Powerful Electrocution": {
+    "zh": "強大觸電",
+    "src": "tw"
+   },
+   "Precise Command": {
+    "zh": "精巧命令",
+    "src": "tw"
+   },
+   "Precision Barrage": {
+    "zh": "精密炮火",
+    "src": "tw"
+   },
+   "Precision Fire": {
+    "zh": "精密打擊",
+    "src": "tw"
+   },
+   "Preheated Shot": {
+    "zh": "預熱射擊",
+    "src": "tw"
+   },
+   "Pulse Charge": {
+    "zh": "脈衝蓄力",
+    "src": "tw"
+   },
+   "Pulse Shield": {
+    "zh": "脈衝屏障",
+    "src": "tw"
+   },
+   "Pulse Stack": {
+    "zh": "脈衝堆疊",
+    "src": "tw"
+   },
+   "Quick Performance": {
+    "zh": "矯捷執行",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Quickness": {
+    "zh": "靈巧",
+    "src": "tw"
+   },
+   "Railgun": {
+    "zh": "磁軌砲",
+    "src": "tw"
+   },
+   "Ranged Throw": {
+    "zh": "遠距離投擲",
+    "src": "tw"
+   },
+   "Reformation": {
+    "zh": "整編",
+    "src": "tw"
+   },
+   "Roundup Attack": {
+    "zh": "齊發攻擊",
+    "src": "tw"
+   },
+   "Scar": {
+    "zh": "傷疤",
+    "src": "tw"
+   },
+   "Sea of Fire": {
+    "zh": "火焰之海",
+    "src": "tw"
+   },
+   "Shock Bomb": {
+    "zh": "衝擊炸彈",
+    "src": "tw"
+   },
+   "Shock Pulse": {
+    "zh": "衝擊脈衝",
+    "src": "tw"
+   },
+   "Skilled Defender": {
+    "zh": "純熟的行動",
+    "src": "tw"
+   },
+   "Solid Maneuver": {
+    "zh": "立體機動",
+    "src": "tw"
+   },
+   "Stable Stance": {
+    "zh": "穩定姿態",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Swift Preparation": {
+    "zh": "迅速準備",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Thunder Baby": {
+    "zh": "雷電無人機",
+    "src": "tw"
+   },
+   "Vital Point Shot": {
+    "zh": "要害射擊",
+    "src": "tw"
+   },
+   "Volley of Missiles": {
+    "zh": "連發導彈",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weak Prey Shot": {
+    "zh": "弱肉射擊",
+    "src": "tw"
+   },
+   "Wide Explosion": {
+    "zh": "寬廣爆破",
+    "src": "tw"
+   },
+   "Wide Shot": {
+    "zh": "寬廣射擊",
+    "src": "tw"
+   },
+   "Wide-Angle Attack": {
+    "zh": "寬廣攻擊",
+    "src": "tw"
+   },
+   "Zero Degree Aim": {
+    "zh": "零點瞄準",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 512,
+  "class_en": "Gunslinger",
+  "class_zh": "神槍手",
+  "class_zh_cn": "荒漠枪手",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/",
+   "https://lostarkcodex.com/us/skills/",
+   "https://lostarkcodex.com/us/items/",
+   "https://lostark.dvg.cn/skill_list.php",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=",
+   "https://lostark.dvg.cn/tools/t4/",
+   "https://lostark.dvg.cn/item_list.php",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65009",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark-event.mangot5.com/GameGuide/Pages/操作"
+  ],
+  "skills": {
+   "AT02 Grenade": {
+    "zh": "AT02榴彈",
+    "src": "tw"
+   },
+   "Atomic Explosion": {
+    "zh": "原子爆炸",
+    "src": "cn"
+   },
+   "Bullet Prison": {
+    "zh": "禁锢子弹",
+    "src": "cn"
+   },
+   "Bullet Rain": {
+    "zh": "槍林彈雨",
+    "src": "tw"
+   },
+   "Bullseye": {
+    "zh": "西部之眼",
+    "src": "cn"
+   },
+   "Catastrophe": {
+    "zh": "大災難",
+    "src": "tw"
+   },
+   "Change Stance": null,
+   "Dead End": {
+    "zh": "穷途末路",
+    "src": "cn"
+   },
+   "Death Fire": {
+    "zh": "死亡之火",
+    "src": "tw"
+   },
+   "Dexterous Shot": {
+    "zh": "敏捷的射擊",
+    "src": "tw"
+   },
+   "Dual Buckshot": {
+    "zh": "絕滅彈丸",
+    "src": "tw"
+   },
+   "Equilibrium": {
+    "zh": "掃蕩",
+    "src": "tw"
+   },
+   "Eye of Twilight": {
+    "zh": "黃昏之眼",
+    "src": "tw"
+   },
+   "Focused Shot": {
+    "zh": "焦點續擊",
+    "src": "tw"
+   },
+   "High-Caliber HE Bullet": {
+    "zh": "大口徑爆破彈",
+    "src": "tw"
+   },
+   "Hour of Judgment": {
+    "zh": "審判時間",
+    "src": "tw"
+   },
+   "Last Request": {
+    "zh": "最後的晚餐",
+    "src": "tw"
+   },
+   "Meteor Stream": {
+    "zh": "流星雨",
+    "src": "tw"
+   },
+   "Peace Keeper": {
+    "zh": "維和者",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Perfect Shot": {
+    "zh": "完美射擊",
+    "src": "tw"
+   },
+   "Plasma Bullet": {
+    "zh": "電漿子彈",
+    "src": "tw"
+   },
+   "Quick Step": {
+    "zh": "快步",
+    "src": "tw"
+   },
+   "Reverse Stance Switch": null,
+   "Rose Blossom": {
+    "zh": "玫瑰綻放",
+    "src": "tw"
+   },
+   "Seven Shotguns": {
+    "zh": "七号霰弹枪",
+    "src": "cn"
+   },
+   "Sharpshooter": {
+    "zh": "魔彈射手",
+    "src": "tw"
+   },
+   "Shotgun Rapid Fire": {
+    "zh": "霰彈槍連射",
+    "src": "tw"
+   },
+   "Somersault Shot": {
+    "zh": "翻騰射擊",
+    "src": "tw"
+   },
+   "Spiral Flame": {
+    "zh": "螺旋火舌",
+    "src": "tw"
+   },
+   "Spiral Tracker": {
+    "zh": "螺旋追蹤者",
+    "src": "tw"
+   },
+   "Stampede": null,
+   "Stand Up": {
+    "zh": "起身技",
+    "src": "tw"
+   },
+   "Target Down": {
+    "zh": "目標擊殺",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "All-Rounder": {
+    "zh": "全能型人才",
+    "src": "cn"
+   },
+   "Armor-Piercing Shell": {
+    "zh": "铁甲破裂弹",
+    "src": "cn"
+   },
+   "Black Belt": {
+    "zh": "段位高手",
+    "src": "cn"
+   },
+   "Blowback": {
+    "zh": "强烈反冲",
+    "src": "cn"
+   },
+   "Bullet Blitz": {
+    "zh": "飞弹轨道",
+    "src": "cn"
+   },
+   "Echoes of the Banquet": {
+    "zh": "宴会残香",
+    "src": "cn"
+   },
+   "Eye of the Tigress": {
+    "zh": "老虎小姐",
+    "src": "tw"
+   },
+   "Full Magazine": {
+    "zh": "弹匣已满",
+    "src": "cn"
+   },
+   "Heel Strike": {
+    "zh": "踵击",
+    "src": "cn"
+   },
+   "Jack-of-All-Trades": {
+    "zh": "全方位专家",
+    "src": "cn"
+   },
+   "Lawless Land": {
+    "zh": "无序之地",
+    "src": "cn"
+   },
+   "Midnight Rose": {
+    "zh": "午夜玫瑰",
+    "src": "cn"
+   },
+   "Pinpoint": {
+    "zh": "精确",
+    "src": "cn"
+   },
+   "Precision Fire": {
+    "zh": "精密攻击",
+    "src": "cn"
+   },
+   "Shield Targeting": {
+    "zh": "盾牌瞄准",
+    "src": "cn"
+   },
+   "True Aim": {
+    "zh": "精密准备",
+    "src": "cn"
+   },
+   "Way of the Gun": {
+    "zh": "枪法",
+    "src": "cn"
+   },
+   "Weapon Switch": {
+    "zh": "姿态转换",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Aerial Stunt": {
+    "zh": "空中绝技",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Dead Center": {
+    "zh": "一擊必中",
+    "src": "tw"
+   },
+   "Enhanced Shot": {
+    "zh": "强化型射击",
+    "src": "cn"
+   },
+   "Extrasensory Shot": {
+    "zh": "超感射击",
+    "src": "cn"
+   },
+   "Flash": {
+    "zh": "闪光",
+    "src": "cn"
+   },
+   "Gun Replacement Skill": {
+    "zh": "換槍技術",
+    "src": "tw"
+   },
+   "High-Capacity Magazine": {
+    "zh": "大容量弹匣",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Pacifist": {
+    "zh": "和平主義者",
+    "src": "tw"
+   },
+   "Peacemaker: Handgun": {
+    "zh": "和平使者 - 手槍",
+    "src": "tw"
+   },
+   "Peacemaker: Rifle": {
+    "zh": "和平使者 - 步槍",
+    "src": "tw"
+   },
+   "Peacemaker: Shotgun": {
+    "zh": "和平使者 - 霰彈槍",
+    "src": "tw"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Rifle Cooling": {
+    "zh": "枪械冷却",
+    "src": "cn"
+   },
+   "Rifle Expertise": {
+    "zh": "步枪熟练",
+    "src": "cn"
+   },
+   "Secret Bullet": {
+    "zh": "秘密子弹",
+    "src": "cn"
+   },
+   "Sniper's Will": {
+    "zh": "狙擊手意志",
+    "src": "tw"
+   },
+   "Time to Hunt": {
+    "zh": "狩猎时间",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Vital Point Expert": {
+    "zh": "要害專家",
+    "src": "tw"
+   },
+   "Wind Walk": {
+    "zh": "风之步",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Agile Movement": {
+    "zh": "矯捷行動",
+    "src": "tw"
+   },
+   "Agile Shot": {
+    "zh": "迅捷射擊",
+    "src": "tw"
+   },
+   "Ambush": {
+    "zh": "突襲",
+    "src": "tw"
+   },
+   "Anti-Air Shot": {
+    "zh": "對空射擊",
+    "src": "tw"
+   },
+   "AoE Fire": {
+    "zh": "廣域射擊",
+    "src": "tw"
+   },
+   "Approaching Death": {
+    "zh": "死亡來臨",
+    "src": "tw"
+   },
+   "Back Step": {
+    "zh": "後退步",
+    "src": "tw"
+   },
+   "Bleed Effect": {
+    "zh": "出血效果",
+    "src": "tw"
+   },
+   "Bombardment Support": {
+    "zh": "轟炸支援",
+    "src": "tw"
+   },
+   "Burn Effect": {
+    "zh": "灼傷效果",
+    "src": "tw"
+   },
+   "Carpet Bombing": {
+    "zh": "地毯式轟炸",
+    "src": "tw"
+   },
+   "Chain Throw": {
+    "zh": "連續投擲",
+    "src": "tw"
+   },
+   "Change of Direction": {
+    "zh": "轉換方向",
+    "src": "tw"
+   },
+   "Close Shot": {
+    "zh": "短距射擊",
+    "src": "tw"
+   },
+   "Combo Rapid Fire": {
+    "zh": "連擊連射",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Cutthroat": {
+    "zh": "氣切",
+    "src": "tw"
+   },
+   "Cykin CQC": {
+    "zh": "凱納因CQC",
+    "src": "tw"
+   },
+   "Decimation Shot": {
+    "zh": "殲滅射擊",
+    "src": "tw"
+   },
+   "Defenseless Target": {
+    "zh": "無防備標記",
+    "src": "tw"
+   },
+   "Double Jump": {
+    "zh": "二段跳躍",
+    "src": "tw"
+   },
+   "Double Shot": {
+    "zh": "雙擊",
+    "src": "tw"
+   },
+   "Endless Magick Bullet": {
+    "zh": "無限魔彈",
+    "src": "tw"
+   },
+   "Enemy Raid": {
+    "zh": "掃蕩敵人",
+    "src": "tw"
+   },
+   "Enhanced Fire": {
+    "zh": "強化射擊",
+    "src": "tw"
+   },
+   "Enhanced Fragment": {
+    "zh": "強化碎片",
+    "src": "tw"
+   },
+   "Enhanced Grenade": {
+    "zh": "強化手榴彈",
+    "src": "tw"
+   },
+   "Enhanced Shot": {
+    "zh": "強化射擊",
+    "src": "tw"
+   },
+   "Eternal Calamity": {
+    "zh": "永恆災難",
+    "src": "tw"
+   },
+   "Evidence Destruction": {
+    "zh": "泯滅證據",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Execution": {
+    "zh": "執行",
+    "src": "tw"
+   },
+   "Explosive Steel Bullet": {
+    "zh": "炸裂鐵鋼彈",
+    "src": "tw"
+   },
+   "Extended Shot": {
+    "zh": "延長射擊",
+    "src": "tw"
+   },
+   "Ferocious Flame": {
+    "zh": "猛烈火花",
+    "src": "tw"
+   },
+   "Fierce Heat": {
+    "zh": "熾熱氛圍",
+    "src": "tw"
+   },
+   "Final Strike": {
+    "zh": "終末一擊",
+    "src": "tw"
+   },
+   "Final Verdict": {
+    "zh": "最終判決",
+    "src": "tw"
+   },
+   "Firework": {
+    "zh": "煙火",
+    "src": "tw"
+   },
+   "Flame Bomb": {
+    "zh": "火焰炸彈",
+    "src": "tw"
+   },
+   "Flame Shot": {
+    "zh": "火焰射擊",
+    "src": "tw"
+   },
+   "Flash": {
+    "zh": "閃光",
+    "src": "tw"
+   },
+   "Focus Shot": {
+    "zh": "集中射擊",
+    "src": "tw"
+   },
+   "Frag Grenade": {
+    "zh": "碎裂手榴彈",
+    "src": "tw"
+   },
+   "Fragment of Spread": {
+    "zh": "擴散碎片",
+    "src": "tw"
+   },
+   "Freeze Effect": {
+    "zh": "寒冰效果",
+    "src": "tw"
+   },
+   "Freeze Grenade": {
+    "zh": "寒冰手榴彈",
+    "src": "tw"
+   },
+   "Frost Bomb": {
+    "zh": "寒氣炸彈",
+    "src": "tw"
+   },
+   "Frost Haven": {
+    "zh": "酷寒的安身處",
+    "src": "tw"
+   },
+   "Growth Bullet": {
+    "zh": "成長彈丸",
+    "src": "tw"
+   },
+   "Guardian's Breath": {
+    "zh": "守護者之息",
+    "src": "tw"
+   },
+   "Heaven Calls": {
+    "zh": "天國的階梯",
+    "src": "tw"
+   },
+   "Heavy Duty": {
+    "zh": "連續使用",
+    "src": "tw"
+   },
+   "High-Capacity Magazine": {
+    "zh": "大容量彈匣",
+    "src": "tw"
+   },
+   "High-Speed Bullet": {
+    "zh": "高速彈丸",
+    "src": "tw"
+   },
+   "High-Speed Shot": {
+    "zh": "高速射擊",
+    "src": "tw"
+   },
+   "Hold Breath": {
+    "zh": "憋氣",
+    "src": "tw"
+   },
+   "Hypercharge Area": {
+    "zh": "超荷地帶",
+    "src": "tw"
+   },
+   "Ice Shot": {
+    "zh": "寒氣彈",
+    "src": "tw"
+   },
+   "Ignore Collision": {
+    "zh": "無視衝突",
+    "src": "tw"
+   },
+   "In a Tight Spot": {
+    "zh": "四面楚歌",
+    "src": "tw"
+   },
+   "Incendiary Bomb": {
+    "zh": "火焰彈",
+    "src": "tw"
+   },
+   "Infiltrate Decimation": {
+    "zh": "滲透殲滅",
+    "src": "tw"
+   },
+   "Infinite Decimation": {
+    "zh": "無限殲滅",
+    "src": "tw"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "tw"
+   },
+   "Internal Ignition": {
+    "zh": "內部燃火",
+    "src": "tw"
+   },
+   "Keen Strike": {
+    "zh": "鋒利一擊",
+    "src": "tw"
+   },
+   "Large Caliber Bullet": {
+    "zh": "大口徑彈丸",
+    "src": "tw"
+   },
+   "Last Bullet": {
+    "zh": "最後的彈丸",
+    "src": "tw"
+   },
+   "Life Absorption": {
+    "zh": "朝氣吸收",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Massive Explosion": {
+    "zh": "強大爆破",
+    "src": "tw"
+   },
+   "Master of Evasion": {
+    "zh": "迴避達人",
+    "src": "tw"
+   },
+   "Meteor Fall": {
+    "zh": "彗星落下",
+    "src": "tw"
+   },
+   "Muscle Spasm": {
+    "zh": "肌肉痙攣",
+    "src": "tw"
+   },
+   "Nimble Movement": {
+    "zh": "迅捷行動",
+    "src": "tw"
+   },
+   "Omnidirectional Fire": {
+    "zh": "全方位射擊",
+    "src": "tw"
+   },
+   "Opportunist": {
+    "zh": "趁火打劫",
+    "src": "tw"
+   },
+   "Perfect Aim": {
+    "zh": "完美瞄準",
+    "src": "tw"
+   },
+   "Phantom Shot": {
+    "zh": "幻影射擊",
+    "src": "tw"
+   },
+   "Piercing Explosion": {
+    "zh": "貫穿爆破",
+    "src": "tw"
+   },
+   "Plasma Split": {
+    "zh": "電漿分裂",
+    "src": "tw"
+   },
+   "Precision Shot": {
+    "zh": "精密射擊",
+    "src": "tw"
+   },
+   "Prepared Shooter": {
+    "zh": "準備就緒的射手",
+    "src": "tw"
+   },
+   "Prison Sentence": {
+    "zh": "徒刑宣告",
+    "src": "tw"
+   },
+   "Purification Ceremony": {
+    "zh": "淨化儀式",
+    "src": "tw"
+   },
+   "Quick Aim": {
+    "zh": "矯捷瞄準",
+    "src": "tw"
+   },
+   "Quick Finish": {
+    "zh": "快速收尾",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "輕快的腳步",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Quick Shot": {
+    "zh": "矯捷射擊",
+    "src": "tw"
+   },
+   "Ranged Aim": {
+    "zh": "遠距離瞄準",
+    "src": "tw"
+   },
+   "Ranged Shot": {
+    "zh": "遠距離射擊",
+    "src": "tw"
+   },
+   "Ranged Throw": {
+    "zh": "遠距離投擲",
+    "src": "tw"
+   },
+   "Rapid Fire": {
+    "zh": "速射",
+    "src": "cn",
+    "note": "EN name used by two different tripods: 连射 / 速射"
+   },
+   "Rear Blast": {
+    "zh": "風暴效應",
+    "src": "tw"
+   },
+   "Recoil Evasion": {
+    "zh": "反作用迴避",
+    "src": "tw"
+   },
+   "Reinforced Gunbarrel": {
+    "zh": "槍管強化",
+    "src": "tw"
+   },
+   "Semi-automatic Rifle": {
+    "zh": "半自動步槍",
+    "src": "tw"
+   },
+   "Slide": {
+    "zh": "滑行",
+    "src": "tw"
+   },
+   "Soul Strike": {
+    "zh": "靈魂一發",
+    "src": "tw"
+   },
+   "Special Bullet": {
+    "zh": "特殊彈丸",
+    "src": "tw"
+   },
+   "Stable Stance": {
+    "zh": "穩定姿態",
+    "src": "tw"
+   },
+   "Steady Aim": {
+    "zh": "精確瞄準",
+    "src": "tw"
+   },
+   "Stun Effect": {
+    "zh": "暈厥效果",
+    "src": "tw"
+   },
+   "Super Armor": {
+    "zh": "超級護甲",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Swift Shot": {
+    "zh": "迅速射擊",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Vital Point Attack": {
+    "zh": "要害攻擊",
+    "src": "tw"
+   },
+   "Vital Point Shot": {
+    "zh": "要害射擊",
+    "src": "tw"
+   },
+   "Volley": {
+    "zh": "連發射擊",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weakness Exposure": {
+    "zh": "暴露要害",
+    "src": "tw"
+   },
+   "Whirlpool": {
+    "zh": "漩渦",
+    "src": "tw"
+   },
+   "Wide Explosion": {
+    "zh": "寬廣爆破",
+    "src": "tw"
+   }
+  }
+ }
+]

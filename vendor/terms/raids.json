@@ -1,0 +1,659 @@
+{
+  "categories": {
+    "Kazeros Raid": {
+      "zh": "卡杰洛斯副本",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Shadow Raid": {
+      "zh": "影子副本",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10222026/154304364.shtml"
+    },
+    "Abyssal Dungeon": {
+      "zh": "深渊地牢",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/10302024/155341086.shtml"
+    },
+    "Event Raid": null,
+    "Inferno": {
+      "zh": "地狱难度",
+      "src": "cn",
+      "url": "https://www.18183.com/gonglue/202312/q3us388n.html"
+    },
+    "Legion Raid": {
+      "zh": "军团长副本",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10152023/000024001.shtml"
+    },
+    "Guardian Raid": {
+      "zh": "守护者讨伐",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05082024/115134161.shtml"
+    },
+    "Epic Raid (extra; Behemoth 16-man)": {
+      "zh": "史诗副本",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Kazeros Raid (TW extra)": {
+      "zh": "卡札羅斯襲擊戰",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Legion Raid (TW extra)": {
+      "zh": "軍團長襲擊戰",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Guardian Raid (TW extra)": {
+      "zh": "守護者討伐",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Epic Raid (TW extra)": {
+      "zh": "史詩副本",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    }
+  },
+  "raids": {
+    "Aegir": {
+      "zh": "埃基尔",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Brelshaza": {
+      "zh": "阿布莱修德",
+      "src": "cn",
+      "url": "https://news.17173.com/content/01302024/003136619_1.shtml"
+    },
+    "Mordum": {
+      "zh": "莫多姆",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Armoche": {
+      "zh": "阿尔摩切",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05182026/222053617.shtml"
+    },
+    "Kazeros": {
+      "zh": "卡杰洛斯",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Serca": {
+      "zh": "塞尔卡",
+      "src": "cn",
+      "url": "https://news.17173.com/content/07222026/101000383.shtml"
+    },
+    "Belgardin": {
+      "zh": "贝尔加丁",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10222026/154304364.shtml"
+    },
+    "Horizon Cathedral": null,
+    "Thaemine": {
+      "zh": "卡门",
+      "src": "cn",
+      "url": "https://news.17173.com/content/02132025/104848164.shtml"
+    },
+    "Valtan": {
+      "zh": "巴尔坦",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Vykas": {
+      "zh": "维娅奇丝",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10152023/000024001.shtml"
+    },
+    "Kakul-Saydon": {
+      "zh": "库克赛顿",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Behemoth": {
+      "zh": "贝希摩斯",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Echidna": {
+      "zh": "艾姬德娜",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/05222025/115552685.shtml"
+    },
+    "Akkan": {
+      "zh": "伊利亚坎",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Act 1": {
+      "zh": "第1幕：粉碎大地的业火轨迹",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Act 2: Brelshaza": {
+      "zh": "第2幕：游魂的噩梦挽歌",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03182026/103122003.shtml"
+    },
+    "Act 3: Mordum": {
+      "zh": "第3幕：漆黑风暴之夜",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03182026/103122003.shtml"
+    },
+    "Act 4: Armoche": {
+      "zh": "第4幕：破灭城堡",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Final Act: Kazeros": {
+      "zh": "终幕：终结之日",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Prologue: Echidna (extra)": {
+      "zh": "序幕：染红的极昼螺旋",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/05222025/115552685.shtml"
+    },
+    "Behemoth raid title (extra)": {
+      "zh": "史诗副本【暴风指挥官贝希摩斯】",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Valtan raid title (extra)": {
+      "zh": "复活的魔兽之心",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/244900.html"
+    },
+    "Vykas raid title (extra)": {
+      "zh": "欲求不满之庭院",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10152023/000024001.shtml"
+    },
+    "Kakul-Saydon raid title (extra)": {
+      "zh": "午夜马戏团",
+      "src": "fan",
+      "url": "https://www.18183.com/gonglue/202311/8f8qrtcd.html"
+    },
+    "Brelshaza legion raid title (extra)": {
+      "zh": "梦幻之阿斯特西亚",
+      "src": "cn",
+      "url": "https://news.17173.com/content/01302024/003136619_1.shtml"
+    },
+    "Serca raid title (extra)": {
+      "zh": "影子副本【苦厄魔女塞尔卡】",
+      "src": "cn",
+      "url": "https://news.17173.com/content/07222026/101000383.shtml"
+    },
+    "Belgardin raid title (extra)": {
+      "zh": "影子副本【亡冥戒律者贝尔加丁】",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10222026/154304364.shtml"
+    },
+    "Aegir (TW extra)": {
+      "zh": "埃基爾",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Brelshaza (TW extra)": {
+      "zh": "雅布蕾舒德",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=305301"
+    },
+    "Kazeros (TW extra)": {
+      "zh": "卡札羅斯",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Behemoth (TW extra)": {
+      "zh": "貝希莫斯",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Echidna (TW extra)": {
+      "zh": "艾奇德娜",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Akkan (TW extra)": {
+      "zh": "伊烈崁",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Vykas (TW extra)": {
+      "zh": "碧雅姬絲",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Kakul-Saydon (TW extra)": {
+      "zh": "庫克塞頓",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Act 1 (TW extra)": {
+      "zh": "第 1 幕：毀滅大地的業火軌跡",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Act 2: Brelshaza (TW extra)": {
+      "zh": "第 2 幕「漂浮的惡夢鎮魂曲」",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=305301"
+    }
+  },
+  "bosses": {
+    "Akkan, Lord of Death": {
+      "zh": "丧生之王伊利亚坎",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Aegir, the Oppressor": {
+      "zh": "践踏者埃基尔",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Narok the Butcher": null,
+    "Phantom Manifester Brelshaza": null,
+    "Infernas": {
+      "zh": "因菲尔纳斯",
+      "src": "fan",
+      "url": "https://news.17173.com/content/01232025/064647785.shtml"
+    },
+    "Blossoming Fear, Naitreya": {
+      "zh": "奈特雷亚",
+      "src": "fan",
+      "url": "https://news.17173.com/content/01232025/064647785.shtml"
+    },
+    "Mordum, the Abyssal Punisher": {
+      "zh": "深渊惩罚者莫尔杜姆",
+      "src": "fan",
+      "url": "https://news.17173.com/content/01232025/064647785.shtml"
+    },
+    "Brelshaza, Ember in the Ashes": null,
+    "Armoche, Sentinel of the Abyss": {
+      "zh": "深渊守望者阿尔摩切",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05182026/222053617.shtml"
+    },
+    "Abyss Lord Kazeros": {
+      "zh": "深渊的君主卡杰洛斯",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05182026/222053617.shtml"
+    },
+    "Death Incarnate Kazeros": {
+      "zh": "亡冥化身卡杰洛斯",
+      "src": "cn",
+      "url": "https://news.17173.com/content/06182026/111753303.shtml"
+    },
+    "Witch of Agony, Serca": {
+      "zh": "苦厄魔女塞尔卡",
+      "src": "cn",
+      "url": "https://news.17173.com/content/07222026/101000383.shtml"
+    },
+    "Corvus Tul Rak": {
+      "zh": "科尔布斯·图拉克",
+      "src": "cn",
+      "url": "https://news.17173.com/content/07192026/210450617.shtml"
+    },
+    "Belgardin, Arbiter of Death": {
+      "zh": "亡冥戒律者贝尔加丁",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10222026/154304364.shtml"
+    },
+    "Phaetus An Kragma": {
+      "zh": "佩图斯·安·克拉格玛",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10212026/173143899.shtml"
+    },
+    "Archbishop Arcenos": null,
+    "Arcenos, Vanguard of Fanaticism": null,
+    "Thaemine, Conqueror of Stars": {
+      "zh": "霸星者-卡门",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10212026/173143899.shtml"
+    },
+    "Dark Mountain Predator": {
+      "zh": "黑山捕食者",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/244900.html"
+    },
+    "Ravaged Tyrant of Beasts": null,
+    "Covetous Devourer Vykas": null,
+    "Covetous Legion Commander Vykas": {
+      "zh": "欲望军团长维娅奇丝",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Saydon": {
+      "zh": "赛顿",
+      "src": "fan",
+      "url": "https://www.18183.com/gonglue/202311/8f8qrtcd.html"
+    },
+    "Kakul": null,
+    "Encore-Desiring Kakul-Saydon": null,
+    "Brelshaza, Monarch of Nightmares": null,
+    "Phantom Legion Commander Brelshaza": null,
+    "Phaetus An Kragma (KR-report epithet, extra)": {
+      "zh": "死亡锻造者佩图斯·安·克拉格玛",
+      "src": "fan",
+      "url": "https://news.17173.com/content/08062026/071042467.shtml"
+    },
+    "Belgardin (KR-report title, extra)": {
+      "zh": "死亡戒律者——贝尔加丁",
+      "src": "fan",
+      "url": "https://news.17173.com/content/08062026/071042467.shtml"
+    },
+    "Aegir, Ruthless Ruler (extra)": {
+      "zh": "冷酷无情的支配者埃基尔",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Echidna, Lord of Desire (extra)": {
+      "zh": "欲望之主艾姬德娜",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05182026/222053617.shtml"
+    },
+    "Storm Commander Behemoth (extra)": {
+      "zh": "暴风指挥官贝希摩斯",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Cruel Storm Punisher Behemoth (extra)": {
+      "zh": "残酷的暴风惩戒者贝希摩斯",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Behemoth, Wings of Rampant Chaos (extra)": {
+      "zh": "肆虐混沌之翼贝希摩斯",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10212026/173143899.shtml"
+    },
+    "Great Demon Kazeros (extra)": {
+      "zh": "大恶魔卡杰洛斯",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05182026/222053617.shtml"
+    },
+    "Beast Legion Commander Valtan (extra)": {
+      "zh": "魔兽军团长巴尔坦",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Mad Legion Commander Kakul-Saydon (extra)": {
+      "zh": "疯狂军团长库克赛顿",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Phantom/Dream Legion Commander Brelshaza (extra)": {
+      "zh": "梦幻军团长阿布莱修德",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Plague Legion Commander Akkan (extra)": {
+      "zh": "灾祸军团长伊利亚坎",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Dark Legion Commander Thaemine (extra)": {
+      "zh": "黑暗军团长卡门",
+      "src": "cn",
+      "url": "https://news.17173.com/content/02132025/104848164.shtml"
+    },
+    "Akkan, Lord of Death (TW extra)": {
+      "zh": "死亡之王伊烈崁",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Aegir, the Oppressor (TW extra)": {
+      "zh": "踐踏者埃基爾",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    }
+  },
+  "difficulties": {
+    "Normal": {
+      "zh": "普通难度",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Hard": {
+      "zh": "困难难度",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Inferno": {
+      "zh": "地狱难度",
+      "src": "cn",
+      "url": "https://www.18183.com/gonglue/202312/q3us388n.html"
+    },
+    "Trial": null,
+    "The First": {
+      "zh": "The FIRST难度",
+      "src": "cn",
+      "url": "https://news.17173.com/content/06182026/111753303.shtml"
+    },
+    "Nightmare": {
+      "zh": "噩梦难度",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10222026/154304364.shtml"
+    },
+    "Extreme Normal": null,
+    "Extreme Hard": null,
+    "Extreme Nightmare": null,
+    "Level 1": null,
+    "Level 2": null,
+    "Level 3": null,
+    "Gate 1": {
+      "zh": "关卡1",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Extreme (mode name only, extra)": {
+      "zh": "极限",
+      "src": "fan",
+      "url": "https://news.17173.com/content/09262026/071258856.shtml"
+    },
+    "The First (abbrev., extra)": {
+      "zh": "TF难度",
+      "src": "cn",
+      "url": "https://news.17173.com/content/06182026/111753303.shtml"
+    },
+    "Calamity (CN-only difficulty, extra)": {
+      "zh": "浩劫难度",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Matchmaking mode (extra)": {
+      "zh": "匹配模式",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10222026/154304364.shtml"
+    },
+    "Solo mode (extra)": {
+      "zh": "单人模式",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Gate (TW extra)": {
+      "zh": "關口",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=305301"
+    },
+    "Normal (TW extra)": {
+      "zh": "普通難度",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Hard (TW extra)": {
+      "zh": "困難模式",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=305301"
+    }
+  },
+  "misc": {
+    "DPS": {
+      "zh": "输出",
+      "src": "fan",
+      "url": "https://news.17173.com/content/05252026/171833437.shtml"
+    },
+    "Support": {
+      "zh": "辅助",
+      "src": "fan",
+      "url": "https://news.17173.com/content/05252026/171833437.shtml"
+    },
+    "Clear rate": null,
+    "Wipe": {
+      "zh": "团灭",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/244900.html"
+    },
+    "Duration": null,
+    "Stagger": {
+      "zh": "瘫痪",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/244900.html"
+    },
+    "Contribution": null,
+    "Combat Power": {
+      "zh": "战斗力",
+      "src": "cn",
+      "url": "https://news.17173.com/content/10212026/173143899.shtml"
+    },
+    "Item Level": {
+      "zh": "道具等级",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Party": {
+      "zh": "队伍",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Rank": {
+      "zh": "排名",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Team": {
+      "zh": "团队",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/07262025/124434919.shtml"
+    },
+    "Roster": {
+      "zh": "远征队",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Guild": {
+      "zh": "公会",
+      "src": "fan",
+      "url": "https://www.18183.com/xinwen/202309/4818154.html"
+    },
+    "Region": {
+      "zh": "大区",
+      "src": "fan",
+      "url": "https://www.18183.com/xinwen/202309/4818154.html"
+    },
+    "World/Server": {
+      "zh": "服务器",
+      "src": "fan",
+      "url": "https://www.18183.com/xinwen/202309/4818154.html"
+    },
+    "Patch": {
+      "zh": "版本更新",
+      "src": "cn",
+      "url": "https://news.17173.com/content/05202026/224518966.shtml"
+    },
+    "Balance patch": {
+      "zh": "职业平衡",
+      "src": "fan",
+      "url": "https://news.17173.com/content/09162026/111959990.shtml"
+    },
+    "Current Reset": null,
+    "All Time": null,
+    "Average": null,
+    "Median": null,
+    "Quartile": null,
+    "Floor/Ceiling": null,
+    "Esther": {
+      "zh": "艾斯特",
+      "src": "fan",
+      "url": "https://news.17173.com/z/fz/morelist/01062023/172919533.shtml"
+    },
+    "Hyper Awakening": {
+      "zh": "超觉醒技能",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/10302024/155341086.shtml"
+    },
+    "Awakening": {
+      "zh": "觉醒技能",
+      "src": "cn",
+      "url": "https://news.17173.com/z/fz/content/10302024/155341086.shtml"
+    },
+    "Brand/Branding": {
+      "zh": "烙印",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/236916.html"
+    },
+    "Attack Power buff": null,
+    "Identity": {
+      "zh": "特性",
+      "src": "cn",
+      "url": "https://lostark.qq.com/main.shtml"
+    },
+    "Head attack": null,
+    "Back attack": {
+      "zh": "背击",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/236940.html"
+    },
+    "Crit rate": {
+      "zh": "暴击率",
+      "src": "fan",
+      "url": "https://news.17173.com/z/fz/content/09282023/150420625.shtml"
+    },
+    "Crit damage": null,
+    "Leaderboard (extra)": {
+      "zh": "排行榜",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Weekly reset (extra)": {
+      "zh": "每周三6:00刷新进入次数",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    },
+    "Clear (extra)": {
+      "zh": "通关",
+      "src": "fan",
+      "url": "https://news.17173.com/content/05252026/171833437.shtml"
+    },
+    "Pick-up group (extra)": {
+      "zh": "野队",
+      "src": "fan",
+      "url": "https://news.17173.com/content/05252026/171833437.shtml"
+    },
+    "Head+back attack slang (extra)": {
+      "zh": "头背",
+      "src": "fan",
+      "url": "https://news.17173.com/z/fz/content/09282023/150420625.shtml"
+    },
+    "Crit damage slang (extra)": {
+      "zh": "爆伤",
+      "src": "fan",
+      "url": "https://ol.3dmgame.com/gl/236940.html"
+    },
+    "Item Level (TW extra)": {
+      "zh": "裝備等級",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=297345"
+    },
+    "Entry count (extra)": {
+      "zh": "入场次数",
+      "src": "cn",
+      "url": "https://news.17173.com/content/03312026/101725833.shtml"
+    }
+  }
+}

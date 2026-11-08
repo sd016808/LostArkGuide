@@ -1,0 +1,677 @@
+{
+"raids": [
+{
+"category": "Epic Raid",
+"name": "Behemoth",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1640
+}
+],
+"stoppedAcceptingStatsAt": "2025-07-23T10:00:00.000Z",
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Behemoth G1",
+"bosses": [
+"Behemoth, the Storm Commander"
+]
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Behemoth G2",
+"bosses": [
+"Behemoth, Cruel Storm Slayer"
+]
+}
+]
+},
+{
+"category": "Kazeros Raid",
+"name": "Aegir",
+"stoppedAcceptingStatsAt": "2025-11-19T10:00:00.000Z",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1660,
+"defaultMax": 1680
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1680
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Aegir G1",
+"bosses": [
+"Akkan, Lord of Death"
+]
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Aegir G2",
+"bosses": [
+"Aegir, the Oppressor"
+]
+}
+]
+},
+{
+"category": "Kazeros Raid",
+"name": "Brelshaza",
+"stoppedAcceptingStatsAt": "2025-11-19T10:00:00.000Z",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1670,
+"defaultMax": 1690
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1690
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Act 2: Brelshaza G1",
+"bosses": [
+"Narok the Butcher"
+]
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Act 2: Brelshaza G2",
+"bosses": [
+"Phantom Manifester Brelshaza"
+]
+}
+]
+},
+{
+"category": "Kazeros Raid",
+"name": "Mordum",
+"stoppedAcceptingStatsAt": "2026-04-15T10:00:00.000Z",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1680,
+"defaultMax": 1700
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1700
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Act 3: Mordum G1",
+"bosses": [
+"Infernas"
+]
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Act 3: Mordum G2",
+"bosses": [
+"Blossoming Fear, Naitreya"
+]
+},
+{
+"name": "Gate 3",
+"shortName": "G3",
+"raidName": "Act 3: Mordum G3",
+"bosses": [
+"Mordum, the Abyssal Punisher"
+]
+}
+]
+},
+{
+"category": "Kazeros Raid",
+"name": "Armoche",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1700,
+"defaultMax": 1720
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1720
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Act 4: Armoche G1",
+"bosses": [
+"Brelshaza, Ember in the Ashes"
+]
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Act 4: Armoche G2",
+"bosses": [
+"Armoche, Sentinel of the Abyss"
+]
+}
+]
+},
+{
+"category": "Kazeros Raid",
+"name": "Kazeros",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1710,
+"defaultMax": 1730
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1730
+},
+{
+"difficulty": "The First",
+"minItemLevel": 1740
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Final Act: Kazeros G1",
+"bosses": [
+"Abyss Lord Kazeros"
+]
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Final Act: Kazeros G2",
+"bosses": [
+"Death Incarnate Kazeros"
+]
+}
+]
+},
+{
+"category": "Shadow Raid",
+"name": "Serca",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1710,
+"defaultMax": 1730
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1730,
+"defaultMax": 1740
+},
+{
+"difficulty": "Nightmare",
+"minItemLevel": 1740
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Serca G1",
+"bosses": [
+"Witch of Agony, Serca"
+],
+"staggerDpsType": "spm"
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Serca G2",
+"bosses": [
+"Corvus Tul Rak"
+],
+"staggerDpsType": "spm"
+}
+]
+},
+{
+"category": "Shadow Raid",
+"name": "Belgardin",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1750,
+"defaultMax": 1770
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1770,
+"defaultMax": 1780
+},
+{
+"difficulty": "Nightmare",
+"minItemLevel": 1780
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Belgardin G1",
+"bosses": [
+"Belgardin, Arbiter of Death"
+],
+"staggerDpsType": "spm"
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Belgardin G2",
+"bosses": [
+"Phaetus An Kragma"
+],
+"staggerDpsType": "spm"
+}
+]
+},
+{
+"category": "Abyssal Dungeon",
+"name": "Horizon Cathedral",
+"difficulties": [
+{
+"difficulty": "Level 1",
+"minItemLevel": 1700,
+"defaultMax": 1720
+},
+{
+"difficulty": "Level 2",
+"minItemLevel": 1720,
+"defaultMax": 1750
+},
+{
+"difficulty": "Level 3",
+"minItemLevel": 1750
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Horizon Cathedral G1",
+"bosses": [
+"Archbishop Arcenos"
+],
+"staggerDpsType": "spm"
+},
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Horizon Cathedral G2",
+"bosses": [
+"Arcenos, Vanguard of Fanaticism"
+],
+"staggerDpsType": "spm"
+}
+]
+},
+{
+"category": "Event Raid",
+"name": "Extreme Thaemine",
+"stoppedAcceptingStatsAt": "2026-01-15T10:00:00.000Z",
+"difficulties": [
+{
+"difficulty": "Extreme Normal",
+"minItemLevel": 1700
+},
+{
+"difficulty": "Extreme Hard",
+"minItemLevel": 1730
+}
+],
+"gates": [
+{
+"name": "Gate 4",
+"shortName": "G4",
+"raidName": "Thaemine G4",
+"bosses": [
+"Thaemine, Conqueror of Stars"
+]
+}
+]
+},
+{
+"category": "Event Raid",
+"name": "Extreme Aegir",
+"difficulties": [
+{
+"difficulty": "Extreme Normal",
+"minItemLevel": 1720,
+"defaultMax": 1750
+},
+{
+"difficulty": "Extreme Hard",
+"minItemLevel": 1750
+},
+{
+"difficulty": "Extreme Nightmare",
+"minItemLevel": 1770
+}
+],
+"gates": [
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Aegir G2",
+"bosses": [
+"Aegir, the Oppressor"
+]
+}
+]
+},
+{
+"category": "Event Raid",
+"name": "Extreme Brelshaza",
+"difficulties": [
+{
+"difficulty": "Extreme Normal",
+"minItemLevel": 1720,
+"defaultMax": 1750
+},
+{
+"difficulty": "Extreme Hard",
+"minItemLevel": 1750
+},
+{
+"difficulty": "Extreme Nightmare",
+"minItemLevel": 1770
+}
+],
+"gates": [
+{
+"name": "Gate 2",
+"shortName": "G2",
+"raidName": "Act 2: Brelshaza G2",
+"bosses": [
+"Phantom Manifester Brelshaza"
+]
+}
+]
+},
+{
+"category": "Assault Raid",
+"name": "Tarkal",
+"stoppedAcceptingStatsAt": "2025-11-19T10:00:00.000Z",
+"difficulties": [
+{
+"difficulty": "Normal",
+"minItemLevel": 1680
+},
+{
+"difficulty": "Hard",
+"minItemLevel": 1720
+}
+],
+"gates": [
+{
+"name": "Gate 1",
+"shortName": "G1",
+"raidName": "Assault: Flame of Destruction",
+"bosses": [
+"Flame of Darkness, Tarkal"
+]
+}
+]
+}
+],
+"bossAlias": {
+"Mordum, the Abyssal Punisher": {
+"Hard": "Flash of Punishment"
+},
+"Death Incarnate Kazeros": {
+"Normal": "Archdemon Kazeros"
+}
+},
+"patches": [
+{
+"name": "Call of the Wildsoul",
+"startDate": "2025-02-27T00:00:00.000Z",
+"endDate": "2025-04-23T10:00:00.000Z",
+"apiName": "wildsoul",
+"hasNoCombatPowerData": true,
+"hasNoContributionData": true,
+"hasNoStaggerData": true
+},
+{
+"name": "April 2025",
+"startDate": "2025-04-23T10:00:00.000Z",
+"endDate": "2025-07-23T10:00:00.000Z",
+"apiName": "april",
+"hasNoCombatPowerData": true,
+"hasNoContributionData": true,
+"hasNoStaggerData": true
+},
+{
+"name": "July 2025",
+"startDate": "2025-07-23T10:00:00.000Z",
+"endDate": "2025-10-29T10:00:00.000Z",
+"apiName": "july",
+"hasNoContributionData": true,
+"hasNoStaggerData": true
+},
+{
+"name": "November 2025",
+"startDate": "2025-10-29T10:00:00.000Z",
+"endDate": "2026-01-14T10:00:00.000Z",
+"apiName": "nov",
+"hasNoContributionData": true,
+"hasNoStaggerData": true
+},
+{
+"name": "January 2026",
+"startDate": "2026-01-14T10:00:00.000Z",
+"endDate": "2026-03-11T10:00:00.000Z",
+"apiName": "jan26",
+"hasNoContributionData": true,
+"hasNoStaggerData": true
+},
+{
+"name": "March 2026",
+"startDate": "2026-03-11T10:00:00.000Z",
+"endDate": "2026-06-10T10:00:00.000Z",
+"apiName": "mar26"
+},
+{
+"name": "June 2026",
+"startDate": "2026-06-10T10:00:00.000Z",
+"endDate": "2026-09-16T10:00:00.000Z",
+"apiName": "jun26"
+},
+{
+"name": "September 2026",
+"startDate": "2026-09-16T10:00:00.000Z",
+"endDate": null,
+"apiName": "sep26"
+}
+],
+"dpsLabels": {
+"dps": "DPS",
+"udps": "uDPS",
+"ndps": "nDPS",
+"rdps": "rDPS",
+"bdps": "bDPS",
+"stagger": "Stagger",
+"spm": "Stagger per minute",
+"contribution": "Contribution",
+"r_contribution": "rContribution"
+},
+"supportStatLabels": {
+"1_support_ap": "AP",
+"2_support_brand": "Brand",
+"3_support_identity": "Identity",
+"4_support_hyper": "H.A. Skill"
+},
+"bossToRaidName": {
+"Belgardin, Arbiter of Death": "Belgardin G1",
+"Phaetus An Kragma": "Belgardin G2",
+"Witch of Agony, Serca": "Serca G1",
+"Corvus Tul Rak": "Serca G2",
+"Archbishop Arcenos": "Horizon Cathedral G1",
+"Arcenos, Vanguard of Fanaticism": "Horizon Cathedral G2",
+"Abyss Lord Kazeros": "Kazeros G1",
+"Archdemon Kazeros": "Kazeros G2",
+"Death Incarnate Kazeros": "Kazeros G2",
+"Brelshaza, Ember in the Ashes": "Armoche G1",
+"Armoche, Sentinel of the Abyss": "Armoche G2",
+"Abyssal Beast, Narhash": "Narhash G1",
+"Flame of Darkness, Tarkal": "Tarkal G1",
+"Infernas": "Mordum G1",
+"Blossoming Fear, Naitreya": "Mordum G2",
+"Flash of Punishment": "Mordum G3",
+"Mordum, the Abyssal Punisher": "Mordum G3",
+"Phantom Manifester Brelshaza": "Act 2: Brelshaza G2",
+"Narok the Butcher": "Act 2: Brelshaza G1",
+"Aegir, the Oppressor": "Aegir G2",
+"Akkan, Lord of Death": "Aegir G1",
+"Behemoth, Cruel Storm Slayer": "Behemoth G2",
+"Behemoth, the Storm Commander": "Behemoth G1",
+"Covetous Master Echidna": "Echidna G2",
+"Red Doom Narkiel": "Echidna G1",
+"Thaemine, Conqueror of Stars": "Thaemine G4",
+"Thaemine the Lightqueller": "Thaemine G3",
+"Valinak, Herald of the End": "Thaemine G2",
+"Killineza the Dark Worshipper": "Thaemine G1",
+"Lazaram, the Trailblazer": "Ivory Tower G4",
+"Firehorn, Trampler of Earth": "Ivory Tower G3",
+"Rakathus, the Lurking Arrogance": "Ivory Tower G2",
+"Kaltaya, the Blooming Chaos": "Ivory Tower G1",
+"Lord of Kartheon Akkan": "Akkan G3",
+"Plague Legion Commander Akkan": "Akkan G3",
+"Lord of Degradation Akkan": "Akkan G2",
+"Griefbringer Maurug": "Akkan G1",
+"Lauriel": "Kayangel G3",
+"Prunya": "Kayangel G2",
+"Tienis": "Kayangel G1",
+"Phantom Legion Commander Brelshaza": "Brelshaza G6",
+"Brelshaza, Monarch of Nightmares": "Brelshaza G5",
+"Primordial Nightmare": "Brelshaza G3",
+"Ashtarot": "Brelshaza G2",
+"Gehenna Helkasirs": "Brelshaza G1",
+"Encore-Desiring Kakul-Saydon": "Kakul-Saydon G3",
+"Kakul": "Kakul-Saydon G2",
+"Saydon": "Kakul-Saydon G1",
+"Covetous Legion Commander Vykas": "Vykas G3",
+"Covetous Devourer Vykas": "Vykas G2",
+"Nightmarish Morphe": "Vykas G1",
+"Incubus Morphe": "Vykas G1",
+"Ravaged Tyrant of Beasts": "Valtan G2",
+"Dark Mountain Predator": "Valtan G1"
+},
+"bossToRaid": {
+"Belgardin, Arbiter of Death": "Belgardin",
+"Phaetus An Kragma": "Belgardin",
+"Witch of Agony, Serca": "Serca",
+"Corvus Tul Rak": "Serca",
+"Archbishop Arcenos": "Horizon Cathedral",
+"Arcenos, Vanguard of Fanaticism": "Horizon Cathedral",
+"Death Incarnate Kazeros": "Kazeros",
+"Archdemon Kazeros": "Kazeros",
+"Abyss Lord Kazeros": "Kazeros",
+"Brelshaza, Ember in the Ashes": "Armoche",
+"Armoche, Sentinel of the Abyss": "Armoche",
+"Abyssal Beast, Narhash": "Narhash",
+"Flame of Darkness, Tarkal": "Tarkal",
+"Infernas": "Mordum",
+"Blossoming Fear, Naitreya": "Mordum",
+"Flash of Punishment": "Mordum",
+"Mordum, the Abyssal Punisher": "Mordum",
+"Phantom Manifester Brelshaza": "Act 2: Brelshaza",
+"Narok the Butcher": "Act 2: Brelshaza",
+"Aegir, the Oppressor": "Aegir",
+"Akkan, Lord of Death": "Aegir",
+"Behemoth, Cruel Storm Slayer": "Behemoth",
+"Behemoth, the Storm Commander": "Behemoth",
+"Covetous Master Echidna": "Echidna",
+"Red Doom Narkiel": "Echidna",
+"Thaemine, Conqueror of Stars": "Thaemine",
+"Thaemine the Lightqueller": "Thaemine",
+"Valinak, Herald of the End": "Thaemine",
+"Killineza the Dark Worshipper": "Thaemine",
+"Lazaram, the Trailblazer": "Ivory Tower",
+"Firehorn, Trampler of Earth": "Ivory Tower",
+"Rakathus, the Lurking Arrogance": "Ivory Tower",
+"Kaltaya, the Blooming Chaos": "Ivory Tower",
+"Lord of Kartheon Akkan": "Akkan",
+"Plague Legion Commander Akkan": "Akkan",
+"Lord of Degradation Akkan": "Akkan",
+"Griefbringer Maurug": "Akkan",
+"Lauriel": "Kayangel",
+"Prunya": "Kayangel",
+"Tienis": "Kayangel",
+"Phantom Legion Commander Brelshaza": "Brelshaza",
+"Brelshaza, Monarch of Nightmares": "Brelshaza",
+"Primordial Nightmare": "Brelshaza",
+"Ashtarot": "Brelshaza",
+"Gehenna Helkasirs": "Brelshaza",
+"Encore-Desiring Kakul-Saydon": "Kakul-Saydon",
+"Kakul": "Kakul-Saydon",
+"Saydon": "Kakul-Saydon",
+"Covetous Legion Commander Vykas": "Vykas",
+"Covetous Devourer Vykas": "Vykas",
+"Nightmarish Morphe": "Vykas",
+"Incubus Morphe": "Vykas",
+"Ravaged Tyrant of Beasts": "Valtan",
+"Dark Mountain Predator": "Valtan"
+},
+"classColors": {
+"Berserker": "#ee2e48",
+"Destroyer": "#7b9aa2",
+"Gunlancer": "#e1907e",
+"Paladin": "#ff9900",
+"Slayer": "#db6a42",
+"Valkyrie": "#ffbf00",
+"Arcanist": "#b38915",
+"Summoner": "#22aa99",
+"Bard": "#674598",
+"Sorceress": "#66aa00",
+"Wardancer": "#aaaa11",
+"Scrapper": "#990099",
+"Soulfist": "#316395",
+"Glaivier": "#f6da6a",
+"Striker": "#994499",
+"Breaker": "#4de3d1",
+"Deathblade": "#a91a16",
+"Shadowhunter": "#0099c6",
+"Reaper": "#109618",
+"Souleater": "#c16ed0",
+"Sharpshooter": "#dd4477",
+"Deadeye": "#4442a8",
+"Artillerist": "#33670b",
+"Machinist": "#3b4292",
+"Gunslinger": "#6bcec2",
+"Artist": "#a34af0",
+"Aeromancer": "#084ba3",
+"Wildsoul": "#3a945e",
+"Dimensionalist": "#8b7cf8",
+"Guardianknight": "#f4554b"
+},
+"defaults": {
+"boss": "Phaetus An Kragma",
+"difficulty": "Nightmare",
+"patch": "sep26"
+}
+}

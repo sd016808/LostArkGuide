@@ -1,0 +1,1944 @@
+{
+  "classes": {
+    "Warrior": {
+      "zh": "戰士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "战士",
+        "src": "fan",
+        "url": "https://wiki.biligame.com/lostark/%E9%A6%96%E9%A1%B5"
+      }
+    },
+    "Berserker": {
+      "zh": "狂戰士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "狂战士",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Destroyer": {
+      "zh": "毀滅者",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "毁灭者",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunlancer": {
+      "zh": "督軍",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "裁决者",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Paladin": {
+      "zh": "聖騎士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "圣骑士",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Slayer": {
+      "zh": "屠殺者",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "狂剑士",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Valkyrie": {
+      "zh": "女武神",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "破晓之剑",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/tools/keyin/saved_list.php?t=103&type=&p=97"
+      }
+    },
+    "Mage": {
+      "zh": "魔法師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "法师",
+        "src": "fan",
+        "url": "https://wiki.biligame.com/lostark/%E9%A6%96%E9%A1%B5"
+      }
+    },
+    "Arcanist": {
+      "zh": "卡牌魔術師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "卡牌大师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Summoner": {
+      "zh": "召喚師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "召唤师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Bard": {
+      "zh": "吟遊詩人",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "吟游诗人",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Sorceress": {
+      "zh": "女巫",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "元素巫师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Martial Artist": {
+      "zh": "格鬥家",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "武术家",
+        "src": "fan",
+        "url": "https://wiki.biligame.com/lostark/%E9%A6%96%E9%A1%B5"
+      }
+    },
+    "Wardancer": {
+      "zh": "格鬥大師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "斗魂",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Scrapper": {
+      "zh": "拳霸",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "霸拳",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Soulfist": {
+      "zh": "氣功師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "气功师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Glaivier": {
+      "zh": "槍術士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "枪术士",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Striker": {
+      "zh": "鬥士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "战魂",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Breaker": {
+      "zh": "拳剎",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "武神",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Assassin": {
+      "zh": "暗殺者",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "刺客",
+        "src": "fan",
+        "url": "https://wiki.biligame.com/lostark/%E9%A6%96%E9%A1%B5"
+      }
+    },
+    "Deathblade": {
+      "zh": "刀鋒",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "银月刀锋",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Shadowhunter": {
+      "zh": "半魔人",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "恶魔利刃",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Reaper": {
+      "zh": "影殺者",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "暗影",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Souleater": {
+      "zh": "噬魂者",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "噬魂者",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunner": {
+      "zh": "獵人",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "枪手",
+        "src": "fan",
+        "url": "https://wiki.biligame.com/lostark/%E9%A6%96%E9%A1%B5"
+      }
+    },
+    "Sharpshooter": {
+      "zh": "鷹眼",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "鹰眼",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Deadeye": {
+      "zh": "惡魔獵手",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "猎魔人",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Artillerist": {
+      "zh": "槍炮大師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "枪炮大师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Machinist": {
+      "zh": "偵察士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "机械师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunslinger": {
+      "zh": "神槍手",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "荒漠枪手",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Specialist": {
+      "zh": "幻使",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo"
+    },
+    "Artist": {
+      "zh": "畫師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "墨灵",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Aeromancer": {
+      "zh": "氣象術士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "幻雨",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Wildsoul": {
+      "zh": "幻獸師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "幻兽师",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Dimensionalist": {
+      "zh": "次元術士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "次元术士",
+        "src": "fan",
+        "url": "https://lostark.dvg.cn/tools/keyin/saved_list.php?t=103&type=&p=97"
+      }
+    },
+    "Guardianknight": {
+      "zh": "守護者騎士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/classInfo",
+      "alt": {
+        "zh": "星辰骑士",
+        "src": "fan",
+        "url": "https://lostark.dvg.cn/tools/keyin/saved_list.php?t=103&type=&p=97"
+      }
+    }
+  },
+  "class_engravings": {
+    "Berserker: Mayhem": {
+      "zh": "狂氣",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62516",
+      "alt": {
+        "zh": "疯狂",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Berserker: Berserker Technique": {
+      "zh": "狂戰士祕技",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65781",
+      "alt": {
+        "zh": "狂战士秘技",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Destroyer: Rage Hammer": {
+      "zh": "憤怒之鎚",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65781",
+      "alt": {
+        "zh": "愤怒之锤",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Destroyer: Gravity Training": {
+      "zh": "重力修練",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65781",
+      "alt": {
+        "zh": "重力修炼",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunlancer: Combat Readiness": {
+      "zh": "戰鬥架勢",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=66986",
+      "alt": {
+        "zh": "战斗态势",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunlancer: Lone Knight": {
+      "zh": "孤獨騎士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=66986",
+      "alt": {
+        "zh": "孤独的骑士",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Paladin: Judgment": {
+      "zh": "審判者",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/超覺醒",
+      "alt": {
+        "zh": "裁决许可",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Paladin: Blessed Aura": {
+      "zh": "神之騎士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=68854",
+      "note": "current TW Ark Passive 領悟 node (formerly 神聖義務); old TW engraving name not found",
+      "alt": {
+        "zh": "祝福光环",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Slayer: Predator": {
+      "zh": "捕食者",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Slayer: Punisher": {
+      "zh": "處決者",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/史詩副本",
+      "alt": {
+        "zh": "处决者",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Valkyrie (DPS build)": {
+      "zh": "光之骑士",
+      "src": "fan",
+      "url": "https://www.bilibili.com/video/BV1nuamzeEx7/"
+    },
+    "Valkyrie (Support build)": {
+      "zh": "解放者",
+      "src": "fan",
+      "url": "https://www.bilibili.com/video/BV1nuamzeEx7/"
+    },
+    "Arcanist: Grace of the Empress": {
+      "zh": "王后恩赐",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Arcanist: Order of the Emperor": {
+      "zh": "皇帝敕令",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62516",
+      "alt": {
+        "zh": "国王圣谕",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Summoner: Master Summoner": {
+      "zh": "高級召喚師",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "高阶召唤",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Summoner: Communication Overflow": {
+      "zh": "精靈交感",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=68854",
+      "alt": {
+        "zh": "心有灵犀",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Bard: True Courage": {
+      "zh": "真實勇猛",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "勇气激发",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Bard: Desperate Salvation": {
+      "zh": "急切救援",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "迫切救赎",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Sorceress: Igniter": {
+      "zh": "點火",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=63663",
+      "alt": {
+        "zh": "点燃",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Sorceress: Reflux": {
+      "zh": "回流",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=70042",
+      "alt": {
+        "zh": "环流",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Wardancer: Esoteric Skill Enhancement": {
+      "zh": "奧義強化",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "奥义精通",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Wardancer: First Intention": {
+      "zh": "初心",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=68854",
+      "alt": {
+        "zh": "赤子之心",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Scrapper: Ultimate Skill: Taijutsu": {
+      "zh": "極盡：體術",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=68854",
+      "alt": {
+        "zh": "极意：体术",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Scrapper: Shock Training": {
+      "zh": "衝擊鍛鍊",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "冲击修炼",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Soulfist: Energy Overflow": {
+      "zh": "易筋洗髓",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=70042",
+      "alt": {
+        "zh": "经脉打通",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Soulfist: Robust Spirit": {
+      "zh": "逆天之體",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=4504",
+      "alt": {
+        "zh": "逆天之体",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Glaivier: Pinnacle": {
+      "zh": "登峰造極",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=66986",
+      "alt": {
+        "zh": "巅峰",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Glaivier: Control": {
+      "zh": "節制",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62516",
+      "alt": {
+        "zh": "节制",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Striker: Deathblow": {
+      "zh": "一擊必殺",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65781",
+      "alt": {
+        "zh": "一击必杀",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Striker: Esoteric Flurry": {
+      "zh": "奥义乱舞",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Breaker: Brawl King Storm": {
+      "zh": "拳王破天武",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Breaker: Asura's Path": {
+      "zh": "修罗之路",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Deathblade: Remaining Energy": {
+      "zh": "弥留之息",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Deathblade: Surge": {
+      "zh": "爆裂",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Shadowhunter: Perfect Suppression": {
+      "zh": "完美抑制",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=67896"
+    },
+    "Shadowhunter: Demonic Impulse": {
+      "zh": "難抑衝動",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=67896",
+      "alt": {
+        "zh": "无尽冲动",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Reaper: Hunger": {
+      "zh": "飢渴",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65781",
+      "alt": {
+        "zh": "饥渴",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Reaper: Lunar Voice": {
+      "zh": "月声",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php",
+      "alt": {
+        "zh": "月聲",
+        "src": "fan",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=6705"
+      }
+    },
+    "Souleater: Full Moon Harvester": {
+      "zh": "满月鬼门开",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php",
+      "alt": {
+        "zh": "滿月",
+        "src": "fan",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=6705"
+      }
+    },
+    "Souleater: Night's Edge": {
+      "zh": "晦日警戒",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "晦朔边界",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Sharpshooter: Loyal Companion": {
+      "zh": "第二个伙伴",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Sharpshooter: Death Strike": {
+      "zh": "死亡襲擊",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=67896",
+      "alt": {
+        "zh": "终结袭击",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Deadeye: Enhanced Weapon": {
+      "zh": "强化武器",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Deadeye: Pistoleer": {
+      "zh": "手枪手",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Artillerist: Firepower Enhancement": {
+      "zh": "火力强化",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php",
+      "alt": {
+        "zh": "火力強化",
+        "src": "fan",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=6705"
+      }
+    },
+    "Artillerist: Barrage Enhancement": {
+      "zh": "炮擊強化",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=67896",
+      "alt": {
+        "zh": "炮击强化",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Machinist: Arthetinean Skill": {
+      "zh": "阿尔泰因科技",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Machinist: Evolutionary Legacy": {
+      "zh": "進化遺產",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=67896",
+      "alt": {
+        "zh": "超同步核心",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunslinger: Peacemaker": {
+      "zh": "和平使者",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=70042",
+      "note": "old TW engraving name; current Ark Passive node renamed 和平主義者",
+      "alt": {
+        "zh": "和平之光",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Gunslinger: Time to Hunt": {
+      "zh": "狩獵時間",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "狩猎时间",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Artist: Recurrence": {
+      "zh": "迴歸",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "归元",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Artist: Full Bloom": {
+      "zh": "盛放",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Aeromancer: Wind Fury": {
+      "zh": "疾風怒濤",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "狂风暴雨",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Aeromancer: Drizzle": {
+      "zh": "绵绵细雨",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Wildsoul (Ferality / transform build)": {
+      "zh": "野性",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=68854",
+      "alt": {
+        "zh": "野性(變身流)",
+        "src": "fan",
+        "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=6705"
+      }
+    },
+    "Wildsoul (Phantom-beast / fox build)": {
+      "zh": "幻獸術士",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=70042",
+      "note": "TW 領悟 node name from balance notes; mapping to the second Wildsoul build is inferred (Bahamut players call it 覺醒/狐尾流)"
+    },
+    "Dimensionalist (Time Manager build)": {
+      "zh": "時間管理者",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=308776"
+    },
+    "Dimensionalist (Space Swordsman build)": {
+      "zh": "空間劍士",
+      "src": "tw",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=308776"
+    },
+    "Guardianknight (build 1)": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "not found in any TW/CN source yet"
+    },
+    "Guardianknight (build 2)": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "not found in any TW/CN source yet"
+    }
+  },
+  "engravings": {
+    "Disrespect": {
+      "zh": "弱肉强食",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Spirit Absorption": {
+      "zh": "精氣吸收",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "举步生风",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Ether Predator": {
+      "zh": "乙太捕食者",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=4504",
+      "alt": {
+        "zh": "以太充能",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Stabilized Status": {
+      "zh": "穩定狀態",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62515",
+      "alt": {
+        "zh": "精力充沛",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Master of Slashes": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "no such engraving exists in TW/CN/KR data (95 engravings on dvg.cn)"
+    },
+    "Grudge": {
+      "zh": "怨恨",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印"
+    },
+    "Invincible Evasion": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "no such engraving found"
+    },
+    "Super Charge": {
+      "zh": "超級蓄力",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "蓄力强化",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Strong Will": {
+      "zh": "坚韧意志",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Balanced Defense": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "no such engraving found"
+    },
+    "Drops of Ether": {
+      "zh": "晶珠超人",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "以太生成",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Crisis Evasion": {
+      "zh": "回光返照",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Keen Blunt Weapon": {
+      "zh": "鋒利鈍器",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "尖刺重锤",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Vital Point Hit": {
+      "zh": "要害打擊",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "弱点压制",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Master of Piercing": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "no such engraving found"
+    },
+    "Master of Destruction": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "no such engraving found"
+    },
+    "Max MP Increase": {
+      "zh": "法力上限",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "法力充盈",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "MP Efficiency Increase": {
+      "zh": "增加法力效率",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62515",
+      "alt": {
+        "zh": "法力爆发",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Master of Escape": {
+      "zh": "逃脱大师",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Telescope": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "no such engraving found"
+    },
+    "Fortitude": {
+      "zh": "不屈",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Crushing Fist": {
+      "zh": "反制冲击",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Shield Piercing": {
+      "zh": "碎盾重锤",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Master's Tenacity": {
+      "zh": "達人潛力",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "破釜沉舟",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Divine Protection": {
+      "zh": "女神庇佑",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Heavy Armor": {
+      "zh": "重甲護體",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "身披重甲",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Explosive Expert": {
+      "zh": "爆炸专家",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Enhanced Shield": {
+      "zh": "抗性护盾",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Necromancy": {
+      "zh": "降靈術",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "禁忌秘术",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Preemptive Strike": {
+      "zh": "先發制人",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "先发制人",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Broken Bone": {
+      "zh": "重碾",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Lightning Fury": {
+      "zh": "閃電之怒",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "雷电之怒",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Cursed Doll": {
+      "zh": "詛咒玩偶",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62515",
+      "alt": {
+        "zh": "咒术人偶",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Contender": {
+      "zh": "常勝將軍",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "note": "one of the 4 starter engravings on the TW guide page; identified as Contender by elimination (先發制人 = Preemptive Strike confirmed separately)",
+      "alt": {
+        "zh": "乘胜追击",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Ambush Master": {
+      "zh": "突襲高手",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "奇袭大师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Magick Stream": {
+      "zh": "法力流動",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "法力环绕",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Barricade": {
+      "zh": "护盾猛攻",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Raid Captain": {
+      "zh": "突擊隊長",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "迅捷利刃",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Awakening": {
+      "zh": "覺醒",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "觉醒",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Master Brawler": {
+      "zh": "決鬥高手",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "决斗大师",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Mass Increase": {
+      "zh": "增加質量",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62515",
+      "alt": {
+        "zh": "重量强化",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Propulsion": {
+      "zh": "推進力",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=4330",
+      "alt": {
+        "zh": "迅猛突袭",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Hit Master": {
+      "zh": "打擊高手",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "强力侧击",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Sight Focus": {
+      "zh": "視線集中",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65778",
+      "alt": {
+        "zh": "锐利眼神",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Adrenaline": {
+      "zh": "腎上腺素",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "肾上腺素",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "All-Out Attack": {
+      "zh": "速戰速決",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "速战速决",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Expert": {
+      "zh": "妙手神醫",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=27410&sn=20237",
+      "alt": {
+        "zh": "妙手回春",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Emergency Rescue": {
+      "zh": "紧急救援",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/engraving_list.php"
+    },
+    "Precise Dagger": {
+      "zh": "精密短刀",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62515"
+    },
+    "Atk. Power Reduction": {
+      "zh": "攻擊力減少",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=4334"
+    },
+    "Defense Reduction": {
+      "zh": "防御力減少",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=4334"
+    },
+    "Atk. Speed Reduction": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "TW guide only calls these 懲罰刻印; exact name not found"
+    },
+    "Move Speed Reduction": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "exact name not found"
+    }
+  },
+  "runes": {
+    "Galewind": {
+      "zh": "疾風",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=3523",
+      "alt": {
+        "zh": "疾风",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Iron Wall": {
+      "zh": "铁壁",
+      "src": "cn",
+      "url": "https://www.7xz.com/news/mncj1521.html"
+    },
+    "Quick Recharge": {
+      "zh": "速行",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=3523",
+      "alt": {
+        "zh": "疾行",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Purify": {
+      "zh": "淨化",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=3523",
+      "alt": {
+        "zh": "净化",
+        "src": "cn",
+        "url": "https://m.18183.com/gonglue/202309/fi5tq1su.html"
+      }
+    },
+    "Conviction": {
+      "zh": "斷罪",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=3523",
+      "alt": {
+        "zh": "断罪",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Focus": {
+      "zh": "集中",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62515",
+      "alt": {
+        "zh": "专注",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Judgment": {
+      "zh": "審判",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=3523",
+      "alt": {
+        "zh": "主宰",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Rage": {
+      "zh": "狂愤",
+      "src": "cn",
+      "url": "https://www.7xz.com/news/mncj1521.html",
+      "note": "17173 (2023-09) writes 狂奔 for the same rune"
+    },
+    "Overwhelm": {
+      "zh": "压制",
+      "src": "cn",
+      "url": "https://www.7xz.com/news/mncj1521.html",
+      "note": "18183 guides write 压倒"
+    },
+    "Wealth": {
+      "zh": "豐饒",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=4762",
+      "alt": {
+        "zh": "丰饶",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Protection": {
+      "zh": "守护",
+      "src": "cn",
+      "url": "https://www.7xz.com/news/mncj1521.html"
+    },
+    "Bleed": {
+      "zh": "出血",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=62516",
+      "alt": {
+        "zh": "撕裂",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Poison": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "not found"
+    },
+    "Vision": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "not found; Bahamut KR-patch translation renders the Kratios rune 비전 as 祕傳 (fan)"
+    },
+    "Mountain's Face": {
+      "zh": null,
+      "src": null,
+      "url": null,
+      "note": "not found"
+    }
+  },
+  "systems": {
+    "Ark Passive": {
+      "zh": "方舟被動",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "方舟被动",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Evolution": {
+      "zh": "進化",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "进化",
+        "src": "cn",
+        "url": "https://news.17173.com/content/02132025/104848164.shtml"
+      }
+    },
+    "Enlightenment": {
+      "zh": "領悟",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "顿悟",
+        "src": "cn",
+        "url": "https://news.17173.com/content/02132025/104848164.shtml"
+      }
+    },
+    "Leap": {
+      "zh": "跳躍",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "飞跃",
+        "src": "cn",
+        "url": "https://news.17173.com/content/02132025/104848164.shtml"
+      }
+    },
+    "Ark Passive points": {
+      "zh": "方舟被動點數",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "被动点数",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/tools/t4/"
+      }
+    },
+    "Ark Grid": {
+      "zh": "方舟星圖",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖"
+    },
+    "Core": {
+      "zh": "核心",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "核心",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/search.php?q=核心"
+      }
+    },
+    "Order": {
+      "zh": "秩序",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "秩序",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/search.php?q=秩序之"
+      }
+    },
+    "Chaos": {
+      "zh": "混沌",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "混沌",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/search.php?q=混沌之"
+      }
+    },
+    "Sun core": {
+      "zh": "太陽",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "日",
+        "src": "tw",
+        "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+        "note": "core item names use 日/月/星, e.g. 秩序之日"
+      }
+    },
+    "Moon core": {
+      "zh": "月亮",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "月",
+        "src": "tw",
+        "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖"
+      }
+    },
+    "Star core": {
+      "zh": "星星",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "星",
+        "src": "tw",
+        "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖"
+      }
+    },
+    "Astrogem": {
+      "zh": "星石",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "星石",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/search.php?q=星石"
+      }
+    },
+    "Willpower": {
+      "zh": "意志力",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖"
+    },
+    "Order Sun Core": {
+      "zh": "秩序之日",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=70042",
+      "alt": {
+        "zh": "秩序之日核心",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/search.php?q=秩序之"
+      }
+    },
+    "Chaos Moon Core": {
+      "zh": "混沌之月核心",
+      "src": "cn",
+      "url": "https://lostark.dvg.cn/search.php?q=混沌之"
+    },
+    "Core points (P)": {
+      "zh": "核心點數",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "秩序/混沌點數",
+        "src": "tw",
+        "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖"
+      }
+    },
+    "Combat Power": {
+      "zh": "戰鬥力",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/裝備",
+      "alt": {
+        "zh": "综合战斗力",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Item Level": {
+      "zh": "裝備等級",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/主要材料獲得途徑",
+      "alt": {
+        "zh": "道具等级",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Gem": {
+      "zh": "寶石",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/寶石",
+      "alt": {
+        "zh": "宝石",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Card": {
+      "zh": "卡片",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/卡片",
+      "alt": {
+        "zh": "卡牌",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Tripod": {
+      "zh": "三重核心",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/三重核心"
+    },
+    "Engraving": {
+      "zh": "刻印",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "刻印",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    },
+    "Skill Rune": {
+      "zh": "技能符文",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/三重核心",
+      "alt": {
+        "zh": "符文",
+        "src": "cn",
+        "url": "https://www.7xz.com/news/mncj1521.html"
+      }
+    },
+    "Awakening skill": {
+      "zh": "覺醒技",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/修練場"
+    },
+    "Hyper Awakening": {
+      "zh": "超覺醒",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/超覺醒",
+      "alt": {
+        "zh": "超觉醒",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Elixir": {
+      "zh": "育能劑",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=69335"
+    },
+    "Transcendence": {
+      "zh": "超越",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=69335",
+      "alt": {
+        "zh": "超越",
+        "src": "cn",
+        "url": "https://news.17173.com/content/02132025/104848164.shtml"
+      }
+    },
+    "Bracelet": {
+      "zh": "手環",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "手镯",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Ability Stone": {
+      "zh": "能力石",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "能力石",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Accessory": {
+      "zh": "飾品",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "首饰",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Support": {
+      "zh": "輔助職業",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=63663",
+      "alt": {
+        "zh": "辅助职业",
+        "src": "cn",
+        "url": "https://www.psp99.com/news/4811.html"
+      }
+    },
+    "DPS": {
+      "zh": "輸出職業",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=63663",
+      "alt": {
+        "zh": "输出职业",
+        "src": "cn",
+        "url": "https://news.17173.com/content/09062025/163914353.shtml"
+      }
+    },
+    "Raid": {
+      "zh": "襲擊戰",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/卡札羅斯襲擊戰",
+      "alt": {
+        "zh": "副本",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Guardian Raid": {
+      "zh": "守護者討伐戰",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/守護者討伐戰",
+      "alt": {
+        "zh": "讨伐星辰护卫",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Legion Raid": {
+      "zh": "軍團長襲擊戰",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/單人模式",
+      "alt": {
+        "zh": "军团长副本",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Kazeros Raid": {
+      "zh": "卡札羅斯襲擊戰",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/卡札羅斯襲擊戰",
+      "alt": {
+        "zh": "卡杰洛斯副本",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/07262025/124057265.shtml"
+      }
+    },
+    "Normal": {
+      "zh": "普通",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/卡札羅斯襲擊戰",
+      "alt": {
+        "zh": "普通",
+        "src": "cn",
+        "url": "https://news.17173.com/content/07222026/133650624.shtml"
+      }
+    },
+    "Hard": {
+      "zh": "困難",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/卡札羅斯襲擊戰",
+      "alt": {
+        "zh": "困难",
+        "src": "cn",
+        "url": "https://news.17173.com/content/07222026/133650624.shtml"
+      }
+    },
+    "Inferno": {
+      "zh": "煉獄",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/卡札羅斯襲擊戰"
+    },
+    "Trial": {
+      "zh": "試煉",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/守護者討伐戰"
+    },
+    "Nightmare": {
+      "zh": "浩劫",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=69335",
+      "alt": {
+        "zh": "噩梦",
+        "src": "cn",
+        "url": "https://news.17173.com/content/07222026/133650624.shtml"
+      }
+    },
+    "Extreme": {
+      "zh": "極限",
+      "src": "fan",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=27410&snA=6700"
+    },
+    "Solo": {
+      "zh": "單人",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/單人模式"
+    },
+    "Esther weapon": {
+      "zh": "艾斯特武器",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/高級提煉",
+      "alt": {
+        "zh": "神选英雄武器",
+        "src": "cn",
+        "url": "https://news.17173.com/content/07222026/133650624.shtml"
+      }
+    },
+    "The First": {
+      "zh": "The First",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65778",
+      "alt": {
+        "zh": "TF",
+        "src": "cn",
+        "url": "https://news.17173.com/content/03192025/134241538.shtml"
+      }
+    }
+  },
+  "stats": {
+    "Crit": {
+      "zh": "致命",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/穩固實力",
+      "alt": {
+        "zh": "会心",
+        "src": "cn",
+        "url": "https://tieba.baidu.com/p/8429824365"
+      }
+    },
+    "Specialization": {
+      "zh": "特化",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/穩固實力",
+      "alt": {
+        "zh": "专长",
+        "src": "cn",
+        "url": "https://tieba.baidu.com/p/8429824365"
+      }
+    },
+    "Domination": {
+      "zh": "壓制",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/穩固實力",
+      "alt": {
+        "zh": "压制",
+        "src": "cn",
+        "url": "https://tieba.baidu.com/p/8429824365"
+      }
+    },
+    "Swiftness": {
+      "zh": "迅速",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/穩固實力",
+      "alt": {
+        "zh": "迅捷",
+        "src": "cn",
+        "url": "https://tieba.baidu.com/p/8429824365"
+      }
+    },
+    "Endurance": {
+      "zh": "忍耐",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/穩固實力",
+      "alt": {
+        "zh": "忍耐",
+        "src": "cn",
+        "url": "https://tieba.baidu.com/p/8429824365"
+      }
+    },
+    "Expertise": {
+      "zh": "熟練",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/穩固實力",
+      "alt": {
+        "zh": "异化",
+        "src": "cn",
+        "url": "https://tieba.baidu.com/p/8429824365"
+      }
+    },
+    "Attack Power": {
+      "zh": "攻擊力",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/刻印",
+      "alt": {
+        "zh": "攻击力",
+        "src": "cn",
+        "url": "https://www.9game.cn/mingyunfangzhou/8435975.html"
+      }
+    },
+    "Weapon Power": {
+      "zh": "武器攻擊力",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟被動",
+      "alt": {
+        "zh": "武器攻击力",
+        "src": "cn",
+        "url": "https://www.9game.cn/mingyunfangzhou/8435975.html"
+      }
+    },
+    "Additional Damage": {
+      "zh": "額外傷害",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/方舟星圖",
+      "alt": {
+        "zh": "额外伤害",
+        "src": "cn",
+        "url": "https://www.9game.cn/mingyunfangzhou/8435975.html"
+      }
+    },
+    "Crit Rate": {
+      "zh": "暴擊命中率",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/怪物",
+      "alt": {
+        "zh": "暴击率",
+        "src": "cn",
+        "url": "https://www.9game.cn/mingyunfangzhou/8435975.html"
+      }
+    },
+    "Crit Damage": {
+      "zh": "暴擊傷害",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=70042",
+      "alt": {
+        "zh": "暴击伤害",
+        "src": "cn",
+        "url": "https://www.psp99.com/news/4811.html"
+      }
+    },
+    "Cooldown": {
+      "zh": "冷卻時間",
+      "src": "tw",
+      "url": "https://lostark-event.mangot5.com/GameGuide/Pages/互動",
+      "alt": {
+        "zh": "冷却时间",
+        "src": "cn",
+        "url": "https://news.17173.com/z/fz/content/09212023/115415380.shtml"
+      }
+    },
+    "MP": {
+      "zh": "法力",
+      "src": "tw",
+      "url": "https://lostark.mangot5.com/game/lostark/event/announce/detail?contentNo=65010",
+      "alt": {
+        "zh": "法力",
+        "src": "cn",
+        "url": "https://lostark.dvg.cn/engraving_list.php"
+      }
+    }
+  }
+}

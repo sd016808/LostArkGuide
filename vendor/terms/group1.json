@@ -1,0 +1,3294 @@
+[
+ {
+  "class_id": 102,
+  "class_en": "Berserker",
+  "class_zh": "狂戰士",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/berserker/",
+   "https://lostarkcodex.com/tw/skill/{id}/ (per-skill pages for tripods)",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=66986",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=102",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=102",
+   "https://lostark.dvg.cn/api/item_list.php?words=秩序之&grade=6",
+   "https://lostarkcodex.com/us/item/{id}/ (EN core names by id)"
+  ],
+  "skills": {
+   "Assault Blade": {
+    "zh": "突擊刀鋒",
+    "src": "tw"
+   },
+   "Basic Attack": {
+    "zh": "普攻",
+    "src": "tw"
+   },
+   "Berserk Fury": {
+    "zh": "狂怒",
+    "src": "tw"
+   },
+   "Blood Slash": {
+    "zh": "血腥削擊",
+    "src": "tw"
+   },
+   "Bloody Rush": {
+    "zh": "血腥急襲",
+    "src": "tw"
+   },
+   "Bloody Surge": null,
+   "Brave Slash": {
+    "zh": "勇武斬擊",
+    "src": "tw"
+   },
+   "Burst": {
+    "zh": "狂暴",
+    "src": "tw"
+   },
+   "Burst Basic Attack": {
+    "zh": "普攻",
+    "src": "tw"
+   },
+   "Chain Sword": {
+    "zh": "鏈劍",
+    "src": "tw"
+   },
+   "Chain of Vengeance": {
+    "zh": "復仇之鏈",
+    "src": "tw"
+   },
+   "Charge Strike": {
+    "zh": "圍攻",
+    "src": "tw"
+   },
+   "Crime Hazard": {
+    "zh": "上挑重擊",
+    "src": "tw"
+   },
+   "Dark Rush": {
+    "zh": "黑闇急襲",
+    "src": "tw"
+   },
+   "Diving Slash": {
+    "zh": "縱身躍擊",
+    "src": "tw"
+   },
+   "Double Slash": {
+    "zh": "X字斬",
+    "src": "tw"
+   },
+   "Finish Strike": {
+    "zh": "終結斬擊",
+    "src": "tw"
+   },
+   "Fist Attack": {
+    "zh": "徒手攻擊",
+    "src": "tw"
+   },
+   "Fury Method": {
+    "zh": "狂怒之理",
+    "src": "tw"
+   },
+   "Hell Blade": {
+    "zh": "煉獄刀鋒",
+    "src": "tw"
+   },
+   "Maelstrom": {
+    "zh": "渦輪風暴",
+    "src": "tw"
+   },
+   "Mayhem": {
+    "zh": "狂氣",
+    "src": "tw"
+   },
+   "Mountain Crash": {
+    "zh": "山崩",
+    "src": "tw"
+   },
+   "Overdrive": {
+    "zh": "怒火挑擊",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Power Break": {
+    "zh": "橫掃千軍",
+    "src": "tw"
+   },
+   "Rage Deathblade": null,
+   "Red Dust": {
+    "zh": "紅塵",
+    "src": "tw"
+   },
+   "Remove Burst": null,
+   "Remove Mayhem": {
+    "zh": "解除狂氣",
+    "src": "tw"
+   },
+   "Shoulder Charge": {
+    "zh": "肩擊衝鋒",
+    "src": "tw"
+   },
+   "Stampede": {
+    "zh": "涌动",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Sword Storm": {
+    "zh": "劍襲",
+    "src": "tw"
+   },
+   "Tempest Slash": {
+    "zh": "暴雨砍擊",
+    "src": "tw"
+   },
+   "Theatric Combat Switch": {
+    "zh": "轉換場景用戰鬥",
+    "src": "tw"
+   },
+   "Tumbling": {
+    "zh": "滾動",
+    "src": "tw"
+   },
+   "Whirlwind": {
+    "zh": "旋風擊",
+    "src": "tw"
+   },
+   "Wind Blade": {
+    "zh": "風阻刀鋒",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "Blood Circulation": {
+    "zh": "血液循环",
+    "src": "cn"
+   },
+   "Break Dash": {
+    "zh": "爆发冲刺",
+    "src": "cn"
+   },
+   "Break Out": {
+    "zh": "熔岩爆发",
+    "src": "cn"
+   },
+   "Chain Slash": {
+    "zh": "连斩",
+    "src": "cn"
+   },
+   "Combination": {
+    "zh": "连续击溃",
+    "src": "cn"
+   },
+   "Crushing Storm": {
+    "zh": "粉碎风暴",
+    "src": "cn"
+   },
+   "Cyclone Slash": {
+    "zh": "旋風斬擊",
+    "src": "tw"
+   },
+   "Dark Power": {
+    "zh": "暗黑能量",
+    "src": "cn"
+   },
+   "Dark Torrent": {
+    "zh": "黑暗激流",
+    "src": "cn"
+   },
+   "Frenzy": {
+    "zh": "狂乱",
+    "src": "cn"
+   },
+   "Hell Flip": {
+    "zh": "翻轉地獄",
+    "src": "tw"
+   },
+   "Holding Edge": {
+    "zh": "保持鋒芒",
+    "src": "tw"
+   },
+   "Over Surge": {
+    "zh": "过载爆发",
+    "src": "cn"
+   },
+   "Overflow": {
+    "zh": "超载驱动",
+    "src": "cn"
+   },
+   "Overpower": {
+    "zh": "能量压制",
+    "src": "cn"
+   },
+   "Power Core": {
+    "zh": "超能核心",
+    "src": "cn"
+   },
+   "Power Drive": {
+    "zh": "力量驅動",
+    "src": "tw"
+   },
+   "Rapid Slash": {
+    "zh": "迅捷斩击",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Berserker Technique": {
+    "zh": "狂戰士祕技",
+    "src": "tw"
+   },
+   "Brawn": {
+    "zh": "强韧身躯",
+    "src": "cn"
+   },
+   "Burst Enhancement": {
+    "zh": "狂暴強化",
+    "src": "tw"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Cold Fury": {
+    "zh": "冰冷憤怒",
+    "src": "tw"
+   },
+   "Dark Enhancement": {
+    "zh": "黑暗强化",
+    "src": "cn"
+   },
+   "Fury Amplification": {
+    "zh": "憤怒增幅",
+    "src": "tw"
+   },
+   "Fury Consumption": {
+    "zh": "憤怒消耗",
+    "src": "tw"
+   },
+   "Fury Cycle": {
+    "zh": "憤怒循環",
+    "src": "tw"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Invigoration": {
+    "zh": "身体激活",
+    "src": "cn"
+   },
+   "Mayhem": {
+    "zh": "疯狂",
+    "src": "cn"
+   },
+   "Mutilate": {
+    "zh": "亂砍",
+    "src": "tw"
+   },
+   "Physical Awakening": {
+    "zh": "身體覺醒",
+    "src": "tw"
+   },
+   "Provocation": {
+    "zh": "愤怒刺激",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Restore Fury": {
+    "zh": "愤怒返还",
+    "src": "cn"
+   },
+   "Slash": {
+    "zh": "斩击",
+    "src": "cn"
+   },
+   "Stampede": {
+    "zh": "涌动",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Absorb": {
+    "zh": "吸收",
+    "src": "tw"
+   },
+   "Acceleration": {
+    "zh": "加速",
+    "src": "tw"
+   },
+   "Airsplitter": {
+    "zh": "空間砍擊",
+    "src": "tw"
+   },
+   "Bisection": {
+    "zh": "兩端",
+    "src": "tw"
+   },
+   "Bleed Effect": {
+    "zh": "出血效果",
+    "src": "tw"
+   },
+   "Blood Slash": {
+    "zh": "血破斬",
+    "src": "tw"
+   },
+   "Bloody Eruption": {
+    "zh": "熱血沸騰",
+    "src": "tw"
+   },
+   "Brutal Honesty": {
+    "zh": "憨直",
+    "src": "tw"
+   },
+   "Burning Rage": {
+    "zh": "燃燒的憤怒",
+    "src": "tw"
+   },
+   "Burst Enhancement": {
+    "zh": "狂暴強化",
+    "src": "tw"
+   },
+   "Chain Charge": {
+    "zh": "連續突進",
+    "src": "tw"
+   },
+   "Cold Heart": {
+    "zh": "冰冷心臟",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Counterstrike": {
+    "zh": "逆襲",
+    "src": "tw"
+   },
+   "Cracked Blade": {
+    "zh": "分裂刀刃",
+    "src": "tw"
+   },
+   "Crater": {
+    "zh": "陷沒",
+    "src": "tw"
+   },
+   "Cut": {
+    "zh": "切削",
+    "src": "tw"
+   },
+   "Damage Amplification": {
+    "zh": "傷害增幅",
+    "src": "tw"
+   },
+   "Deadly Blow": {
+    "zh": "必死一擊",
+    "src": "tw"
+   },
+   "Deathblow": {
+    "zh": "一擊必殺",
+    "src": "tw"
+   },
+   "Decimation": {
+    "zh": "殲滅",
+    "src": "tw"
+   },
+   "Destruction": {
+    "zh": "破壞",
+    "src": "tw"
+   },
+   "Doom": {
+    "zh": "滅亡",
+    "src": "tw"
+   },
+   "Driving Hit": {
+    "zh": "肆虐",
+    "src": "tw"
+   },
+   "Earth Flip": {
+    "zh": "翻轉大地",
+    "src": "tw"
+   },
+   "Earth Impact": {
+    "zh": "大地衝突",
+    "src": "tw"
+   },
+   "Earthquake Effect": {
+    "zh": "地震效果",
+    "src": "tw"
+   },
+   "Earthquake Shock": {
+    "zh": "地震波",
+    "src": "tw"
+   },
+   "Earthquake Wave": {
+    "zh": "地震波動",
+    "src": "tw"
+   },
+   "Enhanced Strike": {
+    "zh": "鋒利一擊",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Finishing Blow": {
+    "zh": "最終攻擊",
+    "src": "tw"
+   },
+   "Flame Rush": {
+    "zh": "火舌急襲",
+    "src": "tw"
+   },
+   "Flame Spin": {
+    "zh": "火焰漩渦",
+    "src": "tw"
+   },
+   "Flame Storm": {
+    "zh": "火焰暴風",
+    "src": "tw"
+   },
+   "Flash and Slash": {
+    "zh": "閃光砍擊",
+    "src": "tw"
+   },
+   "Focus": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Forward Slash": {
+    "zh": "前進砍擊",
+    "src": "tw"
+   },
+   "Fury Explosion": {
+    "zh": "憤怒爆發",
+    "src": "tw"
+   },
+   "Gale Cutter": {
+    "zh": "驟風砍擊",
+    "src": "tw"
+   },
+   "Gravitational Blow": {
+    "zh": "竭力一擊",
+    "src": "tw"
+   },
+   "Great Wheel": {
+    "zh": "大車輪",
+    "src": "tw"
+   },
+   "Internal Bleeding": {
+    "zh": "內部出血",
+    "src": "tw"
+   },
+   "Keen Strike": {
+    "zh": "鋒利一擊",
+    "src": "tw"
+   },
+   "Lava Jet": {
+    "zh": "熔岩噴發",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Leap": {
+    "zh": "跳躍",
+    "src": "tw"
+   },
+   "Lights Out": {
+    "zh": "確認射殺",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Master of Combat": {
+    "zh": "戰鬥達人",
+    "src": "tw"
+   },
+   "Muscle Spasm": {
+    "zh": "肌肉痙攣",
+    "src": "tw"
+   },
+   "Mutilate": {
+    "zh": "亂砍",
+    "src": "tw"
+   },
+   "Nimble Movement": {
+    "zh": "迅捷行動",
+    "src": "tw"
+   },
+   "Nonstop Attack": {
+    "zh": "永不停歇的攻擊",
+    "src": "tw"
+   },
+   "Power Accumulation": {
+    "zh": "威力蓄積",
+    "src": "tw"
+   },
+   "Power Slash": {
+    "zh": "力量削擊",
+    "src": "tw"
+   },
+   "Powerful Slash": {
+    "zh": "斬擊強化",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "輕快的腳步",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快攻準備",
+    "src": "tw"
+   },
+   "Rage": {
+    "zh": "激怒",
+    "src": "tw"
+   },
+   "Ranged Attack": {
+    "zh": "遠距離攻擊",
+    "src": "tw"
+   },
+   "Ranged Hit": {
+    "zh": "遠距離打擊",
+    "src": "tw"
+   },
+   "Rear Blast": {
+    "zh": "風暴效應",
+    "src": "tw"
+   },
+   "Red Lightning": {
+    "zh": "紅色閃電",
+    "src": "tw"
+   },
+   "Red Shock": {
+    "zh": "赤色衝擊",
+    "src": "tw"
+   },
+   "Red Wave": {
+    "zh": "赤浪",
+    "src": "tw"
+   },
+   "Shackling Crash": {
+    "zh": "減速效果",
+    "src": "tw"
+   },
+   "Shield": {
+    "zh": "屏障效果",
+    "src": "tw"
+   },
+   "Shockwave": {
+    "zh": "衝擊波",
+    "src": "tw"
+   },
+   "Shoulder Strike": {
+    "zh": "肩擊",
+    "src": "tw"
+   },
+   "Storm Slash": {
+    "zh": "暴風砍擊",
+    "src": "tw"
+   },
+   "Sustain Enhancement": {
+    "zh": "持續力強化",
+    "src": "tw"
+   },
+   "Swift Attack Prep": {
+    "zh": "快攻準備",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Swift Move": {
+    "zh": "迅疾移動",
+    "src": "tw"
+   },
+   "Sword Fragment": {
+    "zh": "劍碎片",
+    "src": "tw"
+   },
+   "Sword Wound": {
+    "zh": "劍傷",
+    "src": "tw"
+   },
+   "Swordswipe Draft": {
+    "zh": "巨劍風",
+    "src": "tw"
+   },
+   "Technique Charge": {
+    "zh": "技術補充",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Tornado": {
+    "zh": "龍捲擊",
+    "src": "tw"
+   },
+   "Training Results": {
+    "zh": "修練成果",
+    "src": "tw"
+   },
+   "Vacuum Slash": {
+    "zh": "真空砍擊",
+    "src": "tw"
+   },
+   "Vital Point Hit": {
+    "zh": "狂暴強化",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破壞強化",
+    "src": "tw"
+   },
+   "Whirlpool": {
+    "zh": "漩渦",
+    "src": "tw"
+   },
+   "Wide Hit": {
+    "zh": "寬廣打擊",
+    "src": "tw"
+   },
+   "Windswift": {
+    "zh": "風車",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 103,
+  "class_en": "Destroyer",
+  "class_zh": "毀滅者",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/destroyer/",
+   "https://lostarkcodex.com/tw/skill/{id}/ (per-skill pages for tripods)",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=66986",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=103",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=103",
+   "https://lostark.dvg.cn/api/item_list.php?words=秩序之&grade=6",
+   "https://lostarkcodex.com/us/item/{id}/ (EN core names by id)"
+  ],
+  "skills": {
+   "Basic Attack": {
+    "zh": "基本3連打",
+    "src": "tw"
+   },
+   "Big Bang": {
+    "zh": "大爆炸",
+    "src": "tw"
+   },
+   "Chain Strike": {
+    "zh": "連鎖鎚擊",
+    "src": "tw"
+   },
+   "Dreadnaught": {
+    "zh": "無所畏懼",
+    "src": "tw"
+   },
+   "Earth Eater": {
+    "zh": "噬地者",
+    "src": "tw"
+   },
+   "Earth Smasher": {
+    "zh": "接地粉碎",
+    "src": "tw"
+   },
+   "Earth Wave": {
+    "zh": "地動波",
+    "src": "tw"
+   },
+   "Endure Pain": {
+    "zh": "忍受痛楚",
+    "src": "tw"
+   },
+   "Full Swing": {
+    "zh": "全力揮擊",
+    "src": "tw"
+   },
+   "Galaxy Break": {
+    "zh": "擊地銀河",
+    "src": "tw"
+   },
+   "Gravitational Energy": {
+    "zh": "重力壓迫",
+    "src": "tw"
+   },
+   "Gravity Compression": {
+    "zh": "重力壓縮",
+    "src": "tw"
+   },
+   "Gravity Impact": {
+    "zh": "重力衝擊",
+    "src": "tw"
+   },
+   "Heavy Crush": {
+    "zh": "重型鎚擊",
+    "src": "tw"
+   },
+   "Hyper Big Bang": null,
+   "Hypergravity Basic Attack": {
+    "zh": "重力加重基本攻擊",
+    "src": "tw"
+   },
+   "Hypergravity Zone": {
+    "zh": "發動重力加重",
+    "src": "tw"
+   },
+   "Jumping Smash": {
+    "zh": "跳躍扣擊",
+    "src": "tw"
+   },
+   "Neutralizer": {
+    "zh": "重力打擊",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Perfect Swing": {
+    "zh": "完美揮擊",
+    "src": "tw"
+   },
+   "Power Shoulder": {
+    "zh": "強壯臂膀",
+    "src": "tw"
+   },
+   "Power Strike": {
+    "zh": "力量鎚擊",
+    "src": "tw"
+   },
+   "Remove Hypergravity Zone": {
+    "zh": "解除重力加重模式",
+    "src": "tw"
+   },
+   "Run": {
+    "zh": "奔",
+    "src": "tw"
+   },
+   "Running Crash": {
+    "zh": "衝鋒撞擊",
+    "src": "tw"
+   },
+   "Seismic Hammer": {
+    "zh": "震襲鎚",
+    "src": "tw"
+   },
+   "Stand Up": null,
+   "Supernova": {
+    "zh": "超新星重擊",
+    "src": "tw"
+   },
+   "Terra Break": {
+    "zh": "擊地制約",
+    "src": "tw"
+   },
+   "Vortex Gravity": {
+    "zh": "重力渦流",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "Absolute Control": {
+    "zh": "完美调控",
+    "src": "cn"
+   },
+   "Broken Chains": {
+    "zh": "断裂锁链",
+    "src": "cn"
+   },
+   "Collapse": {
+    "zh": "崩溃",
+    "src": "cn"
+   },
+   "Dimensional Collapse": {
+    "zh": "次元崩溃",
+    "src": "cn"
+   },
+   "Earth Wave": {
+    "zh": "大地波动",
+    "src": "cn"
+   },
+   "Event Horizon": {
+    "zh": "事象地平线",
+    "src": "cn"
+   },
+   "Gravitational Circulation": {
+    "zh": "重力循环",
+    "src": "cn"
+   },
+   "Gravitational Rush": {
+    "zh": "席卷重力",
+    "src": "cn"
+   },
+   "Gravity Core": {
+    "zh": "引力核心",
+    "src": "cn"
+   },
+   "Gravity Destruction": {
+    "zh": "重力破坏",
+    "src": "cn"
+   },
+   "Gravity Enhancement": {
+    "zh": "重力强化",
+    "src": "cn"
+   },
+   "Gravity Reversal": {
+    "zh": "重力反转",
+    "src": "cn"
+   },
+   "Gravity Run": {
+    "zh": "重力疾跑",
+    "src": "cn"
+   },
+   "Reckless Blow": {
+    "zh": "莽撞一击",
+    "src": "cn"
+   },
+   "Rock Blade": {
+    "zh": "岩石利刃",
+    "src": "cn"
+   },
+   "Shattered Earth": {
+    "zh": "震地破坏",
+    "src": "cn"
+   },
+   "Singularity": {
+    "zh": "奇点",
+    "src": "cn"
+   },
+   "Turbulent Release": {
+    "zh": "席卷解放",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Circulation": {
+    "zh": "循环力",
+    "src": "cn"
+   },
+   "Concentrated Attack": {
+    "zh": "专注攻击",
+    "src": "cn"
+   },
+   "Gravity Acceleration": {
+    "zh": "重力加速",
+    "src": "cn"
+   },
+   "Gravity Accumulation": {
+    "zh": "重力积蓄",
+    "src": "cn"
+   },
+   "Gravity Armor": {
+    "zh": "重力盔甲",
+    "src": "tw"
+   },
+   "Gravity Charge": {
+    "zh": "重力蓄能",
+    "src": "cn"
+   },
+   "Gravity Conversion": {
+    "zh": "重力變換",
+    "src": "tw"
+   },
+   "Gravity Preservation": {
+    "zh": "重力保存",
+    "src": "cn"
+   },
+   "Gravity Release": {
+    "zh": "重力释放",
+    "src": "cn"
+   },
+   "Gravity Shock": {
+    "zh": "重力冲击",
+    "src": "cn"
+   },
+   "Gravity Training": {
+    "zh": "重力修練",
+    "src": "tw"
+   },
+   "Inertia Enhancement": {
+    "zh": "领域强化",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "New Core": {
+    "zh": "新的核心",
+    "src": "cn"
+   },
+   "Rage Hammer": {
+    "zh": "憤怒之鎚",
+    "src": "tw"
+   },
+   "Release Enhancement": {
+    "zh": "解放强化",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Sharp Hammer": {
+    "zh": "犀利之锤",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Absolute Strength": {
+    "zh": "絕對之力",
+    "src": "tw"
+   },
+   "Aftershock": {
+    "zh": "餘震",
+    "src": "tw"
+   },
+   "Agile Movement": {
+    "zh": "矯捷行動",
+    "src": "tw"
+   },
+   "Anti-Gravity": {
+    "zh": "反重力",
+    "src": "tw"
+   },
+   "Armor Destruction": {
+    "zh": "盔甲破壞",
+    "src": "tw"
+   },
+   "Basic Training": {
+    "zh": "基本鍛鍊",
+    "src": "tw"
+   },
+   "Beast's Eye": {
+    "zh": "野獸之眼",
+    "src": "tw"
+   },
+   "Bizarre Hammer": {
+    "zh": "奇怪之鎚",
+    "src": "tw"
+   },
+   "Charge Enhancement": {
+    "zh": "補充強化",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Cruel Vengeance": {
+    "zh": "冷酷的復仇",
+    "src": "tw"
+   },
+   "Dark Flame": {
+    "zh": "黑暗火花",
+    "src": "tw"
+   },
+   "Dark Matter": {
+    "zh": "暗黑物質",
+    "src": "tw"
+   },
+   "Defenseless Target": {
+    "zh": "無防備標記",
+    "src": "tw"
+   },
+   "Divided": {
+    "zh": "分裂",
+    "src": "tw"
+   },
+   "Earth Shock": {
+    "zh": "大地衝擊",
+    "src": "tw"
+   },
+   "Earthen Aura": {
+    "zh": "大地氣息",
+    "src": "tw"
+   },
+   "Earthen Rage": {
+    "zh": "大地之怒",
+    "src": "tw"
+   },
+   "Earthen Strength": {
+    "zh": "大地之力",
+    "src": "tw"
+   },
+   "Elaborate Hit": {
+    "zh": "嚴密打擊",
+    "src": "tw"
+   },
+   "Elaborate Plan": {
+    "zh": "嚴密計畫",
+    "src": "tw"
+   },
+   "Endless Assault": {
+    "zh": "無盡猛攻",
+    "src": "tw"
+   },
+   "Enh. Weak Point Detection": {
+    "zh": "強化捕獲弱點",
+    "src": "tw"
+   },
+   "Enhanced Advance": {
+    "zh": "強化前進",
+    "src": "tw"
+   },
+   "Enhanced Strike": {
+    "zh": "強化一擊",
+    "src": "tw"
+   },
+   "Explosive Hit": {
+    "zh": "爆破打擊",
+    "src": "tw"
+   },
+   "Express Fury": {
+    "zh": "憤怒表現",
+    "src": "tw"
+   },
+   "Fatal Strength": {
+    "zh": "致命之力",
+    "src": "tw"
+   },
+   "Fear of War": {
+    "zh": "戰場恐懼",
+    "src": "tw"
+   },
+   "Gravity Charge": {
+    "zh": "重力補充",
+    "src": "tw"
+   },
+   "Gravity Control": {
+    "zh": "重力調整",
+    "src": "tw"
+   },
+   "Gravity Echo": {
+    "zh": "重力回聲",
+    "src": "tw"
+   },
+   "Gravity Enhancement": {
+    "zh": "重力強化",
+    "src": "tw"
+   },
+   "Gravity Hammer": {
+    "zh": "重力之鎚",
+    "src": "tw"
+   },
+   "Gravity Inversion": {
+    "zh": "重力反轉",
+    "src": "tw"
+   },
+   "Growing Gravity": {
+    "zh": "成長重力",
+    "src": "tw"
+   },
+   "Growing Hammer": {
+    "zh": "成長之鎚",
+    "src": "tw"
+   },
+   "Guaranteed Core": {
+    "zh": "確保核心",
+    "src": "tw"
+   },
+   "Hammer Down": {
+    "zh": "重擊之鎚",
+    "src": "tw"
+   },
+   "Hammer of the Earth": {
+    "zh": "大地之鎚",
+    "src": "tw"
+   },
+   "Healthy Mentality": {
+    "zh": "堅強意志",
+    "src": "tw"
+   },
+   "Hidden Pain": {
+    "zh": "隱藏的痛苦",
+    "src": "tw"
+   },
+   "Hour of Slaughter": {
+    "zh": "虐殺時間",
+    "src": "tw"
+   },
+   "Impaired Mobility": {
+    "zh": "機動性弱化",
+    "src": "tw"
+   },
+   "Intemperance": {
+    "zh": "超負荷",
+    "src": "tw"
+   },
+   "Irresistible Force": {
+    "zh": "無法支撐的力量",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Magnetic Field Enh.": {
+    "zh": "磁場強化",
+    "src": "tw"
+   },
+   "Objective Complete": {
+    "zh": "目標完成",
+    "src": "tw"
+   },
+   "Outraged Attack": {
+    "zh": "狂暴攻擊",
+    "src": "tw"
+   },
+   "Perspiration": {
+    "zh": "努力成果",
+    "src": "tw"
+   },
+   "Powerful Finish": {
+    "zh": "強勁之尾",
+    "src": "tw"
+   },
+   "Powerful Shock": {
+    "zh": "強大衝擊",
+    "src": "tw"
+   },
+   "Pulverize": {
+    "zh": "粉碎",
+    "src": "tw"
+   },
+   "Quick Hit": {
+    "zh": "瞬間打擊",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Raging Hammer": {
+    "zh": "狂奔之鎚",
+    "src": "tw"
+   },
+   "Rash Movement": {
+    "zh": "魯莽的行動",
+    "src": "tw"
+   },
+   "Rational Selection": {
+    "zh": "合理選擇",
+    "src": "tw"
+   },
+   "Reckless Attack": {
+    "zh": "魯莽攻擊",
+    "src": "tw"
+   },
+   "Reckless Blow": {
+    "zh": "魯莽一擊",
+    "src": "tw"
+   },
+   "Reckless Charge": {
+    "zh": "魯莽突進",
+    "src": "tw"
+   },
+   "Red Shards": {
+    "zh": "赤岩碎片",
+    "src": "tw"
+   },
+   "Released Instinct": {
+    "zh": "釋放本能",
+    "src": "tw"
+   },
+   "Rock Storm": {
+    "zh": "岩石暴風",
+    "src": "tw"
+   },
+   "Scary Hammer": {
+    "zh": "可怕之鎚",
+    "src": "tw"
+   },
+   "Single Attack": null,
+   "Splendid Attack": {
+    "zh": "閃耀攻擊",
+    "src": "tw"
+   },
+   "Starving Strength": {
+    "zh": "飢餓之力",
+    "src": "tw"
+   },
+   "Strange Movement": {
+    "zh": "奇怪的行動",
+    "src": "tw"
+   },
+   "Superior Charge": {
+    "zh": "卓越變化",
+    "src": "tw"
+   },
+   "Target Focus": {
+    "zh": "集中標記",
+    "src": "tw"
+   },
+   "Taunt": {
+    "zh": "挑釁",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Time Distortion": {
+    "zh": "時間扭轉",
+    "src": "tw"
+   },
+   "Tough Heart": {
+    "zh": "堅忍不拔",
+    "src": "tw"
+   },
+   "Tough Mind": {
+    "zh": "堅毅精神",
+    "src": "tw"
+   },
+   "Toughened Body": {
+    "zh": "鋼鐵之軀",
+    "src": "tw"
+   },
+   "Unnecessary Time": {
+    "zh": "不需要的時間",
+    "src": "tw"
+   },
+   "Unstable Earth": {
+    "zh": "不穩定的大地",
+    "src": "tw"
+   },
+   "Victory Contract": {
+    "zh": "勝利契約",
+    "src": "tw"
+   },
+   "Violent Hammer": {
+    "zh": "肆虐之鎚",
+    "src": "tw"
+   },
+   "Wavering Gravity": {
+    "zh": "蕩漾的重力",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Wide Hit": {
+    "zh": "寬廣打擊",
+    "src": "tw"
+   },
+   "Will Enhancement": {
+    "zh": "意志強化",
+    "src": "tw"
+   },
+   "Wise Strength": {
+    "zh": "賢明之力",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 104,
+  "class_en": "Gunlancer",
+  "class_zh": "督軍",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/warlord/",
+   "https://lostarkcodex.com/tw/skill/{id}/ (per-skill pages for tripods)",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=66986",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=104",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=104",
+   "https://lostark.dvg.cn/api/item_list.php?words=秩序之&grade=6",
+   "https://lostarkcodex.com/us/item/{id}/ (EN core names by id)"
+  ],
+  "skills": {
+   "Assault Stance": {
+    "zh": "進擊架勢",
+    "src": "tw"
+   },
+   "Bash": {
+    "zh": "重擊",
+    "src": "tw"
+   },
+   "Basic Attack": {
+    "zh": "基本普攻3連打",
+    "src": "tw"
+   },
+   "Battlefield Shield": {
+    "zh": "戰場之盾",
+    "src": "tw"
+   },
+   "Charge": {
+    "zh": "突擊",
+    "src": "tw"
+   },
+   "Charged Stinger": {
+    "zh": "蓄力刺槍",
+    "src": "tw"
+   },
+   "Counter Gunlance": {
+    "zh": "盾牌防禦",
+    "src": "tw"
+   },
+   "Dash Upper Fire": {
+    "zh": "衝刺燎火",
+    "src": "tw"
+   },
+   "Deactivate Assault Stance": null,
+   "Deactivate Defensive Stance": {
+    "zh": "解除防禦架勢",
+    "src": "tw"
+   },
+   "Defensive Stance": {
+    "zh": "防禦架勢",
+    "src": "tw"
+   },
+   "Fire Bullet": {
+    "zh": "火彈",
+    "src": "tw"
+   },
+   "Fist Attack": {
+    "zh": "徒手攻擊3連打",
+    "src": "tw"
+   },
+   "Full Barrel Cannon": {
+    "zh": "滿膛加農砲",
+    "src": "tw"
+   },
+   "Guardian's Oath": null,
+   "Guardian's Protection": {
+    "zh": "守護者領域",
+    "src": "tw"
+   },
+   "Guardian's Thundercrack": {
+    "zh": "守護者的落雷",
+    "src": "tw"
+   },
+   "Gunlance Shot": {
+    "zh": "矛擊",
+    "src": "tw"
+   },
+   "Hook Chain": {
+    "zh": "尖刺鏈鈎",
+    "src": "tw"
+   },
+   "Justice Served": null,
+   "Lance of Judgment": {
+    "zh": "審判槍矛",
+    "src": "tw"
+   },
+   "Leap Attack": {
+    "zh": "躍擊",
+    "src": "tw"
+   },
+   "Nelasia's Energy": {
+    "zh": "奈拉西亞氣息",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Remove Battlefield Shield": {
+    "zh": "解除戰場之盾",
+    "src": "tw"
+   },
+   "Rising Gunlance": {
+    "zh": "升天之矛",
+    "src": "tw"
+   },
+   "Sharp Gunlance": {
+    "zh": "尖銳槍矛",
+    "src": "tw"
+   },
+   "Shield Bash": {
+    "zh": "盾牌猛擊",
+    "src": "tw"
+   },
+   "Shield Charge": {
+    "zh": "盾牌突進",
+    "src": "tw"
+   },
+   "Shield Dash": {
+    "zh": "槍矛猛衝",
+    "src": "tw"
+   },
+   "Shield Shock": {
+    "zh": "盾牌劇變",
+    "src": "tw"
+   },
+   "Shout of Hatred": {
+    "zh": "憎惡咆哮",
+    "src": "tw"
+   },
+   "Stand Up": null,
+   "Surge Cannon": {
+    "zh": "爆裂加農砲",
+    "src": "tw"
+   },
+   "Warblade": {
+    "zh": "戰場槍矛",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "Chain Charge": {
+    "zh": "连续突进",
+    "src": "cn"
+   },
+   "Chariot Charge": {
+    "zh": "战车突击",
+    "src": "cn"
+   },
+   "Confirmed Attack": {
+    "zh": "炮击锁定",
+    "src": "cn"
+   },
+   "Cross Gunlance": {
+    "zh": "十字骑枪",
+    "src": "cn"
+   },
+   "Defense Tactics": {
+    "zh": "战术防御",
+    "src": "cn"
+   },
+   "Defensive Barrage": {
+    "zh": "炮击防御",
+    "src": "cn"
+   },
+   "End of War": {
+    "zh": "休战",
+    "src": "cn"
+   },
+   "Gunlance Charge": {
+    "zh": "骑枪冲锋",
+    "src": "cn"
+   },
+   "Lightning Storm": {
+    "zh": "闪电风暴",
+    "src": "cn"
+   },
+   "Resounding Thunder": {
+    "zh": "广域落雷",
+    "src": "cn"
+   },
+   "Shield Arts": {
+    "zh": "盾牌术",
+    "src": "cn"
+   },
+   "Shield Combo": {
+    "zh": "盾牌连接",
+    "src": "cn"
+   },
+   "Shield Strike": {
+    "zh": "盾牌打击",
+    "src": "cn"
+   },
+   "Spear Arts": {
+    "zh": "枪术",
+    "src": "cn"
+   },
+   "Strike Point": {
+    "zh": "攻击要点",
+    "src": "cn"
+   },
+   "Tactical Control": {
+    "zh": "战术调控",
+    "src": "cn"
+   },
+   "Thunder": {
+    "zh": "雷霆",
+    "src": "cn"
+   },
+   "War Cry Charge": {
+    "zh": "呐喊冲袭",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Big Cannon": {
+    "zh": "巨砲",
+    "src": "tw"
+   },
+   "Cadet Squad": {
+    "zh": "特攻隊",
+    "src": "tw"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Combat Readiness": {
+    "zh": "戰鬥架勢",
+    "src": "tw"
+   },
+   "Gunlance Training": {
+    "zh": "銃槍修練",
+    "src": "tw"
+   },
+   "Impregnable Fortress": {
+    "zh": "铜墙铁壁",
+    "src": "cn"
+   },
+   "Increase Efficiency": {
+    "zh": "提高效率",
+    "src": "tw"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Lone Knight": {
+    "zh": "孤獨騎士",
+    "src": "tw"
+   },
+   "Quick Barrel": {
+    "zh": "速射砲管",
+    "src": "tw"
+   },
+   "Reckless": {
+    "zh": "猛闯",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Skilled Tactician": {
+    "zh": "熟練戰術家",
+    "src": "tw"
+   },
+   "Sophistication": {
+    "zh": "精巧",
+    "src": "tw"
+   },
+   "Strategic Move": {
+    "zh": "戰術移動",
+    "src": "tw"
+   },
+   "Strategy Training": {
+    "zh": "战术训练",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Vanguard's Mindset": {
+    "zh": "先鋒決心",
+    "src": "tw"
+   },
+   "Vanguard's Protection": {
+    "zh": "先锋的保护",
+    "src": "cn"
+   },
+   "Vanguard's Roar": {
+    "zh": "先鋒吶喊",
+    "src": "tw"
+   }
+  },
+  "tripods": {
+   "Additional Hit": {
+    "zh": "追加打擊",
+    "src": "tw"
+   },
+   "Advance": {
+    "zh": "進擊",
+    "src": "tw"
+   },
+   "Assault": {
+    "zh": "強襲",
+    "src": "tw"
+   },
+   "Attack Creation": {
+    "zh": "創造攻擊",
+    "src": "tw"
+   },
+   "Bombardment Spear": {
+    "zh": "轟炸槍矛",
+    "src": "tw"
+   },
+   "Chain Explosion": {
+    "zh": "連鎖爆破",
+    "src": "tw"
+   },
+   "Charge": {
+    "zh": "突進",
+    "src": "tw"
+   },
+   "Charge Enhancement": {
+    "zh": "蓄力強化",
+    "src": "tw"
+   },
+   "Close Explosion": {
+    "zh": "短距爆破",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Confirmed Attack": {
+    "zh": "確定攻擊",
+    "src": "tw"
+   },
+   "Defenseless Target": {
+    "zh": "無防備標記",
+    "src": "tw"
+   },
+   "Destruction Charger": {
+    "zh": "破壞戰車",
+    "src": "tw"
+   },
+   "Earth Fragment": {
+    "zh": "大地破片",
+    "src": "tw"
+   },
+   "Earthquake": {
+    "zh": "地震",
+    "src": "tw"
+   },
+   "Echo": {
+    "zh": "回音",
+    "src": "tw"
+   },
+   "Effectiveness": {
+    "zh": "提高效果",
+    "src": "tw"
+   },
+   "Electric Field": {
+    "zh": "電流地帶",
+    "src": "tw"
+   },
+   "Electrocution": {
+    "zh": "觸電",
+    "src": "tw"
+   },
+   "Enhanced Strike": {
+    "zh": "暴露弱點",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "衝擊盾牌",
+    "src": "tw"
+   },
+   "Exploding Gunlance": {
+    "zh": "爆滅槍矛",
+    "src": "tw"
+   },
+   "Extra Shell": {
+    "zh": "永不停歇的砲聲",
+    "src": "tw"
+   },
+   "Flame Spear": {
+    "zh": "火焰槍矛",
+    "src": "tw"
+   },
+   "Focus Fire": {
+    "zh": "集中炮火",
+    "src": "tw"
+   },
+   "Grand Cycle": {
+    "zh": "大迴轉",
+    "src": "tw"
+   },
+   "Great Earthquake": {
+    "zh": "大地震",
+    "src": "tw"
+   },
+   "High Explosive Shot": {
+    "zh": "高爆彈",
+    "src": "tw"
+   },
+   "Last Charge": {
+    "zh": "最後蓄力",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Leadership": {
+    "zh": "領導能力",
+    "src": "tw"
+   },
+   "Leap": {
+    "zh": "跳躍",
+    "src": "tw"
+   },
+   "Lightning Charge": {
+    "zh": "閃電蓄力",
+    "src": "tw"
+   },
+   "Lightning Stalk": {
+    "zh": "閃電光束",
+    "src": "tw"
+   },
+   "Lightning Strike Spear": {
+    "zh": "雷擊槍矛",
+    "src": "tw"
+   },
+   "Lingering Power": {
+    "zh": "維持效果",
+    "src": "tw"
+   },
+   "Lingering Taunt": {
+    "zh": "維持挑釁",
+    "src": "tw"
+   },
+   "Low Shock": {
+    "zh": "弱小衝擊",
+    "src": "tw"
+   },
+   "Lucky Chance": {
+    "zh": "幸運的機會",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Nimble Movement": {
+    "zh": "迅捷行動",
+    "src": "tw"
+   },
+   "One-Shot Barrage": {
+    "zh": "一次炮擊",
+    "src": "tw"
+   },
+   "Open Weakness": {
+    "zh": "暴露弱點",
+    "src": "tw"
+   },
+   "Overcharge": {
+    "zh": "過度補充",
+    "src": "tw"
+   },
+   "Piercing": {
+    "zh": "貫穿",
+    "src": "tw"
+   },
+   "Piercing Shot": {
+    "zh": "貫穿彈",
+    "src": "tw"
+   },
+   "Precise Barrage": {
+    "zh": "精密炮擊",
+    "src": "tw"
+   },
+   "Pummel": {
+    "zh": "永不停歇的槍擊",
+    "src": "tw"
+   },
+   "Quaking Shield": {
+    "zh": "震動盾牌",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "輕快的腳步",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快速準備",
+    "src": "tw"
+   },
+   "Ready Defense": {
+    "zh": "防禦準備",
+    "src": "tw"
+   },
+   "Rotating Barrage": {
+    "zh": "迴轉炮擊",
+    "src": "tw"
+   },
+   "Scatter Shot": {
+    "zh": "擴散彈",
+    "src": "tw"
+   },
+   "Shackles": {
+    "zh": "腳鐐",
+    "src": "tw"
+   },
+   "Sharp Chain": {
+    "zh": "尖銳鎖鏈",
+    "src": "tw"
+   },
+   "Shield": {
+    "zh": "屏障",
+    "src": "tw"
+   },
+   "Shield Enhancement": {
+    "zh": "盾牌強化",
+    "src": "tw"
+   },
+   "Shield Hack": {
+    "zh": "盾牌重擊",
+    "src": "tw"
+   },
+   "Shock Bash": {
+    "zh": "電擊重擊",
+    "src": "tw"
+   },
+   "Shock Shield": {
+    "zh": "衝擊盾牌",
+    "src": "tw"
+   },
+   "Shockwave": {
+    "zh": "衝擊波",
+    "src": "tw"
+   },
+   "Shout": {
+    "zh": "戰吼",
+    "src": "tw"
+   },
+   "Shout of Purification": {
+    "zh": "淨化呼喊",
+    "src": "tw"
+   },
+   "Spear Hit Enhancement": {
+    "zh": "槍擊強化",
+    "src": "tw"
+   },
+   "Sturdy Armor": {
+    "zh": "堅硬盔甲",
+    "src": "tw"
+   },
+   "Surprise Attack": {
+    "zh": "突襲攻擊",
+    "src": "tw"
+   },
+   "Survive": {
+    "zh": "生存",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Taunt": {
+    "zh": "挑釁",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Thundercrack": {
+    "zh": "落雷",
+    "src": "tw"
+   },
+   "Tough Strike": {
+    "zh": "堅韌一擊",
+    "src": "tw"
+   },
+   "Unending Attack": {
+    "zh": "未盡的攻擊",
+    "src": "tw"
+   },
+   "Unexpected Twist": {
+    "zh": "變相攻擊",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破壞強化",
+    "src": "tw"
+   },
+   "Wide Hit": {
+    "zh": "寬廣打擊",
+    "src": "tw"
+   },
+   "Wound": {
+    "zh": "創傷",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 105,
+  "class_en": "Paladin",
+  "class_zh": "聖騎士",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/holyknight/",
+   "https://lostarkcodex.com/tw/skill/{id}/ (per-skill pages for tripods)",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=66986",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=105",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=105",
+   "https://lostark.dvg.cn/api/item_list.php?words=秩序之&grade=6",
+   "https://lostarkcodex.com/us/item/{id}/ (EN core names by id)"
+  ],
+  "skills": {
+   "Alithanes's Devotion": {
+    "zh": "亞歷薩諾斯的犧牲",
+    "src": "tw"
+   },
+   "Alithanes's Judgment": {
+    "zh": "亞歷薩諾斯的審判",
+    "src": "tw"
+   },
+   "Alithanes's Light": {
+    "zh": "亞歷薩諾斯之光",
+    "src": "tw"
+   },
+   "Alithanes's Rage": null,
+   "Basic Attack": {
+    "zh": "普攻",
+    "src": "tw"
+   },
+   "Charge": {
+    "zh": "突進",
+    "src": "tw"
+   },
+   "Dash Slash": {
+    "zh": "疾馳砍",
+    "src": "tw"
+   },
+   "Divine Justice": {
+    "zh": "神聖正義",
+    "src": "tw"
+   },
+   "Divine Wave": {
+    "zh": "神聖波濤",
+    "src": "tw"
+   },
+   "Execution of Judgment": {
+    "zh": "執行判決",
+    "src": "tw"
+   },
+   "Execution of Justice": {
+    "zh": "執行正義",
+    "src": "tw"
+   },
+   "Executioner's Sword": {
+    "zh": "執行者之劍",
+    "src": "tw"
+   },
+   "Fist Attack": {
+    "zh": "徒手普攻",
+    "src": "tw"
+   },
+   "Flash Slash": {
+    "zh": "閃光砍擊",
+    "src": "tw"
+   },
+   "Flash Thrust": {
+    "zh": "閃光刺擊",
+    "src": "tw"
+   },
+   "God's Decree": {
+    "zh": "神之律法",
+    "src": "tw"
+   },
+   "Heavenly Blessings": {
+    "zh": "天上祝福",
+    "src": "tw"
+   },
+   "Holy Area": {
+    "zh": "神聖地區",
+    "src": "tw"
+   },
+   "Holy Aura": {
+    "zh": "神聖氣場",
+    "src": "tw"
+   },
+   "Holy Explosion": {
+    "zh": "神聖爆破",
+    "src": "tw"
+   },
+   "Holy Protection": {
+    "zh": "神聖保護",
+    "src": "tw"
+   },
+   "Holy Sword": {
+    "zh": "神聖劍",
+    "src": "tw"
+   },
+   "Judgment Blade": {
+    "zh": "審判之刃",
+    "src": "tw"
+   },
+   "Light Shock": {
+    "zh": "光之衝擊",
+    "src": "tw"
+   },
+   "Light of Judgment": {
+    "zh": "審判之光",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Punishment": {
+    "zh": "處決",
+    "src": "tw"
+   },
+   "PvP Forced Wakeup": null,
+   "Remove Holy Aura": null,
+   "Remove Sacred Executioner": null,
+   "Sacred Executioner": {
+    "zh": "神之執行者",
+    "src": "tw"
+   },
+   "Sacred Executioner Basic Attack": null,
+   "Spin Slash": {
+    "zh": "迴轉砍擊",
+    "src": "tw"
+   },
+   "Sprint": {
+    "zh": "疾走",
+    "src": "tw"
+   },
+   "Stand Up": null,
+   "Sword of Justice": {
+    "zh": "正義之劍",
+    "src": "tw"
+   },
+   "Wrath of God": {
+    "zh": "神之憤怒",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "Blessing of Light": {
+    "zh": "光明祝福",
+    "src": "cn"
+   },
+   "Divine Cause": {
+    "zh": "神圣使命",
+    "src": "cn"
+   },
+   "Divine Power": {
+    "zh": "神的权能",
+    "src": "cn"
+   },
+   "Divine Sword": {
+    "zh": "神圣之剑",
+    "src": "cn"
+   },
+   "Divine War": {
+    "zh": "圣战",
+    "src": "cn"
+   },
+   "Forewarned Judgment": {
+    "zh": "裁决预告",
+    "src": "cn"
+   },
+   "Heavenly Agent": {
+    "zh": "天界使者",
+    "src": "cn"
+   },
+   "Heavenly Resolve": {
+    "zh": "天界决心",
+    "src": "cn"
+   },
+   "Heavenly Sword": {
+    "zh": "天界之剑",
+    "src": "cn"
+   },
+   "Hour of Judgment": {
+    "zh": "裁决时间",
+    "src": "cn"
+   },
+   "Hour of Punishment": {
+    "zh": "惩罚时间",
+    "src": "cn"
+   },
+   "Piercer": {
+    "zh": "穿透之剑",
+    "src": "cn"
+   },
+   "Prayer of Divine Surge": {
+    "zh": "爆发的祈愿",
+    "src": "cn"
+   },
+   "Prayer of Light": {
+    "zh": "光明的祈愿",
+    "src": "cn"
+   },
+   "Punishing Sword": {
+    "zh": "平定之剑",
+    "src": "cn"
+   },
+   "Sacred Strike": {
+    "zh": "神圣一击",
+    "src": "cn"
+   },
+   "Sword's Prayer": {
+    "zh": "剑之祈愿",
+    "src": "cn"
+   },
+   "True Justice": {
+    "zh": "至真正义",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Blessed Aura": {
+    "zh": "祝福光环",
+    "src": "cn"
+   },
+   "Blessing of Judgment": {
+    "zh": "審判洗禮",
+    "src": "tw"
+   },
+   "Bold Salvation": {
+    "zh": "快速救援",
+    "src": "tw"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Divine Knight": {
+    "zh": "神之騎士",
+    "src": "tw"
+   },
+   "Divine Liberation": {
+    "zh": "神聖解放",
+    "src": "tw"
+   },
+   "Execution Sentence": {
+    "zh": "執行宣告",
+    "src": "tw"
+   },
+   "Godly Grace": {
+    "zh": "神之庇護",
+    "src": "tw"
+   },
+   "Holy Protection": {
+    "zh": "神聖保護",
+    "src": "tw"
+   },
+   "Immediate Judgment": {
+    "zh": "就地審判",
+    "src": "tw"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Judgment": {
+    "zh": "審判者",
+    "src": "tw"
+   },
+   "Light's Vestige": {
+    "zh": "光之痕跡",
+    "src": "tw"
+   },
+   "Piety Training": {
+    "zh": "信仰修練",
+    "src": "tw"
+   },
+   "Prelude of Punishment": {
+    "zh": "嚴懲序幕",
+    "src": "tw"
+   },
+   "Protective Judgement": {
+    "zh": "審判庇護",
+    "src": "tw"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Righteous Light": {
+    "zh": "正义之光",
+    "src": "cn"
+   },
+   "Sacred Light": {
+    "zh": "神圣之光",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Absolute Blessing": {
+    "zh": "完整的祝福",
+    "src": "tw"
+   },
+   "Agile Cast": {
+    "zh": "迅捷施展",
+    "src": "tw"
+   },
+   "Ambush Attack": {
+    "zh": "突襲攻擊",
+    "src": "tw"
+   },
+   "Brilliant Law": {
+    "zh": "光輝律法",
+    "src": "tw"
+   },
+   "Broad Slash": {
+    "zh": "寬廣砍擊",
+    "src": "tw"
+   },
+   "Brutal Honesty": {
+    "zh": "憨直",
+    "src": "tw"
+   },
+   "Bulwark": {
+    "zh": "守護防禦牆",
+    "src": "tw"
+   },
+   "Chain Attack": {
+    "zh": "連續攻擊",
+    "src": "tw"
+   },
+   "Challenger's Will": {
+    "zh": "挑戰者意志",
+    "src": "tw"
+   },
+   "Changed Swordcraft": {
+    "zh": "閃光集中",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Condensed Energy": {
+    "zh": "濃縮氣息",
+    "src": "tw"
+   },
+   "Continuous Movement": {
+    "zh": "連續的行動",
+    "src": "tw"
+   },
+   "Dazzling Light Sword": {
+    "zh": "耀眼之光劍",
+    "src": "tw"
+   },
+   "Divine Mark": {
+    "zh": "神聖標記",
+    "src": "tw"
+   },
+   "Double Smite": {
+    "zh": "雙重強打",
+    "src": "tw"
+   },
+   "Endless Grace": {
+    "zh": "廣闊恩寵",
+    "src": "tw"
+   },
+   "Enhanced Decree": {
+    "zh": "律法強化",
+    "src": "tw"
+   },
+   "Enhanced Strike": {
+    "zh": "強化一擊",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Executioner": {
+    "zh": "執行者",
+    "src": "tw"
+   },
+   "Explosion Aftermath": {
+    "zh": "爆發餘波",
+    "src": "tw"
+   },
+   "Explosion Enhancement": {
+    "zh": "爆破強化",
+    "src": "tw"
+   },
+   "Explosive Sword": {
+    "zh": "爆破之劍",
+    "src": "tw"
+   },
+   "Express Fury": {
+    "zh": "憤怒表現",
+    "src": "tw"
+   },
+   "Faith": {
+    "zh": "信仰",
+    "src": "tw"
+   },
+   "Final Strike": {
+    "zh": "最後一擊",
+    "src": "tw"
+   },
+   "Finishing Strike": {
+    "zh": "最終一擊",
+    "src": "tw"
+   },
+   "Flash Breakthrough": {
+    "zh": "柔韌劍術",
+    "src": "tw"
+   },
+   "Flash Enhancement": {
+    "zh": "閃光強化",
+    "src": "tw"
+   },
+   "Flash Focus": {
+    "zh": "閃光集中",
+    "src": "tw"
+   },
+   "Flexible Swordcraft": {
+    "zh": "柔韌劍術",
+    "src": "tw"
+   },
+   "Forward Attack": {
+    "zh": "前進攻擊",
+    "src": "tw"
+   },
+   "Grace": {
+    "zh": "庇護",
+    "src": "tw"
+   },
+   "Gravitational Blow": {
+    "zh": "竭力一擊",
+    "src": "tw"
+   },
+   "Great Light Sword": {
+    "zh": "巨大之光劍",
+    "src": "tw"
+   },
+   "Growth Attack": {
+    "zh": "成長攻擊",
+    "src": "tw"
+   },
+   "Heavenly Requiem": {
+    "zh": "天上鎮魂曲",
+    "src": "tw"
+   },
+   "Impaired Mobility": {
+    "zh": "機動性弱化",
+    "src": "tw"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "柔韌劍術",
+    "src": "tw"
+   },
+   "Law of the Jungle ": {
+    "zh": "柔韌劍術",
+    "src": "tw"
+   },
+   "Leap Attack": {
+    "zh": "跳躍攻擊",
+    "src": "tw"
+   },
+   "Light Explosion": {
+    "zh": "光之爆破",
+    "src": "tw"
+   },
+   "Light Shield": {
+    "zh": "光之盾牌",
+    "src": "tw"
+   },
+   "Light Ward": {
+    "zh": "光之保護",
+    "src": "tw"
+   },
+   "Light's Concentration": {
+    "zh": "光之集結",
+    "src": "tw"
+   },
+   "Light's Guardian": {
+    "zh": "光之保衛者",
+    "src": "tw"
+   },
+   "Light's Vestige": {
+    "zh": "光之痕跡",
+    "src": "tw"
+   },
+   "Lightning": {
+    "zh": "霹靂",
+    "src": "tw"
+   },
+   "Lightning Blade": {
+    "zh": "召喚雷劍",
+    "src": "tw"
+   },
+   "Lingering Power": {
+    "zh": "維持效果",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Mind Enhancement": {
+    "zh": "精神強化",
+    "src": "tw"
+   },
+   "Nimble Movement": {
+    "zh": "迅捷行動",
+    "src": "tw"
+   },
+   "Outburst of Light": {
+    "zh": "光之噴發",
+    "src": "tw"
+   },
+   "Perseverance": {
+    "zh": "耐心",
+    "src": "tw"
+   },
+   "Persistence": {
+    "zh": "堅定",
+    "src": "tw"
+   },
+   "Piercing Strike": {
+    "zh": "貫穿一擊",
+    "src": "tw"
+   },
+   "Powerful Shock": {
+    "zh": "強力衝擊",
+    "src": "tw"
+   },
+   "Precise Swordcraft": {
+    "zh": "精巧劍術",
+    "src": "tw"
+   },
+   "Prepared Explosion": {
+    "zh": "準備就緒的爆破",
+    "src": "tw"
+   },
+   "Propulsion": {
+    "zh": "推進力量",
+    "src": "tw"
+   },
+   "Purify": {
+    "zh": "淨化",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Release Light": {
+    "zh": "光之解放",
+    "src": "tw"
+   },
+   "Righteous Light": {
+    "zh": "正義之光",
+    "src": "tw"
+   },
+   "Robust Protection": {
+    "zh": "保護強化",
+    "src": "tw"
+   },
+   "Ruthless Sprint": {
+    "zh": "無情疾走",
+    "src": "tw"
+   },
+   "Shield": {
+    "zh": "屏障",
+    "src": "tw"
+   },
+   "Splendid Sphere": {
+    "zh": "閃耀球體",
+    "src": "tw"
+   },
+   "Strength Release": {
+    "zh": "力量釋放",
+    "src": "tw"
+   },
+   "Sturdy Armor": {
+    "zh": "堅硬盔甲",
+    "src": "tw"
+   },
+   "Summon Holy Sword": {
+    "zh": "召喚聖劍",
+    "src": "tw"
+   },
+   "Sustain Enhancement": {
+    "zh": "持續力強化",
+    "src": "tw"
+   },
+   "Swift Fingers": {
+    "zh": "矯捷手法",
+    "src": "tw"
+   },
+   "Swift Swordcraft": {
+    "zh": "矯捷劍術",
+    "src": "tw"
+   },
+   "Sword Trace": {
+    "zh": "劍之痕跡",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Thunder": {
+    "zh": "雷動",
+    "src": "tw"
+   },
+   "Thunderous Protection": {
+    "zh": "雷動保護",
+    "src": "tw"
+   },
+   "Triple Strike": {
+    "zh": "三連擊",
+    "src": "tw"
+   },
+   "Valor": {
+    "zh": "勇猛",
+    "src": "tw"
+   },
+   "Vow of Light": {
+    "zh": "光之誓約",
+    "src": "tw"
+   },
+   "Way of Light": {
+    "zh": "光明之路",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破壞強化",
+    "src": "tw"
+   },
+   "Wide Explosion": {
+    "zh": "寬廣爆破",
+    "src": "tw"
+   },
+   "Wide Hit": {
+    "zh": "寬廣打擊",
+    "src": "tw"
+   },
+   "Wide Thundercrack": {
+    "zh": "寬廣落雷",
+    "src": "tw"
+   }
+  }
+ },
+ {
+  "class_id": 112,
+  "class_en": "Slayer",
+  "class_zh": "屠殺者",
+  "src_urls": [
+   "https://lostarkcodex.com/tw/skills/berserkerfemale/",
+   "https://lostarkcodex.com/tw/skill/{id}/ (per-skill pages for tripods)",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65010",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=65781",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=66986",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=67896",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=68854",
+   "https://lostark.mangot5.com/game/lostark/event/announce/detail/?contentNo=70042",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=112",
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=112",
+   "https://lostark.dvg.cn/api/item_list.php?words=秩序之&grade=6",
+   "https://lostarkcodex.com/us/item/{id}/ (EN core names by id)"
+  ],
+  "skills": {
+   "Basic Attack": null,
+   "Bloodlust": {
+    "zh": "血慾",
+    "src": "tw"
+   },
+   "Brutal Impact": {
+    "zh": "憤怒重刃",
+    "src": "tw"
+   },
+   "Burst": {
+    "zh": "狂暴",
+    "src": "tw"
+   },
+   "Burst Basic Attack": null,
+   "Cross Blade": {
+    "zh": "交叉刃擊",
+    "src": "tw"
+   },
+   "Cruel Pierce": {
+    "zh": "蠻力刺擊",
+    "src": "tw"
+   },
+   "Dash": {
+    "zh": "猛衝",
+    "src": "tw"
+   },
+   "Execute": {
+    "zh": "狂怒之刑",
+    "src": "tw"
+   },
+   "Fatal Sword": {
+    "zh": "致命重刃",
+    "src": "tw"
+   },
+   "Final Blow": {
+    "zh": "怒火終擊",
+    "src": "tw"
+   },
+   "Fist Attack": null,
+   "Flame Deathblade": {
+    "zh": "烈焰锋刃",
+    "src": "cn"
+   },
+   "Flash Blade": {
+    "zh": "閃刃迅擊",
+    "src": "tw"
+   },
+   "Flying Strike": {
+    "zh": "飛躍斬擊",
+    "src": "tw"
+   },
+   "Furious Claw": {
+    "zh": "怒爪重擊",
+    "src": "tw"
+   },
+   "Fury Blade": {
+    "zh": "狂怒之刃",
+    "src": "tw"
+   },
+   "Ground Smash": {
+    "zh": "碎地重擊",
+    "src": "tw"
+   },
+   "Guillotine": {
+    "zh": "蠻力重斬",
+    "src": "tw"
+   },
+   "Hurricane Sword": {
+    "zh": "颶風刃擊",
+    "src": "tw"
+   },
+   "Mountain Cleave": {
+    "zh": "岩嶽重刃",
+    "src": "tw"
+   },
+   "Perfect Block": null,
+   "Punishing Draw": {
+    "zh": "奮力揮擊",
+    "src": "tw"
+   },
+   "Rage Slasher": null,
+   "Ragna Break": {
+    "zh": "盛怒火魔",
+    "src": "tw"
+   },
+   "Ragna Deathblade": null,
+   "Remove Burst": null,
+   "Spinning Sword": {
+    "zh": "旋轉重刃",
+    "src": "tw"
+   },
+   "Spiral Deathblade": {
+    "zh": "螺旋锋刃",
+    "src": "cn"
+   },
+   "Stand Up": {
+    "zh": "起身技",
+    "src": "tw"
+   },
+   "Volcanic Eruption": {
+    "zh": "熔岩爆發",
+    "src": "tw"
+   },
+   "Wild Dash": null,
+   "Wild Rush": {
+    "zh": "蠻力急襲",
+    "src": "tw"
+   },
+   "Wild Stomp": {
+    "zh": "蠻力跺足",
+    "src": "tw"
+   }
+  },
+  "ark_grid_cores": {
+   "Blade of Judgment": {
+    "zh": "斷罪之刃",
+    "src": "tw"
+   },
+   "Compressed Fury": {
+    "zh": "憤怒壓縮",
+    "src": "tw"
+   },
+   "Condensed Power": {
+    "zh": "力量凝缩",
+    "src": "cn"
+   },
+   "Converging Power": {
+    "zh": "力量交织",
+    "src": "cn"
+   },
+   "Core Impact": {
+    "zh": "核心冲击",
+    "src": "cn"
+   },
+   "Deliberate Smite": {
+    "zh": "谨慎重击",
+    "src": "cn"
+   },
+   "Execution": {
+    "zh": "處刑",
+    "src": "tw"
+   },
+   "Finishing Strike": {
+    "zh": "斩草除根",
+    "src": "cn"
+   },
+   "Fury Escalation": {
+    "zh": "怒气强化",
+    "src": "cn"
+   },
+   "Pulverize": {
+    "zh": "粉碎",
+    "src": "cn"
+   },
+   "Rage Explosion": {
+    "zh": "激怒爆发",
+    "src": "cn"
+   },
+   "Scaffold": {
+    "zh": "停摆立断",
+    "src": "cn"
+   },
+   "Seething Fury": {
+    "zh": "怒气蓄积",
+    "src": "cn"
+   },
+   "Spiral Tempest": {
+    "zh": "漩涡",
+    "src": "cn"
+   },
+   "Swift Execution": {
+    "zh": "瞬刑",
+    "src": "cn"
+   },
+   "Tornado": {
+    "zh": "旋风",
+    "src": "cn"
+   },
+   "Unpredictable": {
+    "zh": "难以预料",
+    "src": "cn"
+   },
+   "Wind of Destruction": {
+    "zh": "毁灭之风",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Accumulated Power": {
+    "zh": "积蓄之力",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Brave Charge": {
+    "zh": "锐意突进",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Combat Instinct": {
+    "zh": "战斗本能",
+    "src": "cn"
+   },
+   "Crushing Fear": {
+    "zh": "刻骨恐惧",
+    "src": "cn"
+   },
+   "Endless Fury": {
+    "zh": "未尽的愤怒",
+    "src": "cn"
+   },
+   "Enhanced Skill": {
+    "zh": "強化技術",
+    "src": "tw"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Intensifying Fury": {
+    "zh": "加深的憤怒",
+    "src": "tw"
+   },
+   "Maximum Effort": {
+    "zh": "全力以赴",
+    "src": "cn"
+   },
+   "Predator": {
+    "zh": "捕食者",
+    "src": "cn"
+   },
+   "Punisher": {
+    "zh": "處決者",
+    "src": "tw"
+   },
+   "Quench Thirst": {
+    "zh": "缓解饥渴",
+    "src": "cn"
+   },
+   "Reckless Attack": {
+    "zh": "鲁莽攻击",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Skilled Strength": {
+    "zh": "熟练之力",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Unstoppable Fury": {
+    "zh": "怒不可遏",
+    "src": "cn"
+   },
+   "Unwavering Strength": {
+    "zh": "不倦之力",
+    "src": "cn"
+   },
+   "Wrath": {
+    "zh": "激愤",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Absorb": {
+    "zh": "吸收",
+    "src": "tw"
+   },
+   "Acceleration": {
+    "zh": "加速",
+    "src": "tw"
+   },
+   "Airsplitter": {
+    "zh": "空間砍擊",
+    "src": "tw"
+   },
+   "Bisection": {
+    "zh": "兩端",
+    "src": "tw"
+   },
+   "Bloody Eruption": {
+    "zh": "熱血沸騰",
+    "src": "tw"
+   },
+   "Burning Hands": {
+    "zh": "火焰攻擊",
+    "src": "tw"
+   },
+   "Burning Rage": {
+    "zh": "燃燒的憤怒",
+    "src": "tw"
+   },
+   "Chain Attack": {
+    "zh": "連續攻擊",
+    "src": "tw"
+   },
+   "Charge Enhancement": {
+    "zh": "蓄力強化",
+    "src": "tw"
+   },
+   "Charge Prep": {
+    "zh": "突進準備",
+    "src": "tw"
+   },
+   "Concussion": {
+    "zh": "腦震盪",
+    "src": "tw"
+   },
+   "Condensed Strike": {
+    "zh": "濃縮一擊",
+    "src": "tw"
+   },
+   "Counterstrike": {
+    "zh": "逆襲",
+    "src": "tw"
+   },
+   "Cracked Blade": {
+    "zh": "分裂刀刃",
+    "src": "tw"
+   },
+   "Crater": {
+    "zh": "陷沒",
+    "src": "tw"
+   },
+   "Critical Wound": {
+    "zh": "致命傷",
+    "src": "tw"
+   },
+   "Cut": {
+    "zh": "切削",
+    "src": "tw"
+   },
+   "Damage Amplification": {
+    "zh": "傷害增幅",
+    "src": "tw"
+   },
+   "Defenseless Target": {
+    "zh": "無防備標記",
+    "src": "tw"
+   },
+   "Down Strike": {
+    "zh": "下擊",
+    "src": "tw"
+   },
+   "Driving Hit": {
+    "zh": "肆虐",
+    "src": "tw"
+   },
+   "Earth Flip": {
+    "zh": "翻轉大地",
+    "src": "tw"
+   },
+   "Earth Impact": {
+    "zh": "大地衝突",
+    "src": "tw"
+   },
+   "Earth Smite": {
+    "zh": "大地強打",
+    "src": "tw"
+   },
+   "Earthquake Effect": {
+    "zh": "地震效果",
+    "src": "tw"
+   },
+   "Earthquake Shock": {
+    "zh": "地震波",
+    "src": "tw"
+   },
+   "Earthquake Wave": {
+    "zh": "地震波動",
+    "src": "tw"
+   },
+   "Endless Attack": {
+    "zh": "永無止盡的攻擊",
+    "src": "tw"
+   },
+   "Enhanced Strike": {
+    "zh": "強化一擊",
+    "src": "tw"
+   },
+   "Excellent Mobility": {
+    "zh": "卓越機動性",
+    "src": "tw"
+   },
+   "Finishing Blow": {
+    "zh": "最終攻擊",
+    "src": "tw"
+   },
+   "Flame Rush": {
+    "zh": "火舌急襲",
+    "src": "tw"
+   },
+   "Flame Slash": {
+    "zh": "劃破火焰",
+    "src": "tw"
+   },
+   "Flame Spin": {
+    "zh": "火焰漩渦",
+    "src": "tw"
+   },
+   "Flame Storm": {
+    "zh": "火焰暴風",
+    "src": "tw"
+   },
+   "Flame Thrust": {
+    "zh": "火焰刺擊",
+    "src": "tw"
+   },
+   "Flash and Slash": {
+    "zh": "閃光砍擊",
+    "src": "tw"
+   },
+   "Focus": {
+    "zh": "強化一擊",
+    "src": "tw"
+   },
+   "Forward Slash": {
+    "zh": "前進砍擊",
+    "src": "tw"
+   },
+   "Furious Blow": {
+    "zh": "憤怒一擊",
+    "src": "tw"
+   },
+   "Fury Explosion": {
+    "zh": "憤怒爆發",
+    "src": "tw"
+   },
+   "Fury Greatsword": {
+    "zh": "憤怒巨劍",
+    "src": "tw"
+   },
+   "Fury Release": {
+    "zh": "憤怒解放",
+    "src": "tw"
+   },
+   "Great Wheel": {
+    "zh": "大車輪",
+    "src": "tw"
+   },
+   "Keen Strike": {
+    "zh": "鋒利一擊",
+    "src": "tw"
+   },
+   "Lava Jet": {
+    "zh": "熔岩噴發",
+    "src": "tw"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉強食",
+    "src": "tw"
+   },
+   "Leap": {
+    "zh": "跳躍",
+    "src": "tw"
+   },
+   "Lights Out": {
+    "zh": "確認射殺",
+    "src": "tw"
+   },
+   "Magick Control": {
+    "zh": "魔力調整",
+    "src": "tw"
+   },
+   "Melt": {
+    "zh": "溶解",
+    "src": "tw"
+   },
+   "Muscle Spasm": {
+    "zh": "肌肉痙攣",
+    "src": "tw"
+   },
+   "Mutilate": {
+    "zh": "亂砍",
+    "src": "tw"
+   },
+   "Nimble Movement": {
+    "zh": "迅捷行動",
+    "src": "tw"
+   },
+   "Piercing Strike": {
+    "zh": "貫穿一擊",
+    "src": "tw"
+   },
+   "Power Accumulation": {
+    "zh": "威力蓄積",
+    "src": "tw"
+   },
+   "Power Slash": {
+    "zh": "力量削擊",
+    "src": "tw"
+   },
+   "Powerful Slash": {
+    "zh": "斬擊強化",
+    "src": "tw"
+   },
+   "Precise Strike": {
+    "zh": "精密一擊",
+    "src": "tw"
+   },
+   "Quick Pace": {
+    "zh": "輕快的腳步",
+    "src": "tw"
+   },
+   "Quick Prep": {
+    "zh": "快攻準備",
+    "src": "tw"
+   },
+   "Rage": {
+    "zh": "激怒",
+    "src": "tw"
+   },
+   "Ranged Attack": {
+    "zh": "遠距離攻擊",
+    "src": "tw"
+   },
+   "Rear Blast": {
+    "zh": "風暴效應",
+    "src": "tw"
+   },
+   "Red Lightning": {
+    "zh": "紅色閃電",
+    "src": "tw"
+   },
+   "Released Fury": {
+    "zh": "技術補充",
+    "src": "tw"
+   },
+   "Shackling Crash": {
+    "zh": "減速效果",
+    "src": "tw"
+   },
+   "Shield": {
+    "zh": "屏障效果",
+    "src": "tw"
+   },
+   "Shockwave": {
+    "zh": "衝擊波",
+    "src": "tw"
+   },
+   "Shoulder Strike": {
+    "zh": "肩擊",
+    "src": "tw"
+   },
+   "Squall": {
+    "zh": "驟風",
+    "src": "tw"
+   },
+   "Stable Stance": {
+    "zh": "穩定姿態",
+    "src": "tw"
+   },
+   "Storm Slash": {
+    "zh": "暴風砍擊",
+    "src": "tw"
+   },
+   "Sturdy Armor": {
+    "zh": "堅硬盔甲",
+    "src": "tw"
+   },
+   "Superior Charge": {
+    "zh": "卓越變化",
+    "src": "tw"
+   },
+   "Sustain Enhancement": {
+    "zh": "持續力強化",
+    "src": "tw"
+   },
+   "Swift Attack Prep": {
+    "zh": "快攻準備",
+    "src": "tw"
+   },
+   "Swift Execution": {
+    "zh": "斬立決",
+    "src": "tw"
+   },
+   "Swift Move": {
+    "zh": "迅疾移動",
+    "src": "tw"
+   },
+   "Swordswipe Draft": {
+    "zh": "巨劍風",
+    "src": "tw"
+   },
+   "Technique Charge": {
+    "zh": "技術補充",
+    "src": "tw"
+   },
+   "Tenacity": {
+    "zh": "堅韌",
+    "src": "tw"
+   },
+   "Tornado": {
+    "zh": "龍捲擊",
+    "src": "tw"
+   },
+   "Training Results": {
+    "zh": "修練成果",
+    "src": "tw"
+   },
+   "Transformed Strike": {
+    "zh": "變化一擊",
+    "src": "tw"
+   },
+   "Vacuum Slash": {
+    "zh": "真空砍擊",
+    "src": "tw"
+   },
+   "Vital Point Hit": {
+    "zh": "要害打擊",
+    "src": "tw"
+   },
+   "Weak Point Detection": {
+    "zh": "捕獲弱點",
+    "src": "tw"
+   },
+   "Windswift": {
+    "zh": "風車",
+    "src": "tw"
+   }
+  }
+ }
+]

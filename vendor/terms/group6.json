@@ -1,0 +1,2984 @@
+[
+ {
+  "class_id": 602,
+  "class_en": "Artist",
+  "class_zh": "墨灵",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=602",
+   "https://lostark.dvg.cn/api/skill_list.php?class=602",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=602",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B",
+   "https://lostark.dvg.cn/skill_info.php?id=31400",
+   "https://lostarkcodex.com/us/skill/31400/"
+  ],
+  "skills": {
+   "Dream Blossom Garden": {
+    "zh": "梦中百花院",
+    "src": "cn"
+   },
+   "Holy Beast Summon: Phoenix": {
+    "zh": "神兽图：凤凰",
+    "src": "cn"
+   },
+   "Masterwork: Efflorescence": {
+    "zh": "真迹：桃源一梦",
+    "src": "cn"
+   },
+   "Masterwork: Spectacle": {
+    "zh": "真迹：泼墨山水",
+    "src": "cn"
+   },
+   "Moonfall": null,
+   "Paint: Butterfly Dream": {
+    "zh": "墨法：梦蝶兰芷",
+    "src": "cn"
+   },
+   "Paint: Cattle Drive": {
+    "zh": "墨法：牧牛",
+    "src": "cn"
+   },
+   "Paint: Crane Wing": {
+    "zh": "墨法：题鹤",
+    "src": "cn"
+   },
+   "Paint: Dragon Engraving": {
+    "zh": "墨法：米尔铭刻",
+    "src": "cn"
+   },
+   "Paint: Drawing Orchids": {
+    "zh": "墨法：绘墨幽兰",
+    "src": "cn"
+   },
+   "Paint: Illusion Door": {
+    "zh": "墨法：玄门幻影",
+    "src": "cn"
+   },
+   "Paint: Ink Well": {
+    "zh": "墨法：明镜涌泉",
+    "src": "cn"
+   },
+   "Paint: Inkrise": {
+    "zh": "墨法：墨涌倾池",
+    "src": "cn"
+   },
+   "Paint: Moonsketch": {
+    "zh": "墨法：描月",
+    "src": "cn"
+   },
+   "Paint: Pouncing Tiger": {
+    "zh": "墨法：画虎",
+    "src": "cn"
+   },
+   "Paint: Shattering Strike": {
+    "zh": "墨法：破竹",
+    "src": "cn"
+   },
+   "Paint: Starry Night": {
+    "zh": "墨法：星河幕帘",
+    "src": "cn"
+   },
+   "Paint: Sun Well": {
+    "zh": "墨法：解忧画卷",
+    "src": "cn"
+   },
+   "Paint: Sunsketch": {
+    "zh": "墨法：绘日",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Rising Moon": null,
+   "Stroke: Here and There": null,
+   "Stroke: Hopper": {
+    "zh": "笔法：笔锋回弹",
+    "src": "cn"
+   },
+   "Stroke: Ink Shower": {
+    "zh": "笔法：水墨淋漓",
+    "src": "cn"
+   },
+   "Stroke: One Stroke": {
+    "zh": "笔法：一气呵成",
+    "src": "cn"
+   },
+   "Stroke: Spill": null,
+   "Stroke: Sprinkle": {
+    "zh": "笔法：泼墨挥毫",
+    "src": "cn"
+   },
+   "Stroke: Upward Stroke": {
+    "zh": "笔法：起笔",
+    "src": "cn"
+   },
+   "Sunrise": null
+  },
+  "ark_grid_cores": {
+   "Bouncing Brushwork": {
+    "zh": "落笔沙沙",
+    "src": "cn"
+   },
+   "Dimensional Gate": {
+    "zh": "次元之门",
+    "src": "cn"
+   },
+   "Endless Shattering Strike": {
+    "zh": "无尽破竹",
+    "src": "cn"
+   },
+   "Illusory Door": {
+    "zh": "幻影门",
+    "src": "cn"
+   },
+   "Ink Spray": {
+    "zh": "洒墨",
+    "src": "cn"
+   },
+   "Inkbloom": {
+    "zh": "墨法花",
+    "src": "cn"
+   },
+   "Lunar Prophecy": {
+    "zh": "月下预言",
+    "src": "cn"
+   },
+   "Master Calligrapher": {
+    "zh": "名家之笔",
+    "src": "cn"
+   },
+   "Perfect Harmony": {
+    "zh": "谐律完成",
+    "src": "cn"
+   },
+   "Single Stroke": {
+    "zh": "一气呵成",
+    "src": "cn"
+   },
+   "Sun's Embrace": {
+    "zh": "日光环抱",
+    "src": "cn"
+   },
+   "Sun's Protection": {
+    "zh": "阳之守护",
+    "src": "cn"
+   },
+   "Sun's Warmth": {
+    "zh": "温暖煦光",
+    "src": "cn"
+   },
+   "Swift Brush": {
+    "zh": "快速笔法",
+    "src": "cn"
+   },
+   "Torrent of Cranes": {
+    "zh": "千鹤磅礴",
+    "src": "cn"
+   },
+   "Unspeakably Soft": {
+    "zh": "软玉温香",
+    "src": "cn"
+   },
+   "Unstoppable Force": {
+    "zh": "势如破竹",
+    "src": "cn"
+   },
+   "Wolf Moon": {
+    "zh": "满月",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Artistry": {
+    "zh": "技艺",
+    "src": "cn"
+   },
+   "Ascension": {
+    "zh": "升天",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Blessing of the Sun": {
+    "zh": "日之祝福",
+    "src": "cn"
+   },
+   "Brand Enhancement": {
+    "zh": "水墨印记",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Charging Ink": {
+    "zh": "墨水奔腾",
+    "src": "cn"
+   },
+   "Dragon Gem": {
+    "zh": "如意珠",
+    "src": "cn"
+   },
+   "Earthshaker": {
+    "zh": "撼地",
+    "src": "cn"
+   },
+   "Full Bloom": {
+    "zh": "盛放",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Lunar Blessing": {
+    "zh": "月之祝福",
+    "src": "cn"
+   },
+   "Moon Shadow": {
+    "zh": "月之阴影",
+    "src": "cn"
+   },
+   "Paint: Combat Technique": {
+    "zh": "墨法：蝶舞",
+    "src": "cn"
+   },
+   "Paint: Shattering Strike": {
+    "zh": "墨法：破竹",
+    "src": "cn"
+   },
+   "Recurrence": {
+    "zh": "归元",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Rising Moon": {
+    "zh": "升起之月",
+    "src": "cn"
+   },
+   "Setting Moon": {
+    "zh": "垂落之月",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Twin Shield": {
+    "zh": "日月双生",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Aerial Rotation": {
+    "zh": "空空流转",
+    "src": "cn"
+   },
+   "Agile Strokes": {
+    "zh": "笔法遒劲",
+    "src": "cn"
+   },
+   "Artist's Scroll Creation": {
+    "zh": "展开画卷",
+    "src": "cn"
+   },
+   "Artist's Scroll Enhancement": {
+    "zh": "画纸强化",
+    "src": "cn"
+   },
+   "Azure Starlight": {
+    "zh": "星耀",
+    "src": "cn"
+   },
+   "Black Ink": {
+    "zh": "玄青",
+    "src": "cn"
+   },
+   "Blast": {
+    "zh": "渲染",
+    "src": "cn"
+   },
+   "Brutal Honesty": {
+    "zh": "愚直",
+    "src": "cn"
+   },
+   "Butterfly Cluster": {
+    "zh": "蝶翼飞花",
+    "src": "cn"
+   },
+   "Carp King Emergence": {
+    "zh": "鲲游云间",
+    "src": "cn"
+   },
+   "Charge MP": {
+    "zh": "法力充能",
+    "src": "cn"
+   },
+   "Consecutive Strokes": {
+    "zh": "连笔",
+    "src": "cn"
+   },
+   "Crane Ambush": {
+    "zh": "仙鹤旋羽",
+    "src": "cn"
+   },
+   "Crane Wing Formation": {
+    "zh": "鹤翼舒展",
+    "src": "cn"
+   },
+   "Critical Blow": {
+    "zh": "危险一击",
+    "src": "cn"
+   },
+   "Dark Energy": {
+    "zh": "墨色气韵",
+    "src": "cn"
+   },
+   "Dark Moon": {
+    "zh": "暗月",
+    "src": "cn"
+   },
+   "Distance Increase": {
+    "zh": "距离增加",
+    "src": "cn"
+   },
+   "Divine Wing": {
+    "zh": "仙鹤之翼",
+    "src": "cn"
+   },
+   "Drawing a Line": {
+    "zh": "一线",
+    "src": "cn"
+   },
+   "Dream Shelter": {
+    "zh": "浮生若梦",
+    "src": "cn"
+   },
+   "Energy Enhancement": {
+    "zh": "气息强化",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Faraway Journey": {
+    "zh": "尺幅千里",
+    "src": "cn"
+   },
+   "Fear of the Swamp": {
+    "zh": "墨潭恐惧",
+    "src": "cn"
+   },
+   "Finishing Blow": {
+    "zh": "斩灭",
+    "src": "cn"
+   },
+   "Giant Brush": {
+    "zh": "巨型毛笔",
+    "src": "cn"
+   },
+   "Grant Tenacity": {
+    "zh": "赋予坚韧",
+    "src": "cn"
+   },
+   "Hard Hitter": {
+    "zh": "攻击强化",
+    "src": "cn"
+   },
+   "Increase Range": {
+    "zh": "范围增加",
+    "src": "cn"
+   },
+   "Inescapable Swamp": {
+    "zh": "深陷墨潭",
+    "src": "cn"
+   },
+   "Ink Brand": {
+    "zh": "水墨印记",
+    "src": "cn"
+   },
+   "Ink Enhancement": {
+    "zh": "水墨强化",
+    "src": "cn"
+   },
+   "Ink Point": {
+    "zh": "落墨",
+    "src": "cn"
+   },
+   "Ink Shield": {
+    "zh": "水墨加护",
+    "src": "cn"
+   },
+   "Ink Shower": {
+    "zh": "水墨洗练",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "MP Recovery": {
+    "zh": "法力恢复",
+    "src": "cn"
+   },
+   "Mind Enhancement": {
+    "zh": "精神强化",
+    "src": "cn"
+   },
+   "Moving Starlight": {
+    "zh": "星移",
+    "src": "cn"
+   },
+   "My Authority": {
+    "zh": "唯我独尊",
+    "src": "cn"
+   },
+   "My Well": {
+    "zh": "独享画卷",
+    "src": "cn"
+   },
+   "Piercing Strike": {
+    "zh": "穿透一击",
+    "src": "cn"
+   },
+   "Protection": {
+    "zh": "庇护",
+    "src": "cn"
+   },
+   "Purify": {
+    "zh": "净化",
+    "src": "cn"
+   },
+   "Purple Ink": {
+    "zh": "紫棠",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Ranged Attack": {
+    "zh": "远程攻击",
+    "src": "cn"
+   },
+   "Red Moon": {
+    "zh": "红月",
+    "src": "cn"
+   },
+   "Red Paint": {
+    "zh": "滴墨",
+    "src": "cn"
+   },
+   "Robust Protection": {
+    "zh": "保护强化",
+    "src": "cn"
+   },
+   "Round Drop": {
+    "zh": "墨迹",
+    "src": "cn"
+   },
+   "Save Ink": {
+    "zh": "惜墨",
+    "src": "cn"
+   },
+   "Single Strike": {
+    "zh": "点睛之笔",
+    "src": "cn"
+   },
+   "Space Stack": {
+    "zh": "空间重叠",
+    "src": "cn"
+   },
+   "Spiral": {
+    "zh": "生生流转",
+    "src": "cn"
+   },
+   "Spring Garden": {
+    "zh": "春色满园",
+    "src": "cn"
+   },
+   "Sprinkle Period": {
+    "zh": "一点",
+    "src": "cn"
+   },
+   "Stagger Enhancement": {
+    "zh": "瘫痪强化",
+    "src": "cn"
+   },
+   "Stardrawer": {
+    "zh": "星罗棋布",
+    "src": "cn"
+   },
+   "Sticky Ink": {
+    "zh": "浓墨",
+    "src": "cn"
+   },
+   "Strengthened Ink": {
+    "zh": "强力水墨",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬盔甲",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Preparation": {
+    "zh": "迅速准备",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Two Tigers": {
+    "zh": "两只老虎",
+    "src": "cn"
+   },
+   "Unleash the Carp!": {
+    "zh": "鱼跃龙门!",
+    "src": "cn"
+   },
+   "Vital Point Hit": {
+    "zh": "弱点压制",
+    "src": "cn"
+   },
+   "Walk the Flowery Path": {
+    "zh": "凝墨成梅",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Wide Explosion": {
+    "zh": "广域爆炸",
+    "src": "cn"
+   },
+   "Wide-Angle Attack": {
+    "zh": "广域攻击",
+    "src": "cn"
+   },
+   "Windstone": {
+    "zh": "风流名士",
+    "src": "cn"
+   },
+   "Yellow Ink": {
+    "zh": "藤黄",
+    "src": "cn"
+   },
+   "Yin Energy Release": {
+    "zh": "暗涌",
+    "src": "cn"
+   }
+  },
+  "class_zh_alt": {
+   "tw": "畫家"
+  }
+ },
+ {
+  "class_id": 603,
+  "class_en": "Aeromancer",
+  "class_zh": "幻雨",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=603",
+   "https://lostark.dvg.cn/api/skill_list.php?class=603",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=603",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B",
+   "https://news.17173.com/content/01102024/094828124_all.shtml",
+   "https://lostarkcodex.com/us/skill/32110/"
+  ],
+  "skills": {
+   "Akasha's Wave": {
+    "zh": "阿卡夏风浪",
+    "src": "cn"
+   },
+   "Dazzling Days": {
+    "zh": "耀眼的日子",
+    "src": "cn"
+   },
+   "Downward Strike": {
+    "zh": "拍落",
+    "src": "cn"
+   },
+   "End Sun Shower": null,
+   "Face to Face": {
+    "zh": "迎风",
+    "src": "cn"
+   },
+   "Float": null,
+   "Fly": {
+    "zh": "飘游",
+    "src": "cn"
+   },
+   "Kahn's Territory": {
+    "zh": "坎的领域",
+    "src": "cn"
+   },
+   "Leap!": null,
+   "Narr's Blade": {
+    "zh": "纳加灵刃",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Piercing Wind": {
+    "zh": "寒风",
+    "src": "cn"
+   },
+   "Rage": {
+    "zh": "驱散",
+    "src": "cn"
+   },
+   "Rainstorm": {
+    "zh": "阵雨",
+    "src": "cn"
+   },
+   "Scorching Sun": {
+    "zh": "阳炎",
+    "src": "cn"
+   },
+   "Space Cleave": {
+    "zh": "划分空间",
+    "src": "cn"
+   },
+   "Spread": {
+    "zh": "撑伞",
+    "src": "cn"
+   },
+   "Spring Breeze": {
+    "zh": "飞花",
+    "src": "cn"
+   },
+   "Sprinting": null,
+   "Storm's Approach": {
+    "zh": "惊涛骇浪",
+    "src": "cn"
+   },
+   "Strong Wind": {
+    "zh": "起风",
+    "src": "cn"
+   },
+   "Summer Sunlight": {
+    "zh": "夏日阳光",
+    "src": "cn"
+   },
+   "Sun Shower": {
+    "zh": "太阳雨",
+    "src": "cn"
+   },
+   "Thick Fog": {
+    "zh": "散雾",
+    "src": "cn"
+   },
+   "Thunderwind": {
+    "zh": "雷鸣风暴",
+    "src": "cn"
+   },
+   "Tornado": {
+    "zh": "伞舞",
+    "src": "cn"
+   },
+   "Tornado Dance": {
+    "zh": "旋步",
+    "src": "cn"
+   },
+   "Whirlpool": {
+    "zh": "漩涡",
+    "src": "cn"
+   },
+   "Wind Gimlet": {
+    "zh": "风锥",
+    "src": "cn"
+   },
+   "Wiping Wind": {
+    "zh": "龙卷",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Bolt From the Blue": {
+    "zh": "晴天霹雳",
+    "src": "cn"
+   },
+   "Breakthrough": {
+    "zh": "一点突破",
+    "src": "cn"
+   },
+   "Current Control": {
+    "zh": "气流调节",
+    "src": "cn"
+   },
+   "Driving Hit": {
+    "zh": "席卷",
+    "src": "cn"
+   },
+   "Drizzling Rain": {
+    "zh": "蒙蒙细雨",
+    "src": "cn"
+   },
+   "Gale Slash": {
+    "zh": "狂风闪击",
+    "src": "cn"
+   },
+   "Graupel": {
+    "zh": "雪花纷飞",
+    "src": "cn"
+   },
+   "Hearth and Hospitality": {
+    "zh": "暖阳化衣",
+    "src": "cn"
+   },
+   "Kra-kow!": {
+    "zh": "雷声滚滚",
+    "src": "cn"
+   },
+   "Scorching Sun": {
+    "zh": "炽热阳光",
+    "src": "cn"
+   },
+   "Snow Shower Tempest": {
+    "zh": "雪中投石",
+    "src": "cn"
+   },
+   "Stormy Sea": {
+    "zh": "风雨海域",
+    "src": "cn"
+   },
+   "Sun and Wind": {
+    "zh": "阳与风",
+    "src": "cn"
+   },
+   "Swift": {
+    "zh": "迅速",
+    "src": "cn"
+   },
+   "Umbrella Dance": {
+    "zh": "伞之舞",
+    "src": "cn"
+   },
+   "Upward Current": {
+    "zh": "上升气流",
+    "src": "cn"
+   },
+   "Wind Blade": {
+    "zh": "风之刃",
+    "src": "cn"
+   },
+   "Wind Wielder": {
+    "zh": "飞连斩",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Dazzling Days": {
+    "zh": "耀眼的日子",
+    "src": "cn"
+   },
+   "Drizzle": {
+    "zh": "绵绵细雨",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Nature's Flow": {
+    "zh": "自然流动",
+    "src": "cn"
+   },
+   "Path of the Wind": {
+    "zh": "风之路",
+    "src": "cn"
+   },
+   "Perfect Cleave": {
+    "zh": "完美分割",
+    "src": "cn"
+   },
+   "Rain Shield": {
+    "zh": "雨之护盾",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Space Cleave": {
+    "zh": "划分空间",
+    "src": "cn"
+   },
+   "Steam Recharge": {
+    "zh": "蒸气充量",
+    "src": "cn"
+   },
+   "Sunny Day": {
+    "zh": "晴天",
+    "src": "cn"
+   },
+   "Sunshine's Embrace": {
+    "zh": "日光拥抱",
+    "src": "cn"
+   },
+   "Swiftness": {
+    "zh": "机敏",
+    "src": "cn"
+   },
+   "Temperature Increase": {
+    "zh": "升温",
+    "src": "cn"
+   },
+   "Trained Cleave": {
+    "zh": "磨炼分割",
+    "src": "cn"
+   },
+   "Training": {
+    "zh": "锻炼",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Ventilation": {
+    "zh": "通风",
+    "src": "cn"
+   },
+   "Wind Fury": {
+    "zh": "狂风暴雨",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Additional Strike": {
+    "zh": "追加攻击",
+    "src": "cn"
+   },
+   "Boomerang Umbrella": {
+    "zh": "回旋雨伞",
+    "src": "cn"
+   },
+   "Call of Light": {
+    "zh": "光之召唤",
+    "src": "cn"
+   },
+   "Chill": {
+    "zh": "寒气",
+    "src": "cn"
+   },
+   "Concentrated Attack": {
+    "zh": "集中攻击",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Current Occurrence": {
+    "zh": "气流激发",
+    "src": "cn"
+   },
+   "Cutting": {
+    "zh": "切割",
+    "src": "cn"
+   },
+   "Dav Wind": {
+    "zh": "大风",
+    "src": "cn"
+   },
+   "Destruction": {
+    "zh": "渐隐",
+    "src": "cn"
+   },
+   "Dig In": {
+    "zh": "剜刺",
+    "src": "cn"
+   },
+   "Easy Target": {
+    "zh": "失控追击",
+    "src": "cn"
+   },
+   "Enhanced Current": {
+    "zh": "气流强化",
+    "src": "cn"
+   },
+   "Enhanced Face to Face": {
+    "zh": "强化迎风",
+    "src": "cn"
+   },
+   "Enhanced Humidity": {
+    "zh": "湿度加强",
+    "src": "cn"
+   },
+   "Enhanced Spinning": {
+    "zh": "旋转强化",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Exquisite Movement": {
+    "zh": "华丽动作",
+    "src": "cn"
+   },
+   "External Shock": {
+    "zh": "外部冲击",
+    "src": "cn"
+   },
+   "Eye of the Tempest": {
+    "zh": "暴风之眼",
+    "src": "cn"
+   },
+   "Final Blow": {
+    "zh": "终极决胜",
+    "src": "cn"
+   },
+   "Firm Belief": {
+    "zh": "坚定信念",
+    "src": "cn"
+   },
+   "Free Move": {
+    "zh": "自由移动",
+    "src": "cn"
+   },
+   "Frost Sword": {
+    "zh": "寒霜刃",
+    "src": "cn"
+   },
+   "Giant Shroud": {
+    "zh": "巨大帐幕",
+    "src": "cn"
+   },
+   "Giant Squall": {
+    "zh": "巨型疾风",
+    "src": "cn"
+   },
+   "Growth Attack": {
+    "zh": "成长攻击",
+    "src": "cn"
+   },
+   "Hail Warning": {
+    "zh": "暴雨预警",
+    "src": "cn"
+   },
+   "Harmonious Will": {
+    "zh": "和谐意志",
+    "src": "cn"
+   },
+   "Holy Shroud": {
+    "zh": "神圣帐幕",
+    "src": "cn"
+   },
+   "Ice Formation": {
+    "zh": "结冰",
+    "src": "cn"
+   },
+   "Increased Rainfall": {
+    "zh": "降水增加",
+    "src": "cn"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "cn"
+   },
+   "Keen Strike": {
+    "zh": "锐利一击",
+    "src": "cn"
+   },
+   "Large Strong Wind": {
+    "zh": "烈风",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Lightning": {
+    "zh": "霹雳",
+    "src": "cn"
+   },
+   "Lightning Wind": {
+    "zh": "电风",
+    "src": "cn"
+   },
+   "Localized Rainstorm": {
+    "zh": "局部阵雨",
+    "src": "cn"
+   },
+   "Magick Control": {
+    "zh": "魔力调节",
+    "src": "cn"
+   },
+   "Magick Cycle": {
+    "zh": "法力循环",
+    "src": "cn"
+   },
+   "Master of Combat": {
+    "zh": "战斗达人",
+    "src": "cn"
+   },
+   "Nimble Movement": {
+    "zh": "敏捷身姿",
+    "src": "cn"
+   },
+   "Northeasterly Wind": {
+    "zh": "干燥热风",
+    "src": "cn"
+   },
+   "Piercing": {
+    "zh": "穿透",
+    "src": "cn"
+   },
+   "Piercing Shroud": {
+    "zh": "锐利帐幕",
+    "src": "cn"
+   },
+   "Piercing Strike": {
+    "zh": "穿透一击",
+    "src": "cn"
+   },
+   "Piercing Tornado": {
+    "zh": "穿透旋风",
+    "src": "cn"
+   },
+   "Pleasant Wind": {
+    "zh": "平和微风",
+    "src": "cn"
+   },
+   "Quick Pace": {
+    "zh": "迅捷移动",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Replicated Umbrella": {
+    "zh": "雨伞复制",
+    "src": "cn"
+   },
+   "Reversal": {
+    "zh": "逆流",
+    "src": "cn"
+   },
+   "Sailing Wind": {
+    "zh": "香风",
+    "src": "cn"
+   },
+   "Serial Attack": {
+    "zh": "连环攻击",
+    "src": "cn"
+   },
+   "Snowstorm Warning": {
+    "zh": "寒潮预警",
+    "src": "cn"
+   },
+   "Soul and Might": {
+    "zh": "全神贯注",
+    "src": "cn"
+   },
+   "Southern Wind": {
+    "zh": "南风",
+    "src": "cn"
+   },
+   "Space Slash": {
+    "zh": "空间斩",
+    "src": "cn"
+   },
+   "Steam Control": {
+    "zh": "水气调节",
+    "src": "cn"
+   },
+   "Steam Gained": {
+    "zh": "水气增加",
+    "src": "cn"
+   },
+   "Stormblade": {
+    "zh": "疾风刃",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬盔甲",
+    "src": "cn"
+   },
+   "Sturdy Umbrella": {
+    "zh": "耐用雨伞",
+    "src": "cn"
+   },
+   "Suffocation": {
+    "zh": "窒息",
+    "src": "cn"
+   },
+   "Sunshine Release": {
+    "zh": "阳光倾泻",
+    "src": "cn"
+   },
+   "Sunspot Explosion": {
+    "zh": "耀斑爆发",
+    "src": "cn"
+   },
+   "Superspeed Spin": {
+    "zh": "高速旋转",
+    "src": "cn"
+   },
+   "Sustain Enhancement": {
+    "zh": "持续强化",
+    "src": "cn"
+   },
+   "Sustained Spin": {
+    "zh": "旋转持续",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Preparation": {
+    "zh": "迅速准备",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Thunder": {
+    "zh": "雷鸣",
+    "src": "cn"
+   },
+   "Thundercrack": {
+    "zh": "落雷",
+    "src": "cn"
+   },
+   "Thunderstorm Warning": {
+    "zh": "落雷预警",
+    "src": "cn"
+   },
+   "Umbrella Shield": {
+    "zh": "雨伞护盾",
+    "src": "cn"
+   },
+   "Undying Will": {
+    "zh": "不屈意志",
+    "src": "cn"
+   },
+   "Upward Current": {
+    "zh": "上升气流",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Weakness Exposure": {
+    "zh": "暴露弱点",
+    "src": "cn"
+   },
+   "Weapon Destruction": {
+    "zh": "武器破坏",
+    "src": "cn"
+   },
+   "Whirlpool of Death": {
+    "zh": "终结漩涡",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   },
+   "Wide-Angle Attack": {
+    "zh": "广域攻击",
+    "src": "cn"
+   },
+   "Wind Pillar": {
+    "zh": "风柱",
+    "src": "cn"
+   }
+  },
+  "class_zh_alt": {
+   "tw": "氣象術士"
+  }
+ },
+ {
+  "class_id": 604,
+  "class_en": "Wildsoul",
+  "class_zh": "幻兽师",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=604",
+   "https://lostark.dvg.cn/api/skill_list.php?class=604",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=604",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B",
+   "https://news.17173.com/content/09162026/111959990.shtml",
+   "https://www.dailiantong.com/news/content_375959.html",
+   "https://lostarkcodex.com/us/skill/33100/"
+  ],
+  "skills": {
+   "Boing!": null,
+   "Boulder Bear": {
+    "zh": "熊熊岩击",
+    "src": "cn"
+   },
+   "Chaos Brawl": {
+    "zh": "砰砰大乱斗",
+    "src": "cn"
+   },
+   "Claw": {
+    "zh": "猛爪",
+    "src": "cn"
+   },
+   "Crow Commotion": {
+    "zh": "渡鸦乱击",
+    "src": "cn"
+   },
+   "Crow Parade": {
+    "zh": "渡鸦狂潮",
+    "src": "cn"
+   },
+   "Dart": null,
+   "Digger Bear": {
+    "zh": "熊熊冲撞",
+    "src": "cn"
+   },
+   "Earthquake Pound": {
+    "zh": "撼地击",
+    "src": "cn"
+   },
+   "Floating Foxbear": {
+    "zh": "轻盈狐兽",
+    "src": "cn"
+   },
+   "Forbidden Sorcery: Fox Star Rainstorm": {
+    "zh": "禁术：狐星阵雨",
+    "src": "cn"
+   },
+   "Forbidden Sorcery: Ripping Bear": {
+    "zh": "禁术：撕裂之熊",
+    "src": "cn"
+   },
+   "Fox Fire Dance": {
+    "zh": "狐火之舞",
+    "src": "cn"
+   },
+   "Fox Flame": {
+    "zh": "狐之火花",
+    "src": "cn"
+   },
+   "Fox Illusion": {
+    "zh": "狐之咬尾击",
+    "src": "cn"
+   },
+   "Fox Leap": {
+    "zh": "狐之灵跃",
+    "src": "cn"
+   },
+   "Fox Orb": {
+    "zh": "狐之宝玉",
+    "src": "cn"
+   },
+   "Growling Bear": {
+    "zh": "熊熊怒吼",
+    "src": "cn"
+   },
+   "One-Hit Bear": {
+    "zh": "升熊拳",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Phantom Beast Awakening": {
+    "zh": "幻兽觉醒",
+    "src": "cn"
+   },
+   "Remove Phantom Beast Awakening": null,
+   "Remove Shapeshift": null,
+   "Rolling Wheel": {
+    "zh": "车轮滚滚",
+    "src": "cn"
+   },
+   "Ruthless Pecking": {
+    "zh": "千鸦蚀界",
+    "src": "cn"
+   },
+   "Smack Smite": {
+    "zh": "爆栗猛击",
+    "src": "cn"
+   },
+   "Swish Bear": {
+    "zh": "熊熊猛扑",
+    "src": "cn"
+   },
+   "Tailwind": {
+    "zh": "灵漩尾刃",
+    "src": "cn"
+   },
+   "Thump and Thud": null,
+   "Tumble": null,
+   "Ursine Windup": {
+    "zh": "破天熊光",
+    "src": "cn"
+   },
+   "Voila!": null,
+   "Vulpine Velocity": {
+    "zh": "呀！",
+    "src": "cn"
+   },
+   "Whoosh": null,
+   "Zoom!": null
+  },
+  "ark_grid_cores": {
+   "Bear Fist": {
+    "zh": "熊熊拳击",
+    "src": "cn"
+   },
+   "Bear Frenzy": {
+    "zh": "暴熊撕裂",
+    "src": "cn"
+   },
+   "Boom Boom Punch": {
+    "zh": "滚滚重击",
+    "src": "cn"
+   },
+   "Crow Brawl": {
+    "zh": "渡鸦乱舞",
+    "src": "cn"
+   },
+   "Crow King": {
+    "zh": "渡鸦之王",
+    "src": "cn"
+   },
+   "Crow's Descent": {
+    "zh": "渡鸦降临",
+    "src": "cn"
+   },
+   "Deadly Bear": {
+    "zh": "熊之必杀技",
+    "src": "cn"
+   },
+   "Forbidden Sorcery": {
+    "zh": "禁术",
+    "src": "cn"
+   },
+   "Fox-To-Be!": {
+    "zh": "狐形命运！",
+    "src": "cn"
+   },
+   "Illusory Bear": {
+    "zh": "幻影熊",
+    "src": "cn"
+   },
+   "Infinite Awakening": {
+    "zh": "无限觉醒",
+    "src": "cn"
+   },
+   "Phantom Beast Liberation": {
+    "zh": "幻兽解放",
+    "src": "cn"
+   },
+   "Shapeshifter!": {
+    "zh": "变身术师！",
+    "src": "cn"
+   },
+   "Spiral": {
+    "zh": "滴溜溜",
+    "src": "cn"
+   },
+   "Starlight Fox": {
+    "zh": "星光狐狸",
+    "src": "cn"
+   },
+   "Strong Bear": {
+    "zh": "猛熊",
+    "src": "cn"
+   },
+   "Strong Fox": {
+    "zh": "猛狐",
+    "src": "cn"
+   },
+   "Tandem Charge": {
+    "zh": "狐熊突袭",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Agile Gait": {
+    "zh": "敏捷步伐",
+    "src": "cn"
+   },
+   "Ancient Strength": {
+    "zh": "古代力量",
+    "src": "cn"
+   },
+   "Awakened Potential": {
+    "zh": "激发潜能",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Bestial Resonance": {
+    "zh": "野兽共鸣",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Enhance Unity": {
+    "zh": "融合强化",
+    "src": "cn"
+   },
+   "Ferality": {
+    "zh": "野性",
+    "src": "cn"
+   },
+   "Foxbear Fury": {
+    "zh": "疾冲狐兽！",
+    "src": "cn"
+   },
+   "Hunter Instinct": {
+    "zh": "狩猎本能",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Natural Talent": {
+    "zh": "天赋才能",
+    "src": "cn"
+   },
+   "Nimble Movement": {
+    "zh": "矫捷身姿",
+    "src": "cn"
+   },
+   "Phantom Beast Awakening": {
+    "zh": "幻兽觉醒",
+    "src": "cn"
+   },
+   "Phantom Beast Shaman": {
+    "zh": "幻兽术士",
+    "src": "cn"
+   },
+   "Phantom Beast Spirit": {
+    "zh": "幻兽精气",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Swiftness": {
+    "zh": "机敏",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Vigor": {
+    "zh": "活跃",
+    "src": "cn"
+   },
+   "Wild Impulse": {
+    "zh": "野性冲劲",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "": null,
+   "Ancient Strength": {
+    "zh": "古代力量",
+    "src": "cn"
+   },
+   "Armor Destruction": {
+    "zh": "破甲",
+    "src": "cn"
+   },
+   "Azure Lightning": {
+    "zh": "蓝色闪电",
+    "src": "cn"
+   },
+   "Bear Energy": {
+    "zh": "熊之气息",
+    "src": "cn"
+   },
+   "Bestial Guard": {
+    "zh": "野兽保护",
+    "src": "cn"
+   },
+   "Bestial Protection": {
+    "zh": "野兽庇佑",
+    "src": "cn"
+   },
+   "Blade Charge": {
+    "zh": "刀刃蓄能",
+    "src": "cn"
+   },
+   "Brutal Honesty": {
+    "zh": "愚直",
+    "src": "cn"
+   },
+   "Charge": {
+    "zh": "突进",
+    "src": "cn"
+   },
+   "Cohesion": {
+    "zh": "浑然一体",
+    "src": "cn"
+   },
+   "Compressed Energy": {
+    "zh": "压缩气息",
+    "src": "cn"
+   },
+   "Compressed Power": {
+    "zh": "压缩力量",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Crow Wings": {
+    "zh": "鸦翼疾行",
+    "src": "cn"
+   },
+   "Crow's Protection": {
+    "zh": "乌鸦保护",
+    "src": "cn"
+   },
+   "Darkness Territory": {
+    "zh": "黑暗区域",
+    "src": "cn"
+   },
+   "Deadly Claw": {
+    "zh": "致命利爪",
+    "src": "cn"
+   },
+   "Dive Bomb": {
+    "zh": "炸弹投掷",
+    "src": "cn"
+   },
+   "Divided": {
+    "zh": "气息分裂",
+    "src": "cn"
+   },
+   "Earthen Rage": {
+    "zh": "大地之怒",
+    "src": "cn"
+   },
+   "Electric Wave": {
+    "zh": "电流",
+    "src": "cn"
+   },
+   "Energy Concentration": {
+    "zh": "能量专注",
+    "src": "cn"
+   },
+   "Enhanced Barrage": {
+    "zh": "强力轰炸",
+    "src": "cn"
+   },
+   "Enhanced Phantom Beast": {
+    "zh": "幻兽强化",
+    "src": "cn"
+   },
+   "Enhanced Roar": {
+    "zh": "强化型咆哮",
+    "src": "cn"
+   },
+   "Enhanced Storm": {
+    "zh": "强化风暴",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Fear": {
+    "zh": "恐惧",
+    "src": "cn"
+   },
+   "Flame Punch": {
+    "zh": "火花重击",
+    "src": "cn"
+   },
+   "Flash": {
+    "zh": "闪光",
+    "src": "cn"
+   },
+   "Flawless Landing": {
+    "zh": "稳定着陆",
+    "src": "cn"
+   },
+   "Giant Illusion": {
+    "zh": "巨型幻影",
+    "src": "cn"
+   },
+   "Ground Shock": {
+    "zh": "大地冲击",
+    "src": "cn"
+   },
+   "Hard Sphere": {
+    "zh": "强化球体",
+    "src": "cn"
+   },
+   "High-Speed Bullet": {
+    "zh": "高速子弹",
+    "src": "cn"
+   },
+   "Hunt for Prey": {
+    "zh": "猎食",
+    "src": "cn"
+   },
+   "Hunter Instinct": {
+    "zh": "狩猎本能",
+    "src": "cn"
+   },
+   "Illusion Charge": {
+    "zh": "幻影突进",
+    "src": "cn"
+   },
+   "Illusion Explosion": {
+    "zh": "幻影爆炸",
+    "src": "cn"
+   },
+   "Illusion Swoop": {
+    "zh": "幻影奇袭",
+    "src": "cn"
+   },
+   "Illusive Jaunt": {
+    "zh": "幻影移动",
+    "src": "cn"
+   },
+   "Illusory Fox": {
+    "zh": "幻影狐狸",
+    "src": "cn"
+   },
+   "Iron Shell": {
+    "zh": "生铁炸弹",
+    "src": "cn"
+   },
+   "Ironclad": {
+    "zh": "生铁岩石",
+    "src": "cn"
+   },
+   "Judder": {
+    "zh": "动荡大地",
+    "src": "cn"
+   },
+   "Keen Strike": {
+    "zh": "锐利一击",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Lightning": {
+    "zh": "电火",
+    "src": "cn"
+   },
+   "Magick Control": {
+    "zh": "魔力调节",
+    "src": "cn"
+   },
+   "Mental Connection": null,
+   "Monarch of Darkness": {
+    "zh": "黑暗之王",
+    "src": "cn"
+   },
+   "Nimble Movement": {
+    "zh": "敏捷身姿",
+    "src": "cn"
+   },
+   "Phantom Beast Transformation": {
+    "zh": "幻兽转换",
+    "src": "cn"
+   },
+   "Piercing Shell": {
+    "zh": "穿透炮弹",
+    "src": "cn"
+   },
+   "Ranged Attack": {
+    "zh": "远程攻击",
+    "src": "cn"
+   },
+   "Revitalize Illusion": {
+    "zh": "幻影蓄能",
+    "src": "cn"
+   },
+   "Ruthless Barrage": {
+    "zh": "无情轰炸",
+    "src": "cn"
+   },
+   "Second Illusion": {
+    "zh": "第二幻影",
+    "src": "cn"
+   },
+   "Sharp Fangs": {
+    "zh": "锋利的牙齿",
+    "src": "cn"
+   },
+   "Shroud of Darkness": {
+    "zh": "黑暗拥护",
+    "src": "cn"
+   },
+   "Spiky": {
+    "zh": "尖刺岩石",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬盔甲",
+    "src": "cn"
+   },
+   "Sustain Enhancement": {
+    "zh": "持续强化",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Fury": {
+    "zh": "即刻翻转",
+    "src": "cn"
+   },
+   "Swift Move": {
+    "zh": "轻盈步伐",
+    "src": "cn"
+   },
+   "Thundercrack": {
+    "zh": "落雷",
+    "src": "cn"
+   },
+   "Thunderwings": {
+    "zh": "雷霆之翼",
+    "src": "cn"
+   },
+   "Tracking": {
+    "zh": "牵引",
+    "src": "cn"
+   },
+   "Tracking Blade": {
+    "zh": "追踪之刃",
+    "src": "cn"
+   },
+   "Transfigure": {
+    "zh": "变化",
+    "src": "cn"
+   },
+   "Unstoppable Power": {
+    "zh": "势不可挡",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Wide-Angle Attack": {
+    "zh": "广域攻击",
+    "src": "cn"
+   }
+  },
+  "class_zh_alt": {
+   "tw": "幻獸師"
+  }
+ },
+ {
+  "class_id": 612,
+  "class_en": "Dimensionalist",
+  "class_zh": "次元术士",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=612",
+   "https://lostark.dvg.cn/api/skill_list.php?class=612",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=612",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B",
+   "https://news.17173.com/content/09182026/141802024.shtml",
+   "https://lostarkcodex.com/us/skill/2050100/"
+  ],
+  "skills": {
+   "Absolute Devotion": {
+    "zh": "一念",
+    "src": "cn"
+   },
+   "Airsplitter": {
+    "zh": "破空斩",
+    "src": "cn"
+   },
+   "Boundary Break": {
+    "zh": "境界突破",
+    "src": "cn"
+   },
+   "Cross Slash": {
+    "zh": "越空斩",
+    "src": "cn"
+   },
+   "Cross Thrust": {
+    "zh": "越步突刺",
+    "src": "cn"
+   },
+   "Dimensional Break": {
+    "zh": "次元裂隙",
+    "src": "cn"
+   },
+   "Dimensional Trigger": null,
+   "End Split Timeline": null,
+   "Eternal Imprisonment": {
+    "zh": "无间狱",
+    "src": "cn"
+   },
+   "Fleeting Moment": {
+    "zh": "刹那",
+    "src": "cn"
+   },
+   "Forewarning": {
+    "zh": "预告",
+    "src": "cn"
+   },
+   "Forward Thrust": {
+    "zh": "前方突刺",
+    "src": "cn"
+   },
+   "Interference": null,
+   "Karmic Verdict": {
+    "zh": "业之境",
+    "src": "cn"
+   },
+   "Needle Strike": {
+    "zh": "一针",
+    "src": "cn"
+   },
+   "Override": {
+    "zh": "掠光斩",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Pinpoint Strike": {
+    "zh": "一点贯通",
+    "src": "cn"
+   },
+   "Retaliate": {
+    "zh": "逆攻",
+    "src": "cn"
+   },
+   "Rift Cutter": {
+    "zh": "切割次元",
+    "src": "cn"
+   },
+   "Shackles of Time": {
+    "zh": "时间桎梏",
+    "src": "cn"
+   },
+   "Spatial Leap": null,
+   "Spatial Manipulation": {
+    "zh": "空间操作",
+    "src": "cn"
+   },
+   "Spatial Slash": {
+    "zh": "空间切断",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Sunder": {
+    "zh": "裂空",
+    "src": "cn"
+   },
+   "Temporal Crush": {
+    "zh": "时间粉碎",
+    "src": "cn"
+   },
+   "Timeline Collapse": {
+    "zh": "时间线崩溃",
+    "src": "cn"
+   },
+   "Timeline Disruption": null,
+   "Timeline Divergence": null,
+   "Vacuum": {
+    "zh": "真空",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Chain Thrust": {
+    "zh": "突刺连携",
+    "src": "cn"
+   },
+   "Combine Weapon": {
+    "zh": "合成武器",
+    "src": "cn"
+   },
+   "Conversion": {
+    "zh": "转换",
+    "src": "cn"
+   },
+   "Dimensional Annihilation": {
+    "zh": "次元消灭",
+    "src": "cn"
+   },
+   "Distortion": {
+    "zh": "扭转",
+    "src": "cn"
+   },
+   "Fusion Enhancement": {
+    "zh": "组合强化",
+    "src": "cn"
+   },
+   "Master Impaler": {
+    "zh": "突刺大师",
+    "src": "cn"
+   },
+   "Minute Hand Calibration": {
+    "zh": "分针校对",
+    "src": "cn"
+   },
+   "Minute Tempo": {
+    "zh": "分钟节拍",
+    "src": "cn"
+   },
+   "Multislash": {
+    "zh": "多重切断",
+    "src": "cn"
+   },
+   "Point Attack": {
+    "zh": "点位攻击",
+    "src": "cn"
+   },
+   "Precise Control": {
+    "zh": "精密操作",
+    "src": "cn"
+   },
+   "Severed Dimension": {
+    "zh": "次元切断",
+    "src": "cn"
+   },
+   "Spatial Swordcraft": {
+    "zh": "空间剑术",
+    "src": "cn"
+   },
+   "Swordcraft Enhancement": {
+    "zh": "剑术强化",
+    "src": "cn"
+   },
+   "Timekeeper": {
+    "zh": "时间守护者",
+    "src": "cn"
+   },
+   "Timeline": {
+    "zh": "时间线",
+    "src": "cn"
+   },
+   "Twisted Timeline": {
+    "zh": "扭曲的时间线",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Acceleration Enhancement": {
+    "zh": "加速强化",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Dimensional Annihilator": {
+    "zh": "次元灭绝炮",
+    "src": "cn"
+   },
+   "Dimensional Destruction": {
+    "zh": "次元破坏",
+    "src": "cn"
+   },
+   "Dimensional Swordcraft": {
+    "zh": "次元剑术",
+    "src": "cn"
+   },
+   "Hidden Enhancement": {
+    "zh": "异面强化",
+    "src": "cn"
+   },
+   "High-Speed Entry": {
+    "zh": "高速切入",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Minute Hand Enhancement": {
+    "zh": "分针强化",
+    "src": "cn"
+   },
+   "On the Hour": {
+    "zh": "正刻",
+    "src": "cn"
+   },
+   "Quantum Prison": {
+    "zh": "量子监狱",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Singularity": {
+    "zh": "奇点",
+    "src": "cn"
+   },
+   "Space Wielder": {
+    "zh": "空间剑士",
+    "src": "cn"
+   },
+   "Spatial Dominance": {
+    "zh": "空间优位",
+    "src": "cn"
+   },
+   "Time Warp": {
+    "zh": "时间旅行",
+    "src": "cn"
+   },
+   "Time Wielder": {
+    "zh": "时间管理者",
+    "src": "cn"
+   },
+   "Timeline Collapse": {
+    "zh": "时间线崩溃",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   },
+   "Weak Point Destruction": {
+    "zh": "弱点破坏",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Absolute Void": {
+    "zh": "空虚",
+    "src": "cn"
+   },
+   "Acceleration": {
+    "zh": "加速",
+    "src": "cn"
+   },
+   "Accumulation": {
+    "zh": "蓄积",
+    "src": "cn"
+   },
+   "Afterimage Cross": {
+    "zh": "残像交错",
+    "src": "cn"
+   },
+   "Afterimage Shatter": {
+    "zh": "残像粉碎",
+    "src": "cn"
+   },
+   "Airborne Raid": {
+    "zh": "空中强袭",
+    "src": "cn"
+   },
+   "Amass": {
+    "zh": "储备",
+    "src": "cn"
+   },
+   "Armor Destruction": {
+    "zh": "破甲",
+    "src": "cn"
+   },
+   "Bonus Leap": {
+    "zh": "追加",
+    "src": "cn"
+   },
+   "Brutal Honesty": {
+    "zh": "愚直",
+    "src": "cn"
+   },
+   "Chain Sprint": {
+    "zh": "连续移动",
+    "src": "cn"
+   },
+   "Combo": {
+    "zh": "连携",
+    "src": "cn"
+   },
+   "Compression": {
+    "zh": "压缩",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Detect Vulnerability": {
+    "zh": "识破弱点",
+    "src": "cn"
+   },
+   "Dial Acceleration": {
+    "zh": "钟表加速",
+    "src": "cn"
+   },
+   "Dial Amplification": {
+    "zh": "钟表增幅",
+    "src": "cn"
+   },
+   "Dimensional Afterimage": {
+    "zh": "次元残像",
+    "src": "cn"
+   },
+   "Dimensional Halt": {
+    "zh": "次元停滞",
+    "src": "cn"
+   },
+   "Dimensional Leap": {
+    "zh": "次元飞跃",
+    "src": "cn"
+   },
+   "Dimensional Storm": {
+    "zh": "次元风暴",
+    "src": "cn"
+   },
+   "Discharge": {
+    "zh": "放出",
+    "src": "cn"
+   },
+   "Excellent Mobility": {
+    "zh": "迅捷机动",
+    "src": "cn"
+   },
+   "Guard Stance": {
+    "zh": "守备态势",
+    "src": "cn"
+   },
+   "Haymaker": {
+    "zh": "横扫",
+    "src": "cn"
+   },
+   "Increase Range": {
+    "zh": "范围增加",
+    "src": "cn"
+   },
+   "Inflict Slow": {
+    "zh": "减速赋予",
+    "src": "cn"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Linearity": {
+    "zh": "空间线",
+    "src": "cn"
+   },
+   "Long Stride": {
+    "zh": "助跑",
+    "src": "cn"
+   },
+   "Magick Control": {
+    "zh": "魔力调节",
+    "src": "cn"
+   },
+   "Magick Rollback": {
+    "zh": "魔力回溯",
+    "src": "cn"
+   },
+   "Move": {
+    "zh": "移动",
+    "src": "cn"
+   },
+   "Omnidirectional Acceleration": {
+    "zh": "全方位加速",
+    "src": "cn"
+   },
+   "Piercing": {
+    "zh": "贯通",
+    "src": "cn"
+   },
+   "Pinpoint Acceleration": {
+    "zh": "一点加速",
+    "src": "cn"
+   },
+   "Power Enhancement": {
+    "zh": "威力强化",
+    "src": "cn"
+   },
+   "Powerful Blow": {
+    "zh": "强劲一击",
+    "src": "cn"
+   },
+   "Precise Gravity": {
+    "zh": "精密重力",
+    "src": "cn"
+   },
+   "Preemptive Move": {
+    "zh": "先制打击",
+    "src": "cn"
+   },
+   "Preparedness": {
+    "zh": "前期准备",
+    "src": "cn"
+   },
+   "Quick Prep": {
+    "zh": "快速准备",
+    "src": "cn"
+   },
+   "Reality Tear": {
+    "zh": "拔刃",
+    "src": "cn"
+   },
+   "Recall": {
+    "zh": "回收",
+    "src": "cn"
+   },
+   "Repeat": {
+    "zh": "反复",
+    "src": "cn"
+   },
+   "Reverse": {
+    "zh": "逆行",
+    "src": "cn"
+   },
+   "Rift Explosion": {
+    "zh": "缝合",
+    "src": "cn"
+   },
+   "Skip": {
+    "zh": "越势直击",
+    "src": "cn"
+   },
+   "Slow Enhancement": {
+    "zh": "减速强化",
+    "src": "cn"
+   },
+   "Space Distortion": {
+    "zh": "畸变空间",
+    "src": "cn"
+   },
+   "Space Stack": {
+    "zh": "空间重叠",
+    "src": "cn"
+   },
+   "Spatial Acceleration": {
+    "zh": "空间加速",
+    "src": "cn"
+   },
+   "Spatial Ambush": {
+    "zh": "空间侵透",
+    "src": "cn"
+   },
+   "Spatial Calibration": {
+    "zh": "空间校对",
+    "src": "cn"
+   },
+   "Spatial Enhancement": {
+    "zh": "空间强化",
+    "src": "cn"
+   },
+   "Spatial Eraser": {
+    "zh": "空间清除",
+    "src": "cn"
+   },
+   "Spatial Expansion": {
+    "zh": "空间扩张",
+    "src": "cn"
+   },
+   "Spatial Manipulation": {
+    "zh": "空间操作",
+    "src": "cn"
+   },
+   "Spatial Phase": {
+    "zh": "跨越空间",
+    "src": "cn"
+   },
+   "Spatial Rift": {
+    "zh": "空间裂隙",
+    "src": "cn"
+   },
+   "Spin": {
+    "zh": "旋转",
+    "src": "cn"
+   },
+   "Spread Damage": {
+    "zh": "扩散",
+    "src": "cn"
+   },
+   "Star": {
+    "zh": "恒星",
+    "src": "cn"
+   },
+   "Sturdy Armor": {
+    "zh": "坚硬的铠甲",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Time Condensation": {
+    "zh": "时间凝缩",
+    "src": "cn"
+   },
+   "Time Retrieval": {
+    "zh": "时间回收",
+    "src": "cn"
+   },
+   "Transfer": {
+    "zh": "转移",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   }
+  },
+  "class_zh_alt": {
+   "tw": "次元術士"
+  }
+ },
+ {
+  "class_id": 702,
+  "class_en": "Guardianknight",
+  "class_zh": "星辰骑士",
+  "src_urls": [
+   "https://lostark.dvg.cn/tools/planner-api.php?action=class&id=702",
+   "https://lostark.dvg.cn/api/skill_list.php?class=702",
+   "https://lostark.dvg.cn/api/t4.php?action=class&id=702",
+   "https://lostark.dvg.cn/api/item_list.php?words=%E7%A7%A9%E5%BA%8F%E4%B9%8B",
+   "https://news.17173.com/content/12112025/064053690.shtml",
+   "https://lostarkcodex.com/us/skill/49100/"
+  ],
+  "skills": {
+   "Abaddon's Flame": {
+    "zh": "毁灭烈焰",
+    "src": "cn"
+   },
+   "Avenging Spear": {
+    "zh": "复仇之矛",
+    "src": "cn"
+   },
+   "Awaken": {
+    "zh": "觉醒",
+    "src": "cn"
+   },
+   "Blaze Sweep": {
+    "zh": "烈焰横扫",
+    "src": "cn"
+   },
+   "Blazing Flash": {
+    "zh": "烈焰闪击",
+    "src": "cn"
+   },
+   "Cleave": {
+    "zh": "裂地斩",
+    "src": "cn"
+   },
+   "Deep Impact": {
+    "zh": "深重冲击",
+    "src": "cn"
+   },
+   "Embereth's Breath": {
+    "zh": "安巴雷斯吐息",
+    "src": "cn"
+   },
+   "Exploding Finisher": {
+    "zh": "爆裂终结",
+    "src": "cn"
+   },
+   "Frenzy Sweep": {
+    "zh": "狂怒横扫",
+    "src": "cn"
+   },
+   "Glide": null,
+   "Guardian Backlash": {
+    "zh": "星辰护卫逆袭",
+    "src": "cn"
+   },
+   "Guardian Clash": {
+    "zh": "星辰护卫崩击",
+    "src": "cn"
+   },
+   "Guardian's Roar": null,
+   "Guardian's Scales": null,
+   "Guillotine Spin": {
+    "zh": "断首回旋",
+    "src": "cn"
+   },
+   "Inferno Burst": null,
+   "Invoke Incarnation": null,
+   "Lunge": null,
+   "Meteor Crash": {
+    "zh": "流星坠击",
+    "src": "cn"
+   },
+   "Perfect Block": null,
+   "Piercing Shock": {
+    "zh": "穿心震爆",
+    "src": "cn"
+   },
+   "Quake Smash": {
+    "zh": "震地猛击",
+    "src": "cn"
+   },
+   "Release Incarnation": null,
+   "Rending Finisher": {
+    "zh": "终结突袭",
+    "src": "cn"
+   },
+   "Soaring Strike": {
+    "zh": "翼刺",
+    "src": "cn"
+   },
+   "Soul Divide": {
+    "zh": "魂裂",
+    "src": "cn"
+   },
+   "Spinning Flame": {
+    "zh": "旋焰",
+    "src": "cn"
+   },
+   "Stand Up": null,
+   "Thrust": {
+    "zh": "直刺",
+    "src": "cn"
+   },
+   "Vengeful Blow": {
+    "zh": "复仇重击",
+    "src": "cn"
+   },
+   "Wild Uppercut": {
+    "zh": "狂野上勾",
+    "src": "cn"
+   },
+   "Wing Lash": {
+    "zh": "翼鞭",
+    "src": "cn"
+   }
+  },
+  "ark_grid_cores": {
+   "Apex": {
+    "zh": "顶峰",
+    "src": "cn"
+   },
+   "Army of One": {
+    "zh": "独挡一面",
+    "src": "cn"
+   },
+   "Avenger": {
+    "zh": "复仇鬼神",
+    "src": "cn"
+   },
+   "Brandish": {
+    "zh": "挥斩横扫",
+    "src": "cn"
+   },
+   "Charge Enhancement": {
+    "zh": "蓄力增幅",
+    "src": "cn"
+   },
+   "Destruction": {
+    "zh": "破灭",
+    "src": "cn"
+   },
+   "Dominant": {
+    "zh": "统治",
+    "src": "cn"
+   },
+   "Executioner": {
+    "zh": "处决者",
+    "src": "cn"
+   },
+   "Finisher": {
+    "zh": "终结者",
+    "src": "cn"
+   },
+   "Flourish": {
+    "zh": "挥舞一击",
+    "src": "cn"
+   },
+   "Grand Finale": {
+    "zh": "终极压轴",
+    "src": "cn"
+   },
+   "Last Stand": {
+    "zh": "最后抵抗",
+    "src": "cn"
+   },
+   "Liberation": {
+    "zh": "释出",
+    "src": "cn"
+   },
+   "Manifest": {
+    "zh": "显化",
+    "src": "cn"
+   },
+   "Nova Flame": {
+    "zh": "星辰烈焰",
+    "src": "cn"
+   },
+   "Overwhelm": {
+    "zh": "威压",
+    "src": "cn"
+   },
+   "Red Wings": {
+    "zh": "红翼",
+    "src": "cn"
+   },
+   "Start Pursuit": {
+    "zh": "开始追击",
+    "src": "cn"
+   }
+  },
+  "ark_passive_nodes": {
+   "Ancestral Might": {
+    "zh": "破灭之血",
+    "src": "cn"
+   },
+   "Awakening Amplifier": {
+    "zh": "觉醒增幅技能",
+    "src": "cn"
+   },
+   "Awoken Strength": {
+    "zh": "苏醒之力",
+    "src": "cn"
+   },
+   "Charged Fury": {
+    "zh": "满溢愤怒",
+    "src": "cn"
+   },
+   "Complete Combustion": {
+    "zh": "完全燃烧",
+    "src": "cn"
+   },
+   "Complete Fusion": {
+    "zh": "完全融合",
+    "src": "cn"
+   },
+   "Dreadful Roar": {
+    "zh": "骇然咆哮",
+    "src": "cn"
+   },
+   "Ember": {
+    "zh": "余火",
+    "src": "cn"
+   },
+   "Focused Blow": {
+    "zh": "精准突击",
+    "src": "cn"
+   },
+   "Grand Descent": {
+    "zh": "急转直下",
+    "src": "cn"
+   },
+   "Halberd Master": {
+    "zh": "战戟大师",
+    "src": "cn"
+   },
+   "Hellfire Successor": {
+    "zh": "业火继承者",
+    "src": "cn"
+   },
+   "Instant Spell": {
+    "zh": "即时咒语",
+    "src": "cn"
+   },
+   "Orbital Collision": {
+    "zh": "轨道冲撞",
+    "src": "cn"
+   },
+   "Power Control": {
+    "zh": "力量制约",
+    "src": "cn"
+   },
+   "Release Potential": {
+    "zh": "解放潜力",
+    "src": "cn"
+   },
+   "Rousing Shout": {
+    "zh": "突破呐喊",
+    "src": "cn"
+   },
+   "Sharp Scale": {
+    "zh": "锋利的鳞片",
+    "src": "cn"
+   },
+   "Superior Flight": {
+    "zh": "超飞行",
+    "src": "cn"
+   },
+   "Transcend Limit": {
+    "zh": "超越极限",
+    "src": "cn"
+   },
+   "Transcendent Power": {
+    "zh": "超越之力",
+    "src": "cn"
+   },
+   "Unleashed Power": {
+    "zh": "释放之力",
+    "src": "cn"
+   }
+  },
+  "tripods": {
+   "Annihilating Slash": {
+    "zh": "肆虐利爪",
+    "src": "cn"
+   },
+   "Augment": {
+    "zh": "增强",
+    "src": "cn"
+   },
+   "Blue Heart": {
+    "zh": "青色心脏",
+    "src": "cn"
+   },
+   "Brutal Honesty": {
+    "zh": "愚直",
+    "src": "cn"
+   },
+   "Brutal Onslaught": {
+    "zh": "猛袭",
+    "src": "cn"
+   },
+   "Catastrophe": {
+    "zh": "大灾厄",
+    "src": "cn"
+   },
+   "Centrifugal Slash": {
+    "zh": "变化无双",
+    "src": "cn"
+   },
+   "Charge": {
+    "zh": "突进",
+    "src": "cn"
+   },
+   "Concise Charge": {
+    "zh": "简洁操作",
+    "src": "cn"
+   },
+   "Concussion": {
+    "zh": "震荡",
+    "src": "cn"
+   },
+   "Condensed Strength": {
+    "zh": "凝聚之力",
+    "src": "cn"
+   },
+   "Consecutive Charge": {
+    "zh": "连续突进",
+    "src": "cn"
+   },
+   "Counterattack Time": {
+    "zh": "反击之时",
+    "src": "cn"
+   },
+   "Cutting Gale": {
+    "zh": "空间切割",
+    "src": "cn"
+   },
+   "Damage Amplification": {
+    "zh": "伤害增幅",
+    "src": "cn"
+   },
+   "Dark Claw": {
+    "zh": "黑暗之爪",
+    "src": "cn"
+   },
+   "Death Blow": {
+    "zh": "夺命一击",
+    "src": "cn"
+   },
+   "Destroyer Wings": {
+    "zh": "破灭之翼",
+    "src": "cn"
+   },
+   "Destruction Energy": {
+    "zh": "破灭气息",
+    "src": "cn"
+   },
+   "Destruction Orb": {
+    "zh": "破灭之珠",
+    "src": "cn"
+   },
+   "Destructive Thundercrack": {
+    "zh": "破灭落雷",
+    "src": "cn"
+   },
+   "Earth Collapse": {
+    "zh": "大地崩溃",
+    "src": "cn"
+   },
+   "Echo of Steel": {
+    "zh": "钢铁回响",
+    "src": "cn"
+   },
+   "Elimination": {
+    "zh": "抹除",
+    "src": "cn"
+   },
+   "Embereth's Dance": {
+    "zh": "安巴雷斯舞姿",
+    "src": "cn"
+   },
+   "Embereth's Wing": {
+    "zh": "安巴雷斯之翼",
+    "src": "cn"
+   },
+   "Energy Enhancement": {
+    "zh": "气息强化",
+    "src": "cn"
+   },
+   "Energy Extortion": {
+    "zh": "气息汲取",
+    "src": "cn"
+   },
+   "Enhance Mobility": {
+    "zh": "机动力强化",
+    "src": "cn"
+   },
+   "Enhanced Scale": {
+    "zh": "强化鳞片",
+    "src": "cn"
+   },
+   "Enhanced Strike": {
+    "zh": "强力一击",
+    "src": "cn"
+   },
+   "Ferocious Pursuit": {
+    "zh": "猛追不放",
+    "src": "cn"
+   },
+   "Final Strike": {
+    "zh": "终结一击",
+    "src": "cn"
+   },
+   "Firepower Control": {
+    "zh": "兵力调节",
+    "src": "cn"
+   },
+   "Flame Explosion": {
+    "zh": "火焰爆炸",
+    "src": "cn"
+   },
+   "Flame Storm": {
+    "zh": "火焰风暴",
+    "src": "cn"
+   },
+   "Flaming Hell": {
+    "zh": "火焰炼狱",
+    "src": "cn"
+   },
+   "Flash": {
+    "zh": "闪光",
+    "src": "cn"
+   },
+   "Galewind": {
+    "zh": "疾风",
+    "src": "cn"
+   },
+   "Guardian Fang": {
+    "zh": "星辰护卫獠牙",
+    "src": "cn"
+   },
+   "Guardian's Barbs": {
+    "zh": "星辰护卫鳞片",
+    "src": "cn"
+   },
+   "Hard Scale": {
+    "zh": "坚固的鳞片",
+    "src": "cn"
+   },
+   "Haymaker": {
+    "zh": "横扫",
+    "src": "cn"
+   },
+   "Head-On": {
+    "zh": "正面胜负",
+    "src": "cn"
+   },
+   "Hellfire": {
+    "zh": "业火",
+    "src": "cn"
+   },
+   "Honed Wing": {
+    "zh": "双翼凝缩",
+    "src": "cn"
+   },
+   "Hunt for Prey": {
+    "zh": "猎食",
+    "src": "cn"
+   },
+   "Indomitable Smite": {
+    "zh": "不屈强击",
+    "src": "cn"
+   },
+   "Innate Strength": {
+    "zh": "天赋力量",
+    "src": "cn"
+   },
+   "Insight": {
+    "zh": "洞察力",
+    "src": "cn"
+   },
+   "Iron Wall": {
+    "zh": "铁壁",
+    "src": "cn"
+   },
+   "Law of the Jungle": {
+    "zh": "弱肉强食",
+    "src": "cn"
+   },
+   "Master of Combat": {
+    "zh": "战斗达人",
+    "src": "cn"
+   },
+   "Omnidirectional Strike": {
+    "zh": "全方位打击",
+    "src": "cn"
+   },
+   "Overconsumption": {
+    "zh": "过度消费",
+    "src": "cn"
+   },
+   "Piercing Advance": {
+    "zh": "穿透进击",
+    "src": "cn"
+   },
+   "Preparedness": {
+    "zh": "前期准备",
+    "src": "cn"
+   },
+   "Punishment": {
+    "zh": "惩罚",
+    "src": "cn"
+   },
+   "Ranged Shot": {
+    "zh": "远程射击",
+    "src": "cn"
+   },
+   "Red Heart": {
+    "zh": "红色心脏",
+    "src": "cn"
+   },
+   "Refined Fury": {
+    "zh": "凝练之怒",
+    "src": "cn"
+   },
+   "Resist Interference": {
+    "zh": "拒绝干涉",
+    "src": "cn"
+   },
+   "Restless Instinct": {
+    "zh": "苏醒本能",
+    "src": "cn"
+   },
+   "Ruthless": {
+    "zh": "无情",
+    "src": "cn"
+   },
+   "Ruthless Barrage": {
+    "zh": "无情轰炸",
+    "src": "cn"
+   },
+   "Skyward Wing": {
+    "zh": "天空之翼",
+    "src": "cn"
+   },
+   "Smite": {
+    "zh": "猛击",
+    "src": "cn"
+   },
+   "Summary Judgment": {
+    "zh": "立决审判",
+    "src": "cn"
+   },
+   "Sustain Enhancement": {
+    "zh": "持续强化",
+    "src": "cn"
+   },
+   "Swift Fingers": {
+    "zh": "快速操作",
+    "src": "cn"
+   },
+   "Swift Preparation": {
+    "zh": "迅速准备",
+    "src": "cn"
+   },
+   "Tenacity": {
+    "zh": "坚韧",
+    "src": "cn"
+   },
+   "Tracking Armor": {
+    "zh": "追踪铠甲",
+    "src": "cn"
+   },
+   "Weak Point Detection": {
+    "zh": "弱点捕捉",
+    "src": "cn"
+   },
+   "Weak Point Enhancement": {
+    "zh": "部位破坏强化",
+    "src": "cn"
+   },
+   "Wide Hit": {
+    "zh": "广域打击",
+    "src": "cn"
+   }
+  },
+  "class_zh_alt": {
+   "cn_media": "守护骑士",
+   "tw": "守護者騎士"
+  }
+ }
+]
