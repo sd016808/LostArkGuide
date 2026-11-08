@@ -55,6 +55,7 @@ if ! mkdir "$LOCK" 2>/dev/null; then
   fi
 fi
 trap cleanup EXIT
+log "開始檢查更新（$APP_DIR）"
 
 [ -f "$APP_DIR/docker-compose.yml" ] || fail "在 $APP_DIR 找不到 docker-compose.yml（請確認 APP_DIR）"
 command -v curl >/dev/null 2>&1 || fail "找不到 curl"
@@ -94,7 +95,7 @@ if [ -n "$LATEST" ] && [ "$LATEST" = "$CURRENT" ] && [ "$FORCE" != 1 ]; then
     compose up -d || fail "docker compose up -d 失敗（詳見 update.log）"
     wait_healthy && log "容器已啟動，健康檢查通過" || fail "容器啟動後健康檢查未通過"
   else
-    echo "已是最新版 ${LATEST:0:7}，不需更新。"
+    log "已是最新版 ${LATEST:0:7}，容器執行中，不需更新。"
   fi
   exit 0
 fi
@@ -161,4 +162,8 @@ fi
 wait_healthy || fail "重啟後健康檢查未通過：$HEALTH_URL"
 [ -n "$LATEST" ] && echo "$LATEST" > "$SHA_FILE"
 log "更新完成，目前版本 ${REF:0:7}，健康檢查通過"
+# 腳本自我更新：用 mv 換檔，正在執行的這份不受影響
+if [ -f "$SRC/deploy/nas-update.sh" ] && ! cmp -s "$SRC/deploy/nas-update.sh" "$0"; then
+  cp -f "$SRC/deploy/nas-update.sh" "$0.new" && chmod +x "$0.new" && mv -f "$0.new" "$0" && log "update.sh 本身也已更新為最新版"
+fi
 exit 0

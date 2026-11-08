@@ -117,6 +117,7 @@ setInterval(() => {
 // ---------------------------------------------------------------------------
 let pausedUntil = 0; // 上游回 429 後暫停到這個時間點
 let consecutive429 = 0;
+const STARTED_AT = new Date().toISOString(); // 方便確認容器是否已重啟
 let upstreamRequests = 0; // 實際送到上游的請求總數（/api/health 可查看）
 
 class Limiter {
@@ -333,6 +334,7 @@ async function handleApi(req, res, url) {
     if (parts[1] === 'health') {
       return sendJson(res, 200, {
         ok: true,
+        startedAt: STARTED_AT,
         upstream: UPSTREAM,
         remoteId: REMOTE_ID,
         cacheEntries: cache.size,
