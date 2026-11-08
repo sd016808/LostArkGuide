@@ -141,7 +141,12 @@ export const raidName = (r) => (r && r.startsWith('Extreme ') ? `極限 ${tr('ra
 
 export async function loadJson(url) {
   const r = await fetch(url);
-  if (!r.ok) throw new Error(`${url} -> HTTP ${r.status}`);
+  if (!r.ok) {
+    // 伺服器的錯誤（限流、上游暫停…）會帶中文訊息，直接顯示給使用者
+    let msg = `${url} -> HTTP ${r.status}`;
+    try { const j = await r.json(); if (j && j.error) msg = j.error.message || String(j.error); } catch { /* 非 JSON */ }
+    throw Object.assign(new Error(msg), { status: r.status });
+  }
   return r.json();
 }
 let baseLoaded;
@@ -253,7 +258,13 @@ export const card = (...children) => h('div', { class: 'rounded-md bg-surface-90
 export const sectionHeader = (title, extra) => h('div', { class: 'flex flex-row items-center bg-black/10 px-3 py-2 font-bold' }, h('span', null, title), h('div', { class: 'flex-1' }), extra || null);
 export const notEnough = () => h('div', { class: 'flex flex-row px-2 py-1' }, h('span', { class: 'text-neutral-600 italic' }, T('not_enough')));
 export const loadingEl = (hgt) => h('div', { class: 'w-full animate-pulse rounded-sm bg-surface-900 p-2 text-sm text-neutral-500', style: hgt ? `height:${hgt}px` : '' }, T('loading'));
-export const errorEl = (e) => h('div', { class: 'flex flex-col gap-1 px-3 py-2 text-sm text-rose-300' }, h('span', null, T('load_error', { msg: e && e.message || e })), h('span', { class: 'text-xs text-neutral-500' }, '請確認 server.js 已啟動，且 lostark.bible 可連線。'));
+export const errorEl = (e) => {
+  const msg = String((e && e.message) || e);
+  const throttled = /稍後再試|太頻繁|太多/.test(msg);
+  return h('div', { class: 'flex flex-col gap-1 px-3 py-2 text-sm text-rose-300' },
+    h('span', null, throttled ? msg : T('load_error', { msg })),
+    throttled ? null : h('span', { class: 'text-xs text-neutral-500' }, '請確認 server.js 已啟動，且 lostark.bible 可連線。'));
+};
 export const infoIcon = (text) => {
   const el = h('span', { class: 'ml-2 inline-grid size-5 cursor-help place-items-center rounded-full border border-neutral-500 text-xs text-neutral-400' }, 'i');
   attachTooltip(el, () => h('p', { class: 'max-w-[360px] px-2 py-1 text-left text-sm' }, text));

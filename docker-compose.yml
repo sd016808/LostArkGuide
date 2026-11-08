@@ -15,6 +15,13 @@ services:
       PORT: "3000"
       UPSTREAM: "https://lostark.bible"
       # REMOTE_ID: "1b5dc20"  # 通常不用設，啟動時會自動偵測
+      # --- 限流（以下為預設值，需要調整再取消註解）---
+      # RL_API_PER_MIN: "120"        # 每個訪客 IP 每分鐘一般資料請求數
+      # RL_LOG_PER_MIN: "10"         # 每個訪客 IP 每分鐘戰鬥紀錄請求數
+      # RL_IMAGE_PER_MIN: "600"      # 每個訪客 IP 每分鐘圖片請求數
+      # UPSTREAM_CONCURRENCY: "4"    # 對 lostark.bible 同時最多幾個請求
+      # UPSTREAM_PER_SEC: "5"        # 對 lostark.bible 每秒最多幾個請求
+      # CACHE_MS: "600000"           # 成功回應快取時間（毫秒）
     # 若 NAS 需要透過 proxy 連外，取消下面註解
     # environment:
     #   HTTPS_PROXY: "http://proxy:3128"
